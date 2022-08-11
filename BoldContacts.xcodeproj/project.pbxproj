@@ -39,6 +39,26 @@
 		F472286828A5903700773693 /* CNMutableContact_fullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285C28A5903700773693 /* CNMutableContact_fullName.swift */; };
 		F472286928A5903700773693 /* CNContactStore_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285D28A5903700773693 /* CNContactStore_list.swift */; };
 		F472286A28A5903700773693 /* CNContactStore_keysToFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285E28A5903700773693 /* CNContactStore_keysToFetch.swift */; };
+		F472288028A591F100773693 /* fabGemName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472286C28A591F100773693 /* fabGemName.swift */; };
+		F472288128A591F100773693 /* fabSocialProfileURLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472286D28A591F100773693 /* fabSocialProfileURLString.swift */; };
+		F472288228A591F100773693 /* fabSocialProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472286E28A591F100773693 /* fabSocialProfileService.swift */; };
+		F472288328A591F100773693 /* fabPhoneNumberAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472286F28A591F100773693 /* fabPhoneNumberAsString.swift */; };
+		F472288428A591F100773693 /* fabEmailAddressAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287028A591F100773693 /* fabEmailAddressAsString.swift */; };
+		F472288528A591F100773693 /* fabPhoneNumberAreaCodeAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287128A591F100773693 /* fabPhoneNumberAreaCodeAsString.swift */; };
+		F472288628A591F100773693 /* fabPhoneNumberAsCNPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287228A591F100773693 /* fabPhoneNumberAsCNPhoneNumber.swift */; };
+		F472288728A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287328A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift */; };
+		F472288828A591F100773693 /* fabUnitedStatesStreetAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287428A591F100773693 /* fabUnitedStatesStreetAsString.swift */; };
+		F472288928A591F100773693 /* fabSocialProfileAsCNSocialProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287528A591F100773693 /* fabSocialProfileAsCNSocialProfile.swift */; };
+		F472288A28A591F100773693 /* fabSocialProfileUserIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287628A591F100773693 /* fabSocialProfileUserIdentifier.swift */; };
+		F472288B28A591F100773693 /* fabSocialProfileUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287728A591F100773693 /* fabSocialProfileUsername.swift */; };
+		F472288C28A591F100773693 /* fabSkiName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287828A591F100773693 /* fabSkiName.swift */; };
+		F472288D28A591F100773693 /* fabUnitedStatesCityName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287928A591F100773693 /* fabUnitedStatesCityName.swift */; };
+		F472288E28A591F100773693 /* fabAirName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287A28A591F100773693 /* fabAirName.swift */; };
+		F472288F28A591F100773693 /* fabTreeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287B28A591F100773693 /* fabTreeName.swift */; };
+		F472289028A591F100773693 /* fabUnitedStatesStateCodeAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287C28A591F100773693 /* fabUnitedStatesStateCodeAsString.swift */; };
+		F472289128A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287D28A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift */; };
+		F472289228A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287E28A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift */; };
+		F472289328A591F100773693 /* fabBirthdateAsDateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287F28A591F100773693 /* fabBirthdateAsDateComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +112,26 @@
 		F472285C28A5903700773693 /* CNMutableContact_fullName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNMutableContact_fullName.swift; sourceTree = "<group>"; };
 		F472285D28A5903700773693 /* CNContactStore_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_list.swift; sourceTree = "<group>"; };
 		F472285E28A5903700773693 /* CNContactStore_keysToFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_keysToFetch.swift; sourceTree = "<group>"; };
+		F472286C28A591F100773693 /* fabGemName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabGemName.swift; sourceTree = "<group>"; };
+		F472286D28A591F100773693 /* fabSocialProfileURLString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabSocialProfileURLString.swift; sourceTree = "<group>"; };
+		F472286E28A591F100773693 /* fabSocialProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabSocialProfileService.swift; sourceTree = "<group>"; };
+		F472286F28A591F100773693 /* fabPhoneNumberAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabPhoneNumberAsString.swift; sourceTree = "<group>"; };
+		F472287028A591F100773693 /* fabEmailAddressAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabEmailAddressAsString.swift; sourceTree = "<group>"; };
+		F472287128A591F100773693 /* fabPhoneNumberAreaCodeAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabPhoneNumberAreaCodeAsString.swift; sourceTree = "<group>"; };
+		F472287228A591F100773693 /* fabPhoneNumberAsCNPhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabPhoneNumberAsCNPhoneNumber.swift; sourceTree = "<group>"; };
+		F472287328A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabUnitedStatesPostalCodeAsString.swift; sourceTree = "<group>"; };
+		F472287428A591F100773693 /* fabUnitedStatesStreetAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabUnitedStatesStreetAsString.swift; sourceTree = "<group>"; };
+		F472287528A591F100773693 /* fabSocialProfileAsCNSocialProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabSocialProfileAsCNSocialProfile.swift; sourceTree = "<group>"; };
+		F472287628A591F100773693 /* fabSocialProfileUserIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabSocialProfileUserIdentifier.swift; sourceTree = "<group>"; };
+		F472287728A591F100773693 /* fabSocialProfileUsername.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabSocialProfileUsername.swift; sourceTree = "<group>"; };
+		F472287828A591F100773693 /* fabSkiName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabSkiName.swift; sourceTree = "<group>"; };
+		F472287928A591F100773693 /* fabUnitedStatesCityName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabUnitedStatesCityName.swift; sourceTree = "<group>"; };
+		F472287A28A591F100773693 /* fabAirName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabAirName.swift; sourceTree = "<group>"; };
+		F472287B28A591F100773693 /* fabTreeName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabTreeName.swift; sourceTree = "<group>"; };
+		F472287C28A591F100773693 /* fabUnitedStatesStateCodeAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabUnitedStatesStateCodeAsString.swift; sourceTree = "<group>"; };
+		F472287D28A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabUnitedStatesStreetTypeAsString.swift; sourceTree = "<group>"; };
+		F472287E28A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabPostalAddressAsCNPostalAddress.swift; sourceTree = "<group>"; };
+		F472287F28A591F100773693 /* fabBirthdateAsDateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabBirthdateAsDateComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				F472284628A58F2900773693 /* Extensions */,
+				F472286B28A591C000773693 /* Fab */,
 				F472280428A58B4000773693 /* BoldContactsApp.swift */,
 				F472280528A58B4000773693 /* ContentView.swift */,
 				F472280628A58B4000773693 /* Persistence.swift */,
@@ -211,6 +252,33 @@
 				F472285928A5903700773693 /* UIImage_resize.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F472286B28A591C000773693 /* Fab */ = {
+			isa = PBXGroup;
+			children = (
+				F472287A28A591F100773693 /* fabAirName.swift */,
+				F472287F28A591F100773693 /* fabBirthdateAsDateComponents.swift */,
+				F472287028A591F100773693 /* fabEmailAddressAsString.swift */,
+				F472286C28A591F100773693 /* fabGemName.swift */,
+				F472287128A591F100773693 /* fabPhoneNumberAreaCodeAsString.swift */,
+				F472287228A591F100773693 /* fabPhoneNumberAsCNPhoneNumber.swift */,
+				F472286F28A591F100773693 /* fabPhoneNumberAsString.swift */,
+				F472287E28A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift */,
+				F472287828A591F100773693 /* fabSkiName.swift */,
+				F472287528A591F100773693 /* fabSocialProfileAsCNSocialProfile.swift */,
+				F472286E28A591F100773693 /* fabSocialProfileService.swift */,
+				F472286D28A591F100773693 /* fabSocialProfileURLString.swift */,
+				F472287628A591F100773693 /* fabSocialProfileUserIdentifier.swift */,
+				F472287728A591F100773693 /* fabSocialProfileUsername.swift */,
+				F472287B28A591F100773693 /* fabTreeName.swift */,
+				F472287928A591F100773693 /* fabUnitedStatesCityName.swift */,
+				F472287328A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift */,
+				F472287C28A591F100773693 /* fabUnitedStatesStateCodeAsString.swift */,
+				F472287428A591F100773693 /* fabUnitedStatesStreetAsString.swift */,
+				F472287D28A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift */,
+			);
+			path = Fab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,26 +439,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F472288028A591F100773693 /* fabGemName.swift in Sources */,
 				F472285F28A5903700773693 /* CNContactStore_deleteByName.swift in Sources */,
 				F472282D28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
 				F472286028A5903700773693 /* CNMutableContact_toString.swift in Sources */,
+				F472289128A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift in Sources */,
 				F472285028A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift in Sources */,
 				F472284E28A58FD500773693 /* CNContact_toString.swift in Sources */,
+				F472288528A591F100773693 /* fabPhoneNumberAreaCodeAsString.swift in Sources */,
+				F472288C28A591F100773693 /* fabSkiName.swift in Sources */,
+				F472288E28A591F100773693 /* fabAirName.swift in Sources */,
 				F472284A28A58F8D00773693 /* CNContact_fullName.swift in Sources */,
+				F472288928A591F100773693 /* fabSocialProfileAsCNSocialProfile.swift in Sources */,
 				F472283328A58B4100773693 /* Persistence.swift in Sources */,
 				F472285228A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */,
+				F472288128A591F100773693 /* fabSocialProfileURLString.swift in Sources */,
+				F472288A28A591F100773693 /* fabSocialProfileUserIdentifier.swift in Sources */,
 				F472286828A5903700773693 /* CNMutableContact_fullName.swift in Sources */,
+				F472288428A591F100773693 /* fabEmailAddressAsString.swift in Sources */,
 				F472286528A5903700773693 /* UIImage_resize.swift in Sources */,
+				F472289028A591F100773693 /* fabUnitedStatesStateCodeAsString.swift in Sources */,
 				F472282F28A58B4100773693 /* BoldContactsApp.swift in Sources */,
+				F472289328A591F100773693 /* fabBirthdateAsDateComponents.swift in Sources */,
 				F472286928A5903700773693 /* CNContactStore_list.swift in Sources */,
 				F472284828A58F5800773693 /* CharacterSet_uri.swift in Sources */,
 				F472286128A5903700773693 /* CNContactStore_delete.swift in Sources */,
 				F472286328A5903700773693 /* UIImage_empty.swift in Sources */,
 				F472283128A58B4100773693 /* ContentView.swift in Sources */,
+				F472288828A591F100773693 /* fabUnitedStatesStreetAsString.swift in Sources */,
 				F472286A28A5903700773693 /* CNContactStore_keysToFetch.swift in Sources */,
+				F472288628A591F100773693 /* fabPhoneNumberAsCNPhoneNumber.swift in Sources */,
+				F472288228A591F100773693 /* fabSocialProfileService.swift in Sources */,
+				F472288F28A591F100773693 /* fabTreeName.swift in Sources */,
+				F472288B28A591F100773693 /* fabSocialProfileUsername.swift in Sources */,
+				F472288D28A591F100773693 /* fabUnitedStatesCityName.swift in Sources */,
 				F472286428A5903700773693 /* UIImage_cropToSquare.swift in Sources */,
 				F472286728A5903700773693 /* UIColor_lighter_darker.swift in Sources */,
+				F472288328A591F100773693 /* fabPhoneNumberAsString.swift in Sources */,
+				F472289228A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift in Sources */,
 				F472286628A5903700773693 /* CNContactStore_create.swift in Sources */,
+				F472288728A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift in Sources */,
 				F472286228A5903700773693 /* Collection_safe.swift in Sources */,
 				F472284C28A58FB700773693 /* CNContact_indexable.swift in Sources */,
 			);
