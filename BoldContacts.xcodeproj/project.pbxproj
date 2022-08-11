@@ -55,6 +55,7 @@
 		F472282528A58B4100773693 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F472282928A58B4100773693 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F472282B28A58B4100773693 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F472284528A58B7100773693 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 		F47227FC28A58B4000773693 = {
 			isa = PBXGroup;
 			children = (
+				F472284528A58B7100773693 /* README.md */,
 				F472280128A58B4000773693 /* Shared */,
 				F472281328A58B4100773693 /* macOS */,
 				F472281C28A58B4100773693 /* Tests iOS */,
