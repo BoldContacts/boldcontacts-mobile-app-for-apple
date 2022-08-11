@@ -59,6 +59,27 @@
 		F472289128A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287D28A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift */; };
 		F472289228A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287E28A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift */; };
 		F472289328A591F100773693 /* fabBirthdateAsDateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472287F28A591F100773693 /* fabBirthdateAsDateComponents.swift */; };
+		F472289528A5930000773693 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289428A5930000773693 /* Logger.swift */; };
+		F472289628A5930600773693 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289428A5930000773693 /* Logger.swift */; };
+		F472289828A5934B00773693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289728A5934B00773693 /* AppDelegate.swift */; };
+		F47228A028A5939000773693 /* openViaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289A28A5939000773693 /* openViaString.swift */; };
+		F47228A128A5939000773693 /* openViaContactIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289B28A5939000773693 /* openViaContactIdentifier.swift */; };
+		F47228A228A5939000773693 /* openViaFaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289C28A5939000773693 /* openViaFaceTime.swift */; };
+		F47228A328A5939000773693 /* openViaSMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289D28A5939000773693 /* openViaSMS.swift */; };
+		F47228A428A5939000773693 /* openViaMailTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289E28A5939000773693 /* openViaMailTo.swift */; };
+		F47228A528A5939000773693 /* openViaTel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289F28A5939000773693 /* openViaTel.swift */; };
+		F47228A728A5942500773693 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A628A5942500773693 /* Config.swift */; };
+		F47228AA28A5947200773693 /* RectangleHorizontalRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A828A5947200773693 /* RectangleHorizontalRule.swift */; };
+		F47228AB28A5947200773693 /* RectangleVerticalRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A928A5947200773693 /* RectangleVerticalRule.swift */; };
+		F47228AD28A594BF00773693 /* ButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AC28A594BF00773693 /* ButtonImageView.swift */; };
+		F47228AF28A5955500773693 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AE28A5955500773693 /* Cursor.swift */; };
+		F47228B728A5955F00773693 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B028A5955F00773693 /* ContactView.swift */; };
+		F47228B828A5955F00773693 /* ContactsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B128A5955F00773693 /* ContactsDemo.swift */; };
+		F47228B928A5955F00773693 /* ContactImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B228A5955F00773693 /* ContactImageView.swift */; };
+		F47228BA28A5955F00773693 /* ContactCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B328A5955F00773693 /* ContactCardView.swift */; };
+		F47228BB28A5955F00773693 /* ContactsTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B428A5955F00773693 /* ContactsTools.swift */; };
+		F47228BC28A5955F00773693 /* ContactTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B528A5955F00773693 /* ContactTextView.swift */; };
+		F47228BD28A5955F00773693 /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B628A5955F00773693 /* ContactRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +153,26 @@
 		F472287D28A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabUnitedStatesStreetTypeAsString.swift; sourceTree = "<group>"; };
 		F472287E28A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabPostalAddressAsCNPostalAddress.swift; sourceTree = "<group>"; };
 		F472287F28A591F100773693 /* fabBirthdateAsDateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabBirthdateAsDateComponents.swift; sourceTree = "<group>"; };
+		F472289428A5930000773693 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		F472289728A5934B00773693 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F472289A28A5939000773693 /* openViaString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openViaString.swift; sourceTree = "<group>"; };
+		F472289B28A5939000773693 /* openViaContactIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openViaContactIdentifier.swift; sourceTree = "<group>"; };
+		F472289C28A5939000773693 /* openViaFaceTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openViaFaceTime.swift; sourceTree = "<group>"; };
+		F472289D28A5939000773693 /* openViaSMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openViaSMS.swift; sourceTree = "<group>"; };
+		F472289E28A5939000773693 /* openViaMailTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openViaMailTo.swift; sourceTree = "<group>"; };
+		F472289F28A5939000773693 /* openViaTel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openViaTel.swift; sourceTree = "<group>"; };
+		F47228A628A5942500773693 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F47228A828A5947200773693 /* RectangleHorizontalRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleHorizontalRule.swift; sourceTree = "<group>"; };
+		F47228A928A5947200773693 /* RectangleVerticalRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleVerticalRule.swift; sourceTree = "<group>"; };
+		F47228AC28A594BF00773693 /* ButtonImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImageView.swift; sourceTree = "<group>"; };
+		F47228AE28A5955500773693 /* Cursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
+		F47228B028A5955F00773693 /* ContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		F47228B128A5955F00773693 /* ContactsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsDemo.swift; sourceTree = "<group>"; };
+		F47228B228A5955F00773693 /* ContactImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactImageView.swift; sourceTree = "<group>"; };
+		F47228B328A5955F00773693 /* ContactCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCardView.swift; sourceTree = "<group>"; };
+		F47228B428A5955F00773693 /* ContactsTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTools.swift; sourceTree = "<group>"; };
+		F47228B528A5955F00773693 /* ContactTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTextView.swift; sourceTree = "<group>"; };
+		F47228B628A5955F00773693 /* ContactRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,9 +224,24 @@
 			children = (
 				F472284628A58F2900773693 /* Extensions */,
 				F472286B28A591C000773693 /* Fab */,
+				F472289928A5936D00773693 /* Open */,
 				F472280428A58B4000773693 /* BoldContactsApp.swift */,
+				F472289728A5934B00773693 /* AppDelegate.swift */,
+				F47228A628A5942500773693 /* Config.swift */,
+				F47228AE28A5955500773693 /* Cursor.swift */,
+				F472289428A5930000773693 /* Logger.swift */,
 				F472280528A58B4000773693 /* ContentView.swift */,
+				F47228B328A5955F00773693 /* ContactCardView.swift */,
+				F47228B228A5955F00773693 /* ContactImageView.swift */,
+				F47228B628A5955F00773693 /* ContactRowView.swift */,
+				F47228B128A5955F00773693 /* ContactsDemo.swift */,
+				F47228B428A5955F00773693 /* ContactsTools.swift */,
+				F47228B528A5955F00773693 /* ContactTextView.swift */,
+				F47228B028A5955F00773693 /* ContactView.swift */,
 				F472280628A58B4000773693 /* Persistence.swift */,
+				F47228AC28A594BF00773693 /* ButtonImageView.swift */,
+				F47228A828A5947200773693 /* RectangleHorizontalRule.swift */,
+				F47228A928A5947200773693 /* RectangleVerticalRule.swift */,
 				F472280728A58B4000773693 /* Assets.xcassets */,
 				F472280228A58B4000773693 /* BoldContacts.xcdatamodeld */,
 			);
@@ -279,6 +335,19 @@
 				F472287D28A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift */,
 			);
 			path = Fab;
+			sourceTree = "<group>";
+		};
+		F472289928A5936D00773693 /* Open */ = {
+			isa = PBXGroup;
+			children = (
+				F472289B28A5939000773693 /* openViaContactIdentifier.swift */,
+				F472289C28A5939000773693 /* openViaFaceTime.swift */,
+				F472289E28A5939000773693 /* openViaMailTo.swift */,
+				F472289D28A5939000773693 /* openViaSMS.swift */,
+				F472289A28A5939000773693 /* openViaString.swift */,
+				F472289F28A5939000773693 /* openViaTel.swift */,
+			);
+			path = Open;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,8 +508,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F472289828A5934B00773693 /* AppDelegate.swift in Sources */,
 				F472288028A591F100773693 /* fabGemName.swift in Sources */,
 				F472285F28A5903700773693 /* CNContactStore_deleteByName.swift in Sources */,
+				F47228A428A5939000773693 /* openViaMailTo.swift in Sources */,
+				F47228B828A5955F00773693 /* ContactsDemo.swift in Sources */,
 				F472282D28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
 				F472286028A5903700773693 /* CNMutableContact_toString.swift in Sources */,
 				F472289128A591F100773693 /* fabUnitedStatesStreetTypeAsString.swift in Sources */,
@@ -448,38 +520,55 @@
 				F472284E28A58FD500773693 /* CNContact_toString.swift in Sources */,
 				F472288528A591F100773693 /* fabPhoneNumberAreaCodeAsString.swift in Sources */,
 				F472288C28A591F100773693 /* fabSkiName.swift in Sources */,
+				F47228B728A5955F00773693 /* ContactView.swift in Sources */,
 				F472288E28A591F100773693 /* fabAirName.swift in Sources */,
 				F472284A28A58F8D00773693 /* CNContact_fullName.swift in Sources */,
 				F472288928A591F100773693 /* fabSocialProfileAsCNSocialProfile.swift in Sources */,
 				F472283328A58B4100773693 /* Persistence.swift in Sources */,
+				F47228A228A5939000773693 /* openViaFaceTime.swift in Sources */,
 				F472285228A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */,
+				F47228A328A5939000773693 /* openViaSMS.swift in Sources */,
 				F472288128A591F100773693 /* fabSocialProfileURLString.swift in Sources */,
+				F472289528A5930000773693 /* Logger.swift in Sources */,
 				F472288A28A591F100773693 /* fabSocialProfileUserIdentifier.swift in Sources */,
 				F472286828A5903700773693 /* CNMutableContact_fullName.swift in Sources */,
+				F47228A528A5939000773693 /* openViaTel.swift in Sources */,
+				F47228AA28A5947200773693 /* RectangleHorizontalRule.swift in Sources */,
 				F472288428A591F100773693 /* fabEmailAddressAsString.swift in Sources */,
 				F472286528A5903700773693 /* UIImage_resize.swift in Sources */,
+				F47228BD28A5955F00773693 /* ContactRowView.swift in Sources */,
+				F47228BA28A5955F00773693 /* ContactCardView.swift in Sources */,
 				F472289028A591F100773693 /* fabUnitedStatesStateCodeAsString.swift in Sources */,
 				F472282F28A58B4100773693 /* BoldContactsApp.swift in Sources */,
 				F472289328A591F100773693 /* fabBirthdateAsDateComponents.swift in Sources */,
+				F47228A028A5939000773693 /* openViaString.swift in Sources */,
 				F472286928A5903700773693 /* CNContactStore_list.swift in Sources */,
 				F472284828A58F5800773693 /* CharacterSet_uri.swift in Sources */,
 				F472286128A5903700773693 /* CNContactStore_delete.swift in Sources */,
+				F47228BC28A5955F00773693 /* ContactTextView.swift in Sources */,
 				F472286328A5903700773693 /* UIImage_empty.swift in Sources */,
 				F472283128A58B4100773693 /* ContentView.swift in Sources */,
+				F47228AF28A5955500773693 /* Cursor.swift in Sources */,
 				F472288828A591F100773693 /* fabUnitedStatesStreetAsString.swift in Sources */,
 				F472286A28A5903700773693 /* CNContactStore_keysToFetch.swift in Sources */,
 				F472288628A591F100773693 /* fabPhoneNumberAsCNPhoneNumber.swift in Sources */,
+				F47228BB28A5955F00773693 /* ContactsTools.swift in Sources */,
 				F472288228A591F100773693 /* fabSocialProfileService.swift in Sources */,
+				F47228A728A5942500773693 /* Config.swift in Sources */,
 				F472288F28A591F100773693 /* fabTreeName.swift in Sources */,
 				F472288B28A591F100773693 /* fabSocialProfileUsername.swift in Sources */,
 				F472288D28A591F100773693 /* fabUnitedStatesCityName.swift in Sources */,
 				F472286428A5903700773693 /* UIImage_cropToSquare.swift in Sources */,
+				F47228AB28A5947200773693 /* RectangleVerticalRule.swift in Sources */,
 				F472286728A5903700773693 /* UIColor_lighter_darker.swift in Sources */,
+				F47228B928A5955F00773693 /* ContactImageView.swift in Sources */,
+				F47228AD28A594BF00773693 /* ButtonImageView.swift in Sources */,
 				F472288328A591F100773693 /* fabPhoneNumberAsString.swift in Sources */,
 				F472289228A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift in Sources */,
 				F472286628A5903700773693 /* CNContactStore_create.swift in Sources */,
 				F472288728A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift in Sources */,
 				F472286228A5903700773693 /* Collection_safe.swift in Sources */,
+				F47228A128A5939000773693 /* openViaContactIdentifier.swift in Sources */,
 				F472284C28A58FB700773693 /* CNContact_indexable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F472289628A5930600773693 /* Logger.swift in Sources */,
 				F472282E28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
 				F472283428A58B4100773693 /* Persistence.swift in Sources */,
 				F472283028A58B4100773693 /* BoldContactsApp.swift in Sources */,
