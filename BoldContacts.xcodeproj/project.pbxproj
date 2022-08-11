@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F472281E28A58B4100773693 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281D28A58B4100773693 /* Tests_iOS.swift */; };
+		F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */; };
+		F472282A28A58B4100773693 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472282928A58B4100773693 /* Tests_macOS.swift */; };
+		F472282C28A58B4100773693 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472282B28A58B4100773693 /* Tests_macOSLaunchTests.swift */; };
+		F472282D28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F472280228A58B4000773693 /* BoldContacts.xcdatamodeld */; };
+		F472282E28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F472280228A58B4000773693 /* BoldContacts.xcdatamodeld */; };
+		F472282F28A58B4100773693 /* BoldContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280428A58B4000773693 /* BoldContactsApp.swift */; };
+		F472283028A58B4100773693 /* BoldContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280428A58B4000773693 /* BoldContactsApp.swift */; };
+		F472283128A58B4100773693 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280528A58B4000773693 /* ContentView.swift */; };
+		F472283228A58B4100773693 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280528A58B4000773693 /* ContentView.swift */; };
+		F472283328A58B4100773693 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280628A58B4000773693 /* Persistence.swift */; };
+		F472283428A58B4100773693 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280628A58B4000773693 /* Persistence.swift */; };
+		F472283528A58B4100773693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+		F472283628A58B4100773693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F472281A28A58B4100773693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47227FD28A58B4000773693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F472280B28A58B4000773693;
+			remoteInfo = "BoldContacts (iOS)";
+		};
+		F472282628A58B4100773693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47227FD28A58B4000773693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F472281128A58B4000773693;
+			remoteInfo = "BoldContacts (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		F472280428A58B4000773693 /* BoldContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldContactsApp.swift; sourceTree = "<group>"; };
+		F472280528A58B4000773693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F472280628A58B4000773693 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F472280728A58B4000773693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F472280C28A58B4000773693 /* BoldContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoldContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472281228A58B4000773693 /* BoldContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoldContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472281428A58B4100773693 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F472281928A58B4100773693 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472281D28A58B4100773693 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		F472282528A58B4100773693 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472282928A58B4100773693 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F472282B28A58B4100773693 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F472280928A58B4000773693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472280F28A58B4000773693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472281628A58B4100773693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472282228A58B4100773693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F47227FC28A58B4000773693 = {
+			isa = PBXGroup;
+			children = (
+				F472280128A58B4000773693 /* Shared */,
+				F472281328A58B4100773693 /* macOS */,
+				F472281C28A58B4100773693 /* Tests iOS */,
+				F472282828A58B4100773693 /* Tests macOS */,
+				F472280D28A58B4000773693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F472280128A58B4000773693 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F472280428A58B4000773693 /* BoldContactsApp.swift */,
+				F472280528A58B4000773693 /* ContentView.swift */,
+				F472280628A58B4000773693 /* Persistence.swift */,
+				F472280728A58B4000773693 /* Assets.xcassets */,
+				F472280228A58B4000773693 /* BoldContacts.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F472280D28A58B4000773693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F472280C28A58B4000773693 /* BoldContacts.app */,
+				F472281228A58B4000773693 /* BoldContacts.app */,
+				F472281928A58B4100773693 /* Tests iOS.xctest */,
+				F472282528A58B4100773693 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F472281328A58B4100773693 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F472281428A58B4100773693 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F472281C28A58B4100773693 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F472281D28A58B4100773693 /* Tests_iOS.swift */,
+				F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F472282828A58B4100773693 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F472282928A58B4100773693 /* Tests_macOS.swift */,
+				F472282B28A58B4100773693 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F472280B28A58B4000773693 /* BoldContacts (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F472283928A58B4100773693 /* Build configuration list for PBXNativeTarget "BoldContacts (iOS)" */;
+			buildPhases = (
+				F472280828A58B4000773693 /* Sources */,
+				F472280928A58B4000773693 /* Frameworks */,
+				F472280A28A58B4000773693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BoldContacts (iOS)";
+			productName = "BoldContacts (iOS)";
+			productReference = F472280C28A58B4000773693 /* BoldContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F472281128A58B4000773693 /* BoldContacts (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F472283C28A58B4100773693 /* Build configuration list for PBXNativeTarget "BoldContacts (macOS)" */;
+			buildPhases = (
+				F472280E28A58B4000773693 /* Sources */,
+				F472280F28A58B4000773693 /* Frameworks */,
+				F472281028A58B4000773693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BoldContacts (macOS)";
+			productName = "BoldContacts (macOS)";
+			productReference = F472281228A58B4000773693 /* BoldContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F472281828A58B4100773693 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F472283F28A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				F472281528A58B4100773693 /* Sources */,
+				F472281628A58B4100773693 /* Frameworks */,
+				F472281728A58B4100773693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F472281B28A58B4100773693 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F472281928A58B4100773693 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F472282428A58B4100773693 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F472284228A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				F472282128A58B4100773693 /* Sources */,
+				F472282228A58B4100773693 /* Frameworks */,
+				F472282328A58B4100773693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F472282728A58B4100773693 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F472282528A58B4100773693 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47227FD28A58B4000773693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F472280B28A58B4000773693 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F472281128A58B4000773693 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F472281828A58B4100773693 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F472280B28A58B4000773693;
+					};
+					F472282428A58B4100773693 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F472281128A58B4000773693;
+					};
+				};
+			};
+			buildConfigurationList = F472280028A58B4000773693 /* Build configuration list for PBXProject "BoldContacts" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47227FC28A58B4000773693;
+			productRefGroup = F472280D28A58B4000773693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F472280B28A58B4000773693 /* BoldContacts (iOS) */,
+				F472281128A58B4000773693 /* BoldContacts (macOS) */,
+				F472281828A58B4100773693 /* Tests iOS */,
+				F472282428A58B4100773693 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F472280A28A58B4000773693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472283528A58B4100773693 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472281028A58B4000773693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472283628A58B4100773693 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472281728A58B4100773693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472282328A58B4100773693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F472280828A58B4000773693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472282D28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
+				F472283328A58B4100773693 /* Persistence.swift in Sources */,
+				F472282F28A58B4100773693 /* BoldContactsApp.swift in Sources */,
+				F472283128A58B4100773693 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472280E28A58B4000773693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472282E28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
+				F472283428A58B4100773693 /* Persistence.swift in Sources */,
+				F472283028A58B4100773693 /* BoldContactsApp.swift in Sources */,
+				F472283228A58B4100773693 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472281528A58B4100773693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */,
+				F472281E28A58B4100773693 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472282128A58B4100773693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472282C28A58B4100773693 /* Tests_macOSLaunchTests.swift in Sources */,
+				F472282A28A58B4100773693 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F472281B28A58B4100773693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F472280B28A58B4000773693 /* BoldContacts (iOS) */;
+			targetProxy = F472281A28A58B4100773693 /* PBXContainerItemProxy */;
+		};
+		F472282728A58B4100773693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F472281128A58B4000773693 /* BoldContacts (macOS) */;
+			targetProxy = F472282628A58B4100773693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F472283728A58B4100773693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F472283828A58B4100773693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F472283A28A58B4100773693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
+				PRODUCT_NAME = BoldContacts;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F472283B28A58B4100773693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
+				PRODUCT_NAME = BoldContacts;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F472283D28A58B4100773693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
+				PRODUCT_NAME = BoldContacts;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F472283E28A58B4100773693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
+				PRODUCT_NAME = BoldContacts;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F472284028A58B4100773693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BoldContacts (iOS)";
+			};
+			name = Debug;
+		};
+		F472284128A58B4100773693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BoldContacts (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F472284328A58B4100773693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BoldContacts (macOS)";
+			};
+			name = Debug;
+		};
+		F472284428A58B4100773693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BoldContacts (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F472280028A58B4000773693 /* Build configuration list for PBXProject "BoldContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472283728A58B4100773693 /* Debug */,
+				F472283828A58B4100773693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F472283928A58B4100773693 /* Build configuration list for PBXNativeTarget "BoldContacts (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472283A28A58B4100773693 /* Debug */,
+				F472283B28A58B4100773693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F472283C28A58B4100773693 /* Build configuration list for PBXNativeTarget "BoldContacts (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472283D28A58B4100773693 /* Debug */,
+				F472283E28A58B4100773693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F472283F28A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472284028A58B4100773693 /* Debug */,
+				F472284128A58B4100773693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F472284228A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472284328A58B4100773693 /* Debug */,
+				F472284428A58B4100773693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F472280228A58B4000773693 /* BoldContacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F472280328A58B4000773693 /* Shared.xcdatamodel */,
+			);
+			currentVersion = F472280328A58B4000773693 /* Shared.xcdatamodel */;
+			path = BoldContacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F47227FD28A58B4000773693 /* Project object */;
+}
