@@ -21,6 +21,24 @@
 		F472283428A58B4100773693 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280628A58B4000773693 /* Persistence.swift */; };
 		F472283528A58B4100773693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
 		F472283628A58B4100773693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+		F472284828A58F5800773693 /* CharacterSet_uri.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284728A58F5800773693 /* CharacterSet_uri.swift */; };
+		F472284A28A58F8D00773693 /* CNContact_fullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284928A58F8D00773693 /* CNContact_fullName.swift */; };
+		F472284C28A58FB700773693 /* CNContact_indexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284B28A58FB700773693 /* CNContact_indexable.swift */; };
+		F472284E28A58FD500773693 /* CNContact_toString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284D28A58FD500773693 /* CNContact_toString.swift */; };
+		F472285028A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284F28A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift */; };
+		F472285228A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285128A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift */; };
+		F472285F28A5903700773693 /* CNContactStore_deleteByName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285328A5903700773693 /* CNContactStore_deleteByName.swift */; };
+		F472286028A5903700773693 /* CNMutableContact_toString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285428A5903700773693 /* CNMutableContact_toString.swift */; };
+		F472286128A5903700773693 /* CNContactStore_delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285528A5903700773693 /* CNContactStore_delete.swift */; };
+		F472286228A5903700773693 /* Collection_safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285628A5903700773693 /* Collection_safe.swift */; };
+		F472286328A5903700773693 /* UIImage_empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285728A5903700773693 /* UIImage_empty.swift */; };
+		F472286428A5903700773693 /* UIImage_cropToSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285828A5903700773693 /* UIImage_cropToSquare.swift */; };
+		F472286528A5903700773693 /* UIImage_resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285928A5903700773693 /* UIImage_resize.swift */; };
+		F472286628A5903700773693 /* CNContactStore_create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285A28A5903700773693 /* CNContactStore_create.swift */; };
+		F472286728A5903700773693 /* UIColor_lighter_darker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285B28A5903700773693 /* UIColor_lighter_darker.swift */; };
+		F472286828A5903700773693 /* CNMutableContact_fullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285C28A5903700773693 /* CNMutableContact_fullName.swift */; };
+		F472286928A5903700773693 /* CNContactStore_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285D28A5903700773693 /* CNContactStore_list.swift */; };
+		F472286A28A5903700773693 /* CNContactStore_keysToFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285E28A5903700773693 /* CNContactStore_keysToFetch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +74,24 @@
 		F472282928A58B4100773693 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F472282B28A58B4100773693 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		F472284528A58B7100773693 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F472284728A58F5800773693 /* CharacterSet_uri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSet_uri.swift; sourceTree = "<group>"; };
+		F472284928A58F8D00773693 /* CNContact_fullName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_fullName.swift; sourceTree = "<group>"; };
+		F472284B28A58FB700773693 /* CNContact_indexable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_indexable.swift; sourceTree = "<group>"; };
+		F472284D28A58FD500773693 /* CNContact_toString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_toString.swift; sourceTree = "<group>"; };
+		F472284F28A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_areKeysAvailableOrFetch.swift; sourceTree = "<group>"; };
+		F472285128A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_isKeyAvailableOrFetch.swift; sourceTree = "<group>"; };
+		F472285328A5903700773693 /* CNContactStore_deleteByName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_deleteByName.swift; sourceTree = "<group>"; };
+		F472285428A5903700773693 /* CNMutableContact_toString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNMutableContact_toString.swift; sourceTree = "<group>"; };
+		F472285528A5903700773693 /* CNContactStore_delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_delete.swift; sourceTree = "<group>"; };
+		F472285628A5903700773693 /* Collection_safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection_safe.swift; sourceTree = "<group>"; };
+		F472285728A5903700773693 /* UIImage_empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_empty.swift; sourceTree = "<group>"; };
+		F472285828A5903700773693 /* UIImage_cropToSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_cropToSquare.swift; sourceTree = "<group>"; };
+		F472285928A5903700773693 /* UIImage_resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_resize.swift; sourceTree = "<group>"; };
+		F472285A28A5903700773693 /* CNContactStore_create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_create.swift; sourceTree = "<group>"; };
+		F472285B28A5903700773693 /* UIColor_lighter_darker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_lighter_darker.swift; sourceTree = "<group>"; };
+		F472285C28A5903700773693 /* CNMutableContact_fullName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNMutableContact_fullName.swift; sourceTree = "<group>"; };
+		F472285D28A5903700773693 /* CNContactStore_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_list.swift; sourceTree = "<group>"; };
+		F472285E28A5903700773693 /* CNContactStore_keysToFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_keysToFetch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +141,7 @@
 		F472280128A58B4000773693 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F472284628A58F2900773693 /* Extensions */,
 				F472280428A58B4000773693 /* BoldContactsApp.swift */,
 				F472280528A58B4000773693 /* ContentView.swift */,
 				F472280628A58B4000773693 /* Persistence.swift */,
@@ -149,6 +186,31 @@
 				F472282B28A58B4100773693 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		F472284628A58F2900773693 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F472284728A58F5800773693 /* CharacterSet_uri.swift */,
+				F472284B28A58FB700773693 /* CNContact_indexable.swift */,
+				F472284928A58F8D00773693 /* CNContact_fullName.swift */,
+				F472284D28A58FD500773693 /* CNContact_toString.swift */,
+				F472285C28A5903700773693 /* CNMutableContact_fullName.swift */,
+				F472285428A5903700773693 /* CNMutableContact_toString.swift */,
+				F472285128A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift */,
+				F472284F28A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift */,
+				F472285A28A5903700773693 /* CNContactStore_create.swift */,
+				F472285528A5903700773693 /* CNContactStore_delete.swift */,
+				F472285328A5903700773693 /* CNContactStore_deleteByName.swift */,
+				F472285E28A5903700773693 /* CNContactStore_keysToFetch.swift */,
+				F472285D28A5903700773693 /* CNContactStore_list.swift */,
+				F472285628A5903700773693 /* Collection_safe.swift */,
+				F472285B28A5903700773693 /* UIColor_lighter_darker.swift */,
+				F472285828A5903700773693 /* UIImage_cropToSquare.swift */,
+				F472285728A5903700773693 /* UIImage_empty.swift */,
+				F472285928A5903700773693 /* UIImage_resize.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,10 +371,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F472285F28A5903700773693 /* CNContactStore_deleteByName.swift in Sources */,
 				F472282D28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
+				F472286028A5903700773693 /* CNMutableContact_toString.swift in Sources */,
+				F472285028A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift in Sources */,
+				F472284E28A58FD500773693 /* CNContact_toString.swift in Sources */,
+				F472284A28A58F8D00773693 /* CNContact_fullName.swift in Sources */,
 				F472283328A58B4100773693 /* Persistence.swift in Sources */,
+				F472285228A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */,
+				F472286828A5903700773693 /* CNMutableContact_fullName.swift in Sources */,
+				F472286528A5903700773693 /* UIImage_resize.swift in Sources */,
 				F472282F28A58B4100773693 /* BoldContactsApp.swift in Sources */,
+				F472286928A5903700773693 /* CNContactStore_list.swift in Sources */,
+				F472284828A58F5800773693 /* CharacterSet_uri.swift in Sources */,
+				F472286128A5903700773693 /* CNContactStore_delete.swift in Sources */,
+				F472286328A5903700773693 /* UIImage_empty.swift in Sources */,
 				F472283128A58B4100773693 /* ContentView.swift in Sources */,
+				F472286A28A5903700773693 /* CNContactStore_keysToFetch.swift in Sources */,
+				F472286428A5903700773693 /* UIImage_cropToSquare.swift in Sources */,
+				F472286728A5903700773693 /* UIColor_lighter_darker.swift in Sources */,
+				F472286628A5903700773693 /* CNContactStore_create.swift in Sources */,
+				F472286228A5903700773693 /* Collection_safe.swift in Sources */,
+				F472284C28A58FB700773693 /* CNContact_indexable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
