@@ -80,6 +80,8 @@
 		F47228BB28A5955F00773693 /* ContactsTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B428A5955F00773693 /* ContactsTools.swift */; };
 		F47228BC28A5955F00773693 /* ContactTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B528A5955F00773693 /* ContactTextView.swift */; };
 		F47228BD28A5955F00773693 /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B628A5955F00773693 /* ContactRowView.swift */; };
+		F47228BF28A595FB00773693 /* AppButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228BE28A595FB00773693 /* AppButtonStyle.swift */; };
+		F47228C128A5BFEF00773693 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228C028A5BFEF00773693 /* NavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +175,8 @@
 		F47228B428A5955F00773693 /* ContactsTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTools.swift; sourceTree = "<group>"; };
 		F47228B528A5955F00773693 /* ContactTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTextView.swift; sourceTree = "<group>"; };
 		F47228B628A5955F00773693 /* ContactRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
+		F47228BE28A595FB00773693 /* AppButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButtonStyle.swift; sourceTree = "<group>"; };
+		F47228C028A5BFEF00773693 /* NavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,7 @@
 				F472286B28A591C000773693 /* Fab */,
 				F472289928A5936D00773693 /* Open */,
 				F472280428A58B4000773693 /* BoldContactsApp.swift */,
+				F47228BE28A595FB00773693 /* AppButtonStyle.swift */,
 				F472289728A5934B00773693 /* AppDelegate.swift */,
 				F47228A628A5942500773693 /* Config.swift */,
 				F47228AE28A5955500773693 /* Cursor.swift */,
@@ -238,6 +243,7 @@
 				F47228B428A5955F00773693 /* ContactsTools.swift */,
 				F47228B528A5955F00773693 /* ContactTextView.swift */,
 				F47228B028A5955F00773693 /* ContactView.swift */,
+				F47228C028A5BFEF00773693 /* NavView.swift */,
 				F472280628A58B4000773693 /* Persistence.swift */,
 				F47228AC28A594BF00773693 /* ButtonImageView.swift */,
 				F47228A828A5947200773693 /* RectangleHorizontalRule.swift */,
@@ -548,6 +554,7 @@
 				F47228BC28A5955F00773693 /* ContactTextView.swift in Sources */,
 				F472286328A5903700773693 /* UIImage_empty.swift in Sources */,
 				F472283128A58B4100773693 /* ContentView.swift in Sources */,
+				F47228C128A5BFEF00773693 /* NavView.swift in Sources */,
 				F47228AF28A5955500773693 /* Cursor.swift in Sources */,
 				F472288828A591F100773693 /* fabUnitedStatesStreetAsString.swift in Sources */,
 				F472286A28A5903700773693 /* CNContactStore_keysToFetch.swift in Sources */,
@@ -565,6 +572,7 @@
 				F47228AD28A594BF00773693 /* ButtonImageView.swift in Sources */,
 				F472288328A591F100773693 /* fabPhoneNumberAsString.swift in Sources */,
 				F472289228A591F100773693 /* fabPostalAddressAsCNPostalAddress.swift in Sources */,
+				F47228BF28A595FB00773693 /* AppButtonStyle.swift in Sources */,
 				F472286628A5903700773693 /* CNContactStore_create.swift in Sources */,
 				F472288728A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift in Sources */,
 				F472286228A5903700773693 /* Collection_safe.swift in Sources */,
