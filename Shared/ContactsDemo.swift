@@ -27,7 +27,7 @@ import SwiftUI
 //
 // The rest of the fields use fab data.
 //
-func demoCreateContactWithNameAndImage(
+public func demoCreateContactWithNameAndImage(
     givenName: String,
     familyName: String,
     uiImageNamed: String
@@ -107,4 +107,74 @@ func demoCreateContactWithNameAndImage(
     }
 
     CNContactStore.create(contact: contact)
+}
+
+public func demoCreateContactForMe() {
+    let contact = CNMutableContact()
+    contact.givenName = "Joelx"
+    contact.familyName = "Hendersonx"
+    contact.phoneNumbers = [
+        CNLabeledValue(
+            label: CNLabelPhoneNumberiPhone,
+            value: CNPhoneNumber(stringValue: "1 (415) 317-2700")
+        ),
+    ]
+    contact.emailAddresses = [
+        CNLabeledValue(
+            label: CNLabelHome,
+            value: "joel@joelparkerhenderson.com" as NSString
+        ),
+        CNLabeledValue(
+            label: CNLabelWork,
+            value: fabEmailAddressAsString() as NSString
+        ),
+    ]
+    CNContactStore.create(contact: contact)
+}
+
+public func demoDeleteContactForMe() {
+    CNContactStore.deleteByName(name: "Joelx Hendersonx")
+}
+
+public func demoCreateContactsForABCDEF() {
+
+    demoCreateContactWithNameAndImage(
+        givenName: "Alice",
+        familyName: "Adams",
+        uiImageNamed: "demo-persons-alice-icons-512"
+    )
+
+    demoCreateContactWithNameAndImage(
+        givenName: "Bob",
+        familyName: "Brown",
+        uiImageNamed: "demo-persons-bob-icons-512"
+    )
+
+    demoCreateContactWithNameAndImage(
+        givenName: "Carol",
+        familyName: "Curtis",
+        uiImageNamed: "demo-persons-carol-icons-512"
+    )
+
+    demoCreateContactWithNameAndImage(
+        givenName: "Dave",
+        familyName: "Davis",
+        uiImageNamed: "demo-persons-dave-icons-512"
+    )
+
+    demoCreateContactWithNameAndImage(
+        givenName: "Eve",
+        familyName: "Evans",
+        uiImageNamed: "demo-persons-eve-icons-512"
+    )
+    
+}
+
+func demoDeleteContactsForABCDEF() {
+    CNContactStore.deleteByName(name: "Alice Adams")
+    CNContactStore.deleteByName(name: "Bob Brown")
+    CNContactStore.deleteByName(name: "Carol Curtis")
+    CNContactStore.deleteByName(name: "Dave Davis")
+    CNContactStore.deleteByName(name: "Eve Evans")
+    CNContactStore.deleteByName(name: "Frank Franklin")
 }
