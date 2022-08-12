@@ -11,8 +11,8 @@ extension CNMutableContact {
     ///     let contact: CNContact = …
     ///     let string: String = contact.toString()
     ///
-    public func toString() -> String? {
-        return CNContactFormatter().string(from: self)
-    }
+    //public func toString() -> String? {
+    //    return CNContactFormatter().string(from: self)
+    //}
 
 }
