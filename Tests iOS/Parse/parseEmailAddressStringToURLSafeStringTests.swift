@@ -1,6 +1,6 @@
 import XCTest
 
-class parseEmailAddressStringToURLSafeString_Tests: XCTestCase {
+class parseEmailAddressStringToURLSafeStringTests: XCTestCase {
 
 //    func test_parseEmailAddressStringToURLSafeString_OK() throws {
 //        let string = "alpha@example.com"

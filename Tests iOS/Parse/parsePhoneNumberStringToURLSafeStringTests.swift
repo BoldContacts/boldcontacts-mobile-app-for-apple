@@ -1,6 +1,6 @@
 import XCTest
 
-class parsePhoneNumberStringToURLSafeString_Tests: XCTestCase {
+class parsePhoneNumberStringToURLSafeStringTests: XCTestCase {
 
 //    func test_parsePhoneNumberStringToURLSafeString_OK() throws {
 //        let string = "123456789"

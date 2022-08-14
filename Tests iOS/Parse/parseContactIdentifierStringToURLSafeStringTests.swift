@@ -1,6 +1,6 @@
 import XCTest
 
-class parseContactIdentifierStringToURLSafeString_Tests: XCTestCase {
+class parseContactIdentifierStringToURLSafeStringTests: XCTestCase {
 
 //    func test_parseContactIdentifierStringToURLSafeString_OK() throws {
 //        let string = "1234567890-ABCDEF"
