@@ -1,10 +1,10 @@
 import XCTest
 import PhotoCaller
 
-class fabAirName_Tests: XCTestCase {
+class fabSkiNameTests: XCTestCase {
 
     func test() throws {
-//        let x: String = fabAirName()
+//        let x: String = fabSkiName()
 //        XCTAssert(!x.isEmpty)
     }
 

@@ -1,7 +1,7 @@
 import XCTest
 import PhotoCaller
 
-class fabPostalAddressAsCNPostalAddress_Tests: XCTestCase {
+class fabPostalAddressAsCNPostalAddressTests: XCTestCase {
 
     func test() throws {
 //        let x: CNPostalAddress = fabPostalAddressAsCNPostalAddress()

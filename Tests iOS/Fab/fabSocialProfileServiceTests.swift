@@ -1,7 +1,7 @@
 import XCTest
 import PhotoCaller
 
-class fabSocialProfileService_Tests: XCTestCase {
+class fabSocialProfileServiceTests: XCTestCase {
 
     func test() throws {
 //        let x: String = fabSocialProfileService()

@@ -1,7 +1,7 @@
 import XCTest
 import PhotoCaller
 
-class fabPhoneNumberAsString_Tests: XCTestCase {
+class fabPhoneNumberAsStringTests: XCTestCase {
 
     func test() throws {
 //        let x: String = fabPhoneNumberAsString()

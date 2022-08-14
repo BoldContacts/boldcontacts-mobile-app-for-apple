@@ -1,10 +1,10 @@
 import XCTest
 import PhotoCaller
 
-class fabStreetTypeName_Tests: XCTestCase {
+class fabGemNameTests: XCTestCase {
 
     func test() throws {
-//        let x: String = fabStreetTypeName()
+//        let x: String = fabGemName()
 //        XCTAssert(!x.isEmpty)
     }
 

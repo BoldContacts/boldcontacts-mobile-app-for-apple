@@ -1,7 +1,7 @@
 import XCTest
 import PhotoCaller
 
-class fabPhoneNumberAsCNPhoneNumber_Tests: XCTestCase {
+class fabPhoneNumberAsCNPhoneNumberTests: XCTestCase {
 
     func test() throws {
 //        let x: CNPhoneNumber = fabPhoneNumberAsCNPhoneNumber()

@@ -1,7 +1,7 @@
 import XCTest
 import PhotoCaller
 
-class fabBirthdayDateComponents_Tests: XCTestCase {
+class fabBirthdayDateComponentsTests: XCTestCase {
 
     func test() throws {
 //        let x: DateComponents = fabBirthdateDateComponents()
