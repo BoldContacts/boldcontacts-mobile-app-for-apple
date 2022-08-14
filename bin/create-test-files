@@ -1,0 +1,18 @@
+#!/bin/zsh
+
+src_base_dir="Shared"
+dst_base_dir="Tests iOS"
+template_file_path="doc/templates/LoremIpsumTests.swift"
+
+find "$src_base_dir" -type f | 
+sed 's#^[^/]*/##' | 
+while read src_sub_path; do
+	echo "$src_sub_path"
+  	dst_sub_path=${src_sub_path/.swift/Tests.swift}
+	dst_path="$dst_base_dir/$dst_sub_path"
+	if [ -e "$dst_path" ]; then
+	else
+		echo "$dst_path"
+		cp "$template_file_path" "$dst_path"
+	fi
+done
