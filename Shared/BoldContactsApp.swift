@@ -40,4 +40,3 @@ struct BoldContactsApp: App {
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
 //        }
 //    }
-}
