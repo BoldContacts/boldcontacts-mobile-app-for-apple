@@ -43,27 +43,19 @@ public func demoCreateContactWithNameAndImage(
     // Create birthday
     contact.birthday = fabBirthdateAsDateComponents()
 
-    // Create phone numbers
-    contact.phoneNumbers = [
-        CNLabeledValue(
-            label: CNLabelPhoneNumberiPhone,
-            value: CNPhoneNumber(stringValue: fabPhoneNumberAsString())
-        ),
-        CNLabeledValue(
-            label: CNLabelPhoneNumberPager,
-            value: CNPhoneNumber(stringValue: fabPhoneNumberAsString())
-        ),
-    ]
+    // Create contact lists
+    contact.phoneNumbers = fabCNContactPhoneNumbers()
+    contact.emailAddresses = fabCNContactEmailAddresses()
 
-    // Create email addresess
-    contact.emailAddresses = [
+    // Create URL addresess
+    contact.urlAddresses = [
         CNLabeledValue(
             label: CNLabelHome,
-            value: fabEmailAddressAsString() as NSString
+            value: fabURLAsString() as NSString
         ),
         CNLabeledValue(
             label: CNLabelWork,
-            value: fabEmailAddressAsString() as NSString
+            value: fabURLAsString() as NSString
         ),
     ]
 

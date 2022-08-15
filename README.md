@@ -143,7 +143,7 @@ This section describes the Xcode project files we use.
  
 Main:
 
-* PhotoCallerApp: the main SwiftUI struct.
+* BoldContactsApp: the main SwiftUI struct.
 
 * AppDelegate: typical app delegate, such as for notifications.
 

@@ -1,5 +1,5 @@
 import XCTest
-import PhotoCaller
+import BoldContacts
 
 class fabSocialProfileUserIdentifierTests: XCTestCase {
 
