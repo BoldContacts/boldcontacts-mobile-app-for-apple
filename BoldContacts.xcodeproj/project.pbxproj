@@ -89,7 +89,6 @@
 		F47228D128A5D0FF00773693 /* try-success-failure.md in Resources */ = {isa = PBXBuildFile; fileRef = F47228CC28A5D0FF00773693 /* try-success-failure.md */; };
 		F47228D228A5D0FF00773693 /* info-plist-properties-notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F47228CD28A5D0FF00773693 /* info-plist-properties-notes.md */; };
 		F47228D328A5D0FF00773693 /* ContactsDemoSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228CE28A5D0FF00773693 /* ContactsDemoSimple.swift */; };
-		F47228D428A5D0FF00773693 /* cncontact-notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F47228CF28A5D0FF00773693 /* cncontact-notes.md */; };
 		F47228D528A5D0FF00773693 /* cncontact-key-notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F47228D028A5D0FF00773693 /* cncontact-key-notes.md */; };
 		F47228DB28A5D5B400773693 /* parsePhoneNumberStringToURLSafeStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228DA28A5D5B400773693 /* parsePhoneNumberStringToURLSafeStringTests.swift */; };
 		F47228DD28A5D61900773693 /* parseEmailAddressStringToURLSafeStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228DC28A5D61900773693 /* parseEmailAddressStringToURLSafeStringTests.swift */; };
@@ -160,6 +159,7 @@
 		F472298E28AA9E0B00773693 /* NavViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297B28AA9E0B00773693 /* NavViewTests.swift */; };
 		F472298F28AA9E0B00773693 /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297C28AA9E0B00773693 /* PersistenceTests.swift */; };
 		F472299128AAA67800773693 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F472299028AAA67800773693 /* screenshot.png */; };
+		F472299628AAB1AE00773693 /* cncontact-setup.md in Resources */ = {isa = PBXBuildFile; fileRef = F472299528AAB1AE00773693 /* cncontact-setup.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,7 +262,6 @@
 		F47228CC28A5D0FF00773693 /* try-success-failure.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "try-success-failure.md"; sourceTree = "<group>"; };
 		F47228CD28A5D0FF00773693 /* info-plist-properties-notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "info-plist-properties-notes.md"; sourceTree = "<group>"; };
 		F47228CE28A5D0FF00773693 /* ContactsDemoSimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsDemoSimple.swift; sourceTree = "<group>"; };
-		F47228CF28A5D0FF00773693 /* cncontact-notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-notes.md"; sourceTree = "<group>"; };
 		F47228D028A5D0FF00773693 /* cncontact-key-notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-key-notes.md"; sourceTree = "<group>"; };
 		F47228DA28A5D5B400773693 /* parsePhoneNumberStringToURLSafeStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parsePhoneNumberStringToURLSafeStringTests.swift; sourceTree = "<group>"; };
 		F47228DC28A5D61900773693 /* parseEmailAddressStringToURLSafeStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parseEmailAddressStringToURLSafeStringTests.swift; sourceTree = "<group>"; };
@@ -333,6 +332,9 @@
 		F472297B28AA9E0B00773693 /* NavViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewTests.swift; sourceTree = "<group>"; };
 		F472297C28AA9E0B00773693 /* PersistenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
 		F472299028AAA67800773693 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		F472299328AAB14700773693 /* cncontact-unified-contacts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-unified-contacts.md"; sourceTree = "<group>"; };
+		F472299428AAB16600773693 /* cncontact-cocoapods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-cocoapods.md"; sourceTree = "<group>"; };
+		F472299528AAB1AE00773693 /* cncontact-setup.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-setup.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -555,7 +557,9 @@
 			isa = PBXGroup;
 			children = (
 				F47228E828A958CD00773693 /* templates */,
-				F47228CF28A5D0FF00773693 /* cncontact-notes.md */,
+				F472299528AAB1AE00773693 /* cncontact-setup.md */,
+				F472299428AAB16600773693 /* cncontact-cocoapods.md */,
+				F472299328AAB14700773693 /* cncontact-unified-contacts.md */,
 				F47228D028A5D0FF00773693 /* cncontact-key-notes.md */,
 				F47228CC28A5D0FF00773693 /* try-success-failure.md */,
 				F47228CD28A5D0FF00773693 /* info-plist-properties-notes.md */,
@@ -788,7 +792,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47228D528A5D0FF00773693 /* cncontact-key-notes.md in Resources */,
-				F47228D428A5D0FF00773693 /* cncontact-notes.md in Resources */,
 				F472283528A58B4100773693 /* Assets.xcassets in Resources */,
 				F47228D128A5D0FF00773693 /* try-success-failure.md in Resources */,
 				F47228D228A5D0FF00773693 /* info-plist-properties-notes.md in Resources */,
@@ -807,6 +810,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F472299628AAB1AE00773693 /* cncontact-setup.md in Resources */,
 				F472299128AAA67800773693 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1130,6 +1134,7 @@
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1160,6 +1165,7 @@
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
