@@ -1,6 +1,6 @@
 import XCTest
 
-class LoremIpsumTests: XCTestCase {
+class NavViewTests: XCTestCase {
 
     override func setUpWithError() throws {
     }
