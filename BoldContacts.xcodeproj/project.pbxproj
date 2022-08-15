@@ -160,6 +160,7 @@
 		F472298F28AA9E0B00773693 /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297C28AA9E0B00773693 /* PersistenceTests.swift */; };
 		F472299128AAA67800773693 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F472299028AAA67800773693 /* screenshot.png */; };
 		F472299628AAB1AE00773693 /* cncontact-setup.md in Resources */ = {isa = PBXBuildFile; fileRef = F472299528AAB1AE00773693 /* cncontact-setup.md */; };
+		F472299828AAC44200773693 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F472299728AAC44200773693 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -335,6 +336,7 @@
 		F472299328AAB14700773693 /* cncontact-unified-contacts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-unified-contacts.md"; sourceTree = "<group>"; };
 		F472299428AAB16600773693 /* cncontact-cocoapods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-cocoapods.md"; sourceTree = "<group>"; };
 		F472299528AAB1AE00773693 /* cncontact-setup.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "cncontact-setup.md"; sourceTree = "<group>"; };
+		F472299728AAC44200773693 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +375,7 @@
 			isa = PBXGroup;
 			children = (
 				F472284528A58B7100773693 /* README.md */,
+				F472299728AAC44200773693 /* icon.png */,
 				F472299028AAA67800773693 /* screenshot.png */,
 				F47228E928A95BAC00773693 /* bin */,
 				F47228CB28A5D09C00773693 /* doc */,
@@ -792,6 +795,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47228D528A5D0FF00773693 /* cncontact-key-notes.md in Resources */,
+				F472299828AAC44200773693 /* icon.png in Resources */,
 				F472283528A58B4100773693 /* Assets.xcassets in Resources */,
 				F47228D128A5D0FF00773693 /* try-success-failure.md in Resources */,
 				F47228D228A5D0FF00773693 /* info-plist-properties-notes.md in Resources */,
