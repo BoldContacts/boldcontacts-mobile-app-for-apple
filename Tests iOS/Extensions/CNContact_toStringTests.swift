@@ -8,7 +8,13 @@ class CNContact_toStringTests: XCTestCase {
     override func tearDownWithError() throws {
     }
 
-    func testExample() throws {
+    func test() throws {
+//        let x = CNMutableContact()
+//        x.givenName = "alpha"
+//        x.middleName = "bravo"
+//        x.familyName = "charlie"
+//        let y: CNContact = x
+//        XCTAssertEqual("alpha bravo charlie", y.toString())
     }
 
     func testPerformanceExample() throws {
