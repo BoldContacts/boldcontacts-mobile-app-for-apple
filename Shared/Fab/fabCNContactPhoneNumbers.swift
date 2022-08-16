@@ -1,7 +1,7 @@
 import Foundation
 import Contacts
 
-public func fabCNContactPhoneNumbers() -> [CNLabeledValue<NSString>] {
+public func fabCNContactPhoneNumbers() -> [CNLabeledValue<CNPhoneNumber>] {
     return [
         CNLabeledValue(
             label: CNLabelPhoneNumberiPhone,
