@@ -1,6 +1,6 @@
 import Contacts
 
-public func fabPostalAddressAsCNPostalAddress() -> CNPostalAddress {
+public func fabCNPostalAddress() -> CNPostalAddress {
     let x = CNMutablePostalAddress()
     x.street = fabUnitedStatesStreetAsString()
     x.city = fabUnitedStatesCityName()
