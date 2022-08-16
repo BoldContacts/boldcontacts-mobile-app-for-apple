@@ -1,6 +1,6 @@
 import Contacts
 
-public func fabPhoneNumberAsCNPhoneNumber() -> CNPhoneNumber {
+public func fabCNPhoneNumber() -> CNPhoneNumber {
     return CNPhoneNumber(stringValue: fabPhoneNumberAsString())
 }
 

@@ -1,6 +1,6 @@
 import XCTest
 
-class ContentViewTests.swift: XCTestCase {
+class ContentViewTests: XCTestCase {
 
     override func setUpWithError() throws {
     }

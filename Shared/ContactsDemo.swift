@@ -46,43 +46,10 @@ public func demoCreateContactWithNameAndImage(
     // Create contact lists
     contact.phoneNumbers = fabCNContactPhoneNumbers()
     contact.emailAddresses = fabCNContactEmailAddresses()
-
-    // Create URL addresess
-    contact.urlAddresses = [
-        CNLabeledValue(
-            label: CNLabelHome,
-            value: fabURLAsString() as NSString
-        ),
-        CNLabeledValue(
-            label: CNLabelWork,
-            value: fabURLAsString() as NSString
-        ),
-    ]
-
-    // Create social profiles
-    contact.socialProfiles = [
-        CNLabeledValue(
-            label: CNLabelHome,
-            value: fabSocialProfileAsCNSocialProfile()
-        ),
-        CNLabeledValue(
-            label: CNLabelWork,
-            value: fabSocialProfileAsCNSocialProfile()
-        ),
-    ]
-
-    // Create postal addresses
-    contact.postalAddresses = [
-        CNLabeledValue(
-            label: CNLabelHome,
-            value: fabPostalAddressAsCNPostalAddress()
-        ),
-        CNLabeledValue(
-            label: CNLabelWork,
-            value: fabPostalAddressAsCNPostalAddress()
-        ),
-    ]
-
+    contact.urlAddresses = fabCNContactURLAddresses()
+    contact.socialProfiles = fabCNContactSocialProfiles()
+    contact.postalAddresses = fabCNContactPostalAddresses()
+    
     // Store the profile picture as data
     //let image = UIImage(systemName: "star.fill")
     if let image = UIImage(named: uiImageNamed) {

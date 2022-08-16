@@ -6,5 +6,6 @@ public func fabCNPostalAddress() -> CNPostalAddress {
     x.city = fabUnitedStatesCityName()
     x.state = fabUnitedStatesStateCodeAsString()
     x.postalCode = fabUnitedStatesPostalCodeAsString()
-    return x
+    return x as CNPostalAddress
 }
+
