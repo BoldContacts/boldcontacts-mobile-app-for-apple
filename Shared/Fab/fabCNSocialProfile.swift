@@ -1,6 +1,6 @@
 import Contacts
 
-public func fabSocialProfileAsCNSocialProfile() -> CNSocialProfile {
+public func fabCNSocialProfile() -> CNSocialProfile {
     return CNSocialProfile(
         urlString: fabSocialProfileURLString(),
         username: fabSocialProfileUsername(),

@@ -1,10 +1,10 @@
 import XCTest
 import BoldContacts
 
-class fabSocialProfileAsCNSocialProfile_Tests: XCTestCase {
+class fabCNSocialProfile_Tests: XCTestCase {
 
     func test() throws {
-//        let x: CNSocialProfile = fabSocialProfileAsCNSocialProfile()
+//        let x: CNSocialProfile = fabCNSocialProfile()
 //        XCTAssert(!x.urlString.isEmpty)
 //        XCTAssert(!x.username.isEmpty)
 //        XCTAssert(!x.userIdentifier.isEmpty)

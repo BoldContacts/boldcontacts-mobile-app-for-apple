@@ -1,16 +1,15 @@
 import Foundation
 import Contacts
 
-public func fabCNContactSocialProfiles() -> [CNLabeledValue<NSString>] {
+public func fabCNContactSocialProfiles() -> [CNLabeledValue<CNSocialProfile>] {
     return [
         CNLabeledValue(
             label: CNLabelHome,
-            value: fabSocialProfileAsCNSocialProfile()
+            value: fabCNSocialProfile()
         ),
         CNLabeledValue(
             label: CNLabelWork,
-            value: fabSocialProfileAsCNSocialProfile()
+            value: fabCNSocialProfile()
         ),
     ]
-
 }
