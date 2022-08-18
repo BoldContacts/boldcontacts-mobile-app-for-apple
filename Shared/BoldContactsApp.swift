@@ -16,7 +16,8 @@ struct BoldContactsApp: App {
         CNContactStore().requestAccess(for: .contacts) { (access, error) in
             logger.info("Access: \(access)")
         }
-        if true /* if this is a development run */ {
+        /* if this is a development run */
+        if true {
             demoDeleteContactForMe()
             demoCreateContactForMe()
             demoDeleteContactsForABCDEF()

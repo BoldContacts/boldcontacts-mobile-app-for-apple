@@ -7,6 +7,6 @@ struct AppButtonStyle: ButtonStyle {
             .buttonStyle(PlainButtonStyle())
             .frame(maxWidth: .infinity)
             .tint(Config.appButtonTint)
-            .background(configuration.isPressed ? Config.appButtonBackgroundColorPressed : Config.appButtonBackgroundColor)
+            .background(configuration.isPressed ? Config.appButtonBackgroundColorPressed : nil)
     }
 }

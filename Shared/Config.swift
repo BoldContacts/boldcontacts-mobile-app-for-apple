@@ -10,7 +10,6 @@ struct Config {
     static let appButtonWidth = 64.0
     static let appButtonTint = Color.black
     static let appButtonPadding = 32.0
-    static let appButtonBackgroundColor = Color.white
     static let appButtonBackgroundColorPressed = Color.green
 
     // Navigation button visibility true/false
