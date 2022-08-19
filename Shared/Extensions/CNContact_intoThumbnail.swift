@@ -1,7 +1,7 @@
 import Contacts
 import UIKit
 
-extension CNContact {
+extension CNContact: IntoThumbnail {
 
     /// Get this contact's UIImage.
     ///
