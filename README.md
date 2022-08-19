@@ -6,25 +6,23 @@ BoldContacts is good for people experiencing vision disabiltiies, cognitive disa
  
 BoldContacts started because my family members have Alzheimer's disease and Parkison's disease, and are unable to use the typical contacts app. My hope is BoldContacts helps them.
 
-BoldContacts welcomes constuctive feedback to <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
-
 
 ## Screenshot
 
 <img src="screenshot.png" height="300">
 
-The app shows each contact with:
+The app shows each contact's photo and name.
 
-* The person's photo and person's name.
+One button calls the contact.
 
-* One button to connect to the contact e.g. phone the person.
+Two buttons navigate backward/forward in the contacts.
 
-* Two buttons to navigate among contacts e.g. previous contact, next contact. 
-    
 
 ## Help Wanted
 
-If you have Alzheimer's or Parkinson's, or are a caretaker, can you contact us?
+Contact the author at <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
+
+If you have Alzheimer's or Parkinson's, or are a caretaker, can you try this app?
 
 If you are a donor or fundraiser, can you help us raise money for this project? 
 
@@ -33,26 +31,23 @@ If you are an Apple iOS Swift developer, can you volunteer your expertise?
 
 ## Goals
 
-Good usability for people who experience motor difficulties.
+Good usability for people who experience motor difficulties, 
+such as arthritis, or nerve damage, or reflex tremor, etc. 
 
-  * Such as arthritis, or nerve damage, or reflex tremor, etc. 
+Good usability for people who experience vision difficulties,
+such as partially sighted vision, or double vision, blurred vision, hazy vision, etc. 
 
-Good usability for people who experience vision difficulties.
-
-  * Such as partially sighted vision, or double vision, or blurred vision, or hazy vision, etc. 
-
-Good usability for people who experience cognitive difficulties.
-
-  * Such as technical inexperience, or memory loss, or confusion.
+Good usability for people who experience cognitive difficulties,
+such as memory loss, mental impairment, confusion, etc. 
 
 
 ## About
 
 * Project: BoldContacts
 
-* Version: 0.5.0
+* Version: 0.6.0
 
-* Updated: 2022-08-19T20:45:43Z
+* Updated: 2022-08-19T23:08:08Z
 
 * Contact: <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
 

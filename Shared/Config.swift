@@ -15,7 +15,7 @@ struct Config {
     // Navigation button Image(systemName: *)
     static let navPrevButtonImageSystemName = "arrow.left.circle"
     static let navNextButtonImageSystemName = "arrow.right.circle"
-    static let navOpenButtonImageSystemName = "person.circle"
+    static let navOpenButtonImageSystemName = "heart.circle"
     
 }
 
