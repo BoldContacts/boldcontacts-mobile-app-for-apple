@@ -1,6 +1,6 @@
 import XCTest
 
-class ContactTextViewTests: XCTestCase {
+class ItemTitleTextViewTests: XCTestCase {
 
     override func setUpWithError() throws {
     }

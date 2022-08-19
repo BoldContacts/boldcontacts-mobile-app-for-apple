@@ -1,11 +1,11 @@
 import SwiftUI
 import Contacts
 
-struct ContactTextView: View {
-    @Binding var contact: CNContact?
+struct ItemTitleTextView: View {
+    @Binding var item: IntoTitle?
 
     var body: some View {
-        (toText(contact: contact) ?? Text("?"))
+        intoText(item: item)
             .frame(maxWidth: .infinity, alignment: .center)
             .multilineTextAlignment(.center)
             .font(Font.largeTitle.weight(.bold))
@@ -13,14 +13,9 @@ struct ContactTextView: View {
     }
 }
 
-func toText(contact: CNContact?) -> Text? {
-    if let contact = contact {
-        return Text(
-            CNContactFormatter.string(
-                from: contact,
-                style: .fullName
-            ) ?? "?"
-        )
+func intoText(item: IntoTitle?) -> Text? {
+    if let item = item {
+        return Text(item.intoTitle() ?? "?")
     }
-    return nil
+    return Text("?")
 }
