@@ -5,7 +5,7 @@ import SwiftUI
 class Cursor<T>: ObservableObject {
     @Published var list: [T]
     @Published var index: Int?
-    @Published var current: T?
+    @Published var item: T?
 
     init(list: [T]) {
         logger.debug("Cursor init. list.count: \(list.count)")
@@ -20,7 +20,7 @@ class Cursor<T>: ObservableObject {
         logger.debug("Cursor navIndex.") //TODO: self.index: \(self.index) index: \(index)")
         if index >= 0 && index < list.count {
             self.index = index
-            self.current = list[index]
+            self.item = list[index]
             self.objectWillChange.send()
         }
     }
