@@ -1,15 +1,14 @@
 import SwiftUI
-import Contacts
 
-/// A data cursor that navigates on the app's list of contacts
+/// A data cursor that navigates on the app's list of items
 ///
-class Cursor: ObservableObject {
-    @Published var list: [CNContact]
+class Cursor<T>: ObservableObject {
+    @Published var list: [T]
     @Published var index: Int?
-    @Published var current: CNContact?
+    @Published var current: T?
 
-    init(list: [CNContact]) {
-        logger.debug("Cursor init.  list.count: \(list.count)")
+    init(list: [T]) {
+        logger.debug("Cursor init. list.count: \(list.count)")
         self.list = list
         if !self.list.isEmpty {
             navIndex(index: 0)
@@ -31,7 +30,7 @@ class Cursor: ObservableObject {
         if let i = self.index {
             logger.debug("Cursor navOpen index: \(i)")
             let item = list[i]
-            logger.info("Cusor navOpen item: \(item)")
+            logger.info("Cusor navOpen item: \(String(describing: item))")
         }
     }
 
