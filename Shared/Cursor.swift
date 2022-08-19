@@ -25,7 +25,16 @@ class Cursor: ObservableObject {
             self.objectWillChange.send()
         }
     }
-    
+
+    public func navOpen() {
+        logger.debug("Cursor navOpen.") //TODO: self.index: \(self.index)")
+        if let i = self.index {
+            logger.debug("Cursor navOpen index: \(i)")
+            let item = list[i]
+            logger.info("Cusor navOpen item: \(item)")
+        }
+    }
+
     public func navPrev() {
         logger.debug("Cursor navPrev.") //TODO: self.index: \(self.index)")
         if let i = self.index {

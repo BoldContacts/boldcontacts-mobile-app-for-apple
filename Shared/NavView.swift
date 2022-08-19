@@ -28,86 +28,25 @@ struct NavView: View {
             spacing: 0
         ) {
             HStack {
-                if let contact = cursor.current {
-                    if Config.navPrev {
-                        Button {
-                            cursor.navPrev()
-                        } label: {
-                            ButtonImageView(systemName: Config.navPrevButtonImageSystemName)
-                        }
-                        .buttonStyle(AppButtonStyle())
+                if cursor.current != nil {
+                    Button {
+                        cursor.navPrev()
+                    } label: {
+                        ButtonImageView(systemName: Config.navPrevButtonImageSystemName)
                     }
-                    if Config.navVideo {
-                        if let string = contact.primaryFaceTimeValueAsString() {
-                            Button {
-                                openViaFaceTime(string: string)
-                            } label: {
-                                ButtonImageView(systemName: Config.navVideoButtonImageSystemName)
-                            }
-                            .buttonStyle(AppButtonStyle())
-                        }
+                    .buttonStyle(AppButtonStyle())
+                    Button {
+                        cursor.navOpen()
+                    } label: {
+                        ButtonImageView(systemName: Config.navOpenButtonImageSystemName)
                     }
-                    if Config.navVoice {
-                        if contact.hasPhoneNumber() {
-                            Button {
-                                if let phoneNumber = contact.primaryPhoneNumberValueAsString() {
-                                    openViaTel(string: phoneNumber)
-                                }
-
-                            } label: {
-                                ButtonImageView(systemName: Config.navVideoButtonImageSystemName)
-                            }
-                            .buttonStyle(AppButtonStyle())
-                        }
+                    .buttonStyle(AppButtonStyle())
+                    Button {
+                        cursor.navNext()
+                    } label: {
+                        ButtonImageView(systemName: Config.navNextButtonImageSystemName)
                     }
-                    if Config.navMessage {
-                        if contact.hasPhoneNumber() {
-                            Button {
-                                if let phoneNumber = contact.primaryPhoneNumberValueAsString() {
-                                    openViaSMS(string: phoneNumber)
-                                }
-                            } label: {
-                                ButtonImageView(systemName: Config.navVideoButtonImageSystemName)
-                            }
-                            .buttonStyle(AppButtonStyle())
-                        }
-                    }
-                    if Config.navEmail && contact.hasEmailAddress() {
-                        Button {
-                            if let emailAddress = contact.primaryEmailAddressValueAsString() {
-                                openViaMailTo(string: emailAddress)
-                            }
-                        } label: {
-                            ButtonImageView(systemName: Config.navEmailButtonImageSystemName)
-                        }
-                        .buttonStyle(AppButtonStyle())
-                    }
-                    if Config.navSocial && contact.hasSocialProfile() {
-                        Button {
-                            if let socialProfileURLString = contact.primarySocialProfileValueURLString() {
-                                openViaString(string: socialProfileURLString)
-                            }
-                        } label: {
-                            ButtonImageView(systemName: Config.navSocialButtonImageSystemName)
-                        }
-                        .buttonStyle(AppButtonStyle())
-                    }
-                    if Config.navPerson {
-                        Button {
-                            openViaContactIdentifier(string: contact.identifier)
-                        } label: {
-                            ButtonImageView(systemName: Config.navPersonButtonImageSystemName)
-                        }
-                        .buttonStyle(AppButtonStyle())
-                    }
-                    if Config.navNext {
-                        Button {
-                            cursor.navNext()
-                        } label: {
-                            ButtonImageView(systemName: Config.navNextButtonImageSystemName)
-                        }
-                        .buttonStyle(AppButtonStyle())
-                    }
+                    .buttonStyle(AppButtonStyle())
                 }
             }
             .padding()
