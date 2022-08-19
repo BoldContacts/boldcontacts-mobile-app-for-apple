@@ -2,9 +2,9 @@ import SwiftUI
 import Contacts
 
 struct NavView: View {
-    @ObservedObject var cursor: Cursor
+    @ObservedObject var cursor: Cursor<AppItem>
     
-    init(cursor: Cursor) {
+    init(cursor: Cursor<AppItem>) {
         self.cursor = cursor
     }
 
