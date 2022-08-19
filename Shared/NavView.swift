@@ -1,10 +1,10 @@
 import SwiftUI
 import Contacts
 
-struct NavView<T>: View where T: IntoThumbnail, T: IntoTitle {
-    @ObservedObject var cursor: Cursor<T>
+struct NavView: View {
+    @ObservedObject var cursor: Cursor<IntoThumbnail & IntoTitle>
     
-    init(cursor: Cursor<T>) {
+    init(cursor: Cursor<IntoThumbnail & IntoTitle>) {
         self.cursor = cursor
     }
 
@@ -14,26 +14,24 @@ struct NavView<T>: View where T: IntoThumbnail, T: IntoTitle {
             spacing: 0
         ) {
             HStack {
-                if cursor.current != nil {
-                    Button {
-                        cursor.navPrev()
-                    } label: {
-                        ButtonImageView(systemName: Config.navPrevButtonImageSystemName)
-                    }
-                    .buttonStyle(AppButtonStyle())
-                    Button {
-                        cursor.navOpen()
-                    } label: {
-                        ButtonImageView(systemName: Config.navOpenButtonImageSystemName)
-                    }
-                    .buttonStyle(AppButtonStyle())
-                    Button {
-                        cursor.navNext()
-                    } label: {
-                        ButtonImageView(systemName: Config.navNextButtonImageSystemName)
-                    }
-                    .buttonStyle(AppButtonStyle())
+                Button {
+                    cursor.navPrev()
+                } label: {
+                    ButtonImageView(systemName: Config.navPrevButtonImageSystemName)
                 }
+                .buttonStyle(AppButtonStyle())
+                Button {
+                    cursor.navOpen()
+                } label: {
+                    ButtonImageView(systemName: Config.navOpenButtonImageSystemName)
+                }
+                .buttonStyle(AppButtonStyle())
+                Button {
+                    cursor.navNext()
+                } label: {
+                    ButtonImageView(systemName: Config.navNextButtonImageSystemName)
+                }
+                .buttonStyle(AppButtonStyle())
             }
             .padding()
             .frame(maxWidth: .infinity)

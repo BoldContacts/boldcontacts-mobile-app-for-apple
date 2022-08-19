@@ -1,8 +1,8 @@
 import SwiftUI
 import Contacts
 
-struct ItemTitleTextView<T>: View where T: IntoTitle {
-    @Binding var item: T?
+struct ItemTitleTextView: View {
+    @Binding var item: (IntoThumbnail & IntoTitle)?
 
     var body: some View {
         intoText(item: item)
@@ -12,7 +12,7 @@ struct ItemTitleTextView<T>: View where T: IntoTitle {
             .padding(.all, 0)
     }
 
-    private func intoText(item: T?) -> Text? {
+    private func intoText(item: (IntoThumbnail & IntoTitle)?) -> Text? {
         if let item = item {
             return Text(item.intoTitle() ?? "?")
         }

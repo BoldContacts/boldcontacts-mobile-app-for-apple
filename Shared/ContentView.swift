@@ -1,10 +1,10 @@
 import SwiftUI
 import Contacts
 
-struct ContentView<T>: View where T: IntoThumbnail, T: IntoTitle {
-    @ObservedObject var cursor: Cursor<T>
+struct ContentView: View {
+    @ObservedObject var cursor: Cursor<IntoThumbnail & IntoTitle>
     
-    init(cursor: Cursor<T>) {
+    init(cursor: Cursor<IntoThumbnail & IntoTitle>) {
         self.cursor = cursor
     }
 
@@ -17,8 +17,8 @@ struct ContentView<T>: View where T: IntoThumbnail, T: IntoTitle {
                 Text("Your device is telling this app that you have zero contacts.")
             } else {
                 VStack {
-                    ItemThumbnailImageView(item: $item)
-                    ItemTitleTextView(item: $item)
+                    ItemThumbnailImageView(item: $cursor.item)
+                    ItemTitleTextView(item: $cursor.item)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 RectangleHorizontalRule()

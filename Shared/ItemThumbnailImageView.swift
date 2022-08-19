@@ -1,8 +1,8 @@
 import SwiftUI
 import Contacts
 
-struct ItemThumbnailImageView<T>: View where T: IntoThumbnail {
-    @Binding var item: T?
+struct ItemThumbnailImageView: View {
+    @Binding var item: (IntoThumbnail & IntoTitle)?
 
     var body: some View {
         intoImage(item: item)
@@ -10,7 +10,7 @@ struct ItemThumbnailImageView<T>: View where T: IntoThumbnail {
             .padding(.all, 0)
     }
     
-    private func intoImage(item: T?) -> Image {
+    private func intoImage(item: (IntoThumbnail & IntoTitle)?) -> Image {
         if let item = item {
             if let thumbnail: UIImage = item.intoThumbnail() {
                 if let cropped: UIImage = thumbnail.cropToSquare() {

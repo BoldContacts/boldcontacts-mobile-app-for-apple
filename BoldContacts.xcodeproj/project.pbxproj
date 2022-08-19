@@ -79,7 +79,6 @@
 		F47228AF28A5955500773693 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AE28A5955500773693 /* Cursor.swift */; };
 		F47228B828A5955F00773693 /* ContactsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B128A5955F00773693 /* ContactsDemo.swift */; };
 		F47228B928A5955F00773693 /* ItemThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */; };
-		F47228BA28A5955F00773693 /* ContactCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B328A5955F00773693 /* ContactCardView.swift */; };
 		F47228BB28A5955F00773693 /* ContactsTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B428A5955F00773693 /* ContactsTools.swift */; };
 		F47228BC28A5955F00773693 /* ItemTitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B528A5955F00773693 /* ItemTitleTextView.swift */; };
 		F47228BF28A595FB00773693 /* AppButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228BE28A595FB00773693 /* AppButtonStyle.swift */; };
@@ -142,7 +141,6 @@
 		F472297E28AA9E0B00773693 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296B28AA9E0B00773693 /* AppDelegateTests.swift */; };
 		F472297F28AA9E0B00773693 /* ConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296C28AA9E0B00773693 /* ConfigTests.swift */; };
 		F472298028AA9E0B00773693 /* RectangleHorizontalRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296D28AA9E0B00773693 /* RectangleHorizontalRuleTests.swift */; };
-		F472298128AA9E0B00773693 /* ContactCardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296E28AA9E0B00773693 /* ContactCardViewTests.swift */; };
 		F472298228AA9E0B00773693 /* ContactsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296F28AA9E0B00773693 /* ContactsDemoTests.swift */; };
 		F472298328AA9E0B00773693 /* ItemTitleTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297028AA9E0B00773693 /* ItemTitleTextViewTests.swift */; };
 		F472298428AA9E0B00773693 /* ButtonImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297128AA9E0B00773693 /* ButtonImageViewTests.swift */; };
@@ -267,7 +265,6 @@
 		F47228AE28A5955500773693 /* Cursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
 		F47228B128A5955F00773693 /* ContactsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsDemo.swift; sourceTree = "<group>"; };
 		F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemThumbnailImageView.swift; sourceTree = "<group>"; };
-		F47228B328A5955F00773693 /* ContactCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCardView.swift; sourceTree = "<group>"; };
 		F47228B428A5955F00773693 /* ContactsTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTools.swift; sourceTree = "<group>"; };
 		F47228B528A5955F00773693 /* ItemTitleTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTitleTextView.swift; sourceTree = "<group>"; };
 		F47228BE28A595FB00773693 /* AppButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButtonStyle.swift; sourceTree = "<group>"; };
@@ -331,7 +328,6 @@
 		F472296B28AA9E0B00773693 /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 		F472296C28AA9E0B00773693 /* ConfigTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTests.swift; sourceTree = "<group>"; };
 		F472296D28AA9E0B00773693 /* RectangleHorizontalRuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleHorizontalRuleTests.swift; sourceTree = "<group>"; };
-		F472296E28AA9E0B00773693 /* ContactCardViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCardViewTests.swift; sourceTree = "<group>"; };
 		F472296F28AA9E0B00773693 /* ContactsDemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsDemoTests.swift; sourceTree = "<group>"; };
 		F472297028AA9E0B00773693 /* ItemTitleTextViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTitleTextViewTests.swift; sourceTree = "<group>"; };
 		F472297128AA9E0B00773693 /* ButtonImageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImageViewTests.swift; sourceTree = "<group>"; };
@@ -439,7 +435,6 @@
 				F47228AE28A5955500773693 /* Cursor.swift */,
 				F472289428A5930000773693 /* Logger.swift */,
 				F472280528A58B4000773693 /* ContentView.swift */,
-				F47228B328A5955F00773693 /* ContactCardView.swift */,
 				F47228B128A5955F00773693 /* ContactsDemo.swift */,
 				F47228B428A5955F00773693 /* ContactsTools.swift */,
 				F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */,
@@ -482,7 +477,6 @@
 				F472296A28AA9E0B00773693 /* BoldContactsAppTests.swift */,
 				F472297128AA9E0B00773693 /* ButtonImageViewTests.swift */,
 				F472296C28AA9E0B00773693 /* ConfigTests.swift */,
-				F472296E28AA9E0B00773693 /* ContactCardViewTests.swift */,
 				F472296F28AA9E0B00773693 /* ContactsDemoTests.swift */,
 				F472297828AA9E0B00773693 /* ContactsToolsTests.swift */,
 				F40EACE328B00EC60095C188 /* ContentViewTests.swift */,
@@ -933,7 +927,6 @@
 				F40EACDA28B001210095C188 /* IntoSubtitle.swift in Sources */,
 				F472286528A5903700773693 /* UIImage_resize.swift in Sources */,
 				F40EACE028B00A3A0095C188 /* IntoString.swift in Sources */,
-				F47228BA28A5955F00773693 /* ContactCardView.swift in Sources */,
 				F472282F28A58B4100773693 /* BoldContactsApp.swift in Sources */,
 				F472288728A591F100773693 /* fabUnitedStatesPostalCodeAsString.swift in Sources */,
 				F472286928A5903700773693 /* CNContactStore_list.swift in Sources */,
@@ -1019,7 +1012,6 @@
 				F47228DD28A5D61900773693 /* parseEmailAddressStringToURLSafeStringTests.swift in Sources */,
 				F47228DB28A5D5B400773693 /* parsePhoneNumberStringToURLSafeStringTests.swift in Sources */,
 				F47228DF28A5D68E00773693 /* parseContactIdentifierStringToURLSafeStringTests.swift in Sources */,
-				F472298128AA9E0B00773693 /* ContactCardViewTests.swift in Sources */,
 				F472297D28AA9E0B00773693 /* BoldContactsAppTests.swift in Sources */,
 				F472298E28AA9E0B00773693 /* NavViewTests.swift in Sources */,
 				F472298228AA9E0B00773693 /* ContactsDemoTests.swift in Sources */,

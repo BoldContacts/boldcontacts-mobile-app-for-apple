@@ -9,7 +9,7 @@ struct BoldContactsApp: App {
     // Connect to app delegate class defined in AppDelegate.swift
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
-    var cursor: Cursor
+    var cursor: Cursor<IntoThumbnail & IntoTitle>
 
     init() {
         logger.info("BoldContacts init")
