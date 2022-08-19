@@ -1,6 +1,6 @@
 import XCTest
 
-class ContactImageViewTests: XCTestCase {
+class ItemThumbnailImageViewTests: XCTestCase {
 
     override func setUpWithError() throws {
     }
