@@ -1,27 +1,13 @@
 import SwiftUI
 import Contacts
 
-struct NavView: View {
-    @ObservedObject var cursor: Cursor<AppItem>
+struct NavView<T>: View where T: IntoThumbnail, T: IntoTitle {
+    @ObservedObject var cursor: Cursor<T>
     
-    init(cursor: Cursor<AppItem>) {
+    init(cursor: Cursor<T>) {
         self.cursor = cursor
     }
 
-//    var navPrev: (() -> Void)
-//    var navNext: (() -> Void)
-//    var contact: (() -> CNContact?)
-    
-//    init(
-//        navPrev: @escaping () -> Void,
-//        navNext: @escaping () -> Void,
-//        contact: @escaping () -> CNContact?
-//    ) {
-//        self.navPrev = navPrev
-//        self.navNext = navNext
-//        self.contact = contact
-//    }
-//
     var body: some View {
         VStack(
             alignment: .center,

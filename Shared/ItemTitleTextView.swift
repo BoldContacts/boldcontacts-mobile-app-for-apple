@@ -1,7 +1,7 @@
 import SwiftUI
 import Contacts
 
-struct ItemTitleTextView<T: IntoTitle>: View {
+struct ItemTitleTextView<T>: View where T: IntoTitle {
     @Binding var item: T?
 
     var body: some View {
@@ -12,7 +12,7 @@ struct ItemTitleTextView<T: IntoTitle>: View {
             .padding(.all, 0)
     }
 
-    func intoText(item: T?) -> Text? {
+    private func intoText(item: T?) -> Text? {
         if let item = item {
             return Text(item.intoTitle() ?? "?")
         }
