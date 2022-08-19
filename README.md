@@ -6,11 +6,6 @@ BoldContacts is especially good for people who may be experiencing vision disabi
  
 BoldContacts started as a project to help my family's parents, who are experiencing Alzheimer's disease and Parkison's disease, and who were losing the ability to work with the typical contacts app. We created the app to be much simpler, and to be open source so other developers can work with the code to help people.
 
-* [Scope](doc/scope.md)
-
-* [Human interface guidelines](doc/human-interface-guideliines.md) documentation
-
-* [Xcode project overview](doc/xcode-project-overview.md)
 
 ## Screenshot
 
@@ -18,17 +13,18 @@ BoldContacts started as a project to help my family's parents, who are experienc
 
 The app shows each contact as a card with:
 
-* The contact's photo.
+* The contact's photo and name.
 
-* The contact's full name.
+* One button to connect to the contact e.g. phone the person.
 
-* Buttons to connect via video and voice.
-
-* Buttons to navigate backward and foward among contacts.
-
+* Two buttons to navigate among contacts e.g. previous contact, next contact. 
 
     
 ## Help Wanted
+
+Email <a href="mailto:joel@joelparkerhenderson.com>joel@joelparkerhenderson.com</a>.
+
+If you are a donor or fundraiser, we are seeking to raise money to help pay for development and to help defray costs, and we welcome your help. 
 
 If you have Parkinson's disease, or are caring for a person who has Parkinson's disease, and you are open to talking, then we would greatly appreaciate talking with you.
 
@@ -50,11 +46,14 @@ Good usability for people who experience cognitive difficulties.
   * Such as technical inexperience, or memory loss, or confusion.
 
 
-## Technical questions
+## Documentation
 
-We have technical questions and welcome advice from experienced developers: 
+Documentation files:
 
-  * How can iOS Swift detect if a CNContact has FaceTime capabilties? 
+* [Scope](doc/scope.md)
 
-  * How can the app ensure that open("facetime://…") succeeds, then after the call the person is returned to the app?
-  
+* [Human interface guidelines](doc/human-interface-guidelines.md)
+
+* [Xcode project overview](doc/xcode-project-overview.md)
+
+* [Technical questions](doc/technical-questions.md)

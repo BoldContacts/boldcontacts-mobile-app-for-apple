@@ -202,6 +202,7 @@
 		F40EACDE28B002B20095C188 /* xcode-project-overview.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "xcode-project-overview.md"; sourceTree = "<group>"; };
 		F40EACDF28B00A3A0095C188 /* IntoString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoString.swift; sourceTree = "<group>"; };
 		F40EACE328B00EC60095C188 /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
+		F40EACE528B0166C0095C188 /* technical-questions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "technical-questions.md"; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F472280428A58B4000773693 /* BoldContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldContactsApp.swift; sourceTree = "<group>"; };
 		F472280528A58B4000773693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -606,6 +607,7 @@
 				F47228D028A5D0FF00773693 /* cncontact-key-notes.md */,
 				F40EACDD28B002680095C188 /* human-interface-guidelines.md */,
 				F40EACDC28B001B80095C188 /* scope.md */,
+				F40EACE528B0166C0095C188 /* technical-questions.md */,
 				F47228CC28A5D0FF00773693 /* try-success-failure.md */,
 				F47228CD28A5D0FF00773693 /* info-plist-properties-notes.md */,
 				F47228CE28A5D0FF00773693 /* ContactsDemoSimple.swift */,
