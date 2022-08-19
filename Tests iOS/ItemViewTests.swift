@@ -1,6 +1,6 @@
 import XCTest
 
-class ContentViewTests: XCTestCase {
+class ItemViewTests: XCTestCase {
 
     override func setUpWithError() throws {
     }
