@@ -21,7 +21,6 @@ struct ContentView: View {
                     ItemTitleTextView(item: $cursor.item)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                RectangleHorizontalRule()
                 NavView(cursor: cursor)
             }
         }

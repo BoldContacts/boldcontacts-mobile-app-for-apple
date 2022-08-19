@@ -2,14 +2,25 @@
 
 BoldContacts is an app is a greatly-simpler way to browse contacts and connect to them.
 
-BoldContacts is especially good for people who may be experiencing vision disabiltiies, cognitive disabiltiies, or motor disabiltiies. The app displays each contact by using bold text, a large photo, large buttons, and one way to connect.
+BoldContacts is especially good for people who may be experiencing vision disabiltiies, cognitive disabiltiies, or motor disabiltiies. The app displays each contact with a large photo, large text, and large buttons.
  
-BoldContacts started as a project to help my family's parents, who are experiencing Alzheimer's disease and Parkison's disease, and who were losing the ability to work with the typical contacts app. We created the app to be much simpler, and to be open source so other developers can work with the code to help people.
+BoldContacts started because my family members have Alzheimer's disease and Parkison's disease, and are unable to use the typical contacts app. My hope is BoldContacts helps them.
 
+
+## Help Wanted
+
+Email <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
+
+If you have Alzheimer's or Parkinson's, or are a caretaker, can you connect with us?
+
+If you are a donor or fundraiser, can you help us raise money for this project? 
+
+If you are an Apple iOS Swift developer, can you volunteer your expertise?
+  
 
 ## Screenshot
 
-<img src="screenshot.png">
+<img src="screenshot.png" height="300">
 
 The app shows each contact as a card with:
 
@@ -18,18 +29,7 @@ The app shows each contact as a card with:
 * One button to connect to the contact e.g. phone the person.
 
 * Two buttons to navigate among contacts e.g. previous contact, next contact. 
-
     
-## Help Wanted
-
-Email <a href="mailto:joel@joelparkerhenderson.com>joel@joelparkerhenderson.com</a>.
-
-If you are a donor or fundraiser, we are seeking to raise money to help pay for development and to help defray costs, and we welcome your help. 
-
-If you have Parkinson's disease, or are caring for a person who has Parkinson's disease, and you are open to talking, then we would greatly appreaciate talking with you.
-
-If you are an Apple iOS Swift developer, we are seeking volunteer developer help.
-  
 
 ## Goals
 
