@@ -48,6 +48,8 @@ Good usability for people who experience cognitive difficulties.
 
 ## About
 
+* Project: BoldContacts
+
 * Version: 0.5.0
 
 * Updated: 2022-08-19T20:45:43Z

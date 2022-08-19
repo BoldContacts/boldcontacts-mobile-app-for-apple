@@ -80,6 +80,16 @@ Folders:
   
   * indexable: get the contact's indexable email addresses, phone numbers, etc. 
 
+  * list\_emailAddresses: list accessors for the contact's email addresses. 
+
+  * list\_phoneNumbers: list accessors for the contact's phone numbers.
+
+  * list\_postalAddresses: list accessors for the contact's postal addresses. 
+  
+  * list\_socialProfiles: list accessors for the contact's social profiles.
+
+  * list\_urlAddresses: list accessors for the contact's URL addresses. 
+
 * CNContactStore
 
   * keysToFetch: return our preferred keys that we want to fetch
