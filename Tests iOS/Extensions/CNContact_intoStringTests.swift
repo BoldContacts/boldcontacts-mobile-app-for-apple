@@ -1,6 +1,6 @@
 import XCTest
 
-class CNContact_toStringTests: XCTestCase {
+class CNContact_intoStringTests: XCTestCase {
 
     override func setUpWithError() throws {
     }
@@ -14,7 +14,7 @@ class CNContact_toStringTests: XCTestCase {
 //        x.middleName = "bravo"
 //        x.familyName = "charlie"
 //        let y: CNContact = x
-//        XCTAssertEqual("alpha bravo charlie", y.toString())
+//        XCTAssertEqual("alpha bravo charlie", y.intoString())
     }
 
     func testPerformanceExample() throws {

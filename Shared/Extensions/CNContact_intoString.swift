@@ -9,9 +9,9 @@ extension CNContact {
     /// Example:
     ///
     ///     let contact: CNContact = …
-    ///     let string: String = contact.toString()
+    ///     let string: String? = contact.intoString()
     ///
-    public func toString() -> String? {
+    public func intoString() -> String? {
         return CNContactFormatter().string(from: self)
     }
 
