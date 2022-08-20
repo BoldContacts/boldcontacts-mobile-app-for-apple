@@ -4,7 +4,7 @@ BoldContacts is an app is a greatly-simpler way to browse contacts and connect t
 
 BoldContacts is good for people experiencing vision disabiltiies, cognitive disabilties, or motor disabiltiies. The app displays each contact with a large photo, large text, and large buttons.
  
-BoldContacts started because my family members have Alzheimer's disease and Parkison's disease, and are unable to use the typical contacts app. My hope is BoldContacts helps them.
+BoldContacts started because our family members have Alzheimer's disease and Parkison's disease, and are unable to use the typical contacts app. Our hope is BoldContacts can help them.
 
 
 ## Screenshot
@@ -63,3 +63,24 @@ such as memory loss, mental impairment, confusion, etc.
 * [Xcode project overview](doc/xcode-project-overview.md)
 
 * [Technical questions](doc/technical-questions.md)
+
+
+## For more information
+
+For more information about Alzheimer's disease and Parkinson's disease:
+
+* [Wikipedia: Alzheimer's disease](https://wikipedia.org/wiki/Alzheimer's_disease)
+
+* [Wikipedia: Parkinson's disease](https://wikipedia.org/wiki/Parkinson's_disease)
+
+For organizations involved in Alzheimer's disease and Parkinson's disease:
+
+* [Alzheimer's Association](https://www.alz.org)
+
+* [Parkinson's Foundation](https://www.parkinson.org)
+
+* [The Michael J. Fox Foundation - Parkinson's](https://www.michaeljfox.org)
+
+* [American Parkinson's Disease Association](https://www.apdaparkinson.org)
+
+* [Davis Phinney Foundation For Parkinson's](https://davisphinneyfoundation.org)
