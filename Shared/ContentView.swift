@@ -2,9 +2,9 @@ import SwiftUI
 import Contacts
 
 struct ContentView: View {
-    @ObservedObject var cursor: Cursor<IntoThumbnail & IntoTitle>
+    @ObservedObject var cursor: Cursor<AppItem>
     
-    init(cursor: Cursor<IntoThumbnail & IntoTitle>) {
+    init(cursor: Cursor<AppItem>) {
         self.cursor = cursor
     }
 

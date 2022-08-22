@@ -2,6 +2,8 @@ import SwiftUI
 import Contacts
 import os
 
+typealias AppItem = CNContact
+
 @main
 struct BoldContactsApp: App {
     let persistenceController = PersistenceController.shared
@@ -9,7 +11,7 @@ struct BoldContactsApp: App {
     // Connect to app delegate class defined in AppDelegate.swift
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
-    var cursor: Cursor<IntoThumbnail & IntoTitle>
+    var cursor: Cursor<AppItem>
 
     init() {
         logger.info("BoldContacts init")
@@ -21,7 +23,7 @@ struct BoldContactsApp: App {
         #else
             // your real device code
         #endif
-        cursor = Cursor(list: CNContactStore.list())
+        cursor = Cursor(list: CNContactStore.list(), callable: openViaCNContact)
     }
 
     var body: some Scene {

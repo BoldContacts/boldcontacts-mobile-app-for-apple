@@ -10,7 +10,7 @@ class Cursor<T>: ObservableObject {
     @Published var item: T?
     
     // Call this function when the user selects the item.
-    // Return success (true) or failure (false).
+    // Return true=success or false=failure.
     var callable: (T) -> Bool
 
     /// Initialize.
