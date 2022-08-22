@@ -9,21 +9,56 @@ class Cursor<T>: ObservableObject {
     @Published var index: Int?
     @Published var item: T?
     
-    // Call this function when the user selected the "open" functionality
-    var callable: (T) -> Void
-    
-    init(list: [T], callable: @escaping (T) -> Void) {
+    // Call this function when the user selects the item.
+    // Return success (true) or failure (false).
+    var callable: (T) -> Bool
+
+    /// Initialize.
+    ///
+    /// - Parameter list: A list of items.
+    /// - Parameter callable:A function to call when an item is chosen; return true=success or false=failure.
+    ///
+    init(list: [T], callable: @escaping (T) -> Bool) {
         logger.debug("Cursor init. list.count: \(list.count)")
         self.list = list
         self.callable = callable
         if !self.list.isEmpty {
-            navIndex(index: 0)
+            go(index: 0)
         }
         self.objectWillChange.send()
     }
     
-    public func navIndex(index: Int) {
-        logger.debug("Cursor navIndex.") //TODO: self.index: \(self.index) index: \(index)")
+    /// Call the callable function with the current item.
+    ///
+    /// Example:
+    ///
+    ///     let cursor: Cursor = …
+    ///     cursor.call()
+    ///
+    public func call() {
+        logger.debug("Cursor call.") //TODO: self.index: \(self.index)")
+        if let item = self.item {
+            logger.info("Cusor call item: \(String(describing: item))")
+            let b = callable(item)
+            if b {
+                logger.info("Cursor call success")
+            } else {
+                logger.error("Cursor call failure")
+            }
+        }
+    }
+
+    /// Go to a the list's item at the given index.
+    ///
+    /// - Parameter index: The new index.
+    ///
+    /// Example:
+    ///
+    ///     let cursor: Cursor = …
+    ///     cursor.go(index: 0)
+    ///
+    public func go(index: Int) {
+        logger.debug("Cursor go.") //TODO: self.index: \(self.index) index: \(index)")
         if index >= 0 && index < list.count {
             self.index = index
             self.item = list[index]
@@ -31,26 +66,32 @@ class Cursor<T>: ObservableObject {
         }
     }
 
-    public func navCall() {
-        logger.debug("Cursor navCall.") //TODO: self.index: \(self.index)")
-        if let item = self.item {
-            logger.info("Cusor navCall item: \(String(describing: item))")
-            callable(item)
+    /// Go to the list's previous item.
+    ///
+    /// Example:
+    ///
+    ///     let cursor: Cursor = …
+    ///     cursor.prev()
+    ///
+    public func prev() {
+        logger.debug("Cursor prev.") //TODO: self.index: \(self.index)")
+        if let i = self.index {
+            logger.debug("Cursor prev index: \(i)")
+            go(index: (i > 0) ? (i - 1) : (self.list.count - 1))
         }
     }
 
-    public func navPrev() {
-        logger.debug("Cursor navPrev.") //TODO: self.index: \(self.index)")
+    /// Go to the list's next item.
+    ///
+    /// Example:
+    ///
+    ///     let cursor: Cursor = …
+    ///     cursor.next()
+    ///
+    public func next() {
+        logger.debug("Cursor next.") //TODO: self.index: \(self.index)")
         if let i = self.index {
-            logger.debug("Cursor navPrev index: \(i)")
-            navIndex(index: (i > 0) ? (i - 1) : (self.list.count - 1))
-        }
-    }
-
-    public func navNext() {
-        logger.debug("Cursor navNext.") //TODO: self.index: \(self.index)")
-        if let i = self.index {
-            navIndex(index: (i < self.list.count - 1) ? (i + 1) : 0)
+            go(index: (i < self.list.count - 1) ? (i + 1) : 0)
         }
     }
 

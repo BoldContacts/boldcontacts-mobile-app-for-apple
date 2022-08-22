@@ -15,19 +15,19 @@ struct NavView: View {
         ) {
             HStack {
                 Button {
-                    cursor.navPrev()
+                    cursor.prev()
                 } label: {
                     ButtonImageView(systemName: Config.navPrevButtonImageSystemName)
                 }
                 .buttonStyle(AppButtonStyle())
                 Button {
-                    cursor.navCall()
+                    cursor.call()
                 } label: {
                     ButtonImageView(systemName: Config.navCallButtonImageSystemName)
                 }
                 .buttonStyle(AppButtonStyle())
                 Button {
-                    cursor.navNext()
+                    cursor.next()
                 } label: {
                     ButtonImageView(systemName: Config.navNextButtonImageSystemName)
                 }

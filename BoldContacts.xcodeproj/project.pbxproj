@@ -25,6 +25,8 @@
 		F40EACF528B047840095C188 /* CNContact_list_phoneNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACF428B047840095C188 /* CNContact_list_phoneNumbersTests.swift */; };
 		F40EACF728B047FD0095C188 /* CNContact_list_socialProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACF628B047FD0095C188 /* CNContact_list_socialProfiles.swift */; };
 		F40EACF928B048580095C188 /* CNContact_list_socialProfilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACF828B048580095C188 /* CNContact_list_socialProfilesTests.swift */; };
+		F445854928B3ED4F00C5465F /* openViaCNContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854828B3ED4F00C5465F /* openViaCNContact.swift */; };
+		F445854B28B3F14C00C5465F /* openViaCNContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854A28B3F14C00C5465F /* openViaCNContact.swift */; };
 		F472281E28A58B4100773693 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281D28A58B4100773693 /* Tests_iOS.swift */; };
 		F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */; };
 		F472282A28A58B4100773693 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472282928A58B4100773693 /* Tests_macOS.swift */; };
@@ -219,6 +221,8 @@
 		F40EACF428B047840095C188 /* CNContact_list_phoneNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_list_phoneNumbersTests.swift; sourceTree = "<group>"; };
 		F40EACF628B047FD0095C188 /* CNContact_list_socialProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_list_socialProfiles.swift; sourceTree = "<group>"; };
 		F40EACF828B048580095C188 /* CNContact_list_socialProfilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_list_socialProfilesTests.swift; sourceTree = "<group>"; };
+		F445854828B3ED4F00C5465F /* openViaCNContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openViaCNContact.swift; sourceTree = "<group>"; };
+		F445854A28B3F14C00C5465F /* openViaCNContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openViaCNContact.swift; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F472280428A58B4000773693 /* BoldContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldContactsApp.swift; sourceTree = "<group>"; };
 		F472280528A58B4000773693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -595,6 +599,7 @@
 				F472289D28A5939000773693 /* openViaSMS.swift */,
 				F472289A28A5939000773693 /* openViaString.swift */,
 				F472289F28A5939000773693 /* openViaTel.swift */,
+				F445854828B3ED4F00C5465F /* openViaCNContact.swift */,
 			);
 			path = Open;
 			sourceTree = "<group>";
@@ -709,6 +714,7 @@
 				F47228EC28A9623200773693 /* openViaSMSTests.swift */,
 				F47228EF28A9623200773693 /* openViaStringTests.swift */,
 				F47228EA28A9623200773693 /* openViaTelTests.swift */,
+				F445854A28B3F14C00C5465F /* openViaCNContact.swift */,
 			);
 			path = Open;
 			sourceTree = "<group>";
@@ -948,6 +954,7 @@
 				F472284E28A58FD500773693 /* CNContact_intoString.swift in Sources */,
 				F472284A28A58F8D00773693 /* CNContact_fullName.swift in Sources */,
 				F472283328A58B4100773693 /* Persistence.swift in Sources */,
+				F445854928B3ED4F00C5465F /* openViaCNContact.swift in Sources */,
 				F472285228A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */,
 				F472289528A5930000773693 /* Logger.swift in Sources */,
 				F47228AA28A5947200773693 /* RectangleHorizontalRule.swift in Sources */,
@@ -1013,6 +1020,7 @@
 				F472295F28A9660A00773693 /* CNContactStore_deleteByNameTests.swift in Sources */,
 				F472296828A9660A00773693 /* UIImage_cropToSquareTests.swift in Sources */,
 				F472295C28A9660A00773693 /* UIImage_resizeTests.swift in Sources */,
+				F445854B28B3F14C00C5465F /* openViaCNContact.swift in Sources */,
 				F472292928A9628900773693 /* fabAirNameTests.swift in Sources */,
 				F47229A828AB11F200773693 /* fabCNContactPhoneNumbersTests.swift in Sources */,
 				F47229B128AB1A5B00773693 /* fabCNContactSocialProfilesTests.swift in Sources */,
