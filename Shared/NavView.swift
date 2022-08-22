@@ -21,9 +21,9 @@ struct NavView: View {
                 }
                 .buttonStyle(AppButtonStyle())
                 Button {
-                    cursor.navOpen()
+                    cursor.navCall()
                 } label: {
-                    ButtonImageView(systemName: Config.navOpenButtonImageSystemName)
+                    ButtonImageView(systemName: Config.navCallButtonImageSystemName)
                 }
                 .buttonStyle(AppButtonStyle())
                 Button {
