@@ -23,7 +23,7 @@ struct BoldContactsApp: App {
         #else
             // your real device code
         #endif
-        cursor = Cursor(list: CNContactStore.list(), callable: openViaCNContact)
+        cursor = Cursor<AppItem>(list: CNContactStore.list(), callable: openViaCNContact)
     }
 
     var body: some Scene {
