@@ -137,3 +137,10 @@ func demoDeleteContactsForABCDEF() {
     CNContactStore.deleteByName(name: "Eve Evans")
     CNContactStore.deleteByName(name: "Frank Franklin")
 }
+
+func demoContacts() {
+    demoDeleteContactForMe()
+    demoCreateContactForMe()
+    demoDeleteContactsForABCDEF()
+    demoCreateContactsForABCDEF()
+}

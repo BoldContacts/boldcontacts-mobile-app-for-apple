@@ -16,13 +16,11 @@ struct BoldContactsApp: App {
         CNContactStore().requestAccess(for: .contacts) { (access, error) in
             logger.info("Access: \(access)")
         }
-        /* if this is a development run */
-        if true {
-            demoDeleteContactForMe()
-            demoCreateContactForMe()
-            demoDeleteContactsForABCDEF()
-            demoCreateContactsForABCDEF()
-        }
+        #if targetEnvironment(simulator)
+            demoContacts()
+        #else
+            // your real device code
+        #endif
         cursor = Cursor(list: CNContactStore.list())
     }
 
@@ -33,7 +31,7 @@ struct BoldContactsApp: App {
     }
     
 }
-    
+
 //Original:
 //    var body: some Scene {
 //        WindowGroup {
