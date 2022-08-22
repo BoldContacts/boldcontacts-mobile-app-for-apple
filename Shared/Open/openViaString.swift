@@ -9,7 +9,7 @@ import UIKit
 ///      let urlString: String = "https://example.com"
 ///      openViaURLString(urlString)
 ///
-public func openViaString(string: String) {
+public func openViaString(string: String) -> Bool {
     logger.debug("openViaString. string: \(string)")
     let parsed = string //TODO: parse
     let urlString = parsePhoneNumberStringToURLSafeString(string: string)
@@ -17,9 +17,10 @@ public func openViaString(string: String) {
         openViaStringTry(string: string, parsed: parsed, urlString: urlString, url: url)
         UIApplication.shared.open(url)
         openViaStringSuccess(string: string, parsed: parsed, urlString: urlString, url: url)
-    } else {
-        openViaStringFailure(string: string, parsed: parsed, urlString: urlString)
+        return true
     }
+    openViaStringFailure(string: string, parsed: parsed, urlString: urlString)
+    return false
 }
 
 private func openViaStringTry(

@@ -9,7 +9,7 @@ import UIKit
 ///      let emailAddress: String = "alice@example.com"
 ///      openViaMail(emailAddress)
 ///
-public func openViaMailTo(string: String) {
+public func openViaMailTo(string: String) -> Bool {
     logger.debug("openViaMailTo. string: \(string)")
     let parsed = parsePhoneNumberStringToURLSafeString(string: string)
     let urlString = "mailto://\(parsed)"
@@ -17,9 +17,10 @@ public func openViaMailTo(string: String) {
         openViaMailToTry(string: string, parsed: parsed, urlString: urlString, url: url)
         UIApplication.shared.open(url)
         openViaMailToSuccess(string: string, parsed: parsed, urlString: urlString, url: url)
-    } else {
-        openViaMailToFailure(string: string, parsed: parsed, urlString: urlString)
+        return true
     }
+    openViaMailToFailure(string: string, parsed: parsed, urlString: urlString)
+    return false
 }
 
 private func openViaMailToTry(

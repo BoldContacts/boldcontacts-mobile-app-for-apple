@@ -9,7 +9,7 @@ import UIKit
 ///      let phoneNumberString: String = "+1-415-555-5555"
 ///      openViaSMS(phoneNumberString)
 ///
-public func openViaTel(string: String) {
+public func openViaTel(string: String) -> Bool {
     logger.debug("openViaTel. string: \(string)")
     let parsed = parsePhoneNumberStringToURLSafeString(string: string)
     let urlString = "tel://\(parsed)"
@@ -17,9 +17,10 @@ public func openViaTel(string: String) {
         openViaTelTry(string: string, parsed: parsed, urlString: urlString, url: url)
         UIApplication.shared.open(url)
         openViaTelSuccess(string: string, parsed: parsed, urlString: urlString, url: url)
-    } else {
-        openViaTelFailure(string: string, parsed: parsed, urlString: urlString)
+        return true
     }
+    openViaTelFailure(string: string, parsed: parsed, urlString: urlString)
+    return false
 }
 
 private func openViaTelTry(

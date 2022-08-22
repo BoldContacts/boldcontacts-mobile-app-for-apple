@@ -9,7 +9,7 @@ import UIKit
 ///      let phoneNumberString: String = "+1-415-555-5555"
 ///      openViaFaceTime(phoneNumberString)
 ///
-public func openViaFaceTime(string: String) {
+public func openViaFaceTime(string: String) -> Bool {
     logger.debug("openViaFaceTime. string: \(string)")
     let parsed = parsePhoneNumberStringToURLSafeString(string: string)
     let urlString = "facetime://\(parsed)"
@@ -17,9 +17,10 @@ public func openViaFaceTime(string: String) {
         openViaFaceTimeTry(string: string, parsed: parsed, urlString: urlString, url: url)
         UIApplication.shared.open(url)
         openViaFaceTimeSuccess(string: string, parsed: parsed, urlString: urlString, url: url)
-    } else {
-        openViaFaceTimeFailure(string: string, parsed: parsed, urlString: urlString)
+        return true
     }
+    openViaFaceTimeFailure(string: string, parsed: parsed, urlString: urlString)
+    return false
 }
 
 private func openViaFaceTimeTry(
