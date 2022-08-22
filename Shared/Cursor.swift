@@ -3,13 +3,19 @@ import SwiftUI
 /// A data cursor that navigates on the app's list of items
 ///
 class Cursor<T>: ObservableObject {
+    
+    // Track the list of items
     @Published var list: [T]
     @Published var index: Int?
     @Published var item: T?
-
-    init(list: [T]) {
+    
+    // Call this function when the user selected the "open" functionality
+    var callable: (T) -> Void
+    
+    init(list: [T], callable: @escaping (T) -> Void) {
         logger.debug("Cursor init. list.count: \(list.count)")
         self.list = list
+        self.callable = callable
         if !self.list.isEmpty {
             navIndex(index: 0)
         }
@@ -25,12 +31,11 @@ class Cursor<T>: ObservableObject {
         }
     }
 
-    public func navOpen() {
-        logger.debug("Cursor navOpen.") //TODO: self.index: \(self.index)")
-        if let i = self.index {
-            logger.debug("Cursor navOpen index: \(i)")
-            let item = list[i]
-            logger.info("Cusor navOpen item: \(String(describing: item))")
+    public func navCall() {
+        logger.debug("Cursor navCall.") //TODO: self.index: \(self.index)")
+        if let item = self.item {
+            logger.info("Cusor navCall item: \(String(describing: item))")
+            callable(item)
         }
     }
 
