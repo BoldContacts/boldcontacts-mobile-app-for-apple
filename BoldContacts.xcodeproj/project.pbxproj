@@ -31,6 +31,7 @@
 		F445854F28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */; };
 		F445855128B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */; };
 		F445855328B6C97000C5465F /* CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445855228B6C97000C5465F /* CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift */; };
+		F445855628B6E37E00C5465F /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = F445855528B6E37E00C5465F /* ViewInspector */; };
 		F472281E28A58B4100773693 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281D28A58B4100773693 /* Tests_iOS.swift */; };
 		F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */; };
 		F472282A28A58B4100773693 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472282928A58B4100773693 /* Tests_macOS.swift */; };
@@ -407,6 +408,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F445855628B6E37E00C5465F /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,6 +806,9 @@
 				F472281B28A58B4100773693 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
+			packageProductDependencies = (
+				F445855528B6E37E00C5465F /* ViewInspector */,
+			);
 			productName = "Tests iOS";
 			productReference = F472281928A58B4100773693 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -861,6 +866,9 @@
 				Base,
 			);
 			mainGroup = F47227FC28A58B4000773693;
+			packageReferences = (
+				F445855428B6E37E00C5465F /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			productRefGroup = F472280D28A58B4000773693 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1483,6 +1491,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F445855428B6E37E00C5465F /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F445855528B6E37E00C5465F /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F445855428B6E37E00C5465F /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F472280228A58B4000773693 /* BoldContacts.xcdatamodeld */ = {
