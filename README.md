@@ -1,10 +1,10 @@
 #  BoldContacts
 
-BoldContacts is an app is a greatly-simpler way to browse contacts and connect to them.
+BoldContacts is an app that helps you browse your contacts and connect with them.
 
-BoldContacts is good for people experiencing vision disabiltiies, cognitive disabilties, or motor disabiltiies. The app displays each contact with a large photo, large text, and large buttons.
+BoldContacts is intended for people who experience vision disabiltiies, cognitive disabilties, or motor disabiltiies. The app displays each contact with a large photo, large text, and large buttons.
  
-BoldContacts started because our family members have Alzheimer's disease and Parkison's disease, and are unable to use the typical contacts app. Our hope is BoldContacts can help them.
+BoldContacts started because our family members have Alzheimer's disease and Parkison's disease, and are unable to use the typical contacts app. BoldContacts helps our family keep in touch, and helps caretakers connect with us.
 
 
 ## Screenshot
