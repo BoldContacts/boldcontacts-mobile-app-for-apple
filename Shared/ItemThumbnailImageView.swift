@@ -6,6 +6,7 @@ struct ItemThumbnailImageView: View {
 
     var body: some View {
         intoImage(item: item)
+            .accessibilityLabel("ItemThumbnailImageView")
             .frame(maxWidth: .infinity, alignment: .center)
             .padding(.all, 0)
     }

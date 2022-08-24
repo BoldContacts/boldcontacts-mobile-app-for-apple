@@ -6,6 +6,7 @@ struct ItemTitleTextView: View {
 
     var body: some View {
         intoText(item: item)
+            .accessibilityLabel("ItemTitleTextView")
             .frame(maxWidth: .infinity, alignment: .center)
             .multilineTextAlignment(.center)
             .font(Font.largeTitle.weight(.bold))

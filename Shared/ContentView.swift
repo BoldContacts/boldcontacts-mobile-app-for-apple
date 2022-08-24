@@ -24,6 +24,7 @@ struct ContentView: View {
                 NavView(cursor: cursor)
             }
         }
+        .accessibilityLabel("ContentView")
     }
 }
 
