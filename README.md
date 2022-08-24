@@ -13,9 +13,9 @@ BoldContacts started because our family members have Alzheimer's disease and Par
 
 The app shows each contact's photo and name.
 
-One button calls the contact.
-
 Two buttons navigate backward/forward in the contacts.
+
+One button connects. This can use your choice of FaceTime video, or a phone call, or an email message, or a custom URL.
 
 
 ## Help Wanted
