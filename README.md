@@ -18,6 +18,24 @@ Two buttons navigate backward/forward in the contacts.
 One button connects. This can use your choice of FaceTime video, or a phone call, or an email message, or a custom URL.
 
 
+## Setup
+
+The first time you launch BoldContats, you will see an Apple iOS prompt that asks for you to approve this access.
+
+Say yes.
+
+
+## Personalization
+
+You can personalize how your BoldContacts app will connect to your contact:
+
+1. Launch your typical Apple Contacts app, and edit the contact.
+
+2. Create a new contact field i.e. phone number, or email address, or URL address.
+
+3. Edit the new contact field label to be "BoldContacts".
+
+
 ## Help Wanted
 
 Contact the author at <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
