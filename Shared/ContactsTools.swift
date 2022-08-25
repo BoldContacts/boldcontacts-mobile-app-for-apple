@@ -13,6 +13,8 @@ import Contacts
 
 /// Create a contact with a name.
 ///
+/// Return true=success or false=failure.
+/// 
 /// Example:
 ///
 ///     let contact: CNContact = createContactWithName(
@@ -21,11 +23,11 @@ import Contacts
 ///         lastName: "Adams"
 ///     )
 ///
-func createContactWithName(givenName: String, middleName: String, familyName: String) {
+func createContactWithName(givenName: String, middleName: String, familyName: String) -> Bool {
     let contact = CNMutableContact()
     contact.givenName = givenName
     contact.middleName = middleName
     contact.familyName = familyName
-    CNContactStore.create(contact: contact)
+    return CNContactStore.create(contact: contact)
 }
 

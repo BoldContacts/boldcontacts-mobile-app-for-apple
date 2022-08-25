@@ -4,12 +4,14 @@ extension CNContactStore {
 
     /// Create a contact.
     ///
+    /// Return true=success or false=failure.
+    ///
     /// Example:
     ///
     ///     let contact: CNContact = …
     ///     CNContactStore.create(contact)
     ///
-    public class func create(contact: CNMutableContact) {
+    public class func create(contact: CNMutableContact) -> Bool {
         let store = CNContactStore()
         let saveRequest = CNSaveRequest()
         saveRequest.add(contact, toContainerWithIdentifier: nil)
@@ -17,9 +19,11 @@ extension CNContactStore {
             CNContactStore.createTry(contact: contact)
             try store.execute(saveRequest)
             CNContactStore.createSuccess(contact: contact)
+            return true
         } catch {
             CNContactStore.createFailure(contact: contact, error: String(describing: error))
         }
+        return false
     }
 
     public class func createTry(contact: CNMutableContact) {

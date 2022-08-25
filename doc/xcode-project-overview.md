@@ -116,7 +116,9 @@ Folders:
 
 * UIColor
 
-  * lighter_darker: make a color lighter or darker
+  * lighter: make a color darker
+  
+  * darker: make a color darker
   
 * UIImage
 

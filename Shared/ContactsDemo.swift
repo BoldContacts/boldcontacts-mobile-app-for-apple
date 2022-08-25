@@ -64,8 +64,7 @@ public func demoCreateContactWithNameAndImage(
             """
         )
     }
-
-    CNContactStore.create(contact: contact)
+    let _ = CNContactStore.create(contact: contact)
 }
 
 public func demoCreateContactForMe() {
@@ -88,11 +87,11 @@ public func demoCreateContactForMe() {
             value: fabEmailAddressAsString() as NSString
         ),
     ]
-    CNContactStore.create(contact: contact)
+    let _ = CNContactStore.create(contact: contact)
 }
 
 public func demoDeleteContactForMe() {
-    CNContactStore.deleteByName(name: "Joelx Hendersonx")
+    let _ = CNContactStore.deleteByName(name: "Joelx Hendersonx")
 }
 
 public func demoCreateContactsForABCDEF() {
@@ -130,12 +129,12 @@ public func demoCreateContactsForABCDEF() {
 }
 
 func demoDeleteContactsForABCDEF() {
-    CNContactStore.deleteByName(name: "Alice Adams")
-    CNContactStore.deleteByName(name: "Bob Brown")
-    CNContactStore.deleteByName(name: "Carol Curtis")
-    CNContactStore.deleteByName(name: "Dave Davis")
-    CNContactStore.deleteByName(name: "Eve Evans")
-    CNContactStore.deleteByName(name: "Frank Franklin")
+    let _ = CNContactStore.deleteByName(name: "Alice Adams")
+    let _ = CNContactStore.deleteByName(name: "Bob Brown")
+    let _ = CNContactStore.deleteByName(name: "Carol Curtis")
+    let _ = CNContactStore.deleteByName(name: "Dave Davis")
+    let _ = CNContactStore.deleteByName(name: "Eve Evans")
+    let _ = CNContactStore.deleteByName(name: "Frank Franklin")
 }
 
 func demoContacts() {

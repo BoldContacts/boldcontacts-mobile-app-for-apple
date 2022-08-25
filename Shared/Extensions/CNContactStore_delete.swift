@@ -4,12 +4,14 @@ extension CNContactStore {
 
     /// Delete a contact.
     ///
+    /// Return true=success or false=failure.
+    ///
     /// Example:
     ///
     ///     let contact: CNContact = …
     ///     CNContactStore.delete(contact)
     ///
-    public class func delete(contact: CNMutableContact) {
+    public class func delete(contact: CNMutableContact) -> Bool {
         let store = CNContactStore()
         let saveRequest = CNSaveRequest()
         saveRequest.delete(contact)
@@ -17,9 +19,11 @@ extension CNContactStore {
             CNContactStore.deleteTry(contact: contact)
             try store.execute(saveRequest)
             CNContactStore.deleteSuccess(contact: contact)
+            return true
         } catch {
             CNContactStore.deleteFailure(contact: contact, error: String(describing: error))
         }
+        return false
     }
 
     public class func deleteTry(contact: CNMutableContact) {

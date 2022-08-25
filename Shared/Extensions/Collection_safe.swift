@@ -14,7 +14,8 @@ extension Collection {
     ///         print(item)
     ///     }
     /// }
-    ///
+    /// ```
+    /// 
     /// Thanks: https://stackoverflow.com/users/1607485/nikita-kukushkin
     ///
     public subscript (safe index: Index) -> Element? {

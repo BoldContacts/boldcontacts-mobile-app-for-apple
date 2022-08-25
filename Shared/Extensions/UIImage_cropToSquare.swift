@@ -9,7 +9,16 @@ import UIKit
 ///   * https://stackoverflow.com/questions/14203951/cropping-center-square-of-uiimage
 ///
 extension UIImage {
-    
+
+    /// Crop an image to a square size.
+    ///
+    /// Example:
+    ///
+    /// ```
+    /// let image: UIImage = UIImage(systemName: "star.fill")!
+    /// let square: UIImage = image.cropToSquare()!
+    /// ```
+    ///
     public func cropToSquare() -> UIImage? {
         var imageHeight = self.size.height
         var imageWidth = self.size.width

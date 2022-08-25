@@ -4,15 +4,18 @@ extension CNContactStore {
     
     /// Delete contacts by a matching name.
     ///
+    /// Return true=success or false=failure.
+    /// 
     /// Example:
     ///
     ///     CNContactStore.deleteByName(name: "Alice")
     ///
-    public class func deleteByName(name: String) {
+    public class func deleteByName(name: String) -> Bool {
         let store = CNContactStore()
         let fetchRequest = CNContactFetchRequest(keysToFetch: [CNContactFormatter.descriptorForRequiredKeys(for: .fullName)])
         fetchRequest.predicate = CNContact.predicateForContacts(matchingName: name)
         fetchRequest.mutableObjects = true
+        var result = false
         try? store.enumerateContacts(with: fetchRequest, usingBlock: { contact, _ in
             let saveRequest = CNSaveRequest()
             saveRequest.delete(contact.mutableCopy() as! CNMutableContact)
@@ -20,10 +23,12 @@ extension CNContactStore {
                 deleteByNameTry(name: name, contact: contact)
                 try store.execute(saveRequest)
                 deleteByNameSuccess(name: name, contact: contact)
+                result = true
             } catch {
                 deleteByNameFailure(name: name, contact: contact, error: String(describing: error))
             }
         })
+        return result
     }
 
     public class func deleteByNameTry(

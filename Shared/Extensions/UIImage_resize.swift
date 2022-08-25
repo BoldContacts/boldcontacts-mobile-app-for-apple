@@ -10,6 +10,16 @@ import UIKit
 ///
 extension UIImage {
 
+    /// Resize an image to a given size.
+    ///
+    /// Example:
+    ///
+    /// ```
+    /// let image: UIImage = UIImage(systemName: "star.fill")!
+    /// let size: CGSize = CGSize(width: 10, height: 10)
+    /// let resized: UIImage = image.resize(targetSize: size)!
+    /// ```
+    ///
     func resize(targetSize: CGSize) -> UIImage {
         let size = self.size
 

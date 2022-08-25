@@ -150,7 +150,6 @@
 		F472296628A9660A00773693 /* CNContactStore_areKeysAvailableOrFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472295428A9660A00773693 /* CNContactStore_areKeysAvailableOrFetchTests.swift */; };
 		F472296728A9660A00773693 /* CNContactStore_deleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472295528A9660A00773693 /* CNContactStore_deleteTests.swift */; };
 		F472296828A9660A00773693 /* UIImage_cropToSquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472295628A9660A00773693 /* UIImage_cropToSquareTests.swift */; };
-		F472296928A9660A00773693 /* UIColor_lighter_darkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472295728A9660A00773693 /* UIColor_lighter_darkerTests.swift */; };
 		F472297D28AA9E0B00773693 /* BoldContactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296A28AA9E0B00773693 /* BoldContactsAppTests.swift */; };
 		F472297E28AA9E0B00773693 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296B28AA9E0B00773693 /* AppDelegateTests.swift */; };
 		F472297F28AA9E0B00773693 /* ConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296C28AA9E0B00773693 /* ConfigTests.swift */; };
@@ -351,7 +350,6 @@
 		F472295428A9660A00773693 /* CNContactStore_areKeysAvailableOrFetchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_areKeysAvailableOrFetchTests.swift; sourceTree = "<group>"; };
 		F472295528A9660A00773693 /* CNContactStore_deleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_deleteTests.swift; sourceTree = "<group>"; };
 		F472295628A9660A00773693 /* UIImage_cropToSquareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_cropToSquareTests.swift; sourceTree = "<group>"; };
-		F472295728A9660A00773693 /* UIColor_lighter_darkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_lighter_darkerTests.swift; sourceTree = "<group>"; };
 		F472296A28AA9E0B00773693 /* BoldContactsAppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoldContactsAppTests.swift; sourceTree = "<group>"; };
 		F472296B28AA9E0B00773693 /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 		F472296C28AA9E0B00773693 /* ConfigTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTests.swift; sourceTree = "<group>"; };
@@ -711,7 +709,6 @@
 				F472294F28A9660A00773693 /* CNContactStore_listTests.swift */,
 				F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */,
 				F472295228A9660A00773693 /* Collection_safeTests.swift */,
-				F472295728A9660A00773693 /* UIColor_lighter_darkerTests.swift */,
 				F472295628A9660A00773693 /* UIImage_cropToSquareTests.swift */,
 				F472295128A9660A00773693 /* UIImage_emptyTests.swift */,
 				F472294A28A9660A00773693 /* UIImage_resizeTests.swift */,
@@ -1038,7 +1035,6 @@
 				F472295A28A9660A00773693 /* CNContactStore_isKeyAvailableOrFetchTests.swift in Sources */,
 				F472295828A9660A00773693 /* CNContactStore_createTests.swift in Sources */,
 				F472296328A9660A00773693 /* UIImage_emptyTests.swift in Sources */,
-				F472296928A9660A00773693 /* UIColor_lighter_darkerTests.swift in Sources */,
 				F472295F28A9660A00773693 /* CNContactStore_deleteByNameTests.swift in Sources */,
 				F472296828A9660A00773693 /* UIImage_cropToSquareTests.swift in Sources */,
 				F472295C28A9660A00773693 /* UIImage_resizeTests.swift in Sources */,
