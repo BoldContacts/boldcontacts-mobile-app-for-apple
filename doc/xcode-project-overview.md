@@ -114,12 +114,6 @@ Folders:
 
   * safe: safe index for any collection
 
-* UIColor
-
-  * lighter: make a color darker
-  
-  * darker: make a color darker
-  
 * UIImage
 
   * empty: provide an empty image i.e. blank image
