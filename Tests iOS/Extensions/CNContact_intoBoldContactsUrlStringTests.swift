@@ -1,10 +1,3 @@
-//
-//  CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift
-//  Tests iOS
-//
-//  Created by jph on 8/24/22.
-//
-
 import XCTest
 import Contacts
 @testable import BoldContacts

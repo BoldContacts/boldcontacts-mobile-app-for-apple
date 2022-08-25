@@ -1,10 +1,3 @@
-//
-//  CNLabeledValue_isBoldContacts.swift
-//  Tests iOS
-//
-//  Created by jph on 8/24/22.
-//
-
 import XCTest
 
 class CNLabeledValue_labelEquivalentTests: XCTestCase {

@@ -1,10 +1,3 @@
-//
-//  Persistence.swift
-//  Shared
-//
-//  Created by jph on 8/11/22.
-//
-
 import CoreData
 
 struct PersistenceController {

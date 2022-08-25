@@ -30,7 +30,6 @@
 		F445854D28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */; };
 		F445854F28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */; };
 		F445855128B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */; };
-		F445855328B6C97000C5465F /* CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445855228B6C97000C5465F /* CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift */; };
 		F445855628B6E37E00C5465F /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = F445855528B6E37E00C5465F /* ViewInspector */; };
 		F472281E28A58B4100773693 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281D28A58B4100773693 /* Tests_iOS.swift */; };
 		F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */; };
@@ -184,6 +183,7 @@
 		F47229DB28AC15BD00773693 /* fabCNContactSocialProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47229B628AB29D100773693 /* fabCNContactSocialProfiles.swift */; };
 		F47229DC28AC15BD00773693 /* fabCNPostalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47229B728AB29D100773693 /* fabCNPostalAddress.swift */; };
 		F47229DD28AC15BD00773693 /* fabCNSocialProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47229B828AB29D100773693 /* fabCNSocialProfile.swift */; };
+		F4D815CA28B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,7 +231,6 @@
 		F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlString.swift; sourceTree = "<group>"; };
 		F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalent.swift; sourceTree = "<group>"; };
 		F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalentTests.swift; sourceTree = "<group>"; };
-		F445855228B6C97000C5465F /* CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift"; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F472280428A58B4000773693 /* BoldContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldContactsApp.swift; sourceTree = "<group>"; };
 		F472280528A58B4000773693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -387,6 +386,7 @@
 		F47229B728AB29D100773693 /* fabCNPostalAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNPostalAddress.swift; sourceTree = "<group>"; };
 		F47229B828AB29D100773693 /* fabCNSocialProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNSocialProfile.swift; sourceTree = "<group>"; };
 		F47229B928AB29D100773693 /* fabCNContactPostalAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNContactPostalAddresses.swift; sourceTree = "<group>"; };
+		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -700,8 +700,8 @@
 				F40EACF028B046050095C188 /* CNContact_list_postalAddressesTests.swift */,
 				F40EACF828B048580095C188 /* CNContact_list_socialProfilesTests.swift */,
 				F40EACE828B03EED0095C188 /* CNContact_list_urlAddressesTests.swift */,
-				F445855228B6C97000C5465F /* CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift */,
 				F472295328A9660A00773693 /* CNContact_intoStringTests.swift */,
+				F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */,
 				F472295428A9660A00773693 /* CNContactStore_areKeysAvailableOrFetchTests.swift */,
 				F472294628A9660A00773693 /* CNContactStore_createTests.swift */,
 				F472294D28A9660A00773693 /* CNContactStore_deleteByNameTests.swift */,
@@ -1032,7 +1032,6 @@
 				F472296528A9660A00773693 /* CNContact_intoStringTests.swift in Sources */,
 				F472296628A9660A00773693 /* CNContactStore_areKeysAvailableOrFetchTests.swift in Sources */,
 				F40EACED28B0451E0095C188 /* CNContact_list_emailAddresses.swift in Sources */,
-				F445855328B6C97000C5465F /* CNContact_intoBoldContactsUrlString.swift CNContact_intoBoldContactsUrlStringTests.swift in Sources */,
 				F472295D28A9660A00773693 /* CNContactStore_keysToFetchTests.swift in Sources */,
 				F472296728A9660A00773693 /* CNContactStore_deleteTests.swift in Sources */,
 				F472296128A9660A00773693 /* CNContactStore_listTests.swift in Sources */,
@@ -1084,6 +1083,7 @@
 				F472298B28AA9E0B00773693 /* ContactsToolsTests.swift in Sources */,
 				F472292728A9628900773693 /* fabUnitedStatesStateCodeAsStringTests.swift in Sources */,
 				F472296428A9660A00773693 /* Collection_safeTests.swift in Sources */,
+				F4D815CA28B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift in Sources */,
 				F47229A028AB0F1C00773693 /* fabCNContactEmailAddressesTest.swift in Sources */,
 				F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */,
 				F47228F228A9623200773693 /* openViaSMSTests.swift in Sources */,
