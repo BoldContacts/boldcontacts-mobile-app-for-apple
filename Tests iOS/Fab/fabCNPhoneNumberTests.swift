@@ -1,5 +1,5 @@
 import XCTest
-import BoldContacts
+@testable import BoldContacts
 
 class fabCNPhoneNumberTests: XCTestCase {
 

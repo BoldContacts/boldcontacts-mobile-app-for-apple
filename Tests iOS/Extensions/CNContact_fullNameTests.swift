@@ -1,25 +1,17 @@
 import XCTest
+@testable import BoldContacts
 
 class CNContact_fullNameTests: XCTestCase {
 
-    override func setUpWithError() throws {
-    }
-
-    override func tearDownWithError() throws {
-    }
-
     func test() throws {
 //        let x = CNMutableContact()
-//        x.givenName = "alpha"
+//        x.givenName = "alfa"
 //        x.middleName = "bravo"
 //        x.familyName = "charlie"
 //        let y: CNContact = x
-//        XCTAssertEqual("alpha bravo charlie", y.fullName())
-    }
-
-    func testPerformanceExample() throws {
-        self.measure {
-        }
+//        let expect = "alfa bravo charlie"
+//        let actual = y.fullName()
+//        XCTAssertEqual(expect, actual)
     }
 
 }

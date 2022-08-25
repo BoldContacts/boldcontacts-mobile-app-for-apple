@@ -1,12 +1,7 @@
 import XCTest
+@testable import BoldContacts
 
 class CharacterSet_uriTests: XCTestCase {
-
-    override func setUpWithError() throws {
-    }
-
-    override func tearDownWithError() throws {
-    }
 
     func test_uriUnreserveds() throws {
 //        let _: CharacterSet = CharacterSet.uriUnreserveds
@@ -22,11 +17,6 @@ class CharacterSet_uriTests: XCTestCase {
 
     func test_uriSubcomponentDelimiters() throws {
 //        let _: CharacterSet = CharacterSet.uriSubcomponentDelimiters
-    }
-
-    func testPerformanceExample() throws {
-        self.measure {
-        }
     }
 
 }

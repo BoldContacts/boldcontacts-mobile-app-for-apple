@@ -1,41 +1,36 @@
-//
-//  ContentViewTests.swift
-//  Tests iOS
-//
-//  Created by jph on 8/19/22.
-//
-
 import XCTest
+import Contacts
+import ViewInspector
+@testable import BoldContacts
 
-class ContentViewTests: XCTestCase {
+//extension ContentView: Inspectable {}
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+final class ContentViewTests: XCTestCase {
 
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+    func callable(_: AppItem) -> Bool {
+        return false
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testItemTitleTextView() throws {
+//        let contact = CNMutableContact()
+//        contact.givenName = "Alice"
+//        contact.familyName = "Adams"
+//        let cursor: Cursor<AppItem> = Cursor(list: [contact], callable: callable)
+//        let sut = ContentView(cursor: cursor)
+//        let expect = "Alice Adams"
+//        let actual = try sut.inspect().text().string()
+//        XCTAssertEqual(expect, actual)
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testItemThumbnailImageView() throws {
+//        let contact = CNMutableContact()
+//        let image = UIImage(systemName: "star.fill")
+//        let imageData = image!.jpegData(compressionQuality: 1.0)
+//        contact.imageData = imageData
+//        let cursor: Cursor<AppItem> = Cursor(list: [contact], callable: callable)
+//        let sut = ContentView(cursor: cursor)
+//        let actual = try sut.inspect().image().data()
+//        XCTAssertEqual(expect, actual)
     }
 
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
-    }
 }

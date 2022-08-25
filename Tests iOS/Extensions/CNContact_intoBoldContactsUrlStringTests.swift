@@ -4,15 +4,91 @@ import Contacts
 
 class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContactsUrlStringTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testLabelBoldContactsAndEmailAddress() throws {
+//        let contact = CNMutableContact()
+//        let emailAddress = "alice@example.com"
+//        contact.emailAddresses = [
+//            CNLabeledValue(
+//                label: "BoldContacts",
+//                value: emailAddress as NSString
+//            ),
+//        ]
+//        let expect = "mailto://alice@example.com"
+//        let actual = contact.intoBoldContactsUrlString()
+//        XCTAssertEqual(expect, actual)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testLabelBoldContactsAndPhoneNumber() throws {
+//        let contact = CNMutableContact()
+//        let phoneNumber = "1 (555) 555-5555"
+//        contact.phoneNumbers = [
+//            CNLabeledValue(
+//                label: "BoldContacts",
+//                value: CNPhoneNumber(stringValue: phoneNumber)
+//            ),
+//        ]
+//        let expect = "tel://15555555555"
+//        let actual = contact.intoBoldContactsUrlString()
+//        XCTAssertEqual(expect, actual)
     }
 
-//    func testLabelNilAndEmailAddress() throws {
+    func testLabelBoldContactsAndUrlAddress() throws {
+//        let contact = CNMutableContact()
+//        let urlAddress = "foo://example.com"
+//        contact.urlAddresses = [
+//            CNLabeledValue(
+//                label: "BoldContacts",
+//                value: urlAddress as NSString
+//            ),
+//        ]
+//        let expect = "foo://example.com"
+//        let actual = contact.intoBoldContactsUrlString()
+//        XCTAssertEqual(expect, actual)
+    }
+
+    func testLabelFaceTimeAndEmailAddress() throws {
+//        let contact = CNMutableContact()
+//        let emailAddress = "alice@example.com"
+//        contact.emailAddresses = [
+//            CNLabeledValue(
+//                label: "FaceTime",
+//                value: emailAddress as NSString
+//            ),
+//        ]
+//        let expect = "facetime://alice@example.com"
+//        let actual = contact.intoBoldContactsUrlString()
+//        XCTAssertEqual(expect, actual)
+    }
+
+    func testLabelFaceTimeAndPhoneNumber() throws {
+//        let contact = CNMutableContact()
+//        let phoneNumber = "1 (555) 555-5555"
+//        contact.phoneNumbers = [
+//            CNLabeledValue(
+//                label: "FaceTime",
+//                value: CNPhoneNumber(stringValue: phoneNumber)
+//            ),
+//        ]
+//        let expect = "facetime://15555555555"
+//        let actual = contact.intoBoldContactsUrlString()
+//        XCTAssertEqual(expect, actual)
+    }
+
+    func testLabelFaceTimeAndUrlAddress() throws {
+//        let contact = CNMutableContact()
+//        let urlAddress = "foo://example.com"
+//        contact.urlAddresses = [
+//            CNLabeledValue(
+//                label: "FaceTime",
+//                value: urlAddress as NSString
+//            ),
+//        ]
+//        let expect = "facetime://example.com"
+//        let actual = contact.intoBoldContactsUrlString()
+//        XCTAssertEqual(expect, actual)
+    }
+
+    func testLabelNilAndEmailAddress() throws {
 //        let contact = CNMutableContact()
 //        let emailAddress = "alice@example.com"
 //        contact.emailAddresses = [
@@ -24,9 +100,9 @@ class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContactsUrlStr
 //        let expect = "mailto://alice@example.com"
 //        let actual = contact.intoBoldContactsUrlString()
 //        XCTAssertEqual(expect, actual)
-//    }
-//
-//    func testLabelNilAndPhoneNumber() throws {
+    }
+
+    func testLabelNilAndPhoneNumber() throws {
 //        let contact = CNMutableContact()
 //        let phoneNumber = "1 (555) 555-5555"
 //        contact.phoneNumbers = [
@@ -38,9 +114,9 @@ class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContactsUrlStr
 //        let expect = "tel://15555555555"
 //        let actual = contact.intoBoldContactsUrlString()
 //        XCTAssertEqual(expect, actual)
-//    }
-//
-//    func testLabelNilAndUrlAddress() throws {
+    }
+
+    func testLabelNilAndUrlAddress() throws {
 //        let contact = CNMutableContact()
 //        let urlAddress = "foo://example.com"
 //        contact.urlAddresses = [
@@ -52,13 +128,6 @@ class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContactsUrlStr
 //        let expect = "foo://example.com"
 //        let actual = contact.intoBoldContactsUrlString()
 //        XCTAssertEqual(expect, actual)
-//    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
 
 }

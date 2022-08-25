@@ -1,19 +1,15 @@
 import XCTest
+import Contacts
+@testable import BoldContacts
 
 class CNContactStore_isKeyAvailableOrFetchTests: XCTestCase {
 
-    override func setUpWithError() throws {
-    }
-
-    override func tearDownWithError() throws {
-    }
-
-    func testExample() throws {
-    }
-
-    func testPerformanceExample() throws {
-        self.measure {
-        }
+    func test() throws {
+//        let store = CNContactStore()
+//        let contact = CNContact()
+//        let key = CNContactEmailAddressesKey
+//        let expect = store.isKeyAvailableOrFetch(contact: contact, key: key)
+//        XCTAssertEqual(expect, contact)
     }
 
 }
