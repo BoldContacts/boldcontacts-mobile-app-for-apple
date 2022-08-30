@@ -8,25 +8,25 @@ extension CNContactStore {
     ///
     /// Example:
     ///
+    ///     let store = CNContactStore()
     ///     let contact: CNContact = …
     ///     CNContactStore.delete(contact)
     ///
-    public class func delete(contact: CNMutableContact) -> Bool {
-        let store = CNContactStore()
+    public func delete(contact: CNMutableContact) -> Bool {
         let saveRequest = CNSaveRequest()
         saveRequest.delete(contact)
         do {
-            CNContactStore.deleteTry(contact: contact)
-            try store.execute(saveRequest)
-            CNContactStore.deleteSuccess(contact: contact)
+            self.deleteTry(contact: contact)
+            try self.execute(saveRequest)
+            self.deleteSuccess(contact: contact)
             return true
         } catch {
-            CNContactStore.deleteFailure(contact: contact, error: String(describing: error))
+            self.deleteFailure(contact: contact, error: String(describing: error))
         }
         return false
     }
 
-    public class func deleteTry(contact: CNMutableContact) {
+    public func deleteTry(contact: CNMutableContact) {
         logger.debug(
             """
             CNContactStore deleteTry.
@@ -36,7 +36,7 @@ extension CNContactStore {
         )
     }
 
-    public class func deleteSuccess(contact: CNMutableContact) {
+    public func deleteSuccess(contact: CNMutableContact) {
         logger.info(
             """
             CNContactStore deleteSuccess.
@@ -46,7 +46,7 @@ extension CNContactStore {
         )
     }
     
-    public class func deleteFailure(contact: CNMutableContact, error: String) {
+    public func deleteFailure(contact: CNMutableContact, error: String) {
         logger.error(
             """
             CNContactStore deleteFailure.

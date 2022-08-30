@@ -8,25 +8,25 @@ extension CNContactStore {
     ///
     /// Example:
     ///
+    ///     let store = CNContactStore()
     ///     let contact: CNContact = …
-    ///     CNContactStore.create(contact)
+    ///     store.create(contact)
     ///
-    public class func create(contact: CNMutableContact) -> Bool {
-        let store = CNContactStore()
+    public func create(contact: CNMutableContact) -> Bool {
         let saveRequest = CNSaveRequest()
         saveRequest.add(contact, toContainerWithIdentifier: nil)
         do {
-            CNContactStore.createTry(contact: contact)
-            try store.execute(saveRequest)
-            CNContactStore.createSuccess(contact: contact)
+            self.createTry(contact: contact)
+            try self.execute(saveRequest)
+            self.createSuccess(contact: contact)
             return true
         } catch {
-            CNContactStore.createFailure(contact: contact, error: String(describing: error))
+            self.createFailure(contact: contact, error: String(describing: error))
         }
         return false
     }
 
-    public class func createTry(contact: CNMutableContact) {
+    public func createTry(contact: CNMutableContact) {
         logger.info(
             """
             CNContactStore createTry.
@@ -36,7 +36,7 @@ extension CNContactStore {
         )
     }
 
-    public class func createSuccess(contact: CNMutableContact) {
+    public func createSuccess(contact: CNMutableContact) {
         logger.info(
             """
             CNContactStore createSuccess.
@@ -46,7 +46,7 @@ extension CNContactStore {
         )
     }
     
-    public class func createFailure(contact: CNMutableContact, error: String) {
+    public func createFailure(contact: CNMutableContact, error: String) {
         logger.error(
             """
             CNContactStore createFailure.

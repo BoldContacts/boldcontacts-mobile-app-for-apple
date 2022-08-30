@@ -8,13 +8,13 @@ extension CNContactStore {
     ///
     /// Example:
     ///
-    ///     let contacts: [CNContact] = CNContactStore.list()
+    ///     let store = CNContactStore()
+    ///     let contacts: [CNContact] = store.list()
     ///
-    public class func list(keysToFetch: [CNKeyDescriptor] = CNContactStore.keysToFetch()) -> [CNContact] {
-        let store = CNContactStore();
+    public func list(keysToFetch: [CNKeyDescriptor] = CNContactStore.keysToFetch()) -> [CNContact] {
         let fetchRequest = CNContactFetchRequest(keysToFetch: keysToFetch)
         var results = [CNContact]()
-        try? store.enumerateContacts(with: fetchRequest, usingBlock: { contact, _ in
+        try? self.enumerateContacts(with: fetchRequest, usingBlock: { contact, _ in
             results.append(contact)
         })
         return results
