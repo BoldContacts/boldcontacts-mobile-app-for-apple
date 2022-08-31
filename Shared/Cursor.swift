@@ -21,13 +21,37 @@ class Cursor<T>: ObservableObject {
     init(list: [T], callable: @escaping (T) -> Bool) {
         logger.debug("Cursor init. list.count: \(list.count)")
         self.list = list
+        if !list.isEmpty {
+            self.index = 0
+            self.item = list[0]
+        }
         self.callable = callable
-        if !self.list.isEmpty {
-            go(index: 0)
+        self.objectWillChange.send()
+    }
+
+    public func hasItems() -> Bool {
+        return !self.list.isEmpty
+    }
+
+    /// Accessor
+    public func setList(list: [T]) {
+        self.list = list
+        if self.list.isEmpty {
+            self.index = nil
+            self.item = nil
+        } else {
+            self.index = 0
+            self.item = list[0]
         }
         self.objectWillChange.send()
     }
     
+    /// Accessor
+    public func setCallable(callable:  @escaping (T) -> Bool) {
+        self.callable = callable
+        self.objectWillChange.send()
+    }
+
     /// Call the callable function with the current item.
     ///
     /// Example:
