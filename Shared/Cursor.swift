@@ -5,43 +5,39 @@ import SwiftUI
 class Cursor<T>: ObservableObject {
     
     // Track the list of items
-    @Published var list: [T]
+    @Published var list: [T]?
     @Published var index: Int?
     @Published var item: T?
     
     // Call this function when the user selects the item.
     // Return true=success or false=failure.
-    var callable: (T) -> Bool
+    var callable: (T) -> Bool = callableDefault
 
-    /// Initialize.
-    ///
-    /// - Parameter list: A list of items.
-    /// - Parameter callable:A function to call when an item is chosen; return true=success or false=failure.
-    ///
-    init(list: [T], callable: @escaping (T) -> Bool) {
-        logger.debug("Cursor init. list.count: \(list.count)")
-        self.list = list
-        if !list.isEmpty {
-            self.index = 0
-            self.item = list[0]
-        }
-        self.callable = callable
-        self.objectWillChange.send()
+    class func callableDefault(_: T) -> Bool {
+        return false
+    }
+
+    init() {}
+    
+    public func isActive() -> Bool {
+        return self.list != nil
     }
 
     public func hasItems() -> Bool {
-        return !self.list.isEmpty
+        return self.list != nil && !self.list!.isEmpty
     }
 
     /// Accessor
-    public func setList(list: [T]) {
+    public func setList(list: [T]?) {
         self.list = list
-        if self.list.isEmpty {
-            self.index = nil
-            self.item = nil
-        } else {
-            self.index = 0
-            self.item = list[0]
+        if let l = list {
+            if l.isEmpty {
+                self.index = nil
+                self.item = nil
+            } else {
+                self.index = 0
+                self.item = l[0]
+            }
         }
         self.objectWillChange.send()
     }
@@ -83,10 +79,12 @@ class Cursor<T>: ObservableObject {
     ///
     public func go(index: Int) {
         logger.debug("Cursor go.") //TODO: self.index: \(self.index) index: \(index)")
-        if index >= 0 && index < list.count {
-            self.index = index
-            self.item = list[index]
-            self.objectWillChange.send()
+        if let l = self.list {
+            if index >= 0 && index < l.count {
+                self.index = index
+                self.item = l[index]
+                self.objectWillChange.send()
+            }
         }
     }
 
@@ -99,9 +97,11 @@ class Cursor<T>: ObservableObject {
     ///
     public func prev() {
         logger.debug("Cursor prev.") //TODO: self.index: \(self.index)")
-        if let i = self.index {
-            logger.debug("Cursor prev index: \(i)")
-            go(index: (i > 0) ? (i - 1) : (self.list.count - 1))
+        if let l = self.list {
+            if let i = self.index {
+                logger.debug("Cursor prev index: \(i)")
+                go(index: (i > 0) ? (i - 1) : (l.count - 1))
+            }
         }
     }
 
@@ -114,8 +114,10 @@ class Cursor<T>: ObservableObject {
     ///
     public func next() {
         logger.debug("Cursor next.") //TODO: self.index: \(self.index)")
-        if let i = self.index {
-            go(index: (i < self.list.count - 1) ? (i + 1) : 0)
+        if let l = self.list {
+            if let i = self.index {
+                go(index: (i < l.count - 1) ? (i + 1) : 0)
+            }
         }
     }
 
