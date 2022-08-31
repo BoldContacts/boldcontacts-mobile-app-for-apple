@@ -5,7 +5,7 @@ extension CNContactStore {
     /// Get the CNContactStore authorization status as a message string,
     /// suitable for logger debugging, or alert messages, etc.
     ///
-    public class func authorizationStatusMessage() -> String {
+    public class func authorizationStatusMessage(for: CNEntityType) -> String {
         switch  self.authorizationStatus(for: .contacts) {
         case .authorized:
             return "Contact store authorization status is authorized."
