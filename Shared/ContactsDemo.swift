@@ -82,9 +82,24 @@ public func demoCreateContactForMe() {
             label: CNLabelHome,
             value: "joel@joelparkerhenderson.com" as NSString
         ),
+    ]
+    contact.socialProfiles = [
         CNLabeledValue(
-            label: CNLabelWork,
-            value: fabEmailAddressAsString() as NSString
+            label: CNLabelHome,
+            value: CNSocialProfile(
+                urlString: "https://instagram.com/joelparkerhenderson",
+                username: "joelparkerhenderson",
+                userIdentifier: "joelparkerhenderson",
+                service: "Instagram"
+            )
+            
+             as CNSocialProfile
+        ),
+    ]
+    contact.urlAddresses = [
+        CNLabeledValue(
+            label: CNLabelHome,
+            value: "https://github.com/joelparkerhenderson" as NSString
         ),
     ]
     let _ = CNContactStore().create(contact: contact)
