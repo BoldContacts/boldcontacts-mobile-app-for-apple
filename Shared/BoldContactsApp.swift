@@ -9,26 +9,42 @@ struct BoldContactsApp: App {
     let persistenceController = PersistenceController.shared
 
     // Connect to app delegate class defined in AppDelegate.swift
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    //@UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
-    var cursor: Cursor<AppItem>
+    @State private var store = CNContactStore()
+    @State private var cursor = Cursor<AppItem>()
 
     init() {
-        logger.info("BoldContacts init")
-        CNContactStore().requestAccess(for: .contacts) { (access, error) in
-            logger.info("Access: \(access)")
-        }
-        #if targetEnvironment(simulator)
-            demoContacts()
-        #else
-            // your real device code
-        #endif
-        cursor = Cursor<AppItem>(list: CNContactStore.list(), callable: openViaCNContact)
+        logger.debug("BoldContacts init()")
+        logger.debug("\(CNContactStore.authorizationStatusMessage(for: .contacts))")
+        
+
     }
 
     var body: some Scene {
         WindowGroup {
-            ContentView(cursor: cursor)
+            ContentView(cursor:  cursor)
+            .onAppear {
+                Task.init {
+                    logger.debug("BoldContacts store.requestAccess() -> true")
+                    do {
+                        if try await store.requestAccess(for: .contacts) {
+                            logger.debug("BoldContacts store.requestAccess() -> true")
+                            #if targetEnvironment(simulator)
+                                demoContacts()
+                            #endif
+                            cursor.setList(list: store.list())
+                            cursor.setCallable(callable: openViaCNContact)
+
+                        } else {
+                            logger.debug("BoldContacts store.requestAccess() -> false")
+                        }
+                    }
+                    catch {
+                        logger.debug("BoldContacts store.requestAccess() -> error: \(String(describing: error))")
+                    }
+                }
+            }
         }
     }
     
