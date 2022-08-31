@@ -64,7 +64,7 @@ public func demoCreateContactWithNameAndImage(
             """
         )
     }
-    let _ = CNContactStore.create(contact: contact)
+    let _ = CNContactStore().create(contact: contact)
 }
 
 public func demoCreateContactForMe() {
@@ -87,11 +87,11 @@ public func demoCreateContactForMe() {
             value: fabEmailAddressAsString() as NSString
         ),
     ]
-    let _ = CNContactStore.create(contact: contact)
+    let _ = CNContactStore().create(contact: contact)
 }
 
 public func demoDeleteContactForMe() {
-    let _ = CNContactStore.deleteByName(name: "Joelx Hendersonx")
+    let _ = CNContactStore().deleteByName(name: "Joelx Hendersonx")
 }
 
 public func demoCreateContactsForABCDEF() {
@@ -129,12 +129,25 @@ public func demoCreateContactsForABCDEF() {
 }
 
 func demoDeleteContactsForABCDEF() {
-    let _ = CNContactStore.deleteByName(name: "Alice Adams")
-    let _ = CNContactStore.deleteByName(name: "Bob Brown")
-    let _ = CNContactStore.deleteByName(name: "Carol Curtis")
-    let _ = CNContactStore.deleteByName(name: "Dave Davis")
-    let _ = CNContactStore.deleteByName(name: "Eve Evans")
-    let _ = CNContactStore.deleteByName(name: "Frank Franklin")
+    let store = CNContactStore()
+    let _ = store.deleteByName(name: "Alice Adams")
+    let _ = store.deleteByName(name: "Bob Brown")
+    let _ = store.deleteByName(name: "Carol Curtis")
+    let _ = store.deleteByName(name: "Dave Davis")
+    let _ = store.deleteByName(name: "Eve Evans")
+    let _ = store.deleteByName(name: "Frank Franklin")
+}
+
+func demoDeleteContactsForSimulator() {
+    #if targetEnvironment(simulator)
+    let store = CNContactStore()
+    let _ = store.deleteByName(name: "Anna Haro")
+    let _ = store.deleteByName(name: "Daniel Higgins")
+    let _ = store.deleteByName(name: "David Taylor")
+    let _ = store.deleteByName(name: "Hank Zakroff")
+    let _ = store.deleteByName(name: "John Appleseed")
+    let _ = store.deleteByName(name: "Kate Bell")
+    #endif
 }
 
 func demoContacts() {
@@ -142,4 +155,5 @@ func demoContacts() {
     demoCreateContactForMe()
     demoDeleteContactsForABCDEF()
     demoCreateContactsForABCDEF()
+    demoDeleteContactsForSimulator()
 }
