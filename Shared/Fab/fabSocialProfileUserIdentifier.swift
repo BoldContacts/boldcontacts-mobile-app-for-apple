@@ -1,3 +1,3 @@
 public func fabSocialProfileUserIdentifier() -> String {
-    return "useridentifier\(Int.random(in: 10000...99999))"
+    "useridentifier\(Int.random(in: 10000...99999))"
 }
