@@ -1,4 +1,4 @@
-#  BoldContacts
+# BoldContacts
 
 BoldContacts is an app that helps you browse your contacts and connect with them.
 
@@ -7,6 +7,11 @@ BoldContacts is intended for people who experience vision disabilities, cognitiv
 BoldContacts started because our family members have Alzheimer's disease and Parkinson's disease, and are unable to use the typical contacts app. BoldContacts helps our family keep in touch, and helps caretakers connect with us.
 
 
+## Beta Testing
+
+BoldContacts is currently doing beta testing of the iOS app. If you would like a beta testing invitation, and you have a current iPhone or iPad, then please email joel@joelparkerhenderson.com.
+
+  
 ## Screenshot
 
 <img src="screenshot.png" height="300">
