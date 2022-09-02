@@ -91,7 +91,7 @@
 		F47228AB28A5947200773693 /* RectangleVerticalRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A928A5947200773693 /* RectangleVerticalRule.swift */; };
 		F47228AD28A594BF00773693 /* ButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AC28A594BF00773693 /* ButtonImageView.swift */; };
 		F47228AF28A5955500773693 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AE28A5955500773693 /* Cursor.swift */; };
-		F47228B828A5955F00773693 /* ContactsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B128A5955F00773693 /* ContactsDemo.swift */; };
+		F47228B828A5955F00773693 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B128A5955F00773693 /* Demo.swift */; };
 		F47228B928A5955F00773693 /* ItemThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */; };
 		F47228BC28A5955F00773693 /* ItemTitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B528A5955F00773693 /* ItemTitleTextView.swift */; };
 		F47228BF28A595FB00773693 /* AppButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228BE28A595FB00773693 /* AppButtonStyle.swift */; };
@@ -152,7 +152,7 @@
 		F472297E28AA9E0B00773693 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296B28AA9E0B00773693 /* AppDelegateTests.swift */; };
 		F472297F28AA9E0B00773693 /* ConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296C28AA9E0B00773693 /* ConfigTests.swift */; };
 		F472298028AA9E0B00773693 /* RectangleHorizontalRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296D28AA9E0B00773693 /* RectangleHorizontalRuleTests.swift */; };
-		F472298228AA9E0B00773693 /* ContactsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296F28AA9E0B00773693 /* ContactsDemoTests.swift */; };
+		F472298228AA9E0B00773693 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472296F28AA9E0B00773693 /* DemoTests.swift */; };
 		F472298328AA9E0B00773693 /* ItemTitleTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297028AA9E0B00773693 /* ItemTitleTextViewTests.swift */; };
 		F472298428AA9E0B00773693 /* ButtonImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297128AA9E0B00773693 /* ButtonImageViewTests.swift */; };
 		F472298728AA9E0B00773693 /* CursorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472297428AA9E0B00773693 /* CursorTests.swift */; };
@@ -183,6 +183,14 @@
 		F4D815CA28B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */; };
 		F4D815CC28BD86E400D47A46 /* CNContactStore_authorizationStatusMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CB28BD86E400D47A46 /* CNContactStore_authorizationStatusMessage.swift */; };
 		F4D815CE28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */; };
+		F4D815D028C0294900D47A46 /* fabCNMutableContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */; };
+		F4D815D228C029E900D47A46 /* fabCNMutableContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815D128C029E900D47A46 /* fabCNMutableContactTests.swift */; };
+		F4D815D428C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815D328C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift */; };
+		F4D815D628C02ED100D47A46 /* fabSFSymbolsLetterCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815D528C02ED100D47A46 /* fabSFSymbolsLetterCircleTests.swift */; };
+		F4D815D828C0515000D47A46 /* fabLetterLower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815D728C0515000D47A46 /* fabLetterLower.swift */; };
+		F4D815DA28C0517D00D47A46 /* fabLetterUpper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815D928C0517C00D47A46 /* fabLetterUpper.swift */; };
+		F4D815DC28C051C400D47A46 /* fabLetterLowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815DB28C051C400D47A46 /* fabLetterLowerTests.swift */; };
+		F4D815DE28C0520E00D47A46 /* fabLetterUpperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815DD28C0520E00D47A46 /* fabLetterUpperTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,7 +298,7 @@
 		F47228A928A5947200773693 /* RectangleVerticalRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleVerticalRule.swift; sourceTree = "<group>"; };
 		F47228AC28A594BF00773693 /* ButtonImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImageView.swift; sourceTree = "<group>"; };
 		F47228AE28A5955500773693 /* Cursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
-		F47228B128A5955F00773693 /* ContactsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsDemo.swift; sourceTree = "<group>"; };
+		F47228B128A5955F00773693 /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 		F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemThumbnailImageView.swift; sourceTree = "<group>"; };
 		F47228B528A5955F00773693 /* ItemTitleTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTitleTextView.swift; sourceTree = "<group>"; };
 		F47228BE28A595FB00773693 /* AppButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButtonStyle.swift; sourceTree = "<group>"; };
@@ -352,7 +360,7 @@
 		F472296B28AA9E0B00773693 /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 		F472296C28AA9E0B00773693 /* ConfigTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTests.swift; sourceTree = "<group>"; };
 		F472296D28AA9E0B00773693 /* RectangleHorizontalRuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleHorizontalRuleTests.swift; sourceTree = "<group>"; };
-		F472296F28AA9E0B00773693 /* ContactsDemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsDemoTests.swift; sourceTree = "<group>"; };
+		F472296F28AA9E0B00773693 /* DemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
 		F472297028AA9E0B00773693 /* ItemTitleTextViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTitleTextViewTests.swift; sourceTree = "<group>"; };
 		F472297128AA9E0B00773693 /* ButtonImageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImageViewTests.swift; sourceTree = "<group>"; };
 		F472297428AA9E0B00773693 /* CursorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CursorTests.swift; sourceTree = "<group>"; };
@@ -385,6 +393,14 @@
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CB28BD86E400D47A46 /* CNContactStore_authorizationStatusMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_authorizationStatusMessage.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
+		F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabCNMutableContact.swift; sourceTree = "<group>"; };
+		F4D815D128C029E900D47A46 /* fabCNMutableContactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabCNMutableContactTests.swift; sourceTree = "<group>"; };
+		F4D815D328C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabSFSymbolsLetterCircle.swift; sourceTree = "<group>"; };
+		F4D815D528C02ED100D47A46 /* fabSFSymbolsLetterCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabSFSymbolsLetterCircleTests.swift; sourceTree = "<group>"; };
+		F4D815D728C0515000D47A46 /* fabLetterLower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterLower.swift; sourceTree = "<group>"; };
+		F4D815D928C0517C00D47A46 /* fabLetterUpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterUpper.swift; sourceTree = "<group>"; };
+		F4D815DB28C051C400D47A46 /* fabLetterLowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterLowerTests.swift; sourceTree = "<group>"; };
+		F4D815DD28C0520E00D47A46 /* fabLetterUpperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterUpperTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -463,7 +479,7 @@
 				F47228AE28A5955500773693 /* Cursor.swift */,
 				F472289428A5930000773693 /* Logger.swift */,
 				F472280528A58B4000773693 /* ContentView.swift */,
-				F47228B128A5955F00773693 /* ContactsDemo.swift */,
+				F47228B128A5955F00773693 /* Demo.swift */,
 				F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */,
 				F47228B528A5955F00773693 /* ItemTitleTextView.swift */,
 				F47228C028A5BFEF00773693 /* NavView.swift */,
@@ -504,7 +520,7 @@
 				F472296A28AA9E0B00773693 /* BoldContactsAppTests.swift */,
 				F472297128AA9E0B00773693 /* ButtonImageViewTests.swift */,
 				F472296C28AA9E0B00773693 /* ConfigTests.swift */,
-				F472296F28AA9E0B00773693 /* ContactsDemoTests.swift */,
+				F472296F28AA9E0B00773693 /* DemoTests.swift */,
 				F472297828AA9E0B00773693 /* ContactsToolsTests.swift */,
 				F40EACE328B00EC60095C188 /* ContentViewTests.swift */,
 				F472297428AA9E0B00773693 /* CursorTests.swift */,
@@ -577,14 +593,18 @@
 				F47229B928AB29D100773693 /* fabCNContactPostalAddresses.swift */,
 				F47229B628AB29D100773693 /* fabCNContactSocialProfiles.swift */,
 				F47229A128AB10D900773693 /* fabCNContactURLAddresses.swift */,
+				F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */,
 				F472287228A591F100773693 /* fabCNPhoneNumber.swift */,
 				F47229B728AB29D100773693 /* fabCNPostalAddress.swift */,
 				F47229B828AB29D100773693 /* fabCNSocialProfile.swift */,
 				F472287028A591F100773693 /* fabEmailAddressAsString.swift */,
+				F4D815D728C0515000D47A46 /* fabLetterLower.swift */,
+				F4D815D928C0517C00D47A46 /* fabLetterUpper.swift */,
 				F472286C28A591F100773693 /* fabGemName.swift */,
 				F472287128A591F100773693 /* fabPhoneNumberAreaCodeAsString.swift */,
 				F472286F28A591F100773693 /* fabPhoneNumberAsString.swift */,
 				F472287828A591F100773693 /* fabSkiName.swift */,
+				F4D815D328C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift */,
 				F472286E28A591F100773693 /* fabSocialProfileService.swift */,
 				F472286D28A591F100773693 /* fabSocialProfileURLString.swift */,
 				F472299928AB0D0300773693 /* fabURLAsString.swift */,
@@ -654,15 +674,17 @@
 				F47229A328AB112800773693 /* fabCNContactURLAddressesTests.swift */,
 				F47229B028AB1A5B00773693 /* fabCNContactSocialProfilesTests.swift */,
 				F47229B428AB24B300773693 /* fabCNContactPostalAddressesTests.swift */,
+				F4D815D128C029E900D47A46 /* fabCNMutableContactTests.swift */,
 				F472290328A9628900773693 /* fabCNPhoneNumberTests.swift */,
 				F472290B28A9628900773693 /* fabCNPostalAddressTests.swift */,
 				F472291A28A9628900773693 /* fabCNSocialProfileTests.swift */,
 				F47228FE28A9628900773693 /* fabEmailAddressAsStringTests.swift */,
-				F472299B28AB0D2A00773693 /* fabURLAsStringTests.swift */,
+				F4D815DB28C051C400D47A46 /* fabLetterLowerTests.swift */,
 				F472291828A9628900773693 /* fabGemNameTests.swift */,
 				F472290F28A9628900773693 /* fabPhoneNumberAreaCodeAsStringTests.swift */,
 				F47228F928A9628900773693 /* fabPhoneNumberAsStringTests.swift */,
 				F47228FC28A9628900773693 /* fabSkiNameTests.swift */,
+				F4D815D528C02ED100D47A46 /* fabSFSymbolsLetterCircleTests.swift */,
 				F47228F628A9628900773693 /* fabSocialProfileServiceTests.swift */,
 				F472291228A9628900773693 /* fabSocialProfileURLStringTests.swift */,
 				F472291328A9628900773693 /* fabSocialProfileUserIdentifierTests.swift */,
@@ -673,6 +695,8 @@
 				F47228FF28A9628900773693 /* fabUnitedStatesStateCodeAsStringTests.swift */,
 				F472290528A9628900773693 /* fabUnitedStatesStreetAsStringTests.swift */,
 				F472290228A9628900773693 /* fabUnitedStatesStreetTypeNameTests.swift */,
+				F472299B28AB0D2A00773693 /* fabURLAsStringTests.swift */,
+				F4D815DD28C0520E00D47A46 /* fabLetterUpperTests.swift */,
 			);
 			path = Fab;
 			sourceTree = "<group>";
@@ -925,6 +949,7 @@
 				F472282D28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
 				F472288E28A591F100773693 /* fabAirName.swift in Sources */,
 				F472289328A591F100773693 /* fabBirthdateAsDateComponents.swift in Sources */,
+				F4D815D028C0294900D47A46 /* fabCNMutableContact.swift in Sources */,
 				F47229AD28AB192A00773693 /* fabCNContactEmailAddresses.swift in Sources */,
 				F47229AB28AB192A00773693 /* fabCNContactPhoneNumbers.swift in Sources */,
 				F47229DA28AC15BD00773693 /* fabCNContactPostalAddresses.swift in Sources */,
@@ -954,7 +979,10 @@
 				F472299A28AB0D0300773693 /* fabURLAsString.swift in Sources */,
 				F47228A428A5939000773693 /* openViaMailTo.swift in Sources */,
 				F47228A228A5939000773693 /* openViaFaceTime.swift in Sources */,
+				F4D815D428C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift in Sources */,
+				F4D815D828C0515000D47A46 /* fabLetterLower.swift in Sources */,
 				F47228A528A5939000773693 /* openViaTel.swift in Sources */,
+				F4D815DA28C0517D00D47A46 /* fabLetterUpper.swift in Sources */,
 				F47228A328A5939000773693 /* openViaSMS.swift in Sources */,
 				F472288F28A591F100773693 /* fabTreeName.swift in Sources */,
 				F40EACD928B001210095C188 /* IntoThumbnail.swift in Sources */,
@@ -966,7 +994,7 @@
 				F47228CA28A5D04700773693 /* parseStringToURLSafeString.swift in Sources */,
 				F472289828A5934B00773693 /* AppDelegate.swift in Sources */,
 				F472285F28A5903700773693 /* CNContactStore_deleteByName.swift in Sources */,
-				F47228B828A5955F00773693 /* ContactsDemo.swift in Sources */,
+				F47228B828A5955F00773693 /* Demo.swift in Sources */,
 				F4D815CE28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift in Sources */,
 				F472285028A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift in Sources */,
 				F472284E28A58FD500773693 /* CNContact_intoString.swift in Sources */,
@@ -1029,11 +1057,15 @@
 				F472296528A9660A00773693 /* CNContact_intoStringTests.swift in Sources */,
 				F472296628A9660A00773693 /* CNContactStore_areKeysAvailableOrFetchTests.swift in Sources */,
 				F40EACED28B0451E0095C188 /* CNContact_list_emailAddresses.swift in Sources */,
+				F4D815D228C029E900D47A46 /* fabCNMutableContactTests.swift in Sources */,
 				F472295D28A9660A00773693 /* CNContactStore_keysToFetchTests.swift in Sources */,
 				F472296728A9660A00773693 /* CNContactStore_deleteTests.swift in Sources */,
 				F472296128A9660A00773693 /* CNContactStore_listTests.swift in Sources */,
+				F4D815DC28C051C400D47A46 /* fabLetterLowerTests.swift in Sources */,
 				F472295A28A9660A00773693 /* CNContactStore_isKeyAvailableOrFetchTests.swift in Sources */,
 				F472295828A9660A00773693 /* CNContactStore_createTests.swift in Sources */,
+				F4D815D628C02ED100D47A46 /* fabSFSymbolsLetterCircleTests.swift in Sources */,
+				F4D815DE28C0520E00D47A46 /* fabLetterUpperTests.swift in Sources */,
 				F472296328A9660A00773693 /* UIImage_emptyTests.swift in Sources */,
 				F472295F28A9660A00773693 /* CNContactStore_deleteByNameTests.swift in Sources */,
 				F472296828A9660A00773693 /* UIImage_cropToSquareTests.swift in Sources */,
@@ -1072,7 +1104,7 @@
 				F47228DF28A5D68E00773693 /* parseContactIdentifierStringToURLSafeStringTests.swift in Sources */,
 				F472297D28AA9E0B00773693 /* BoldContactsAppTests.swift in Sources */,
 				F472298E28AA9E0B00773693 /* NavViewTests.swift in Sources */,
-				F472298228AA9E0B00773693 /* ContactsDemoTests.swift in Sources */,
+				F472298228AA9E0B00773693 /* DemoTests.swift in Sources */,
 				F47228F028A9623200773693 /* openViaTelTests.swift in Sources */,
 				F472298328AA9E0B00773693 /* ItemTitleTextViewTests.swift in Sources */,
 				F472297F28AA9E0B00773693 /* ConfigTests.swift in Sources */,

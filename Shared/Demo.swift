@@ -145,12 +145,17 @@ public func demoCreateContactForJoelParkerHenderson() -> CNContact {
         phoneNumberString: "1 (415) 317-2700",
         socialProfileUrlString: "https://instagram.com/joelparkerhenderson",
         urlAddressString: "https://github.com/joelparkerhenderson",
-        uiImageNamed: nil
+        uiImageNamed: "demo-persons-joelparkerhenderson-icons-512"
     )
 }
 
 public func demoDeleteContactForJoelParkerHenderson() {
+    // Ensure that we're running on a simulator,
+    // so this function can't accidentally delete
+    // my real contact record from my real phone.
+    #if targetEnvironment(simulator)
     let _ = CNContactStore().deleteByName(name: "Joel Parker Hendersonx")
+    #endif
 }
 
 public func demoCreateContactsForABCDEF() -> [CNContact] {
