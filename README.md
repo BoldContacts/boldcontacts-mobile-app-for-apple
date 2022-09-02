@@ -63,9 +63,9 @@ such as memory loss, mental impairment, confusion, etc.
 
 * Project: BoldContacts
 
-* Version: 0.6.0
+* Version: 1.0.0-beta
 
-* Updated: 2022-08-19T23:08:08Z
+* Updated: 2022-09-02T15:20:27Z
 
 * Contact: <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
 
