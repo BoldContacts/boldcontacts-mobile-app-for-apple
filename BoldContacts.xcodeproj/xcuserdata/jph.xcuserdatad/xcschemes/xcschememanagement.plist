@@ -11,8 +11,23 @@
 		</dict>
 		<key>BoldContacts (macOS).xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F472281128A58B4000773693</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F472282428A58B4100773693</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

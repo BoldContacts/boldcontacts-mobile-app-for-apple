@@ -401,6 +401,7 @@
 		F4D815D928C0517C00D47A46 /* fabLetterUpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterUpper.swift; sourceTree = "<group>"; };
 		F4D815DB28C051C400D47A46 /* fabLetterLowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterLowerTests.swift; sourceTree = "<group>"; };
 		F4D815DD28C0520E00D47A46 /* fabLetterUpperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterUpperTests.swift; sourceTree = "<group>"; };
+		F4D815E028C1E1D200D47A46 /* index.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = index.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -648,6 +649,7 @@
 		F47228CB28A5D09C00773693 /* doc */ = {
 			isa = PBXGroup;
 			children = (
+				F4D815DF28C1E1B700D47A46 /* privacy */,
 				F47228E828A958CD00773693 /* templates */,
 				F472299528AAB1AE00773693 /* cncontact-setup.md */,
 				F472299428AAB16600773693 /* cncontact-cocoapods.md */,
@@ -774,6 +776,14 @@
 			children = (
 			);
 			path = Unused;
+			sourceTree = "<group>";
+		};
+		F4D815DF28C1E1B700D47A46 /* privacy */ = {
+			isa = PBXGroup;
+			children = (
+				F4D815E028C1E1D200D47A46 /* index.md */,
+			);
+			path = privacy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1348,7 +1358,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1376,7 +1387,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
