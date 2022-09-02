@@ -95,10 +95,10 @@ For organizations involved in Alzheimer's disease and Parkinson's disease:
 
 * [Alzheimer's Association](https://www.alz.org)
 
-* [Parkinson's Foundation](https://www.parkinson.org)
-
-* [The Michael J. Fox Foundation - Parkinson's](https://www.michaeljfox.org)
-
 * [American Parkinson's Disease Association](https://www.apdaparkinson.org)
 
 * [Davis Phinney Foundation For Parkinson's](https://davisphinneyfoundation.org)
+
+* [Parkinson's Foundation](https://www.parkinson.org)
+
+* [The Michael J. Fox Foundation - Parkinson's](https://www.michaeljfox.org)
