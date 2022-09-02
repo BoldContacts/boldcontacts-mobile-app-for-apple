@@ -402,6 +402,7 @@
 		F4D815DB28C051C400D47A46 /* fabLetterLowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterLowerTests.swift; sourceTree = "<group>"; };
 		F4D815DD28C0520E00D47A46 /* fabLetterUpperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabLetterUpperTests.swift; sourceTree = "<group>"; };
 		F4D815E028C1E1D200D47A46 /* index.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = index.md; sourceTree = "<group>"; };
+		F4D815E128C1F6B600D47A46 /* BoldContacts--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BoldContacts--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,6 +452,7 @@
 		F47227FC28A58B4000773693 = {
 			isa = PBXGroup;
 			children = (
+				F4D815E128C1F6B600D47A46 /* BoldContacts--iOS--Info.plist */,
 				F472284528A58B7100773693 /* README.md */,
 				F472299728AAC44200773693 /* icon.png */,
 				F472299028AAA67800773693 /* screenshot.png */,
@@ -1290,7 +1292,11 @@
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_FILE = "BoldContacts--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs to read your contacts.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1322,7 +1328,11 @@
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_FILE = "BoldContacts--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs to read your contacts.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
