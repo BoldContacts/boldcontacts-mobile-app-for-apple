@@ -13,7 +13,25 @@ If you get an error messsage such as:
     a string value explaining to the user how the app uses this data.
 
 Then you must configure the application properties to use 
-NSContactsUsageDescription and provide a suitable text message.
+NSContactsUsageDescription with the value string as any user-friendly 
+message such as "This app needs to read your contacts".
+
+
+### Troubleshooting: LSMinimumSystemVersion
+
+If you upload the app to App Store Connect, 
+then get an email error message such as:
+
+    ITMS-90899: Apple silicon Mac support issue - The app is not compatible
+    with the provided minimum macOS version of 12.4. It can run on macOS
+    13.0 or later. Please specify an LSMinimumSystemVersion value of 13.0
+    or later in a new build, or select a compatible version in App Store 
+    Connect. 
+    
+    For details, visit: https://help.apple.com/app-store-connect/#/dev2de8e790b
+
+The you must configure the applicatoin properties to use
+LSMinimumSystemVersion with the value string "13.0"
 
 
 ### Troubleshooing: Xcode 13 properties and Info.plist
