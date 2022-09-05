@@ -13,28 +13,34 @@ struct NavView: View {
             alignment: .center,
             spacing: 0
         ) {
-            HStack {
-                Button {
-                    cursor.prev()
-                } label: {
-                    ButtonImageView(systemName: Config.navPrevButtonImageSystemName)
+            VStack {
+                HStack {
+                    Button {
+                        cursor.call()
+                    } label: {
+                        ButtonImageView(systemName: Config.navCallButtonImageSystemName)
+                    }
+                    .buttonStyle(AppButtonStyle())
                 }
-                .buttonStyle(AppButtonStyle())
-                Button {
-                    cursor.call()
-                } label: {
-                    ButtonImageView(systemName: Config.navCallButtonImageSystemName)
+                .padding()
+                .frame(maxWidth: .infinity)
+                HStack {
+                    Button {
+                        cursor.prev()
+                    } label: {
+                        ButtonImageView(systemName: Config.navPrevButtonImageSystemName)
+                    }
+                    .buttonStyle(AppButtonStyle())
+                    Button {
+                        cursor.next()
+                    } label: {
+                        ButtonImageView(systemName: Config.navNextButtonImageSystemName)
+                    }
+                    .buttonStyle(AppButtonStyle())
                 }
-                .buttonStyle(AppButtonStyle())
-                Button {
-                    cursor.next()
-                } label: {
-                    ButtonImageView(systemName: Config.navNextButtonImageSystemName)
-                }
-                .buttonStyle(AppButtonStyle())
+                .padding()
+                .frame(maxWidth: .infinity)
             }
-            .padding()
-            .frame(maxWidth: .infinity)
         }
     }
 }

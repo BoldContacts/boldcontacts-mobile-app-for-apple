@@ -9,7 +9,6 @@ struct Config {
     // Application button defaults
     static let appButtonWidth = 64.0
     static let appButtonTint = Color.black
-    static let appButtonPadding = 32.0
     static let appButtonBackgroundColorPressed = Color.green
 
     // Navigation button Image(systemName: *)
