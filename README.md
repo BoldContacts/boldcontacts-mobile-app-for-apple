@@ -18,9 +18,10 @@ BoldContacts is currently doing beta testing of the iOS app. If you would like a
 
 The app shows each contact's photo and name.
 
-Two buttons navigate backward/forward in the contacts.
+A call button. This connects using your choice of video, or phone, or email, or message, or custom URL.
 
-One button connects. This can use your choice of FaceTime video, or a phone call, or an email message, or a custom URL.
+A left-arrow button and right-arrow button. These navigate backward/forward in the contacts.
+
 
 
 ## Setup
@@ -54,21 +55,18 @@ If you are an Apple iOS Swift developer, can you volunteer your expertise?
 
 ## Goals
 
-Good usability for people who experience motor difficulties, 
-such as arthritis, or nerve damage, or reflex tremor, etc. 
+Good usability for people who experience motor difficulties.<br>Examples: arthritis, or nerve damage, or reflex tremor, etc. 
 
-Good usability for people who experience vision difficulties,
-such as partially sighted vision, or double vision, blurred vision, hazy vision, etc. 
+Good usability for people who experience vision difficulties.<br>Examples: partial vision, or double vision, or blurred vision, etc. 
 
-Good usability for people who experience cognitive difficulties,
-such as memory loss, mental impairment, confusion, etc. 
+Good usability for people who experience cognitive difficulties.<br>Examples:  memory loss, mental impairment, confusion, etc. 
 
 
 ## About
 
 * Project: BoldContacts
 
-* Version: 1.0.0-beta
+* Version: 1.0.0
 
 * Updated: 2022-09-02T15:20:27Z
 
