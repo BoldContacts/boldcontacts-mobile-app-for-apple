@@ -22,6 +22,15 @@ message such as "This app needs to read your contacts".
 If you upload the app to App Store Connect, 
 then get an email error message such as:
 
+    ITMS-90882: Invalid LSMinimumSystemVersion - The LSMinimumSystemVersion
+    Info.plist key has the value “13.0 ”. This string indicates the minimum 
+    macOS version required for this app to run. The value must be between
+    11.0 and 12.3 and be formatted as “x.x.x.” 
+    
+    For details, see  https://developer.apple.com/documentation/bundleresources/information_property_list/lsminimumsystemversion. 
+
+Or:
+
     ITMS-90899: Apple silicon Mac support issue - The app is not compatible
     with the provided minimum macOS version of 12.4. It can run on macOS
     13.0 or later. Please specify an LSMinimumSystemVersion value of 13.0
