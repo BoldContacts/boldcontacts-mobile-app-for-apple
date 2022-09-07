@@ -109,7 +109,9 @@ For organizations involved in Alzheimer's disease and Parkinson's disease:
 
 ## Legal
 
-BoldContacts™ is a trademark of Joel Parker Henderson.
+BoldContacts™ is a trademark of Joel Parker Henderson. 
+The reason for the trademark is to help protect the app 
+and source code from identity theft, or fraud, or hacking.
 
 Copyright 2022 Joel Parker Henderson.
 
