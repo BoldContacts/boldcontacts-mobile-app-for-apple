@@ -390,6 +390,8 @@
 		F47229B728AB29D100773693 /* fabCNPostalAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNPostalAddress.swift; sourceTree = "<group>"; };
 		F47229B828AB29D100773693 /* fabCNSocialProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNSocialProfile.swift; sourceTree = "<group>"; };
 		F47229B928AB29D100773693 /* fabCNContactPostalAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNContactPostalAddresses.swift; sourceTree = "<group>"; };
+		F48C376E28C816E300A72523 /* minimum-system-version.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "minimum-system-version.md"; sourceTree = "<group>"; };
+		F48C376F28C817C400A72523 /* BoldContacts--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BoldContacts--macOS--Info.plist"; sourceTree = "<group>"; };
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CB28BD86E400D47A46 /* CNContactStore_authorizationStatusMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_authorizationStatusMessage.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
@@ -452,6 +454,7 @@
 		F47227FC28A58B4000773693 = {
 			isa = PBXGroup;
 			children = (
+				F48C376F28C817C400A72523 /* BoldContacts--macOS--Info.plist */,
 				F4D815E128C1F6B600D47A46 /* BoldContacts--iOS--Info.plist */,
 				F472284528A58B7100773693 /* README.md */,
 				F472299728AAC44200773693 /* icon.png */,
@@ -664,6 +667,7 @@
 				F47228CC28A5D0FF00773693 /* try-success-failure.md */,
 				F47228CD28A5D0FF00773693 /* info-plist-properties-notes.md */,
 				F47228CE28A5D0FF00773693 /* ContactsDemoSimple.swift */,
+				F48C376E28C816E300A72523 /* minimum-system-version.md */,
 			);
 			path = doc;
 			sourceTree = "<group>";
@@ -1368,6 +1372,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BoldContacts--macOS--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1397,6 +1402,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BoldContacts--macOS--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				LD_RUNPATH_SEARCH_PATHS = (
