@@ -1,6 +1,6 @@
 # BoldContacts
 
-BoldContacts is an app that helps you browse your contacts and connect with them.
+BoldContacts™ is an app that helps you browse your contacts and connect with them.
 
 BoldContacts is intended for people who experience vision disabilities, cognitive disabilities, or motor disabilities. The app displays each contact with a large photo, large text, and large buttons.
  
@@ -105,3 +105,12 @@ For organizations involved in Alzheimer's disease and Parkinson's disease:
 * [Parkinson's Foundation](https://www.parkinson.org)
 
 * [The Michael J. Fox Foundation - Parkinson's](https://www.michaeljfox.org)
+
+
+## Legal
+
+BoldContacts™ is a trademark of Joel Parker Henderson.
+
+Copyright 2022 Joel Parker Henderson.
+
+License is GPL-3-or-later or contact us for custom license.
