@@ -2,16 +2,13 @@
 
 BoldContacts™ is an app that helps you browse your contacts and connect with them.
 
-BoldContacts is intended for people who experience vision disabilities, cognitive disabilities, or motor disabilities. The app displays each contact with a large photo, large text, and large buttons.
+BoldContacts is intended for people who experience vision disabilities, cognitive disabilities, or motor disabilities. The app displays each contact with a large photo (if available), large font, and large buttons.
  
-BoldContacts started because our family members have Alzheimer's disease and Parkinson's disease, and are unable to use the typical contacts app. BoldContacts helps our family keep in touch, and helps caretakers connect with us.
+BoldContacts started because our family members have recently been diagnosed with Alzheimer's disease and Parkinson's disease, and are now unable to use the typical contacts app. The app may also help people with Multiple Sclerosis (MS), Amyotrophic Lateral Sclerosis (ALS), and Muscular Distrophy (MD), and more.
+
+BoldContacts helps our family keep in touch, and helps caretakers connect with us. We hope it may help you and your loved ones. We welcome constructive feedback. We are actively seeking donations and grants to work on this full time. Contact Joel Parker Henderson at [joel@joelparkerhenderson.com](mailto:joel@joelparkerhenderson.com)
 
 
-## Beta Testing
-
-BoldContacts is currently doing beta testing of the iOS app. If you would like a beta testing invitation, and you have a current iPhone or iPad, then please email joel@joelparkerhenderson.com.
-
-  
 ## Screenshot
 
 <img src="screenshot.png" height="300">
@@ -22,6 +19,13 @@ A call button. This connects using your choice of video, or phone, or email, or 
 
 A left-arrow button and right-arrow button. These navigate backward/forward in the contacts.
 
+
+
+## Roadmap
+
+BoldContacts is currently doing beta testing of the iOS app. If you would like a beta testing invitation, and you have a current iPhone or iPad, then please email joel@joelparkerhenderson.com.
+
+Next up we are creating an Android version.  
 
 
 ## Setup
@@ -46,11 +50,11 @@ You can personalize how your BoldContacts app will connect to your contact:
 
 Contact the author at <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
 
-If you have Alzheimer's or Parkinson's, or are a caretaker, can you try this app?
+If you are experiencing disabilities, or are a caretaker, can you try this app?
 
-If you are a donor or fundraiser, can you help us raise money for this project? 
+If you are a patron or fundraiser, can you help us with a donation or a grant for this project? 
 
-If you are an Apple iOS Swift developer, can you volunteer your expertise?
+If you are an iOS developer or Android developer, can you volunteer your expertise?
 
 
 ## Goals
@@ -88,13 +92,21 @@ Good usability for people who experience cognitive difficulties.<br>Examples:  m
 
 ## For more information
 
-For more information about Alzheimer's disease and Parkinson's disease:
+Wikipedia links:
 
-* [Wikipedia: Alzheimer's disease](https://wikipedia.org/wiki/Alzheimer's_disease)
+* [Alzheimer's disease](https://wikipedia.org/wiki/Alzheimer's_disease)
 
-* [Wikipedia: Parkinson's disease](https://wikipedia.org/wiki/Parkinson's_disease)
+* [Amyotrophic lateral sclerosis](https://wikipedia.org/wiki/Amyotrophic_lateral_sclerosis)
 
-For organizations involved in Alzheimer's disease and Parkinson's disease:
+* [Multiple sclerosis](https://en.wikipedia.org/wiki/Multiple_sclerosis)
+
+* [Muscular dystrophy](https://wikipedia.org/wiki/Muscular_dystrophy)
+
+* [Parkinson's disease](https://wikipedia.org/wiki/Parkinson's_disease)
+
+Organization links:
+
+* [ALS Association](https://www.als.org)
 
 * [Alzheimer's Association](https://www.alz.org)
 
@@ -102,6 +114,10 @@ For organizations involved in Alzheimer's disease and Parkinson's disease:
 
 * [Davis Phinney Foundation For Parkinson's](https://davisphinneyfoundation.org)
 
+* [Muscular Dystrophy Association](http://www.mdausa.org)
+
+* [National Multiple Sclerosis Society](https://www.nationalmssociety.org)
+  
 * [Parkinson's Foundation](https://www.parkinson.org)
 
 * [The Michael J. Fox Foundation - Parkinson's](https://www.michaeljfox.org)
@@ -115,4 +131,4 @@ and source code from identity theft, or fraud, or hacking.
 
 Copyright 2022 Joel Parker Henderson.
 
-License is GPL-3-or-later or contact us for custom license.
+License is GPL-2-or-later or contact us for custom license.
