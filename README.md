@@ -6,7 +6,7 @@ BoldContacts is intended for people who experience vision disabilities, cognitiv
  
 BoldContacts started because our family members have recently been diagnosed with Alzheimer's disease and Parkinson's disease, and are now unable to use the typical contacts app. The app may also help people with Multiple Sclerosis (MS), Amyotrophic Lateral Sclerosis (ALS), and Muscular Distrophy (MD), and more.
 
-BoldContacts helps our family keep in touch, and helps caretakers connect with us. We hope it may help you and your loved ones. We welcome constructive feedback. We are actively seeking donations and grants to work on this full time. Contact Joel Parker Henderson at [joel@joelparkerhenderson.com](mailto:joel@joelparkerhenderson.com)
+BoldContacts helps our family keep in touch, and helps caretakers connect with us. We hope it may help you and your loved ones. We welcome constructive feedback. We are actively seeking donations and grants to work on accessibility software full time. Contact Joel Parker Henderson at [joel@joelparkerhenderson.com](mailto:joel@joelparkerhenderson.com)
 
 
 ## Screenshot
