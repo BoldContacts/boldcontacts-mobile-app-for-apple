@@ -17,10 +17,11 @@ BoldContacts helps our family keep in touch, and helps caretakers connect with u
 
 The app shows each contact's photo and name.
 
-A call button. This connects using your choice of video, or phone, or email, or message, or custom URL.
+There is a phone icon button that means "call now". This connects using your choice of video, or phone, or email, or message, or custom URL. A caregiver can customize this by using the default iOS Contacts app.
 
-A left-arrow button and right-arrow button. These navigate backward/forward in the contacts.
+There is a left-arrow icon button that means ""previous contact", and a right-arrow icon button that means "next contact". These navigate backward/forward through the list of contacts. 
 
+The buttons are purposefully far apart, to help people see them better, and to help people be able to tap each button separately.
 
 
 ## Roadmap
