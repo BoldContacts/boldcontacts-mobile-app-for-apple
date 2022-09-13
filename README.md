@@ -34,6 +34,8 @@ Future ideas:
 
 * Add hardware buttons. For example add two cheap generic BLE buttons: 'next contact' with wraparound, and 'call now' that automatically starts a video call. This means the phone can be docked, and the person can skip any the steps of phone unlocking, or fingerprint reading, or accessibily taps. This also means the photo can be full screen. 
 
+* Water-proofing and drop-proofing. Imagine holding a drink in your hand, having hand tremors, forgetting about your drink, then trying to tap your phone-- which makes you spill your drink, then drop your phone. We want ways to help this.
+  
 
 ## Setup
 
