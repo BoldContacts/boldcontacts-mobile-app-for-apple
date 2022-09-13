@@ -1,8 +1,8 @@
-# BoldContacts
+# BoldContacts mobile app
 
 <img src="screenshot.png" height="300">
 
-BoldContacts™ is an app that helps you browse your contacts and connect with them.
+BoldContacts™ is a mobile app that helps you browse your contacts and connect with them.
 
 BoldContacts is intended for people who experience vision disabilities, cognitive disabilities, or motor disabilities. The app displays each contact with a large photo (if available), large font, and large buttons.
  
