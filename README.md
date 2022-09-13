@@ -1,5 +1,7 @@
 # BoldContacts
 
+<img src="screenshot.png" height="300">
+
 BoldContacts™ is an app that helps you browse your contacts and connect with them.
 
 BoldContacts is intended for people who experience vision disabilities, cognitive disabilities, or motor disabilities. The app displays each contact with a large photo (if available), large font, and large buttons.
@@ -9,7 +11,7 @@ BoldContacts started because our family members have recently been diagnosed wit
 BoldContacts helps our family keep in touch, and helps caretakers connect with us. We hope it may help you and your loved ones. We welcome constructive feedback. We are actively seeking donations and grants to work on accessibility software full time. Contact Joel Parker Henderson at [joel@joelparkerhenderson.com](mailto:joel@joelparkerhenderson.com)
 
 
-## Screenshot
+## How it works
 
 <img src="screenshot.png" height="300">
 
