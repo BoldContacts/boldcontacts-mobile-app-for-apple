@@ -23,9 +23,13 @@ A left-arrow button and right-arrow button. These navigate backward/forward in t
 
 ## Roadmap
 
-BoldContacts is currently doing beta testing of the iOS app. If you would like a beta testing invitation, and you have a current iPhone or iPad, then please email joel@joelparkerhenderson.com.
+BoldContacts is currently doing beta testing of the iOS app, and working on testing code. If you would like a beta testing invitation, and you have a current iPhone or iPad, then please email joel@joelparkerhenderson.com.
 
 Next up we are creating an Android version.  
+
+Future ideas:
+
+* Add hardware buttons. For example add two cheap generic BLE buttons: 'next contact' with wraparound, and 'call now' that automatically starts a video call. This means the phone can be docked, and the person can skip any the steps of phone unlocking, or fingerprint reading, or accessibily taps. This also means the photo can be full screen. 
 
 
 ## Setup
