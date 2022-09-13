@@ -76,7 +76,7 @@ Good usability for people who experience cognitive difficulties.<br>Examples:  m
 
 * Contact: <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
 
-* License: <a href="https://spdx.org/licenses/GPL-3.0-or-later.html">GPL-3.0-or-later</a> or contact us for a custom license. 
+* License: <a href="https://spdx.org/licenses/GPL-2.0-or-later.html">GPL-2.0-or-later</a> or contact us for a custom license. 
 
 
 ## Documentation
@@ -130,5 +130,3 @@ The reason for the trademark is to help protect the app
 and source code from identity theft, or fraud, or hacking.
 
 Copyright 2022 Joel Parker Henderson.
-
-License is GPL-2-or-later or contact us for custom license.
