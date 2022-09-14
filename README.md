@@ -13,9 +13,9 @@ BoldContacts helps our family keep in touch, and helps caretakers connect with u
 
 ## How it works
 
-<img src="screenshot.png" height="300">
+The app shows each contact's photo, name, and three buttons, like this:
 
-The app shows each contact's photo and name.
+<img src="screenshot.png" height="300">
 
 There is a phone icon button that means "call now". This connects using your choice of video, or phone, or email, or message, or custom URL. A caregiver can customize this by using the default iOS Contacts app.
 
