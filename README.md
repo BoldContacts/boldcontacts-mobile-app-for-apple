@@ -24,19 +24,6 @@ There is a left-arrow icon button that means ""previous contact", and a right-ar
 The buttons are purposefully far apart, to help people see them better, and to help people be able to tap each button separately.
 
 
-## Roadmap
-
-BoldContacts is currently doing beta testing of the iOS app, and working on testing code. If you would like a beta testing invitation, and you have a current iPhone or iPad, then please email joel@joelparkerhenderson.com.
-
-Next up we are creating an Android version.  
-
-Future ideas:
-
-* Add hardware buttons. For example add two cheap generic BLE buttons: 'next contact' with wraparound, and 'call now' that automatically starts a video call. This means the phone can be docked, and the person can skip any the steps of phone unlocking, or fingerprint reading, or accessibily taps. This also means the photo can be full screen. 
-
-* Water-proofing and drop-proofing. Imagine holding a drink in your hand, having hand tremors, forgetting about your drink, then trying to tap your phone-- which makes you spill your drink, then drop your phone. We want ways to help this.
-  
-
 ## Setup
 
 The first time you launch BoldContats, you will see an Apple iOS prompt that asks for you to approve this access.
@@ -81,7 +68,7 @@ Good usability for people who experience cognitive difficulties.<br>Examples:  m
 
 * Version: 1.0.0
 
-* Updated: 2022-09-02T15:20:27Z
+* Updated: 2022-09-14T00:46:36Z
 
 * Contact: <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
 
@@ -90,13 +77,15 @@ Good usability for people who experience cognitive difficulties.<br>Examples:  m
 
 ## Documentation
 
-* [Scope](doc/scope.md)
+* [Scope](doc/scope/)
 
-* [Human interface guidelines](doc/human-interface-guidelines.md)
+* [Roadmap](doc/roadmap/)
 
-* [Xcode project overview](doc/xcode-project-overview.md)
+* [Human interface guidelines](doc/human-interface-guidelines/)
 
-* [Technical questions](doc/technical-questions.md)
+* [Xcode project overview](doc/xcode-project-overview/)
+
+* [Technical questions](doc/technical-questions/)
 
 
 ## For more information
