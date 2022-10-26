@@ -1299,7 +1299,7 @@
 				INFOPLIST_FILE = "BoldContacts--iOS--Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs to read your contacts.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs access to your contacts please. This app needs this because it displays your contacts, their names, photos, and ways to connect to them. For example, the app can display your friend's name, friend's photo, and a button to phone them.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1335,7 +1335,7 @@
 				INFOPLIST_FILE = "BoldContacts--iOS--Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs to read your contacts.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs access to your contacts please. This app needs this because it displays your contacts, their names, photos, and ways to connect to them. For example, the app can display your friend's name, friend's photo, and a button to phone them.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2022 Joel Parker Henderson";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
