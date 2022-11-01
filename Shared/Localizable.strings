@@ -1,0 +1,50 @@
+// Buttons
+"OK" = "OK";
+"Quit" = "Quit";
+"Help" = "Help";
+"File" = "File";
+
+// Yes | No | Maybe
+"Yes" = "Yes";
+"No" = "No";
+"Maybe" = "Maybe";
+
+// Success | Failure
+"Success" = "Success";
+"Failure" = "Failure";
+
+// Logging
+"Info" = "Info";
+"Error" = "Error";
+"Warning" = "Warning";
+
+// Allow | Don't Allow
+"Allow" = "Allow";
+"Don't Allow" = "Don't Allow";
+
+// Accept | Reject | Select
+"Accept" = "Accept";
+"Reject" = "Reject";
+"Select" = "Select";
+
+// Edit
+"Edit" = "Edit";
+"Cut" = "Cut";
+"Copy" = "Copy";
+"Paste" = "Paste";
+
+//
+// Application-Specific
+//
+
+// AlertDiagnotics.swift
+"AlertForDiagnostics.title" = "\"BoldContacts\" Would Like To Save Diagnostics";
+"AlertForDiagnostics.message" = "This app saves diagnostics to your folder named \"Documents\" in a file named \"BoldContacts.txt\". You may access the file by using any text editor.";
+
+// CNContactStore.authorizationStatus.*
+"CNContactStore.authorizationStatus.authorized" = "BoldContacts contacts authorization status is authorized.";
+"CNContactStore.authorizationStatus.notDetermined" = "BoldContacts contacts authorization status is not determined.";
+"CNContactStore.authorizationStatus.restricted" = "BoldContacts is unable to access your contacts because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, and authorize BoldContacts to access your contacts, then relaunch BoldContacts.";
+"CNContactStore.authorizationStatus.denied" = "BoldContacts is unable to your contacts because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, and authorize BoldContacts to access your contacts, then relaunch BoldContacts.";
+"CNContactStore.authorizationStatus.default" = "BoldContacts is unable to access your contacts because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+
