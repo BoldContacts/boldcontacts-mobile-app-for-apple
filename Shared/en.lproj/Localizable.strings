@@ -1,0 +1,77 @@
+//
+// Generic
+//
+
+// Buttons
+"OK" = "OK";
+"Cancel" = "Cancelar";
+
+// Yes | No | Maybe
+"Yes" = "Yes";
+"No" = "No";
+
+// Success | Failure
+"Success" = "Success";
+"Failure" = "Failure";
+
+// Allow | Don't Allow
+"Allow" = "Allow";
+"Don't Allow" = "Don't Allow";
+
+// Accept | Reject | Select
+"Accept" = "Accept";
+"Reject" = "Reject";
+
+//
+// AlertDiagnotics.swift
+//
+
+"AlertForDiagnostics.title" = "\"BoldContacts\" Would Like To Save Diagnostics";
+
+"AlertForDiagnostics.message" = "This app saves diagnostics to your folder named \"Documents\" in a file named \"BoldContacts.txt\". You may access the file by using any text editor.";
+
+//
+// CNContactStore.authorizationStatus.*
+//
+
+"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+
+"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+
+"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+
+"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+
+"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+
+//
+// CNAuthorizationStatus fullName
+//
+
+"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+
+"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+
+"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+
+"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+
+//
+// CNAuthorizationStatus partName
+//
+
+"CNAuthorizationStatus.authorized.partName" = "authorized";
+
+"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+
+"CNAuthorizationStatus.restricted.partName" = "restricted";
+
+"CNAuthorizationStatus.denied.partName" = "denied";
+
+//
+// ContentView.swift
+//
+
+"ContentView.loading" = "Your contacts list is loading.";
+
+"ContentView.missing" = "Your contacts list is missing.";

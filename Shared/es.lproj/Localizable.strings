@@ -1,0 +1,94 @@
+//
+// Generic
+//
+
+// Buttons
+"OK" = "Okey";
+"Cancel" = "Cancelar";
+
+// Yes | No | Maybe
+"Yes" = "Sí";
+"No" = "No";
+
+// Success | Failure
+"Success" = "Éxito";
+"Failure" = "Fracaso";
+
+// Allow | Don't Allow
+"Allow" = "Permitir";
+"Don't Allow" = "No Permitast";
+
+// Accept | Reject | Select
+"Accept" = "Aceptar";
+"Reject" = "Rechazar";
+
+//
+// AlertDiagnotics.swift
+//
+
+// en-US: "BoldContacts" Would Like To Save Diagnostics
+"AlertForDiagnostics.title" = "\"BoldContacts\" Gustaría Guardar Los Diagnósticos";
+
+// en-US: This app saves diagnostics to your folder named "Documents" in a file named "BoldContacts.txt". You may access the file by using any text editor.
+"AlertForDiagnostics.message" = "Esta aplicación guarda los diagnósticos en su carpeta llamada \"Documentos\" en un archivo llamado \"BoldContacts.txt\". Puede acceder al archivo utilizando cualquier editor de texto.";
+
+//
+// CNContactStore.authorizationStatus.*
+//
+
+// en-US: This app can read your contacts list.
+"CNContactStore.authorizationStatus.authorized" = "Esta aplicación puede leer su lista de contactos.";
+
+// en-US: This app wants to read your contacts list.
+"CNContactStore.authorizationStatus.notDetermined" = "Esta aplicación quiere leer tu lista de contactos.";
+
+// en-US: This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.
+"CNContactStore.authorizationStatus.restricted" = "Esta aplicación no puede leer su lista de contactos porque el estado de autorización de su tienda de contactos está configurado como restringido. Puedes salir de la aplicación ahora. Puede iniciar su aplicación Preferencias, luego autorizar esta aplicación para leer su lista de contactos y luego reiniciar esta aplicación.";
+
+// en-US: This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.
+"CNContactStore.authorizationStatus.denied" = "Esta aplicación no puede leer su lista de contactos porque el estado de autorización de su tienda de contactos está configurado como denegado. Puedes salir de la aplicación ahora. Puede iniciar su aplicación Preferencias, luego autorizar esta aplicación para leer su lista de contactos y luego reiniciar esta aplicación.";
+
+// en-US: This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.
+"CNContactStore.authorizationStatus.unknown" = "Esta aplicación no puede leer su lista de contactos debido a un error desconocido. Póngase en contacto con el desarrollador de la aplicación para ver más de cerca lo que está sucediendo y cómo solucionarlo. Envíe un correo electrónico a joel@joelparkerhenderson.com o llame al +1-415-317-2700. Gracias.";
+
+//
+// CNAuthorizationStatus fullName
+//
+
+// en-US: Authorization status is authorized.
+"CNAuthorizationStatus.authorized.fullName" = "El estado de autorización es autorizado.";
+
+// en-US: Authorization status is not determined.
+"CNAuthorizationStatus.notDetermined.fullName" = "El estado de autorización es no determinado.";
+
+// en-US: Authorization status is restricted.
+"CNAuthorizationStatus.restricted.fullName" = "El estado de autorización es restringido.";
+
+// en-US: Authorization status is denied.
+"CNAuthorizationStatus.denied.fullName" = "El estado de autorización es denegado.";
+
+//
+// CNAuthorizationStatus partName
+//
+
+// en-US: authorized
+"CNAuthorizationStatus.authorized.partName" = "autorizado";
+
+// en-US: not determined
+"CNAuthorizationStatus.notDetermined.partName" = "no determinado";
+
+// en-US: restricted
+"CNAuthorizationStatus.restricted.partName" = "restringido";
+
+// en-US: denied
+"CNAuthorizationStatus.denied.partName" = "denegado";
+
+//
+// ContentView.swift
+//
+
+// en-US: Your contacts list is loading.
+"ContentView.loading" = "Tu lista de contactos se está cargando.";
+
+// en-US: Your contacts list is to missing.
+"ContentView.missing" = "Falta tu lista de contactos.";
