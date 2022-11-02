@@ -7,7 +7,7 @@ import UIKit
 /// Example:
 ///
 ///      let phoneNumberString: String = "+1-415-555-5555"
-///      openViaSMS(phoneNumberString)
+///      openViaTel(phoneNumberString)
 ///
 public func openViaTel(string: String) -> Bool {
     logger.debug("openViaTel. string: \(string)")

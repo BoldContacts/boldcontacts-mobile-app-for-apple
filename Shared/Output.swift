@@ -8,13 +8,16 @@ func outputFileURL() -> URL {
     outputDirectoryURL().appendingPathComponent("BoldContacts.txt")
 }
 
-func outputString(s: String) {
-    do {
-        try s.write(to: outputFileURL(), atomically: true, encoding: String.Encoding.utf8)
-    } catch {
+func outputString(string: String) {
+    logger.info("outputString: url: \(outputFileURL()) string: \(string)")
+    if getSettingsForUseDiagnostics() {
+        do {
+            try string.write(to: outputFileURL(), atomically: true, encoding: String.Encoding.utf8)
+        } catch {
+        }
     }
 }
 
 func output(s: String) {
-    outputString(s: Date().description + " " + UUID().uuidString + " " + s)
+    outputString(string: Date().description + " " + UUID().uuidString + " " + s)
 }

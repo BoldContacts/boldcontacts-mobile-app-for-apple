@@ -13,17 +13,17 @@ struct ContentView: View {
             alignment: .center,
             spacing: 0
         ) {
-            if cursor.isActive() {
-                if cursor.hasItems() {
-                    VStack {
-                        ItemThumbnailImageView(item: $cursor.item)
-                        ItemTitleTextView(item: $cursor.item)
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    NavView(cursor: cursor)
-                } else {
-                    Text("Your device is telling this app that you have zero contacts.")
+            if !cursor.isActive() {
+                Text("Loading contacts.")
+            } else if !cursor.hasItems() {
+                Text("No contacts found.")
+            } else {
+                VStack {
+                    ItemThumbnailImageView(item: $cursor.item)
+                    ItemTitleTextView(item: $cursor.item)
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                NavView(cursor: cursor)
             }
         }
         .accessibilityLabel("ContentView")

@@ -59,6 +59,7 @@ class Cursor<T>: ObservableObject {
         logger.debug("Cursor call.") //TODO: self.index: \(self.index)")
         if let item = self.item {
             logger.info("Cusor call item: \(String(describing: item))")
+            output(s: "contacting")
             let b = callable(item)
             if b {
                 logger.info("Cursor call success")
@@ -68,7 +69,7 @@ class Cursor<T>: ObservableObject {
         }
     }
 
-    /// Go to a the list's item at the given index.
+    /// Go to the list's item at the given index.
     ///
     /// - Parameter index: The new index.
     ///

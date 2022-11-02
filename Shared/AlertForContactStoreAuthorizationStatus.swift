@@ -1,29 +1,32 @@
 import Foundation
 import SwiftUI
+import Contacts
 
-struct AlertForContact: ViewModifier {
-    @State var showAlertDiagnostics = !tryFeatureFlagForDiagnostics()
-
+struct AlertForContactStoreAuthorizationStatus: ViewModifier {
+    @State var isPresented: Bool
+    @State var status: CNAuthorizationStatus
+    
+    init() {
+        self.isPresented = true
+        self.status = CNContactStore.authorizationStatus(for: .contacts)
+    }
+    
     func body(content: Content) -> some View {
         content
             .alert(
-                LocalizedStringKey("AlertDiagnostics.title"),
-                isPresented: $showAlertDiagnostics
+                LocalizedStringKey("BoldContacts"),
+                isPresented: $isPresented
             ) {
-                Button("Don't Allow") {
-                    setFeatureFlagForDiagnostics(flag: false)
-                }
                 Button("OK") {
-                    setFeatureFlagForDiagnostics(flag: true)
+                    //TODO
                 }
             } message: {
-                Text(LocalizedStringKey("AlertDiagnostics.message"))
             }
     }
 }
 
-extension View {
-    func alertDiagnotics() -> some View {
-        self.modifier(AlertDiagnotics())
-    }
-}
+//extension View {
+//    func alertForContactStoreAuthorizationStatus() -> some View {
+//        self.modifier(AlertForContactStoreAuthorizationStatus())
+//    }
+//}

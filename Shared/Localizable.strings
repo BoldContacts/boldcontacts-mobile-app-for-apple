@@ -42,9 +42,20 @@
 "AlertForDiagnostics.message" = "This app saves diagnostics to your folder named \"Documents\" in a file named \"BoldContacts.txt\". You may access the file by using any text editor.";
 
 // CNContactStore.authorizationStatus.*
-"CNContactStore.authorizationStatus.authorized" = "BoldContacts contacts authorization status is authorized.";
-"CNContactStore.authorizationStatus.notDetermined" = "BoldContacts contacts authorization status is not determined.";
-"CNContactStore.authorizationStatus.restricted" = "BoldContacts is unable to access your contacts because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, and authorize BoldContacts to access your contacts, then relaunch BoldContacts.";
-"CNContactStore.authorizationStatus.denied" = "BoldContacts is unable to your contacts because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, and authorize BoldContacts to access your contacts, then relaunch BoldContacts.";
-"CNContactStore.authorizationStatus.default" = "BoldContacts is unable to access your contacts because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.authorized" = "This app can access your contacts.";
+"CNContactStore.authorizationStatus.notDetermined" = "This app wants to access your contacts.";
+"CNContactStore.authorizationStatus.restricted" = "This app is unable to access your contacts because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, and authorize BoldContacts to access your contacts, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "This app is unable to your contacts because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, and authorize BoldContacts to access your contacts, then relaunch this app.";
+"CNContactStore.authorizationStatus.unknown" = "This app is unable to access your contacts because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
 
+// CNAuthorizationStatus fullName
+"CNAuthorizationStatus.authorized" = "Authorization status is authorized";
+"CNAuthorizationStatus.notDetermined" = "Authorization status is not determined";
+"CNAuthorizationStatus.restricted" = "Authorization status is restricted";
+"CNAuthorizationStatus.denied" = "Authorization status is denied";
+
+// CNAuthorizationStatus partName
+"authorized" = "authorized";
+"notDetermined" = "not determined";
+"restricted" = "restricted";
+"denied" = "denied";

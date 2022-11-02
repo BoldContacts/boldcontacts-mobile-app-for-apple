@@ -23,6 +23,8 @@ There is a left-arrow icon button that means ""previous contact", and a right-ar
 
 The buttons are purposefully far apart, to help people see them better, and to help people be able to tap each button separately.
 
+In addition, the app saves brief anonymous usage data in your "Documents" directory in a file named "BoldContacts.txt". The data is for diagnostics and disability assistance.
+
 
 ## Setup
 

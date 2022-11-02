@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct ErrorView: View {
+struct TitleBodyView: View {
     var titleString: String
     var bodyString: String
     
@@ -15,5 +15,6 @@ struct ErrorView: View {
             Text(titleString).font(Font.title)
             Text(bodyString).font(Font.body)
         }
+        .accessibilityLabel("TitleBodyView")
     }
 }

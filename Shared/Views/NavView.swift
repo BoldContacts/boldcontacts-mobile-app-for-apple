@@ -42,5 +42,6 @@ struct NavView: View {
                 .frame(maxWidth: .infinity)
             }
         }
+        .accessibilityLabel("NavView")
     }
 }
