@@ -14,9 +14,9 @@ struct ContentView: View {
             spacing: 0
         ) {
             if !cursor.isActive() {
-                Text("Loading contacts.")
+                Text("ContentView.loading")
             } else if !cursor.hasItems() {
-                Text("No contacts found.")
+                Text("ContentView.missing")
             } else {
                 VStack {
                     ItemThumbnailImageView(item: $cursor.item)

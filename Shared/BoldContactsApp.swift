@@ -43,5 +43,3 @@ struct BoldContactsApp: App {
         }
     }
 }
-
-// Text("CNContactStore.authorizationStatus.\(CNContactStore.authorizationStatus(for: .contacts).partName()!)".localizedStringKey())

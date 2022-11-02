@@ -8,4 +8,3 @@ public func fabCNPostalAddress() -> CNPostalAddress {
     x.postalCode = fabUnitedStatesPostalCodeAsString()
     return x as CNPostalAddress
 }
-
