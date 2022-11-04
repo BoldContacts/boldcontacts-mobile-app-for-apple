@@ -1,8 +1,11 @@
-//
-//  UIDevice_isSimulator.swift
-//  BoldContacts
-//
-//  Created by jph on 11/4/22.
-//
+import UIKit
 
-import Foundation
+extension UIDevice {
+    var isSimulator: Bool {
+        #if IOS_SIMULATOR
+            return true
+        #else
+            return false
+        #endif
+    }
+}
