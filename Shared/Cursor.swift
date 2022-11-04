@@ -1,5 +1,11 @@
 import SwiftUI
 
+enum CursorState {
+    case Loadable
+    case Loading
+    case Loaded
+}
+
 /// A data cursor that navigates on the app's list of items
 ///
 class Cursor<T>: ObservableObject {
@@ -8,6 +14,7 @@ class Cursor<T>: ObservableObject {
     @Published var list: [T]?
     @Published var index: Int?
     @Published var item: T?
+    @Published var state = CursorState.Loadable
     
     // Call this function when the user selects the item.
     // Return true=success or false=failure.
@@ -19,12 +26,8 @@ class Cursor<T>: ObservableObject {
 
     init() {}
     
-    public func isActive() -> Bool {
-        return self.list != nil
-    }
-
-    public func hasItems() -> Bool {
-        return self.list != nil && !self.list!.isEmpty
+    public func isEmpty() -> Bool {
+        return self.list == nil && self.list!.isEmpty
     }
 
     /// Accessor
