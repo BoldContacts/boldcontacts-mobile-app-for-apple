@@ -4,6 +4,7 @@ import Contacts
 
 func loadContactsFromStoreToCursor(store: CNContactStore, cursor: Cursor<AppItem>) {
     logger.debug("loadContactsFromStoreToCursorDispatch start")
+    cursor.state = CursorState.Loading
     let dispatchQueue = DispatchQueue(label: "load", qos: .background)
     dispatchQueue.async{
         logger.debug("loadContactsFromStoreToCursor async start")
@@ -15,5 +16,6 @@ func loadContactsFromStoreToCursor(store: CNContactStore, cursor: Cursor<AppItem
         logger.debug("loadContactsFromStoreToCursor async stop")
     }
     cursor.setCallable(callable: openViaCNContact)
+    cursor.state = CursorState.Loaded
     logger.debug("loadContactsFromStoreToCursorDispatch stop")
 }

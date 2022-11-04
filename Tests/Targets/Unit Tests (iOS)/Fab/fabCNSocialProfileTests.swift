@@ -1,4 +1,5 @@
 import XCTest
+import Contacts
 @testable import BoldContacts
 
 class fabCNSocialProfile_Tests: XCTestCase {

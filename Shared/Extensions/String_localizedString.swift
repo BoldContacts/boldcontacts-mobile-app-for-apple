@@ -1,5 +1,6 @@
 import Foundation
 import SwiftUI
+import OSLog
 
 extension String {
     
@@ -8,10 +9,17 @@ extension String {
     /// Credit https://stackoverflow.com/questions/60841915/how-to-change-localizedstringkey-to-string-in-swiftui
     /// 
     func localizedString(
-        locale: Locale = .current
+        locale: Locale = .current,
+        logger: Logger = logger
     ) -> String? {
-        guard let path = Bundle.main.path(forResource: locale.languageCode, ofType: "lproj") else { return self }
-        guard let bundle = Bundle(path: path) else { return self }
+        guard let path = Bundle.main.path(forResource: locale.languageCode, ofType: "lproj") else {
+            logger.error("Path is nil. Self is \"(self)")
+            return self
+        }
+        guard let bundle = Bundle(path: path) else {
+            logger.error("Bundle is nil. Self is \"(self)")
+            return self
+        }
         return NSLocalizedString(self, bundle: bundle, comment: "")
     }
 

@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct AlertForDiagnotics: ViewModifier {
+struct AlertForDiagnostics: ViewModifier {
     @State var alertForDiagnosticsIsPresented = !trySettingsForUseDiagnostics()
 
     func body(content: Content) -> some View {

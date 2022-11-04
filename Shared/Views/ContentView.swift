@@ -13,17 +13,22 @@ struct ContentView: View {
             alignment: .center,
             spacing: 0
         ) {
-            if !cursor.isActive() {
-                Text("ContentView.loading")
-            } else if !cursor.hasItems() {
-                Text("ContentView.missing")
-            } else {
-                VStack {
-                    ItemThumbnailImageView(item: $cursor.item)
-                    ItemTitleTextView(item: $cursor.item)
+            switch cursor.state {
+            case CursorState.Loadable:
+                Text("CursorState.Loadable")
+            case CursorState.Loading:
+                Text("CursorState.Loading")
+            case CursorState.Loaded:
+                if cursor.isEmpty() {
+                    Text("CursorState.Loaded & cursor.isEmpty")
+                } else {
+                    VStack {
+                        ItemThumbnailImageView(item: $cursor.item)
+                        ItemTitleTextView(item: $cursor.item)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    NavView(cursor: cursor)
                 }
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                NavView(cursor: cursor)
             }
         }
         .accessibilityLabel("ContentView")

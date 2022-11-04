@@ -95,6 +95,14 @@
 		F4380BEA29131376005A585A /* parseContactIdentifierStringToURLSafeStringTetss.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228DE28A5D68E00773693 /* parseContactIdentifierStringToURLSafeStringTetss.swift */; };
 		F4380BEB29131376005A585A /* parseEmailAddressStringToURLSafeStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228DC28A5D61900773693 /* parseEmailAddressStringToURLSafeStringTests.swift */; };
 		F4380BEC29131376005A585A /* parseStringToURLSafeStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228E128A5F6D300773693 /* parseStringToURLSafeStringTests.swift */; };
+		F4380BEE29158EF9005A585A /* UIDevice_isSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BED29158EF9005A585A /* UIDevice_isSimulator.swift */; };
+		F4380BEF29158EF9005A585A /* UIDevice_isSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BED29158EF9005A585A /* UIDevice_isSimulator.swift */; };
+		F4380BF12915963E005A585A /* AlertForDemonstration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BF02915963E005A585A /* AlertForDemonstration.swift */; };
+		F4380BF22915963E005A585A /* AlertForDemonstration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BF02915963E005A585A /* AlertForDemonstration.swift */; };
+		F4380BF429159714005A585A /* CNContactStore_count.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BF329159714005A585A /* CNContactStore_count.swift */; };
+		F4380BF529159714005A585A /* CNContactStore_count.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BF329159714005A585A /* CNContactStore_count.swift */; };
+		F4380BFA2915B6AD005A585A /* DemoPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BF92915B6AD005A585A /* DemoPersons.swift */; };
+		F4380BFB2915B6AD005A585A /* DemoPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380BF92915B6AD005A585A /* DemoPersons.swift */; };
 		F445854928B3ED4F00C5465F /* openViaCNContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854828B3ED4F00C5465F /* openViaCNContact.swift */; };
 		F445854D28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */; };
 		F445854F28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */; };
@@ -261,6 +269,10 @@
 		F4380B962912FA6C005A585A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4380BAD29131325005A585A /* Unit Tests (iOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests (iOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4380BAF29131325005A585A /* Unit_Tests__iOS_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Tests__iOS_.swift; sourceTree = "<group>"; };
+		F4380BED29158EF9005A585A /* UIDevice_isSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice_isSimulator.swift; sourceTree = "<group>"; };
+		F4380BF02915963E005A585A /* AlertForDemonstration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForDemonstration.swift; sourceTree = "<group>"; };
+		F4380BF329159714005A585A /* CNContactStore_count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_count.swift; sourceTree = "<group>"; };
+		F4380BF92915B6AD005A585A /* DemoPersons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPersons.swift; sourceTree = "<group>"; };
 		F445854828B3ED4F00C5465F /* openViaCNContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openViaCNContact.swift; sourceTree = "<group>"; };
 		F445854A28B3F14C00C5465F /* openViaCNContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openViaCNContact.swift; sourceTree = "<group>"; };
 		F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlString.swift; sourceTree = "<group>"; };
@@ -512,6 +524,7 @@
 		F4380B8D2912D93B005A585A /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
+				F4380BF02915963E005A585A /* AlertForDemonstration.swift */,
 				F462180F290C463500CAA541 /* AlertForDiagnostics.swift */,
 			);
 			path = Alerts;
@@ -547,9 +560,9 @@
 			isa = PBXGroup;
 			children = (
 				F4380BAF29131325005A585A /* Unit_Tests__iOS_.swift */,
-				F47228D728A5D56400773693 /* Parse */,
 				F47228E028A5F6B400773693 /* Extensions */,
 				F47228D628A5D43A00773693 /* Fab */,
+				F47228D728A5D56400773693 /* Parse */,
 			);
 			path = "Unit Tests (iOS)";
 			sourceTree = "<group>";
@@ -591,6 +604,7 @@
 				F4380B892912D784005A585A /* Load.swift */,
 				F472289428A5930000773693 /* Logger.swift */,
 				F47228B128A5955F00773693 /* Demo.swift */,
+				F4380BF92915B6AD005A585A /* DemoPersons.swift */,
 				F4AEA712290AEC0300F6E82C /* Output.swift */,
 				F472280628A58B4000773693 /* Persistence.swift */,
 				F462180C290B63BF00CAA541 /* Settings.swift */,
@@ -677,16 +691,18 @@
 				F472285E28A5903700773693 /* CNContactStore_keysToFetch.swift */,
 				F472285128A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift */,
 				F472284F28A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift */,
-				F472285D28A5903700773693 /* CNContactStore_list.swift */,
+				F4380BF329159714005A585A /* CNContactStore_count.swift */,
 				F472285A28A5903700773693 /* CNContactStore_create.swift */,
 				F472285528A5903700773693 /* CNContactStore_delete.swift */,
 				F472285328A5903700773693 /* CNContactStore_deleteByName.swift */,
+				F472285D28A5903700773693 /* CNContactStore_list.swift */,
 				F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */,
 				F472285628A5903700773693 /* Collection_safe.swift */,
 				F4380B6429123AAF005A585A /* LocalizedStringKey_key.swift */,
 				F4380B6A29123C9E005A585A /* LocalizedStringKey_value.swift */,
 				F4380B6729123BE2005A585A /* String_localizedString.swift */,
 				F4380B702912C457005A585A /* String_localizedStringKey.swift */,
+				F4380BED29158EF9005A585A /* UIDevice_isSimulator.swift */,
 				F472285828A5903700773693 /* UIImage_cropToSquare.swift */,
 				F472285728A5903700773693 /* UIImage_empty.swift */,
 				F472285928A5903700773693 /* UIImage_resize.swift */,
@@ -1172,12 +1188,14 @@
 				F47229AD28AB192A00773693 /* fabCNContactEmailAddresses.swift in Sources */,
 				F47229AB28AB192A00773693 /* fabCNContactPhoneNumbers.swift in Sources */,
 				F47229DA28AC15BD00773693 /* fabCNContactPostalAddresses.swift in Sources */,
+				F4380BFA2915B6AD005A585A /* DemoPersons.swift in Sources */,
 				F4FAB3A52910C3EE0051B230 /* TitleBodyView.swift in Sources */,
 				F47229DB28AC15BD00773693 /* fabCNContactSocialProfiles.swift in Sources */,
 				F47229AC28AB192A00773693 /* fabCNContactURLAddresses.swift in Sources */,
 				F4AEA713290AEC0300F6E82C /* Output.swift in Sources */,
 				F4621810290C463500CAA541 /* AlertForDiagnostics.swift in Sources */,
 				F47229DC28AC15BD00773693 /* fabCNPostalAddress.swift in Sources */,
+				F4380BF12915963E005A585A /* AlertForDemonstration.swift in Sources */,
 				F47229DD28AC15BD00773693 /* fabCNSocialProfile.swift in Sources */,
 				F40EACE728B03C7D0095C188 /* CNContact_list_urlAddresses.swift in Sources */,
 				F472288428A591F100773693 /* fabEmailAddressAsString.swift in Sources */,
@@ -1195,6 +1213,7 @@
 				F472288828A591F100773693 /* fabUnitedStatesStreetAsString.swift in Sources */,
 				F4E1397229120B2700144173 /* RawRepresentable_reflecting.swift in Sources */,
 				F40EACF728B047FD0095C188 /* CNContact_list_socialProfiles.swift in Sources */,
+				F4380BEE29158EF9005A585A /* UIDevice_isSimulator.swift in Sources */,
 				F40EACDB28B001210095C188 /* IntoTitle.swift in Sources */,
 				F472289028A591F100773693 /* fabUnitedStatesStateCodeAsString.swift in Sources */,
 				F4380B6B29123C9E005A585A /* LocalizedStringKey_value.swift in Sources */,
@@ -1212,6 +1231,7 @@
 				F472288F28A591F100773693 /* fabTreeName.swift in Sources */,
 				F40EACD928B001210095C188 /* IntoThumbnail.swift in Sources */,
 				F4380B6829123BE2005A585A /* String_localizedString.swift in Sources */,
+				F4380BF429159714005A585A /* CNContactStore_count.swift in Sources */,
 				F4380B7D2912C644005A585A /* PartName.swift in Sources */,
 				F47228A028A5939000773693 /* openViaString.swift in Sources */,
 				F47228A128A5939000773693 /* openViaContactIdentifier.swift in Sources */,
@@ -1278,6 +1298,7 @@
 				F472289628A5930600773693 /* Logger.swift in Sources */,
 				F4380B8B2912D784005A585A /* Load.swift in Sources */,
 				F4E1396D2911F82800144173 /* CNAuthorizationStatus_partName.swift in Sources */,
+				F4380BF22915963E005A585A /* AlertForDemonstration.swift in Sources */,
 				F4E1397029120AA700144173 /* RawRepresentable_describing.swift in Sources */,
 				F4380B722912C457005A585A /* String_localizedStringKey.swift in Sources */,
 				F4380B7E2912C644005A585A /* PartName.swift in Sources */,
@@ -1288,10 +1309,13 @@
 				F4380B822912C801005A585A /* FullName.swift in Sources */,
 				F4621811290C463500CAA541 /* AlertForDiagnostics.swift in Sources */,
 				F4380B6629123AAF005A585A /* LocalizedStringKey_key.swift in Sources */,
+				F4380BFB2915B6AD005A585A /* DemoPersons.swift in Sources */,
 				F4380B902912DB7E005A585A /* Doer.swift in Sources */,
 				F472283428A58B4100773693 /* Persistence.swift in Sources */,
 				F472283028A58B4100773693 /* BoldContactsApp.swift in Sources */,
+				F4380BEF29158EF9005A585A /* UIDevice_isSimulator.swift in Sources */,
 				F4380B6929123BE2005A585A /* String_localizedString.swift in Sources */,
+				F4380BF529159714005A585A /* CNContactStore_count.swift in Sources */,
 				F4380B882912C924005A585A /* CNAuthorizationStatus_fullName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

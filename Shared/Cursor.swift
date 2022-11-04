@@ -27,7 +27,7 @@ class Cursor<T>: ObservableObject {
     init() {}
     
     public func isEmpty() -> Bool {
-        return self.list == nil && self.list!.isEmpty
+        return self.list == nil || self.list!.isEmpty
     }
 
     /// Accessor

@@ -39,7 +39,8 @@ struct BoldContactsApp: App {
                     }
                 }
             }
-            .modifier(AlertForDiagnotics())
+            .modifier(AlertForDemonstration(cursor: cursor))
+            .modifier(AlertForDiagnostics())
         }
     }
 }
