@@ -13,10 +13,9 @@ extension LocalizedStringKey {
     func value(locale: Locale = .current) -> String? {
         guard let key = self.key else { return nil }
         let language = locale.languageCode
-        guard let path = Bundle.main.path(forResource: language, ofType: "lproj") else { return key }
-        guard let bundle = Bundle(path: path) else { return key }
-        let localizedString = NSLocalizedString(key, bundle: bundle, comment: "")
-        return localizedString
+        guard let path = Bundle.main.path(forResource: language, ofType: "lproj") else { return nil }
+        guard let bundle = Bundle(path: path) else { return nil }
+        return NSLocalizedString(key, bundle: bundle, comment: "")
     }
     
 }

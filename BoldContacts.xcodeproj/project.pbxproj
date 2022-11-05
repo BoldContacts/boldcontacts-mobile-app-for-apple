@@ -21,8 +21,8 @@
 		F40EACF728B047FD0095C188 /* CNContact_list_socialProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACF628B047FD0095C188 /* CNContact_list_socialProfiles.swift */; };
 		F4380B6529123AAF005A585A /* LocalizedStringKey_key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6429123AAF005A585A /* LocalizedStringKey_key.swift */; };
 		F4380B6629123AAF005A585A /* LocalizedStringKey_key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6429123AAF005A585A /* LocalizedStringKey_key.swift */; };
-		F4380B6829123BE2005A585A /* String_localizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6729123BE2005A585A /* String_localizedString.swift */; };
-		F4380B6929123BE2005A585A /* String_localizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6729123BE2005A585A /* String_localizedString.swift */; };
+		F4380B6829123BE2005A585A /* String_local.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6729123BE2005A585A /* String_local.swift */; };
+		F4380B6929123BE2005A585A /* String_local.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6729123BE2005A585A /* String_local.swift */; };
 		F4380B6B29123C9E005A585A /* LocalizedStringKey_value.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6A29123C9E005A585A /* LocalizedStringKey_value.swift */; };
 		F4380B6C29123C9E005A585A /* LocalizedStringKey_value.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B6A29123C9E005A585A /* LocalizedStringKey_value.swift */; };
 		F4380B712912C457005A585A /* String_localizedStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380B702912C457005A585A /* String_localizedStringKey.swift */; };
@@ -257,7 +257,7 @@
 		F40EACF628B047FD0095C188 /* CNContact_list_socialProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_list_socialProfiles.swift; sourceTree = "<group>"; };
 		F40EACF828B048580095C188 /* CNContact_list_socialProfilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_list_socialProfilesTests.swift; sourceTree = "<group>"; };
 		F4380B6429123AAF005A585A /* LocalizedStringKey_key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringKey_key.swift; sourceTree = "<group>"; };
-		F4380B6729123BE2005A585A /* String_localizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_localizedString.swift; sourceTree = "<group>"; };
+		F4380B6729123BE2005A585A /* String_local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_local.swift; sourceTree = "<group>"; };
 		F4380B6A29123C9E005A585A /* LocalizedStringKey_value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringKey_value.swift; sourceTree = "<group>"; };
 		F4380B702912C457005A585A /* String_localizedStringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_localizedStringKey.swift; sourceTree = "<group>"; };
 		F4380B7C2912C644005A585A /* PartName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartName.swift; sourceTree = "<group>"; };
@@ -700,7 +700,7 @@
 				F472285628A5903700773693 /* Collection_safe.swift */,
 				F4380B6429123AAF005A585A /* LocalizedStringKey_key.swift */,
 				F4380B6A29123C9E005A585A /* LocalizedStringKey_value.swift */,
-				F4380B6729123BE2005A585A /* String_localizedString.swift */,
+				F4380B6729123BE2005A585A /* String_local.swift */,
 				F4380B702912C457005A585A /* String_localizedStringKey.swift */,
 				F4380BED29158EF9005A585A /* UIDevice_isSimulator.swift */,
 				F472285828A5903700773693 /* UIImage_cropToSquare.swift */,
@@ -1230,7 +1230,7 @@
 				F47228A328A5939000773693 /* openViaSMS.swift in Sources */,
 				F472288F28A591F100773693 /* fabTreeName.swift in Sources */,
 				F40EACD928B001210095C188 /* IntoThumbnail.swift in Sources */,
-				F4380B6829123BE2005A585A /* String_localizedString.swift in Sources */,
+				F4380B6829123BE2005A585A /* String_local.swift in Sources */,
 				F4380BF429159714005A585A /* CNContactStore_count.swift in Sources */,
 				F4380B7D2912C644005A585A /* PartName.swift in Sources */,
 				F47228A028A5939000773693 /* openViaString.swift in Sources */,
@@ -1314,7 +1314,7 @@
 				F472283428A58B4100773693 /* Persistence.swift in Sources */,
 				F472283028A58B4100773693 /* BoldContactsApp.swift in Sources */,
 				F4380BEF29158EF9005A585A /* UIDevice_isSimulator.swift in Sources */,
-				F4380B6929123BE2005A585A /* String_localizedString.swift in Sources */,
+				F4380B6929123BE2005A585A /* String_local.swift in Sources */,
 				F4380BF529159714005A585A /* CNContactStore_count.swift in Sources */,
 				F4380B882912C924005A585A /* CNAuthorizationStatus_fullName.swift in Sources */,
 			);
