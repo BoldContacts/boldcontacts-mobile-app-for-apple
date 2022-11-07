@@ -31,5 +31,6 @@ func demoPerson(_ i: Int) -> CNContact? {
         ),
     ]
     contact.imageData = image.jpegData(compressionQuality: 1.0)
+    let _ = CNContactStore().create(contact: contact)
     return contact
 }

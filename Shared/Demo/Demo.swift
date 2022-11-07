@@ -145,7 +145,7 @@ public func demoCreateContactForJoelParkerHenderson() -> CNContact {
         phoneNumberString: "1 (415) 317-2700",
         socialProfileUrlString: "https://instagram.com/joelparkerhenderson",
         urlAddressString: "https://github.com/joelparkerhenderson",
-        uiImageNamed: "demo-persons-joelparkerhenderson-icons-512"
+        uiImageNamed: "demo-persons-joel@joelparkerhenderson.com-icons-512"
     )
 }
 
@@ -164,60 +164,60 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
         middleName: nil,
         familyName: "Adams",
         emailAddressString: "alice@example.com",
-        phoneNumberString: nil,
+        phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/alice",
-        uiImageNamed: "demo-persons-alice-icons-512"
+        uiImageNamed: "demo-persons-0-icons-512"
     )
     let b = demoCreateContact(
         givenName: "Bob",
         middleName: nil,
         familyName: "Brown",
         emailAddressString: "bob@example.com",
-        phoneNumberString: nil,
+        phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/bob",
-        uiImageNamed: "demo-persons-bob-icons-512"
+        uiImageNamed: "demo-persons-1-icons-512"
     )
     let c = demoCreateContact(
         givenName: "Carol",
         middleName: nil,
         familyName: "Curtis",
         emailAddressString: "carol@example.com",
-        phoneNumberString: nil,
+        phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/carol",
-        uiImageNamed: "demo-persons-carol-icons-512"
+        uiImageNamed: "demo-persons-2-icons-512"
     )
     let d = demoCreateContact(
         givenName: "Dave",
         middleName: nil,
         familyName: "Davis",
         emailAddressString: "dave@example.com",
-        phoneNumberString: nil,
+        phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/dave",
-        uiImageNamed: "demo-persons-dave-icons-512"
+        uiImageNamed: "demo-persons-3-icons-512"
     )
     let e = demoCreateContact(
         givenName: "Eve",
         middleName: nil,
         familyName: "Evans",
         emailAddressString: "eve@example.com",
-        phoneNumberString: nil,
+        phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/eve",
-        uiImageNamed: "demo-persons-eve-icons-512"
+        uiImageNamed: "demo-persons-4-icons-512"
     )
     let f = demoCreateContact(
         givenName: "Frank",
         middleName: nil,
         familyName: "Franklin",
         emailAddressString: "frank@example.com",
-        phoneNumberString: nil,
+        phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/frank",
-        uiImageNamed: "demo-persons-frank-icons-512"
+        uiImageNamed: "demo-persons-5-icons-512"
     )
     return [a, b, c, d, e, f]
 }

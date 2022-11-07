@@ -7,11 +7,22 @@ typealias AppItem = CNContact
 
 @main
 struct BoldContactsApp: App {
-    let persistenceController = PersistenceController.shared
+
+    //
+    // Generic setup
+    //
     
     // Connect to app delegate class defined in AppDelegate.swift
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
+    // Track the application state and their transitions
+    @State var appState: AppState = AppState.Init
 
+    //
+    // Specific setup
+    //
+    
+    let persistenceController = PersistenceController.shared
     @State private var store = CNContactStore()
     @State private var cursor = Cursor<AppItem>()
 
@@ -43,4 +54,22 @@ struct BoldContactsApp: App {
             .modifier(AlertForDiagnostics())
         }
     }
+    
+    public mutating func appStateNext() {
+        switch appState {
+        case .Init:
+            self.appState = AppState.AlertForDemonstration
+        case .AlertForDemonstration:
+            self.appState = AppState.AlertForDiagnostics
+        case .AlertForDiagnostics:
+            self.appState = AppState.Browse
+        case .Browse:
+            self.appState = AppState.Browse
+        case .Unknown:
+            self.appState = AppState.Unknown
+        @unknown default:
+            self.appState = AppState.Unknown
+        }
+    }
+
 }
