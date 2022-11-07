@@ -23,12 +23,12 @@
 "Reject" = "Rechazar";
 
 //
-// AlertForDiagnostics.swift
+// AlertForFirstTime.swift
 //
 
-"AlertForDiagnostics.title" = "\"BoldContacts\" Gustaría Guardar Los Diagnósticos";
+"AlertForFirstTime.title" = "\"BoldContacts\" Gustaría Guardar Los Diagnósticos";
 
-"AlertForDiagnostics.message" = "Esta aplicación guarda los diagnósticos en su carpeta llamada \"Documentos\" en un archivo llamado \"BoldContacts.txt\". Puede acceder al archivo utilizando cualquier editor de texto.";
+"AlertForFirstTime.message" = "Esta aplicación guarda los diagnósticos en su carpeta llamada \"Documentos\" en un archivo llamado \"BoldContacts.txt\". Puede acceder al archivo utilizando cualquier editor de texto.";
 
 //
 // AlertForDemonstration.swift

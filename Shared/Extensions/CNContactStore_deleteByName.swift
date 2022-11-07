@@ -11,7 +11,7 @@ extension CNContactStore {
     ///     let store = CNContactStore()
     ///     store.deleteByName(name: "Alice")
     ///
-    public func deleteByName(name: String) -> Bool {
+    public func deleteByName(_ name: String) -> Bool {
         let fetchRequest = CNContactFetchRequest(keysToFetch: [CNContactFormatter.descriptorForRequiredKeys(for: .fullName)])
         fetchRequest.predicate = CNContact.predicateForContacts(matchingName: name)
         fetchRequest.mutableObjects = true
@@ -39,6 +39,7 @@ extension CNContactStore {
             """
             CNContactStore deleteByNameTry.
             code: 553896ed805135c84dd9455fdaa92181
+            name: \(name)
             contact: \(contact)
             """
         )
@@ -52,6 +53,7 @@ extension CNContactStore {
             """
             CNContactStore deleteByNameSuccess.
             code: 553896ed805135c84dd9455fdaa92181
+            name: \(name)
             contact: \(contact)
             """
         )
@@ -66,6 +68,7 @@ extension CNContactStore {
             """
             CNContactStore deleteByNameFailure.
             code: ee619abaa4e229b260a8815767b257bc
+            name: \(name)
             contact: \(contact)
             error: \(error)
             """

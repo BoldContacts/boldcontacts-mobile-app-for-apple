@@ -1,11 +1,5 @@
 import SwiftUI
 
-enum CursorState {
-    case Loadable
-    case Loading
-    case Loaded
-}
-
 /// A data cursor that navigates on the app's list of items
 ///
 class Cursor<T>: ObservableObject {
@@ -62,7 +56,6 @@ class Cursor<T>: ObservableObject {
         logger.debug("Cursor call.") //TODO: self.index: \(self.index)")
         if let item = self.item {
             logger.info("Cusor call item: \(String(describing: item))")
-            output(s: "contacting")
             let b = callable(item)
             if b {
                 logger.info("Cursor call success")

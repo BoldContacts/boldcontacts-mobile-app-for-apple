@@ -1,13 +1,9 @@
 import SwiftUI
 import Contacts
 
-struct ContentView: View {
+struct AppView: View {
     @ObservedObject var cursor: Cursor<AppItem>
     
-    init(cursor: Cursor<AppItem>) {
-        self.cursor = cursor
-    }
-
     var body: some View {
         VStack(
             alignment: .center,
@@ -22,21 +18,10 @@ struct ContentView: View {
                 if cursor.isEmpty() {
                     Text("CursorState.Loaded & cursor.isEmpty")
                 } else {
-                    VStack {
-                        ItemThumbnailImageView(item: $cursor.item)
-                        ItemTitleTextView(item: $cursor.item)
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    NavView(cursor: cursor)
+                    ContactView(cursor: cursor)
                 }
             }
         }
-        .accessibilityLabel("ContentView")
+        .accessibilityLabel("AppView")
     }
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-//    }
-//}

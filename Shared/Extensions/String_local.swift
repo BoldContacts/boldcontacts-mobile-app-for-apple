@@ -42,7 +42,11 @@ extension String {
             Logger().error("\(#file) -> local -> self is empty.")
             return nil
         }
-        guard let path = Bundle.main.path(forResource: locale.languageCode, ofType: "lproj") else {
+        guard let languageCode = locale.language.languageCode else {
+            Logger().error("\(#file) -> local -> languageCode nil.")
+            return nil
+        }
+        guard let path = Bundle.main.path(forResource: languageCode.identifier, ofType: "lproj") else {
             Logger().error("\(#file) -> local -> path is nil. self: \(self)")
             return nil
         }

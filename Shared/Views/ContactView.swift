@@ -1,8 +1,22 @@
-//
-//  ContactView.swift
-//  BoldContacts
-//
-//  Created by jph on 11/6/22.
-//
+import SwiftUI
+import Contacts
 
-import Foundation
+struct ContactView: View {
+    @ObservedObject var cursor: Cursor<AppItem>
+    
+    var body: some View {
+        VStack(
+            alignment: .center,
+            spacing: 0
+        ) {
+            VStack {
+                ItemThumbnailImageView(item: $cursor.item)
+                ItemTitleTextView(item: $cursor.item)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            NavView(cursor: cursor)
+        }
+        .accessibilityLabel("ContactView")
+    }
+    
+}

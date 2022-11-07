@@ -23,12 +23,12 @@
 "Reject" = "Reject";
 
 //
-// AlertForDiagnostics.swift
+// AlertForFirstTime.swift
 //
 
-"AlertForDiagnostics.title" = "\"BoldContacts\" Would Like To Save Diagnostics";
+"AlertForFirstTime.title" = "\"BoldContacts\" First Time Help";
 
-"AlertForDiagnostics.message" = "This app saves diagnostics to your folder named \"Documents\" in a file named \"BoldContacts.txt\". You may access the file by using any text editor.";
+"AlertForFirstTime.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
 
 //
 // AlertForDemonstration.swift

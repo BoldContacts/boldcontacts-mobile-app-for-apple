@@ -128,12 +128,12 @@ public func demoCreateContact(
 
 func demoDeleteContactsForSimulator() {
     let store = CNContactStore()
-    let _ = store.deleteByName(name: "Anna Haro")
-    let _ = store.deleteByName(name: "Daniel Higgins")
-    let _ = store.deleteByName(name: "David Taylor")
-    let _ = store.deleteByName(name: "Hank Zakroff")
-    let _ = store.deleteByName(name: "John Appleseed")
-    let _ = store.deleteByName(name: "Kate Bell")
+    let _ = store.deleteByName("Anna Haro")
+    let _ = store.deleteByName("Daniel Higgins")
+    let _ = store.deleteByName("David Taylor")
+    let _ = store.deleteByName("Hank Zakroff")
+    let _ = store.deleteByName("John Appleseed")
+    let _ = store.deleteByName("Kate Bell")
 }
 
 public func demoCreateContactForJoelParkerHenderson() -> CNContact {
@@ -224,10 +224,10 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
 
 func demoDeleteContactsForABCDEF() {
     let store = CNContactStore()
-    let _ = store.deleteByName(name: "Alice Adams")
-    let _ = store.deleteByName(name: "Bob Brown")
-    let _ = store.deleteByName(name: "Carol Curtis")
-    let _ = store.deleteByName(name: "Dave Davis")
-    let _ = store.deleteByName(name: "Eve Evans")
-    let _ = store.deleteByName(name: "Frank Franklin")
+    let _ = store.deleteByName("Alice Adams")
+    let _ = store.deleteByName("Bob Brown")
+    let _ = store.deleteByName("Carol Curtis")
+    let _ = store.deleteByName("Dave Davis")
+    let _ = store.deleteByName("Eve Evans")
+    let _ = store.deleteByName("Frank Franklin")
 }

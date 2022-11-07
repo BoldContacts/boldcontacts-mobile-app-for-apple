@@ -23,21 +23,23 @@ struct AlertForDemonstration: ViewModifier {
     /// but there are zero contacts, or exactly one contact that is fake.
     public func isPresented() -> Bool {
         logger.debug("AlertForDemonstration isPresented() cursor.state: \(String(describing: cursor.state))")
-        if cursor.state == CursorState.Loaded {
-            if cursor.isEmpty() {
-                return true
-            }
-            if let list = cursor.list {
-                if list.count == 1 {
-                    let contact = list[0]
-                    if let emailAddress = contact.getEmailAddress() {
-                        if emailAddress.value == "boldcontacts@example.com" {
-                            return true
-                        }
+        guard cursor.state == CursorState.Loaded else { return false }
+        if cursor.isEmpty() {
+            logger.debug("AlertForDemonstration isPresented() -> true because cursor is empty")
+            return true
+        }
+        if let list = cursor.list {
+            if list.count == 1 {
+                let contact = list[0]
+                if let emailAddress = contact.getEmailAddress() {
+                    if emailAddress.value == "boldcontacts@example.com" {
+                        logger.debug("AlertForDemonstration isPresented() -> true because cursor list is our trigger")
+                        return true
                     }
                 }
             }
         }
+        logger.debug("AlertForDemonstration isPresented() -> false because EOF")
         return false
     }
     

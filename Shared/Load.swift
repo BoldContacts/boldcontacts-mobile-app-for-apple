@@ -12,10 +12,12 @@ func loadContactsFromStoreToCursor(store: CNContactStore, cursor: Cursor<AppItem
         // demoContacts()
         #endif
         let list = store.list()
-        DispatchQueue.main.async { cursor.setList(list: list) }
+        DispatchQueue.main.async {
+            cursor.setList(list: list)
+            cursor.setCallable(callable: openViaCNContact)
+            cursor.state = CursorState.Loaded
+        }
         logger.debug("loadContactsFromStoreToCursor async stop")
     }
-    cursor.setCallable(callable: openViaCNContact)
-    cursor.state = CursorState.Loaded
     logger.debug("loadContactsFromStoreToCursorDispatch stop")
 }
