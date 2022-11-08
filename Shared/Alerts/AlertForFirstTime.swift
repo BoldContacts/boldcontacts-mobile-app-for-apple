@@ -19,9 +19,7 @@ struct AlertForFirstTime: ViewModifier {
     }
     
     public func isPresented() -> Bool {
-        logger.debug("AlertForFirstTime isPresented() cursor.state: \(String(describing: cursor.state))")
-        guard cursor.state == CursorState.Loaded else { return false }
-        return !getFirstTimeIsComplete()
+        return cursor.state == CursorState.Loaded && !getFirstTimeIsComplete()
     }
     
 }

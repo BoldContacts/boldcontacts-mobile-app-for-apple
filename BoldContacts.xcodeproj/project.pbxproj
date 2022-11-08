@@ -208,7 +208,6 @@
 		F47229DB28AC15BD00773693 /* fabCNContactSocialProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47229B628AB29D100773693 /* fabCNContactSocialProfiles.swift */; };
 		F47229DC28AC15BD00773693 /* fabCNPostalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47229B728AB29D100773693 /* fabCNPostalAddress.swift */; };
 		F47229DD28AC15BD00773693 /* fabCNSocialProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47229B828AB29D100773693 /* fabCNSocialProfile.swift */; };
-		F4AEA713290AEC0300F6E82C /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AEA712290AEC0300F6E82C /* Output.swift */; };
 		F4D815CE28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */; };
 		F4D815D028C0294900D47A46 /* fabCNMutableContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */; };
 		F4D815D428C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815D328C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift */; };
@@ -455,7 +454,6 @@
 		F47229B928AB29D100773693 /* fabCNContactPostalAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNContactPostalAddresses.swift; sourceTree = "<group>"; };
 		F48C376E28C816E300A72523 /* minimum-system-version.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "minimum-system-version.md"; sourceTree = "<group>"; };
 		F48C376F28C817C400A72523 /* BoldContacts--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BoldContacts--macOS--Info.plist"; sourceTree = "<group>"; };
-		F4AEA712290AEC0300F6E82C /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
 		F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabCNMutableContact.swift; sourceTree = "<group>"; };
@@ -637,7 +635,6 @@
 				F472289928A5936D00773693 /* Open */,
 				F47228C228A5CF4500773693 /* Parse */,
 				F4380C1229199AAE005A585A /* Settings */,
-				F472299228AAA71B00773693 /* Unused */,
 				F4380B8C2912D7EB005A585A /* Views */,
 				F472280428A58B4000773693 /* App.swift */,
 				F47228BE28A595FB00773693 /* AppButtonStyle.swift */,
@@ -943,14 +940,6 @@
 			path = bin;
 			sourceTree = "<group>";
 		};
-		F472299228AAA71B00773693 /* Unused */ = {
-			isa = PBXGroup;
-			children = (
-				F4AEA712290AEC0300F6E82C /* Output.swift */,
-			);
-			path = Unused;
-			sourceTree = "<group>";
-		};
 		F4D815DF28C1E1B700D47A46 /* privacy */ = {
 			isa = PBXGroup;
 			children = (
@@ -1236,7 +1225,6 @@
 				F4FAB3A52910C3EE0051B230 /* TitleBodyView.swift in Sources */,
 				F47229DB28AC15BD00773693 /* fabCNContactSocialProfiles.swift in Sources */,
 				F47229AC28AB192A00773693 /* fabCNContactURLAddresses.swift in Sources */,
-				F4AEA713290AEC0300F6E82C /* Output.swift in Sources */,
 				F4621810290C463500CAA541 /* AlertForFirstTime.swift in Sources */,
 				F47229DC28AC15BD00773693 /* fabCNPostalAddress.swift in Sources */,
 				F4380BF12915963E005A585A /* AlertForDemonstration.swift in Sources */,
@@ -1589,7 +1577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1609,7 +1597,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = iphoneos;
@@ -1625,7 +1613,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1645,7 +1633,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = iphoneos;
