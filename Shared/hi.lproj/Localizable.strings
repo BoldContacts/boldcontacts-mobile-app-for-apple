@@ -94,27 +94,21 @@
  
 "Demo.persons[0].givenName" = "सुनीता"; // Sunita
 "Demo.persons[0].familyName" = "देवी"; // Devi
-"Demo.persons[0].locale" = "hi-in";
 
 "Demo.persons[1].givenName" = "राम"; // Ram
 "Demo.persons[1].familyName" = "सिंह"; // Singh
-"Demo.persons[1].locale" = "hi-in";
 
 "Demo.persons[2].givenName" = "अनीता"; // Anita
 "Demo.persons[2].familyName" = "कुमार"; // Kumar
-"Demo.persons[2].locale" = "hi-in";
 
 "Demo.persons[3].givenName" = "संजय"; // Sanjay
 "Demo.persons[3].familyName" = "दास"; // Das
-"Demo.persons[3].locale" = "hi-in";
 
 "Demo.persons[4].givenName" = "गीता"; // Gita
 "Demo.persons[4].familyName" = "शर्मा"; // Sharma
-"Demo.persons[4].locale" = "hi-in";
 
 "Demo.persons[5].givenName" = "राजेश"; // Rajesh
 "Demo.persons[5].familyName" = "गुप्त"; // Gupta
-"Demo.persons[5].locale" = "hi-in";
 
 //
 // Demo groups

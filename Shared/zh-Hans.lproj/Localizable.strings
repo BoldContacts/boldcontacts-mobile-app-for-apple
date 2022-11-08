@@ -94,27 +94,21 @@
 
 "Demo.persons[0].givenName" = "若汐"; // Ruòxī
 "Demo.persons[0].familyName" = "王"; // Wáng
-"Demo.persons[0].locale" = "zh-cn";
 
 "Demo.persons[1].givenName" = "沐宸"; // Mùchén
 "Demo.persons[1].familyName" = "李"; // Lǐ
-"Demo.persons[1].locale" = "zh-cn";
 
 "Demo.persons[2].givenName" = "艺涵 "; // Yìhán
 "Demo.persons[2].familyName" = "张"; // Zhāng
-"Demo.persons[2].locale" = "zh-cn";
 
 "Demo.persons[3].givenName" = "浩宇"; // Hàoyǔ
 "Demo.persons[3].familyName" = "陈"; // Chen
-"Demo.persons[3].locale" = "zh-cn";
 
 "Demo.persons[4].givenName" = "国英"; // Guóyīng = “national hero”
 "Demo.persons[4].familyName" = "杨"; // Yang
-"Demo.persons[4].locale" = "zh-cn";
 
 "Demo.persons[5].givenName" = "建国"; // Jiànguó = “build the country”
 "Demo.persons[5].familyName" = "赵"; // Zhao
-"Demo.persons[5].locale" = "zh-cn";
 
 //
 // Demo groups

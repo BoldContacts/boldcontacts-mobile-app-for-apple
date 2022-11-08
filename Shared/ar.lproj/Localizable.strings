@@ -94,27 +94,21 @@
 
 "Demo.persons[0].givenName" = "مَرْيَم"; // Maryam
 "Demo.persons[0].familyName" = "خان"; // Khan
-"Demo.persons[0].locale" = "ar";
 
 "Demo.persons[1].givenName" = "مُحَمَّد"; // Muhammad
 "Demo.persons[1].familyName" = "احمد"; // Ahmed
-"Demo.persons[1].locale" = "ar";
 
 "Demo.persons[2].givenName" = "سَارَة"; // Sara
 "Demo.persons[2].familyName" = ""; // Hassan
-"Demo.persons[2].locale" = "ar";
 
 "Demo.persons[3].givenName" = "عَلِيّ"; // Ali
 "Demo.persons[3].familyName" = "محمّد"; // Mohammed
-"Demo.persons[3].locale" = "ar";
 
 "Demo.persons[4].givenName" = "سَلْمَى"; // Salma
 "Demo.persons[4].familyName" = "عبّاس"; // Abbas
-"Demo.persons[4].locale" = "ar";
 
 "Demo.persons[5].givenName" = "أَحْمَد‎"; // Ahmed
 "Demo.persons[5].familyName" = "زمان"; // Zaman
-"Demo.persons[5].locale" = "ar";
 
 //
 // Demo groups

@@ -94,27 +94,21 @@
 
 "Demo.persons[0].givenName" = "Alys"
 "Demo.persons[0].familyName" = "Jones"
-"Demo.persons[0].locale" = "cy-gb"
 
 "Demo.persons[1].givenName" = "Rhys"
 "Demo.persons[1].familyName" = "Morgan"
-"Demo.persons[1].locale" = "cy-gb"
 
 "Demo.persons[2].givenName" = "Ffion"
 "Demo.persons[2].familyName" = "Lewis"
-"Demo.persons[2].locale" = "cy-gb"
 
 "Demo.persons[3].givenName" = "Dylan"
 "Demo.persons[3].familyName" = "Davies"
-"Demo.persons[3].locale" = "cy-gb"
 
 "Demo.persons[4].givenName" = "Seren"
 "Demo.persons[4].familyName" = "Evans"
-"Demo.persons[4].locale" = "cy-gb"
 
 "Demo.persons[5].givenName" = "Osian"
 "Demo.persons[5].familyName" = "Griffiths"
-"Demo.persons[5].locale" = "cy-gb"
 
 //
 // Demo groups

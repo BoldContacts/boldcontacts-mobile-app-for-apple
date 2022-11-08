@@ -94,24 +94,18 @@
 
 "Demo.persons[0].givenName" = "María";
 "Demo.persons[0].familyName" = "Garcia";
-"Demo.persons[0].locale" = "es-es";
 
 "Demo.persons[1].givenName" = "José";
 "Demo.persons[1].familyName" = "Fernández";
-"Demo.persons[1].locale" = "es-es";
 
 "Demo.persons[2].givenName" = "Lucía";
 "Demo.persons[2].familyName" = "Lopez";
-"Demo.persons[2].locale" = "es-mx";
 
 "Demo.persons[3].givenName" = "Martín";
 "Demo.persons[3].familyName" = "Flores";
-"Demo.persons[3].locale" = "es-mx";
 
 "Demo.persons[4].givenName" = "Sofía";
 "Demo.persons[4].familyName" = "da Silva";
-"Demo.persons[4].locale" = "es-ar";
 
 "Demo.persons[5].givenName" = "Antônio";
 "Demo.persons[5].familyName" = "dos Santos";
-"Demo.persons[5].locale" = "es-ar";
