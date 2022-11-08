@@ -4,7 +4,7 @@
 
 // Buttons
 "OK" = "OK";
-"Cancel" = "Cancelar";
+"Cancel" = "Cancel";
 
 // Yes | No | Maybe
 "Yes" = "Yes";
@@ -23,12 +23,12 @@
 "Reject" = "Reject";
 
 //
-// AlertForFirstTime.swift
+// AlertForIntroduction.swift
 //
 
-"AlertForFirstTime.title" = "\"BoldContacts\" First Time Help";
+"AlertForIntroduction.title" = "\"BoldContacts\" First Time Help";
 
-"AlertForFirstTime.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
 
 //
 // AlertForDemonstration.swift

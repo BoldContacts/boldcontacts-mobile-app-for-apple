@@ -51,7 +51,7 @@ struct BoldContactsApp: App {
                     }
                 }
             }
-            .modifier(AlertForFirstTime(cursor: cursor))
+            .modifier(AlertForIntroduction(cursor: cursor))
             .modifier(AlertForDemonstration(cursor: cursor))
         }
     }

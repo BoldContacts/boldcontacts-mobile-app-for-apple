@@ -1,25 +1,25 @@
 import Foundation
 import SwiftUI
 
-struct AlertForFirstTime: ViewModifier {
+struct AlertForIntroduction: ViewModifier {
     @ObservedObject var cursor: Cursor<AppItem>
 
     func body(content: Content) -> some View {
         content
             .alert(
-                LocalizedStringKey("AlertForFirstTime.title"),
+                LocalizedStringKey("AlertForIntroduction.title"),
                 isPresented: .constant(isPresented())
             ) {
                 Button("OK") {
-                    setFirstTimeIsComplete(true)
+                    setIntroductionIsComplete(true)
                 }
             } message: {
-                Text(LocalizedStringKey("AlertForFirstTime.message"))
+                Text(LocalizedStringKey("AlertForIntroduction.message"))
             }
     }
     
     public func isPresented() -> Bool {
-        return cursor.state == CursorState.Loaded && !getFirstTimeIsComplete()
+        return cursor.state == CursorState.Loaded && !getIntroductionIsComplete()
     }
     
 }

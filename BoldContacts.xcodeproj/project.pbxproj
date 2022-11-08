@@ -123,8 +123,8 @@
 		F445855628B6E37E00C5465F /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = F445855528B6E37E00C5465F /* ViewInspector */; };
 		F462180D290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
-		F4621810290C463500CAA541 /* AlertForFirstTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForFirstTime.swift */; };
-		F4621811290C463500CAA541 /* AlertForFirstTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForFirstTime.swift */; };
+		F4621810290C463500CAA541 /* AlertForIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForIntroduction.swift */; };
+		F4621811290C463500CAA541 /* AlertForIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForIntroduction.swift */; };
 		F472281E28A58B4100773693 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281D28A58B4100773693 /* Tests_iOS.swift */; };
 		F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */; };
 		F472282A28A58B4100773693 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472282928A58B4100773693 /* Tests_macOS.swift */; };
@@ -299,7 +299,7 @@
 		F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalent.swift; sourceTree = "<group>"; };
 		F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalentTests.swift; sourceTree = "<group>"; };
 		F462180C290B63BF00CAA541 /* LaunchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCount.swift; sourceTree = "<group>"; };
-		F462180F290C463500CAA541 /* AlertForFirstTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForFirstTime.swift; sourceTree = "<group>"; };
+		F462180F290C463500CAA541 /* AlertForIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForIntroduction.swift; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F472280428A58B4000773693 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F472280528A58B4000773693 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
@@ -545,7 +545,7 @@
 			isa = PBXGroup;
 			children = (
 				F4380BF02915963E005A585A /* AlertForDemonstration.swift */,
-				F462180F290C463500CAA541 /* AlertForFirstTime.swift */,
+				F462180F290C463500CAA541 /* AlertForIntroduction.swift */,
 			);
 			path = Alerts;
 			sourceTree = "<group>";
@@ -1225,7 +1225,7 @@
 				F4FAB3A52910C3EE0051B230 /* TitleBodyView.swift in Sources */,
 				F47229DB28AC15BD00773693 /* fabCNContactSocialProfiles.swift in Sources */,
 				F47229AC28AB192A00773693 /* fabCNContactURLAddresses.swift in Sources */,
-				F4621810290C463500CAA541 /* AlertForFirstTime.swift in Sources */,
+				F4621810290C463500CAA541 /* AlertForIntroduction.swift in Sources */,
 				F47229DC28AC15BD00773693 /* fabCNPostalAddress.swift in Sources */,
 				F4380BF12915963E005A585A /* AlertForDemonstration.swift in Sources */,
 				F47229DD28AC15BD00773693 /* fabCNSocialProfile.swift in Sources */,
@@ -1349,7 +1349,7 @@
 				F4E1397329120B2700144173 /* RawRepresentable_reflecting.swift in Sources */,
 				F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */,
 				F4380B822912C801005A585A /* FullName.swift in Sources */,
-				F4621811290C463500CAA541 /* AlertForFirstTime.swift in Sources */,
+				F4621811290C463500CAA541 /* AlertForIntroduction.swift in Sources */,
 				F4380C0429187D77005A585A /* CursorState.swift in Sources */,
 				F4380C0E29198128005A585A /* FileManager_defaultDocumentDirectory.swift in Sources */,
 				F4380B6629123AAF005A585A /* LocalizedStringKey_key.swift in Sources */,

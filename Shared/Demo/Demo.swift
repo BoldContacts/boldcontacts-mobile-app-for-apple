@@ -154,7 +154,7 @@ public func demoDeleteContactForJoelParkerHenderson() {
     // so this function can't accidentally delete
     // my real contact record from my real phone.
     #if targetEnvironment(simulator)
-    let _ = CNContactStore().deleteByName(name: "Joel Parker Hendersonx")
+    let _ = CNContactStore().deleteByName("Joel Parker Hendersonx")
     #endif
 }
 
