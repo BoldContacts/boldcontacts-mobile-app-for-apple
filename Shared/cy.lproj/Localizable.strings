@@ -3,144 +3,144 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Iawn";
+"Cancel" = "Canslo";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Oes";
+"No" = "Nac ydw";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Llwyddiant";
+"Failure" = "Methiant";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Caniatáu";
+"Don't Allow" = "Peidiwch â Chaniatáu";
 
 // Accept | Reject
-"Accept" = "Accept";
+"Accept" = "Derbyn";
 "Reject" = "Reject";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Rhagymadrodd";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Mae'r ap hwn yn dangos eich cysylltiadau presennol sydd ar eich dyfais. Gallwch ddefnyddio'ch app Contacts i reoli'ch cysylltiadau.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "Hoffai \"BoldContacts\" Ddangos Enghreifftiau";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Mae'r ap hwn yn darllen eich cysylltiadau presennol ar eich dyfais, ond nid yw'n ymddangos bod gennych unrhyw rai. Felly bydd yr ap hwn yn dangos enghreifftiau arddangos dros dro i chi yn lle'ch cysylltiadau presennol.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Gall yr ap hwn ddarllen eich rhestr cysylltiadau.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Mae'r ap hwn eisiau darllen eich rhestr cysylltiadau.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Nid yw'r ap hwn yn gallu darllen eich rhestr cysylltiadau oherwydd bod eich statws awdurdodi siop cyswllt wedi'i osod i gyfyngu. Gallwch chi roi'r gorau iddi nawr. Gallwch chi lansio'ch app Dewisiadau, yna awdurdodi'r app hon i ddarllen eich rhestr cysylltiadau, yna ail-lansio'r app hon.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Nid yw'r ap hwn yn gallu darllen eich rhestr cysylltiadau oherwydd bod eich statws awdurdodi siop cyswllt wedi'i osod i wrthod. Gallwch chi roi'r gorau iddi nawr. Gallwch chi lansio'ch app Dewisiadau, yna awdurdodi'r app hon i ddarllen eich rhestr cysylltiadau, yna ail-lansio'r app hon.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Nid yw'r ap hwn yn gallu darllen eich rhestr cysylltiadau oherwydd gwall anhysbys. Cysylltwch â datblygwr yr ap i gael golwg agosach ar yr hyn sy'n digwydd a sut i'w drwsio i chi. E-bostiwch joel@joelparkerhenderson.com neu ffoniwch +1-415-317-2700. Diolch.";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Mae statws awdurdodiad wedi'i awdurdodi.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Nid yw statws awdurdodi wedi'i bennu.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Mae statws awdurdodi wedi'i gyfyngu.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Statws awdurdodi yn cael ei wrthod.";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "awdurdodedig";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ddim yn benderfynol";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "cyfyngedig";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "gwadu";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Mae modd llwytho eich rhestr cysylltiadau.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Mae eich rhestr cysylltiadau yn llwytho.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Mae eich rhestr cysylltiadau wedi'i llwytho.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Mae eich rhestr cysylltiadau wedi'i llwytho, ond mae'n wag.";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "Alys"
+"Demo.persons[0].familyName" = "Jones"
+"Demo.persons[0].locale" = "cy-gb"
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "Rhys"
+"Demo.persons[1].familyName" = "Morgan"
+"Demo.persons[1].locale" = "cy-gb"
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "Ffion"
+"Demo.persons[2].familyName" = "Lewis"
+"Demo.persons[2].locale" = "cy-gb"
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "Dylan"
+"Demo.persons[3].familyName" = "Davies"
+"Demo.persons[3].locale" = "cy-gb"
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "Seren"
+"Demo.persons[4].familyName" = "Evans"
+"Demo.persons[4].locale" = "cy-gb"
 
-"Demo.persons[5].givenName" = "Frank";
-"Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
+"Demo.persons[5].givenName" = "Osian"
+"Demo.persons[5].familyName" = "Griffiths"
+"Demo.persons[5].locale" = "cy-gb"
 
 //
 // Demo groups
 //
 
-"Demo.groups[0].name" = "ALS Association";
-"Demo.groups[0].website" = "https://www.als.org";
-"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
-"Demo.groups[0].phone" = "1-800-782-4747";
+"Demo.groups[0].name" = "ALS Association"
+"Demo.groups[0].website" = "https://www.als.org"
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation"
+"Demo.groups[0].phone" = "1-800-782-4747"
 
-"Demo.groups[1].name" = "Alzheimer's Association";
-"Demo.groups[1].website" = "https://www.alz.org";
-"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
-"Demo.groups[1].phone" = "1-800-272-3900";
+"Demo.groups[1].name" = "Alzheimer's Association"
+"Demo.groups[1].website" = "https://www.alz.org"
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation"
+"Demo.groups[1].phone" = "1-800-272-3900"
 
-"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
-"Demo.groups[2].website" = "https://msfocus.org";
-"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
-"Demo.groups[2].phone" = "1-888-673-6287";
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation"
+"Demo.groups[2].website" = "https://msfocus.org"
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus"
+"Demo.groups[2].phone" = "1-888-673-6287"
 
-"Demo.groups[3].name" = "Muscular Dystrophy Association";
-"Demo.groups[3].website" = "http://www.mdausa.org";
-"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
-"Demo.groups[3].phone" = "1-833-275-6321";
+"Demo.groups[3].name" = "Muscular Dystrophy Association"
+"Demo.groups[3].website" = "http://www.mdausa.org"
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg"
+"Demo.groups[3].phone" = "1-833-275-6321"
 
-"Demo.groups[4].name" = "Parkinson's Foundation";
-"Demo.groups[4].website" = "https://www.parkinson.org";
-"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
-"Demo.groups[4].phone" = "1-800-473-4636";
+"Demo.groups[4].name" = "Parkinson's Foundation"
+"Demo.groups[4].website" = "https://www.parkinson.org"
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg"
+"Demo.groups[4].phone" = "1-800-473-4636"
