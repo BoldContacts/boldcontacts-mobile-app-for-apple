@@ -1,5 +1,5 @@
 //
-// Generic
+// Labels
 //
 
 // Buttons
@@ -18,7 +18,7 @@
 "Allow" = "Permitir";
 "Don't Allow" = "No Permitast";
 
-// Accept | Reject | Select
+// Accept | Reject
 "Accept" = "Aceptar";
 "Reject" = "Rechazar";
 
@@ -26,9 +26,9 @@
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Gustaría Guardar Los Diagnósticos";
+"AlertForIntroduction.title" = "\"BoldContacts\" Introducción";
 
-"AlertForIntroduction.message" = "Esta aplicación guarda los diagnósticos en su carpeta llamada \"Documentos\" en un archivo llamado \"BoldContacts.txt\". Puede acceder al archivo utilizando cualquier editor de texto.";
+"AlertForIntroduction.message" = "Esta aplicación muestra sus contactos existentes que están en su dispositivo. Puede usar su aplicación Contactos para administrar sus contactos.";
 
 //
 // AlertForDemonstration.swift
