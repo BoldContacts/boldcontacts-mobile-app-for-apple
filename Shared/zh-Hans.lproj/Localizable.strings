@@ -3,118 +3,118 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "好的";
+"Cancel" = "取消";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "是的";
+"No" = "不";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "成功";
+"Failure" = "失败";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "允许";
+"Don't Allow" = "不允许";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "接受";
+"Reject" = "拒绝";
 
 //
-// AlertForIntroduction.swift
+// AlertForFirstTime.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForFirstTime.title" = "\"大胆的接触\" 介绍";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForFirstTime.message" = "此应用程序显示您设备上的现有联系人。 您可以使用“通讯录”应用来管理您的联系人。";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"大胆的接触\" 想展示例子";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "此应用程序会读取您设备上的现有联系人，但您似乎没有任何联系人。 所以这个应用程序将向您展示临时演示示例，而不是您现有的联系人。";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "这个应用程序可以读取您的联系人列表。";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "这个应用程序想要读取您的联系人列表。";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "此应用无法读取您的联系人列表，因为您的联系人存储授权状态设置为受限。 您现在可以退出该应用程序。 您可以启动您的首选项应用程序，然后授权此应用程序读取您的联系人列表，然后重新启动此应用程序。";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "此应用无法读取您的联系人列表，因为您的联系人存储授权状态设置为拒绝。 您现在可以退出该应用程序。 您可以启动您的首选项应用程序，然后授权此应用程序读取您的联系人列表，然后重新启动此应用程序。";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "由于未知错误，此应用无法读取您的联系人列表。 请联系应用程序开发人员，详细了解发生的情况以及如何为您解决问题。 电子邮件 joel@joelparkerhenderson.com 或电话 +1-415-317-2700。 谢谢你。";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "授权状态为已授权。";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "授权状态未确定.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "授权状态受限。";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "授权状态被拒绝。";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "授权";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "还没决定";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "受限制的";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "拒绝";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "您的联系人列表是可加载的。";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "您的联系人列表正在加载。";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "您的联系人列表已加载。";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "您的联系人列表已加载，但为空。";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "若汐"; // Ruòxī
+"Demo.persons[0].familyName" = "王"; // Wáng
+"Demo.persons[0].locale" = "zh-cn";
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "沐宸"; // Mùchén
+"Demo.persons[1].familyName" = "李"; // Lǐ
+"Demo.persons[1].locale" = "zh-cn";
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "艺涵 "; // Yìhán
+"Demo.persons[2].familyName" = "张"; // Zhāng
+"Demo.persons[2].locale" = "zh-cn";
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "浩宇"; // Hàoyǔ
+"Demo.persons[3].familyName" = "陈"; // Chen
+"Demo.persons[3].locale" = "zh-cn";
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "国英"; // Guóyīng = “national hero”
+"Demo.persons[4].familyName" = "杨"; // Yang
+"Demo.persons[4].locale" = "zh-cn";
 
-"Demo.persons[5].givenName" = "Frank";
-"Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
+"Demo.persons[5].givenName" = "建国"; // Jiànguó = “build the country”
+"Demo.persons[5].familyName" = "赵"; // Zhao
+"Demo.persons[5].locale" = "zh-cn";
 
 //
 // Demo groups

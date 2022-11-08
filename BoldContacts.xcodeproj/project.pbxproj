@@ -306,12 +306,7 @@
 		F44C2DDE291AF89000CE09B7 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F44C2DDF291AF89600CE09B7 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F44C2DE0291AF89B00CE09B7 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F44C2DE1291AF8A700CE09B7 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F44C2DE2291AF8B500CE09B7 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F44C2DE3291AF8BB00CE09B7 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F44C2DE4291AF8BE00CE09B7 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F44C2DE5291AF8C500CE09B7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F44C2DE6291AF8C900CE09B7 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F44C2DE7291AF8CF00CE09B7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F44C2DE8291AF8D200CE09B7 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F44C2DE9291AF8D600CE09B7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1498,12 +1493,7 @@
 				F44C2DDE291AF89000CE09B7 /* cs */,
 				F44C2DDF291AF89600CE09B7 /* da */,
 				F44C2DE0291AF89B00CE09B7 /* nl */,
-				F44C2DE1291AF8A700CE09B7 /* en-AU */,
-				F44C2DE2291AF8B500CE09B7 /* en-IN */,
 				F44C2DE3291AF8BB00CE09B7 /* fi */,
-				F44C2DE4291AF8BE00CE09B7 /* zh-HK */,
-				F44C2DE5291AF8C500CE09B7 /* zh-Hant */,
-				F44C2DE6291AF8C900CE09B7 /* en-GB */,
 				F44C2DE7291AF8CF00CE09B7 /* fr */,
 				F44C2DE8291AF8D200CE09B7 /* fr-CA */,
 				F44C2DE9291AF8D600CE09B7 /* de */,
