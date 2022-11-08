@@ -302,6 +302,7 @@
 		F44C2DDA291AF86900CE09B7 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F44C2E00291AF95200CE09B7 /* cy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cy; path = cy.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F44C2E01291B0EE200CE09B7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F44C2E02291B115700CE09B7 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F462180C290B63BF00CAA541 /* LaunchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCount.swift; sourceTree = "<group>"; };
 		F462180F290C463500CAA541 /* AlertForIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForIntroduction.swift; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -1458,6 +1459,7 @@
 				F44C2DDA291AF86900CE09B7 /* hi */,
 				F44C2E00291AF95200CE09B7 /* cy */,
 				F44C2E01291B0EE200CE09B7 /* fr */,
+				F44C2E02291B115700CE09B7 /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
