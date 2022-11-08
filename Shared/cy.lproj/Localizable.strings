@@ -92,49 +92,49 @@
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alys"
-"Demo.persons[0].familyName" = "Jones"
+"Demo.persons[0].givenName" = "Alys";
+"Demo.persons[0].familyName" = "Jones";
 
-"Demo.persons[1].givenName" = "Rhys"
-"Demo.persons[1].familyName" = "Morgan"
+"Demo.persons[1].givenName" = "Rhys";
+"Demo.persons[1].familyName" = "Morgan";
 
-"Demo.persons[2].givenName" = "Ffion"
-"Demo.persons[2].familyName" = "Lewis"
+"Demo.persons[2].givenName" = "Ffion";
+"Demo.persons[2].familyName" = "Lewis";
 
-"Demo.persons[3].givenName" = "Dylan"
-"Demo.persons[3].familyName" = "Davies"
+"Demo.persons[3].givenName" = "Dylan";
+"Demo.persons[3].familyName" = "Davies";
 
-"Demo.persons[4].givenName" = "Seren"
-"Demo.persons[4].familyName" = "Evans"
+"Demo.persons[4].givenName" = "Seren";
+"Demo.persons[4].familyName" = "Evans";
 
-"Demo.persons[5].givenName" = "Osian"
-"Demo.persons[5].familyName" = "Griffiths"
+"Demo.persons[5].givenName" = "Osian";
+"Demo.persons[5].familyName" = "Griffiths";
 
 //
 // Demo groups
 //
 
-"Demo.groups[0].name" = "ALS Association"
-"Demo.groups[0].website" = "https://www.als.org"
-"Demo.groups[0].twitter" = "https://twitter.com/alsassociation"
-"Demo.groups[0].phone" = "1-800-782-4747"
+"Demo.groups[0].name" = "ALS Association";
+"Demo.groups[0].website" = "https://www.als.org";
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
+"Demo.groups[0].phone" = "1-800-782-4747";
 
-"Demo.groups[1].name" = "Alzheimer's Association"
-"Demo.groups[1].website" = "https://www.alz.org"
-"Demo.groups[1].twitter" = "https://twitter.com/alzassociation"
-"Demo.groups[1].phone" = "1-800-272-3900"
+"Demo.groups[1].name" = "Alzheimer's Association";
+"Demo.groups[1].website" = "https://www.alz.org";
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
+"Demo.groups[1].phone" = "1-800-272-3900";
 
-"Demo.groups[2].name" = "Multiple Sclerosis Foundation"
-"Demo.groups[2].website" = "https://msfocus.org"
-"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus"
-"Demo.groups[2].phone" = "1-888-673-6287"
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
+"Demo.groups[2].website" = "https://msfocus.org";
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
+"Demo.groups[2].phone" = "1-888-673-6287";
 
-"Demo.groups[3].name" = "Muscular Dystrophy Association"
-"Demo.groups[3].website" = "http://www.mdausa.org"
-"Demo.groups[3].twitter" = "https://twitter.com/MDAorg"
-"Demo.groups[3].phone" = "1-833-275-6321"
+"Demo.groups[3].name" = "Muscular Dystrophy Association";
+"Demo.groups[3].website" = "http://www.mdausa.org";
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
+"Demo.groups[3].phone" = "1-833-275-6321";
 
-"Demo.groups[4].name" = "Parkinson's Foundation"
-"Demo.groups[4].website" = "https://www.parkinson.org"
-"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg"
-"Demo.groups[4].phone" = "1-800-473-4636"
+"Demo.groups[4].name" = "Parkinson's Foundation";
+"Demo.groups[4].website" = "https://www.parkinson.org";
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
+"Demo.groups[4].phone" = "1-800-473-4636";
