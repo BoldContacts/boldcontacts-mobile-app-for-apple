@@ -1,1 +1,1 @@
-GPL-3.0-or-later or contact us for a custom license.
+GPL-2.0-or-later or contact us for a custom license.
