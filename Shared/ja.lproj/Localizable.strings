@@ -3,118 +3,112 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "わかった";
+"Cancel" = "キャンセル";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "はい";
+"No" = "いいえ";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "成功";
+"Failure" = "失敗";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "許可する";
+"Don't Allow" = "許可しない";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "承認";
+"Reject" = "拒絶";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" はじめに";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "このアプリは、デバイスにある既存の連絡先を表示します。 連絡先アプリを使用して、連絡先を管理できます。";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" は例を示したいと考えています";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "このアプリは、デバイス上の既存の連絡先を読み取りますが、何も持っていないようです。 したがって、このアプリは、既存の連絡先の代わりに一時的なデモの例を表示します。";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "このアプリは連絡先リストを読み取ることができます。";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "このアプリはあなたの連絡先リストを読み込もうとしています。";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "連絡先ストアの認証ステータスが制限付きに設定されているため、このアプリは連絡先リストを読み取ることができません。 これでアプリを終了できます。 設定アプリを起動し、このアプリに連絡先リストの読み取りを許可してから、このアプリを再起動できます。";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "連絡先ストアの承認ステータスが拒否に設定されているため、このアプリは連絡先リストを読み取ることができません。 これでアプリを終了できます。 設定アプリを起動し、このアプリに連絡先リストの読み取りを許可してから、このアプリを再起動できます。";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "不明なエラーのため、このアプリは連絡先リストを読み取ることができません。 アプリの開発者に連絡して、何が起こっているのかを詳しく調べて、それを修正する方法を確認してください。 joel@joelparkerhenderson.com に電子メールを送信するか、+1-415-317-2700 に電話してください。 ありがとうございました。";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "承認ステータスは承認済みです。";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "認可ステータスは決定されません。";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "認可ステータスは制限されています。";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "承認ステータスが拒否されました。";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "認可された";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "決まっていません";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "制限付き";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "拒否された";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "連絡先リストは読み込み可能です。";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "連絡先リストを読み込んでいます。";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "連絡先リストが読み込まれました。";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "連絡先リストは読み込まれていますが、空です。";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "ゆい"; // Yui
+"Demo.persons[0].familyName" = "佐藤"; // Sato
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "はると"; // Haruto
+"Demo.persons[1].familyName" = "鈴木"; // Suzuki
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "めい"; // Mei
+"Demo.persons[2].familyName" = "高橋"; // Takahashi
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "みなと"; // Minato
+"Demo.persons[3].familyName" = "田中"; Tanaka
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "えま"; // Emi
+"Demo.persons[4].familyName" = "渡辺"; // Watanabe
 
-"Demo.persons[5].givenName" = "Frank";
-"Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
+"Demo.persons[5].givenName" = "そうた"; // Suto
+"Demo.persons[5].familyName" = "伊藤"; // Itō
 
 //
 // Demo groups
