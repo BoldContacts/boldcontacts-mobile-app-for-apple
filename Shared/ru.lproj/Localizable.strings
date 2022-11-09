@@ -92,9 +92,6 @@
 // Demo persons
 //
 
-Such names include Ivan (, "John"), Andrei (, "Andrew"), Yakov (Яков, "Jacob"),  (, "George"), Tatyana (, "Tatiana"), Maria (, "Mary"), Avdotia (Авдотья, "Eudocia"), Elizaveta (Елизавета, "Elizabeth").
-
-
 "Demo.persons[0].givenName" = "Мария"; // Maria
 "Demo.persons[0].familyName" = "Иванов"; // Ivanov
 
