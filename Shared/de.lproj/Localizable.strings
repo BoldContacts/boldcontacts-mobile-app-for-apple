@@ -28,7 +28,7 @@
 
 "AlertForIntroduction.title" = "Einführung in \"BoldContacts\".";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Diese App zeigt Ihre bestehenden Kontakte an, die sich auf Ihrem Gerät befinden. Sie können Ihre Kontakte mit Ihrer Kontakte-App verwalten.";
 
 //
 // AlertForDemonstration.swift
