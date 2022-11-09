@@ -1,0 +1,140 @@
+//
+// Labels
+//
+
+// OK | Cancel
+"OK" = "ٹھیک ہے";
+"Cancel" = "منسوخ کریں۔";
+
+// Yes | No
+"Yes" = "جی ہاں";
+"No" = "نہیں";
+
+// Success | Failure
+"Success" = "کامیابی";
+"Failure" = "ناکامی";
+
+// Allow | Don't Allow
+"Allow" = "اجازت دیں۔";
+"Don't Allow" = "اجازت نہ دیں۔";
+
+// Accept | Reject
+"Accept" = "قبول کریں۔";
+"Reject" = "رد کرنا";
+
+//
+// AlertForIntroduction.swift
+//
+
+"AlertForIntroduction.title" = "\"BoldContacts\" تعارف";
+
+"AlertForIntroduction.message" = "یہ ایپ آپ کے موجودہ رابطوں کو دکھاتی ہے جو آپ کے آلے پر ہیں۔ آپ اپنے رابطوں کا نظم کرنے کے لیے اپنی رابطہ ایپ استعمال کر سکتے ہیں۔";
+
+//
+// AlertForDemonstration.swift
+//
+
+"AlertForDemonstration.title" = "\"BoldContacts\" مثالیں دکھانا چاہیں گے۔";
+
+"AlertForDemonstration.message" = "یہ ایپ آپ کے آلے پر موجود آپ کے رابطے پڑھتی ہے، لیکن ایسا نہیں لگتا کہ آپ کے پاس کوئی رابطہ ہے۔ لہذا یہ ایپ آپ کو آپ کے موجودہ رابطوں کے بجائے عارضی مظاہرے کی مثالیں دکھائے گی۔";
+
+//
+// CNContactStore.authorizationStatus.*
+//
+
+"CNContactStore.authorizationStatus.authorized" = "یہ ایپ آپ کے رابطوں کی فہرست پڑھ سکتی ہے۔";
+
+"CNContactStore.authorizationStatus.notDetermined" = "یہ ایپ آپ کے رابطوں کی فہرست پڑھنا چاہتی ہے۔";
+
+"CNContactStore.authorizationStatus.restricted" = "یہ ایپ آپ کے رابطوں کی فہرست کو پڑھنے سے قاصر ہے کیونکہ آپ کے رابطہ اسٹور کی اجازت کی حیثیت محدود پر سیٹ ہے۔ آپ ابھی ایپ کو چھوڑ سکتے ہیں۔ آپ اپنی ترجیحات ایپ لانچ کر سکتے ہیں، پھر اس ایپ کو اپنے رابطوں کی فہرست پڑھنے کی اجازت دے سکتے ہیں، پھر اس ایپ کو دوبارہ لانچ کر سکتے ہیں۔";
+
+"CNContactStore.authorizationStatus.denied" = "یہ ایپ آپ کے رابطوں کی فہرست کو پڑھنے سے قاصر ہے کیونکہ آپ کے رابطہ اسٹور کی اجازت کی حیثیت کو مسترد کرنے پر سیٹ کیا گیا ہے۔ آپ ابھی ایپ کو چھوڑ سکتے ہیں۔ آپ اپنی ترجیحات ایپ لانچ کر سکتے ہیں، پھر اس ایپ کو اپنے رابطوں کی فہرست پڑھنے کی اجازت دے سکتے ہیں، پھر اس ایپ کو دوبارہ لانچ کر سکتے ہیں۔";
+
+"CNContactStore.authorizationStatus.unknown" = "یہ ایپ نامعلوم خرابی کی وجہ سے آپ کے رابطوں کی فہرست کو پڑھنے سے قاصر ہے۔ براہ کرم ایپ ڈویلپر سے رابطہ کریں کہ کیا ہو رہا ہے اور اسے اپنے لیے کیسے ٹھیک کیا جائے۔ joel@joelparkerhenderson.com پر ای میل کریں یا فون +1-415-317-2700۔ شکریہ";
+
+//
+// CNAuthorizationStatus fullName
+//
+
+"CNAuthorizationStatus.authorized.fullName" = "اجازت کی حیثیت مجاز ہے۔";
+
+"CNAuthorizationStatus.notDetermined.fullName" = "اجازت کی حیثیت کا تعین نہیں کیا گیا ہے۔";
+
+"CNAuthorizationStatus.restricted.fullName" = "اجازت کی حیثیت محدود ہے۔";
+
+"CNAuthorizationStatus.denied.fullName" = "اجازت کی حیثیت سے انکار کر دیا گیا ہے۔";
+
+//
+// CNAuthorizationStatus partName
+//
+
+"CNAuthorizationStatus.authorized.partName" = "مجاز";
+
+"CNAuthorizationStatus.notDetermined.partName" = "تعین نہیں کیا";
+
+"CNAuthorizationStatus.restricted.partName" = "محدود";
+
+"CNAuthorizationStatus.denied.partName" = "انکار کر دیا";
+
+//
+// CursorState.swift
+//
+
+"CursorState.Loadable" = "آپ کے رابطوں کی فہرست قابل لوڈ ہے۔";
+
+"CursorState.Loading" = "آپ کے رابطوں کی فہرست لوڈ ہو رہی ہے۔";
+
+"CursorState.Loaded" = "آپ کے رابطوں کی فہرست بھری ہوئی ہے۔";
+
+"CursorState.Loaded & cursor.isEmpty" = "";
+
+//
+// Demo persons
+//
+
+"Demo.persons[0].givenName" = "نسیم"; // Nasim
+"Demo.persons[0].familyName" = "خان"; // Khan
+
+"Demo.persons[1].givenName" = "محمّد"; // Muhammad
+"Demo.persons[1].familyName" = "احمد"; // Ahmad
+
+"Demo.persons[2].givenName" = "فاطمہ"; // Fatima
+"Demo.persons[2].familyName" = "سلطانہ"; // Sultana
+
+"Demo.persons[3].givenName" = "عبدال"; // Abdul
+"Demo.persons[3].familyName" = "شیرازی"; // Sherazi
+
+"Demo.persons[4].givenName" = "شازیہ"; // Shazia
+"Demo.persons[4].familyName" = "زمان"; // Zaman
+
+"Demo.persons[5].givenName" = "غلام"; // Ghulam
+"Demo.persons[5].familyName" = "شاہ"; // Shah
+
+//
+// Demo groups
+//
+
+"Demo.groups[0].name" = "ALS Association";
+"Demo.groups[0].website" = "https://www.als.org";
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
+"Demo.groups[0].phone" = "1-800-782-4747";
+
+"Demo.groups[1].name" = "Alzheimer's Association";
+"Demo.groups[1].website" = "https://www.alz.org";
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
+"Demo.groups[1].phone" = "1-800-272-3900";
+
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
+"Demo.groups[2].website" = "https://msfocus.org";
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
+"Demo.groups[2].phone" = "1-888-673-6287";
+
+"Demo.groups[3].name" = "Muscular Dystrophy Association";
+"Demo.groups[3].website" = "http://www.mdausa.org";
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
+"Demo.groups[3].phone" = "1-833-275-6321";
+
+"Demo.groups[4].name" = "Parkinson's Foundation";
+"Demo.groups[4].website" = "https://www.parkinson.org";
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
+"Demo.groups[4].phone" = "1-800-473-4636";
