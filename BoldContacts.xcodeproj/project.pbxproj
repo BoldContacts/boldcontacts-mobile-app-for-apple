@@ -481,6 +481,7 @@
 		F4BA57E2291C434A0032D11F /* bn-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bn-IN"; path = "bn-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F4BA57E3291C49780032D11F /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4BA57E4291C6D910032D11F /* vi-VN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "vi-VN"; path = "vi-VN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F4BA57E5291C71340032D11F /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
 		F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabCNMutableContact.swift; sourceTree = "<group>"; };
@@ -1156,6 +1157,7 @@
 				"bn-IN",
 				ur,
 				"vi-VN",
+				"tr-TR",
 			);
 			mainGroup = F47227FC28A58B4000773693;
 			packageReferences = (
@@ -1513,6 +1515,7 @@
 				F4BA57E2291C434A0032D11F /* bn-IN */,
 				F4BA57E3291C49780032D11F /* ur */,
 				F4BA57E4291C6D910032D11F /* vi-VN */,
+				F4BA57E5291C71340032D11F /* tr-TR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
