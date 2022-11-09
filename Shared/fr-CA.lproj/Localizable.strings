@@ -3,118 +3,112 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "D'accord";
+"Cancel" = "Annuler";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Oui";
+"No" = "Non";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Succès";
+"Failure" = "Échec";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Permettre";
+"Don't Allow" = "Ne pas autoriser";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Accepter";
+"Reject" = "Rejeter";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "Présentation de \"Contacts en gras\"";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Cette application affiche vos contacts existants qui se trouvent sur votre appareil. Vous pouvez utiliser votre application Contacts pour gérer vos contacts.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"Contacts en gras\" souhaite afficher des exemples";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Cette application lit vos contacts existants sur votre appareil, mais vous ne semblez pas en avoir. Ainsi, cette application vous montrera des exemples de démonstration temporaires au lieu de vos contacts existants.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Cette application peut lire votre liste de contacts.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Cette application veut lire votre liste de contacts.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Cette application ne peut pas lire votre liste de contacts car le statut d'autorisation de votre magasin de contacts est défini sur restreint. Vous pouvez quitter l'application maintenant. Vous pouvez lancer votre application Préférences, puis autoriser cette application à lire votre liste de contacts, puis relancer cette application.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Cette application ne peut pas lire votre liste de contacts car le statut d'autorisation de votre magasin de contacts est défini sur refusé. Vous pouvez quitter l'application maintenant. Vous pouvez lancer votre application Préférences, puis autoriser cette application à lire votre liste de contacts, puis relancer cette application.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Cette application ne peut pas lire votre liste de contacts en raison d'une erreur inconnue. Veuillez contacter le développeur de l'application pour examiner de plus près ce qui se passe et comment le résoudre pour vous. Envoyez un e-mail à joel@joelparkerhenderson.com ou appelez le +1-415-317-2700. Merci.";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Le statut d'autorisation est autorisé.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Le statut d'autorisation n'est pas déterminé.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Le statut d'autorisation est limité.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Le statut d'autorisation est refusé.";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "autorisée";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "non déterminé";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "limitée";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "refusée";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Votre liste de contacts est chargeable.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Votre liste de contacts est en cours de chargement.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Votre liste de contacts est chargée.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Votre liste de contacts est chargée, mais est vide.";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "Marie";
+"Demo.persons[0].familyName" = "Martin";
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "Jean";
+"Demo.persons[1].familyName" = "Bernard";
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "Dominique";
+"Demo.persons[2].familyName" = "Bernard";
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "Michel";
+"Demo.persons[3].familyName" = "Dubois";
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "Nathalie";
+"Demo.persons[4].familyName" = "Laurent";
 
-"Demo.persons[5].givenName" = "Frank";
+"Demo.persons[5].givenName" = "Philippe";
 "Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
 
 //
 // Demo groups
