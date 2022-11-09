@@ -11,12 +11,12 @@
 "No" = "No";
 
 // Success | Failure
-"Success" = "Éxito";
-"Failure" = "Fracaso";
+"Success" = "Exitoso";
+"Failure" = "Fallido";
 
 // Allow | Don't Allow
 "Allow" = "Permitir";
-"Don't Allow" = "No Permitast";
+"Don't Allow" = "No Permitir";
 
 // Accept | Reject
 "Accept" = "Aceptar";
@@ -28,7 +28,7 @@
 
 "AlertForIntroduction.title" = "\"BoldContacts\" Introducción";
 
-"AlertForIntroduction.message" = "Esta aplicación muestra sus contactos existentes que están en su dispositivo. Puede usar su aplicación Contactos para administrar sus contactos.";
+"AlertForIntroduction.message" = "Esta aplicación muestra los contactos existentes que están en tu dispositivo. Puedes usar la aplicación de Contactos para administrarlos.";
 
 //
 // AlertForDemonstration.swift
@@ -36,7 +36,7 @@
 
 "AlertForDemonstration.title" = "\"BoldContacts\" Quisiera Mostrar Ejemplos";
 
-"AlertForDemonstration.message" = "Esta aplicación lee los contactos existentes en su dispositivo, pero parece que no tiene ninguno. Entonces, esta aplicación le mostrará ejemplos de demostración temporales en lugar de sus contactos existentes.";
+"AlertForDemonstration.message" = "Esta aplicación lee los contactos existentes en tu dispositivo, pero parece que no tiene ninguno. Entonces, esta aplicación le mostrará ejemplos en su lugar.";
 
 //
 // CNContactStore.authorizationStatus.*
@@ -46,23 +46,23 @@
 
 "CNContactStore.authorizationStatus.notDetermined" = "Esta aplicación quiere leer tu lista de contactos.";
 
-"CNContactStore.authorizationStatus.restricted" = "Esta aplicación no puede leer su lista de contactos porque el estado de autorización de su tienda de contactos está configurado como restringido. Puedes salir de la aplicación ahora. Puede iniciar su aplicación Preferencias, luego autorizar esta aplicación para leer su lista de contactos y luego reiniciar esta aplicación.";
+"CNContactStore.authorizationStatus.restricted" = "Esta aplicación no puede leer tu lista de contactos porque no está autorizada. Puedes salir de la aplicación ahora. Debes abrir la opción de Preferencias, luego autorizar a esta aplicación a leer tu lista de contactos y luego reiniciar esta aplicación.";
 
-"CNContactStore.authorizationStatus.denied" = "Esta aplicación no puede leer su lista de contactos porque el estado de autorización de su tienda de contactos está configurado como denegado. Puedes salir de la aplicación ahora. Puede iniciar su aplicación Preferencias, luego autorizar esta aplicación para leer su lista de contactos y luego reiniciar esta aplicación.";
+"CNContactStore.authorizationStatus.denied" = "Esta aplicación no puede leer tu lista de contactos porque la opción de leer tus contactos se encuentra desactivada. Puedes salir de la aplicación ahora. Debes abrir la opción de Preferencias, luego autorizar a esta aplicación a leer tu lista de contactos y luego reiniciar esta aplicación";
 
-"CNContactStore.authorizationStatus.unknown" = "Esta aplicación no puede leer su lista de contactos debido a un error desconocido. Póngase en contacto con el desarrollador de la aplicación para ver más de cerca lo que está sucediendo y cómo solucionarlo. Envíe un correo electrónico a joel@joelparkerhenderson.com o llame al +1-415-317-2700. Gracias.";
+"CNContactStore.authorizationStatus.unknown" = "Esta aplicación no puede leer su lista de contactos debido a un error desconocido. Ponte en contacto con el desarrollador de la aplicación para ver más de cerca lo que está sucediendo y cómo solucionarlo. Envía un correo electrónico a joel@joelparkerhenderson.com o llama al +1-415-317-2700. Gracias.";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "El estado de autorización es autorizado.";
+"CNAuthorizationStatus.authorized.fullName" = "La autorización se encuentra aprobada.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "El estado de autorización es no determinado.";
+"CNAuthorizationStatus.notDetermined.fullName" = "La autorización se encuentra indeterminada.";
 
-"CNAuthorizationStatus.restricted.fullName" = "El estado de autorización es restringido.";
+"CNAuthorizationStatus.restricted.fullName" = "La autorización se encuentra restringida.";
 
-"CNAuthorizationStatus.denied.fullName" = "El estado de autorización es denegado.";
+"CNAuthorizationStatus.denied.fullName" = "La autorización se encuentra denegada.";
 
 //
 // CNAuthorizationStatus partName
@@ -70,7 +70,7 @@
 
 "CNAuthorizationStatus.authorized.partName" = "autorizado";
 
-"CNAuthorizationStatus.notDetermined.partName" = "no determinado";
+"CNAuthorizationStatus.notDetermined.partName" = "indeterminado";
 
 "CNAuthorizationStatus.restricted.partName" = "restringido";
 
@@ -80,13 +80,13 @@
 // ContentView.swift
 //
 
-"CursorState.Loadable" = "Su lista de contactos es cargable.";
+"CursorState.Loadable" = "Tu lista de contactos se puede cargar.";
 
 "CursorState.Loading" = "Tu lista de contactos se está cargando.";
 
-"CursorState.Loaded" = "Su lista de contactos está cargada.";
+"CursorState.Loaded" = "Tu lista de contactos está cargada.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Su lista de contactos está cargada, pero está vacía.";
+"CursorState.Loaded & cursor.isEmpty" = "Tu lista de contactos está cargada, pero está vacía.";
 
 //
 // Demo persons
