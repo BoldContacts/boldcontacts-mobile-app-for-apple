@@ -1,0 +1,140 @@
+//
+// Labels
+//
+
+// OK | Cancel
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+// Yes | No
+"Yes" = "Yes";
+"No" = "No";
+
+// Success | Failure
+"Success" = "Success";
+"Failure" = "Failure";
+
+// Allow | Don't Allow
+"Allow" = "Allow";
+"Don't Allow" = "Don't Allow";
+
+// Accept | Reject
+"Accept" = "Accept";
+"Reject" = "Reject";
+
+//
+// AlertForIntroduction.swift
+//
+
+"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+
+"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+
+//
+// AlertForDemonstration.swift
+//
+
+"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+
+"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+
+//
+// CNContactStore.authorizationStatus.*
+//
+
+"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+
+"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+
+"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+
+"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+
+"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+
+//
+// CNAuthorizationStatus fullName
+//
+
+"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+
+"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+
+"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+
+"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+
+//
+// CNAuthorizationStatus partName
+//
+
+"CNAuthorizationStatus.authorized.partName" = "authorized";
+
+"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+
+"CNAuthorizationStatus.restricted.partName" = "restricted";
+
+"CNAuthorizationStatus.denied.partName" = "denied";
+
+//
+// CursorState.swift
+//
+
+"CursorState.Loadable" = "Your contacts list is loadable.";
+
+"CursorState.Loading" = "Your contacts list is loading.";
+
+"CursorState.Loaded" = "Your contacts list is loaded.";
+
+"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+
+//
+// Demo persons
+//
+
+"Demo.persons[0].givenName" = "Alice";
+"Demo.persons[0].familyName" = "Adams";
+
+"Demo.persons[1].givenName" = "Bob";
+"Demo.persons[1].familyName" = "Brown";
+
+"Demo.persons[2].givenName" = "Carol";
+"Demo.persons[2].familyName" = "Curtis";
+
+"Demo.persons[3].givenName" = "Dave";
+"Demo.persons[3].familyName" = "Davis";
+
+"Demo.persons[4].givenName" = "Eve";
+"Demo.persons[4].familyName" = "Evans";
+
+"Demo.persons[5].givenName" = "Frank";
+"Demo.persons[5].familyName" = "Franklin";
+
+//
+// Demo groups
+//
+
+"Demo.groups[0].name" = "ALS Association";
+"Demo.groups[0].website" = "https://www.als.org";
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
+"Demo.groups[0].phone" = "1-800-782-4747";
+
+"Demo.groups[1].name" = "Alzheimer's Association";
+"Demo.groups[1].website" = "https://www.alz.org";
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
+"Demo.groups[1].phone" = "1-800-272-3900";
+
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
+"Demo.groups[2].website" = "https://msfocus.org";
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
+"Demo.groups[2].phone" = "1-888-673-6287";
+
+"Demo.groups[3].name" = "Muscular Dystrophy Association";
+"Demo.groups[3].website" = "http://www.mdausa.org";
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
+"Demo.groups[3].phone" = "1-833-275-6321";
+
+"Demo.groups[4].name" = "Parkinson's Foundation";
+"Demo.groups[4].website" = "https://www.parkinson.org";
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
+"Demo.groups[4].phone" = "1-800-473-4636";
