@@ -469,6 +469,7 @@
 		F4BA57D6291C05220032D11F /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F4BA57D7291C3BAE0032D11F /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F4BA57D8291C3BD80032D11F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4BA57D9291C3F670032D11F /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
 		F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabCNMutableContact.swift; sourceTree = "<group>"; };
@@ -1480,6 +1481,7 @@
 				F4BA57D6291C05220032D11F /* es-419 */,
 				F4BA57D7291C3BAE0032D11F /* fr-CA */,
 				F4BA57D8291C3BD80032D11F /* ja */,
+				F4BA57D9291C3F670032D11F /* en-AU */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
