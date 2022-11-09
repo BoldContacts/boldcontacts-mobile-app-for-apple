@@ -4,53 +4,53 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Avbryt";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ja";
+"No" = "Nej";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Framgång";
+"Failure" = "Fel";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Tillåta";
+"Don't Allow" = "Tillåt inte";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Acceptera";
+"Reject" = "Avvisa";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Introduktion";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Den här appen visar dina befintliga kontakter som finns på din enhet. Du kan använda appen Kontakter för att hantera dina kontakter.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" skulle vilja visa exempel";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Den här appen läser dina befintliga kontakter på din enhet, men du verkar inte ha några. Så den här appen kommer att visa dig tillfälliga demonstrationsexempel istället för dina befintliga kontakter.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Denna app kan läsa din kontaktlista.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Den här appen vill läsa din kontaktlista.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Den här appen kan inte läsa din kontaktlista eftersom auktoriseringsstatusen för din kontaktbutik är inställd på begränsad. Du kan avsluta appen nu. Du kan starta din Preferences-app, sedan auktorisera den här appen att läsa din kontaktlista och sedan starta om den här appen.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Den här appen kan inte läsa din kontaktlista eftersom din kontaktbutiks auktoriseringsstatus är inställd på nekad. Du kan avsluta appen nu. Du kan starta din Preferences-app, sedan auktorisera den här appen att läsa din kontaktlista och sedan starta om den här appen.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Den här appen kan inte läsa din kontaktlista på grund av ett okänt fel. Kontakta apputvecklaren för att ta en närmare titt på vad som händer och hur du fixar det åt dig. Maila joel@joelparkerhenderson.com eller ring +1-415-317-2700. Tack.";
 
 //
 // CNAuthorizationStatus fullName
@@ -58,63 +58,57 @@
 
 "CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Auktoriseringsstatus är inte fastställd.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Auktoriseringsstatus är begränsad.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Auktoriseringsstatus nekas.";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "auktoriserad";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "inte bestämd";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "begränsad";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "nekad";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Din kontaktlista kan laddas.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Din kontaktlista laddas.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Din kontaktlista är laddad.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Din kontaktlista är inläst, men är tom.";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "Anna";
+"Demo.persons[0].familyName" = "Johansson";
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "Lars";
+"Demo.persons[1].familyName" = "Andersson";
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "Eva";
+"Demo.persons[2].familyName" = "Karlsson";
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "Per";
+"Demo.persons[3].familyName" = "Nilsson";
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "Karin";
+"Demo.persons[4].familyName" = "Eriksson";
 
-"Demo.persons[5].givenName" = "Frank";
-"Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
+"Demo.persons[5].givenName" = "Karl";
+"Demo.persons[5].familyName" = "Larsson";
 
 //
 // Demo groups
