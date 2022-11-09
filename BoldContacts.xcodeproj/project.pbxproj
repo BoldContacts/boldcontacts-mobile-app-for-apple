@@ -466,6 +466,7 @@
 		F47229B928AB29D100773693 /* fabCNContactPostalAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fabCNContactPostalAddresses.swift; sourceTree = "<group>"; };
 		F48C376E28C816E300A72523 /* minimum-system-version.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "minimum-system-version.md"; sourceTree = "<group>"; };
 		F48C376F28C817C400A72523 /* BoldContacts--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BoldContacts--macOS--Info.plist"; sourceTree = "<group>"; };
+		F4BA57D6291C05220032D11F /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
 		F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabCNMutableContact.swift; sourceTree = "<group>"; };
@@ -1474,6 +1475,7 @@
 				F44C2E07291B43EB00CE09B7 /* pt-BR */,
 				F44C2E08291B45DA00CE09B7 /* sv */,
 				F44C2E09291B47D000CE09B7 /* id */,
+				F4BA57D6291C05220032D11F /* es-419 */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
