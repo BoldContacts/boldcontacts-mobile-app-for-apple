@@ -109,3 +109,32 @@
 
 "Demo.persons[5].givenName" = "Antônio";
 "Demo.persons[5].familyName" = "dos Santos";
+
+//
+// Demo groups
+//
+
+"Demo.groups[0].name" = "ALS Association";
+"Demo.groups[0].website" = "https://www.als.org";
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
+"Demo.groups[0].phone" = "1-800-782-4747";
+
+"Demo.groups[1].name" = "Alzheimer's Association";
+"Demo.groups[1].website" = "https://www.alz.org";
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
+"Demo.groups[1].phone" = "1-800-272-3900";
+
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
+"Demo.groups[2].website" = "https://msfocus.org";
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
+"Demo.groups[2].phone" = "1-888-673-6287";
+
+"Demo.groups[3].name" = "Muscular Dystrophy Association";
+"Demo.groups[3].website" = "http://www.mdausa.org";
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
+"Demo.groups[3].phone" = "1-833-275-6321";
+
+"Demo.groups[4].name" = "Parkinson's Foundation";
+"Demo.groups[4].website" = "https://www.parkinson.org";
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
+"Demo.groups[4].phone" = "1-800-473-4636";
