@@ -1,0 +1,140 @@
+//
+// Labels
+//
+
+// OK | Cancel
+"OK" = "Ceart go leor";
+"Cancel" = "Cealaigh";
+
+// Yes | No
+"Yes" = "Tá";
+"No" = "Níl";
+
+// Success | Failure
+"Success" = "Rath";
+"Failure" = "Teip";
+
+// Allow | Don't Allow
+"Allow" = "Ceadaigh";
+"Don't Allow" = "Ná Ceadaigh";
+
+// Accept | Reject
+"Accept" = "Glac";
+"Reject" = "Diúltaigh";
+
+//
+// AlertForIntroduction.swift
+//
+
+"AlertForIntroduction.title" = "\"Teagmhálacha Trom\" Réamhrá";
+
+"AlertForIntroduction.message" = "Taispeánann an aip seo na teagmhálaithe atá agat cheana féin agus atá ar do ghléas. Is féidir leat d’aip Contacts a úsáid chun do theagmhálaithe a bhainistiú.";
+
+//
+// AlertForDemonstration.swift
+//
+
+"AlertForDemonstration.title" = "Ba mhaith le \"BoldContacts\" Samplaí a thaispeáint";
+
+"AlertForDemonstration.message" = "Léann an aip seo na teagmhálaithe atá agat cheana féin ar do ghléas, ach is cosúil nach bhfuil aon cheann agat. Mar sin taispeánfaidh an aip seo samplaí taispeána sealadacha duit in ionad na dteagmhálaithe atá agat cheana féin.";
+
+//
+// CNContactStore.authorizationStatus.*
+//
+
+"CNContactStore.authorizationStatus.authorized" = "Is féidir leis an aip seo do liosta teagmhálaithe a léamh.";
+
+"CNContactStore.authorizationStatus.notDetermined" = "Teastaíonn ón aip seo do liosta teagmhálaithe a léamh.";
+
+"CNContactStore.authorizationStatus.restricted" = "Ní féidir leis an aip seo do liosta teagmhálaithe a léamh toisc go bhfuil srian ar do stádas údaraithe siopa teagmhála. Is féidir leat éirí as an app anois. Is féidir leat d'aip Roghanna a sheoladh, ansin an aip seo a údarú chun do liosta teagmhálaithe a léamh, ansin an aip seo a athsheoladh.";
+
+"CNContactStore.authorizationStatus.denied" = "Ní féidir leis an aip seo do liosta teagmhálaithe a léamh toisc go bhfuil do stádas údaraithe siopa teagmhála socraithe mar dhiúltú. Is féidir leat éirí as an app anois. Is féidir leat d'aip Roghanna a sheoladh, ansin an aip seo a údarú chun do liosta teagmhálaithe a léamh, ansin an aip seo a athsheoladh.";
+
+"CNContactStore.authorizationStatus.unknown" = "Ní féidir leis an aip seo do liosta teagmhálaithe a léamh mar gheall ar earráid anaithnid. Déan teagmháil le forbróir na haipe le do thoil chun breathnú níos géire ar cad atá ag tarlú agus conas é a shocrú duitse. Seol ríomhphost chuig joel@joelparkerhenderson.com nó glaoigh ar +1-415-317-2700. Go raibh maith agat.";
+
+//
+// CNAuthorizationStatus fullName
+//
+
+"CNAuthorizationStatus.authorized.fullName" = "Tá stádas údaraithe údaraithe.";
+
+"CNAuthorizationStatus.notDetermined.fullName" = "Ní chinntear stádas údaraithe.";
+
+"CNAuthorizationStatus.restricted.fullName" = "Tá srian ar an stádas údaraithe.";
+
+"CNAuthorizationStatus.denied.fullName" = "Diúltaítear stádas údaraithe.";
+
+//
+// CNAuthorizationStatus partName
+//
+
+"CNAuthorizationStatus.authorized.partName" = "údaraithe";
+
+"CNAuthorizationStatus.notDetermined.partName" = "gan a chinneadh";
+
+"CNAuthorizationStatus.restricted.partName" = "srianta";
+
+"CNAuthorizationStatus.denied.partName" = "shéan";
+
+//
+// CursorState.swift
+//
+
+"CursorState.Loadable" = "Is féidir do liosta teagmhálaithe a luchtú.";
+
+"CursorState.Loading" = "Tá do liosta teagmhálaithe á lódáil.";
+
+"CursorState.Loaded" = "Tá do liosta teagmhálaithe lódáilte.";
+
+"CursorState.Loaded & cursor.isEmpty" = "Tá do liosta teagmhálaithe lódáilte, ach tá sé folamh.";
+
+//
+// Demo persons
+//
+
+"Demo.persons[0].givenName" = "Mary";
+"Demo.persons[0].familyName" = "Murphy";
+
+"Demo.persons[1].givenName" = "John";
+"Demo.persons[1].familyName" = "Kelly";
+
+"Demo.persons[2].givenName" = "Margaret";
+"Demo.persons[2].familyName" = "Byrne";
+
+"Demo.persons[3].givenName" = "Michael";
+"Demo.persons[3].familyName" = "Walsh";
+
+"Demo.persons[4].givenName" = "Ann";
+"Demo.persons[4].familyName" = "Ryan";
+
+"Demo.persons[5].givenName" = "Patrick";
+"Demo.persons[5].familyName" = "O'Brien";
+
+//
+// Demo groups
+//
+
+"Demo.groups[0].name" = "ALS Association";
+"Demo.groups[0].website" = "https://www.als.org";
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
+"Demo.groups[0].phone" = "1-800-782-4747";
+
+"Demo.groups[1].name" = "Alzheimer's Association";
+"Demo.groups[1].website" = "https://www.alz.org";
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
+"Demo.groups[1].phone" = "1-800-272-3900";
+
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
+"Demo.groups[2].website" = "https://msfocus.org";
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
+"Demo.groups[2].phone" = "1-888-673-6287";
+
+"Demo.groups[3].name" = "Muscular Dystrophy Association";
+"Demo.groups[3].website" = "http://www.mdausa.org";
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
+"Demo.groups[3].phone" = "1-833-275-6321";
+
+"Demo.groups[4].name" = "Parkinson's Foundation";
+"Demo.groups[4].website" = "https://www.parkinson.org";
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
+"Demo.groups[4].phone" = "1-800-473-4636";
