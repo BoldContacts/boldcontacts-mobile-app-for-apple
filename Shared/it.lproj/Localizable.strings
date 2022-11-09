@@ -7,7 +7,7 @@
 "Cancel" = "Annulla";
 
 // Yes | No
-"Yes" = "Sì";
+"Yes" = "Si";
 "No" = "No";
 
 // Success | Failure
@@ -15,42 +15,42 @@
 "Failure" = "Fallimento";
 
 // Allow | Don't Allow
-"Allow" = "Permettere";
-"Don't Allow" = "Non consentire";
+"Allow" = "Permetti";
+"Don't Allow" = "Non Permettere";
 
 // Accept | Reject
-"Accept" = "Accettare";
-"Reject" = "Rifiutare";
+"Accept" = "Accetta";
+"Reject" = "Rifiuta";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"\" Introduzione";
+"AlertForIntroduction.title" = "\"BoldContacts\" Introduzione";
 
-"AlertForIntroduction.message" = "Questa app mostra i tuoi contatti esistenti che sono sul tuo dispositivo. Puoi utilizzare l'app Contatti per gestire i tuoi contatti.";
+"AlertForIntroduction.message" = "Questa applicazione mostra i tuoi contatti esistenti su questo dispositivo. Puoi usare la app Telefono per gestire i tuoi contatti.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"Contatti in grassetto\" vorrebbe mostrare degli esempi";
+"AlertForDemonstration.title" = "\"BoldContacts\" vorrebbe mostrarti degli esempi";
 
-"AlertForDemonstration.message" = "Questa app legge i tuoi contatti esistenti sul tuo dispositivo, ma sembra che tu non ne abbia. Quindi questa app ti mostrerà esempi dimostrativi temporanei invece dei tuoi contatti esistenti.";
+"AlertForDemonstration.message" = "Questa app legge i contatti esistenti del tuo telefono, ma sembra che tu non ne abbia alcuno. Per questo motivo questa app ti mostrerà degli esempi temporanei invece dei tuoi contatti esistenti.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Questa app può leggere la tua lista dei contatti.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "Questa app vuole leggere il tuo elenco di contatti.";
+"CNContactStore.authorizationStatus.notDetermined" = "Questa app vuole leggere la tua lista dei contatti.";
 
-"CNContactStore.authorizationStatus.restricted" = "Questa app non è in grado di leggere l'elenco dei contatti perché lo stato di autorizzazione dell'archivio contatti è impostato su limitato. Puoi uscire dall'app ora. Puoi avviare l'app Preferenze, quindi autorizzare questa app a leggere l'elenco dei contatti, quindi riavviare l'app.";
+"CNContactStore.authorizationStatus.restricted" = "Questa app non è in grado di leggere la tua lista dei contatti perché vi sono restrizioni sui permessi. Puoi uscire dalla applicazione adesso. Vai in Impostazioni dell'iPhone, Privacy, Contatti e autorizza \"BoldContacts\". Poi riapri questa app.";
 
-"CNContactStore.authorizationStatus.denied" = "Questa app non è in grado di leggere l'elenco dei contatti perché lo stato di autorizzazione dell'archivio contatti è impostato su negato. Puoi uscire dall'app ora. Puoi avviare l'app Preferenze, quindi autorizzare questa app a leggere l'elenco dei contatti, quindi riavviare l'app.";
+"CNContactStore.authorizationStatus.denied" = "Questa app non è in grado di leggere la tua lista dei contatti perché i permessi di accesso sono stati negati. Puoi uscire dalla applicazione adesso. Vai in Impostazioni dell'iPhone, Privacy, Contatti e autorizza \"BoldContacts\". Poi riapri questa app.";
 
-"CNContactStore.authorizationStatus.unknown" = "Questa app non è in grado di leggere l'elenco dei contatti a causa di un errore sconosciuto. Contatta lo sviluppatore dell'app per dare un'occhiata più da vicino a cosa sta succedendo e come risolverlo per te. E-mail joel@joelparkerhenderson.com o telefono +1-415-317-2700. Grazie.";
+"CNContactStore.authorizationStatus.unknown" = "Questa app non è in grado di leggere la tua lista dei contatti a causa di un errore sconosciuto. Per favore, contatta lo sviluppatore per analizzare il problema. Invia una email joel@joelparkerhenderson.com o telefona al +1-415-317-2700. Grazie.";
 
 //
 // CNAuthorizationStatus fullName
@@ -58,9 +58,9 @@
 
 "CNAuthorizationStatus.authorized.fullName" = "Lo stato di autorizzazione è autorizzato.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Lo stato di autorizzazione non è determinato.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Lo stato di autorizzazione non può essere determinato.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Lo stato di autorizzazione è limitato.";
+"CNAuthorizationStatus.restricted.fullName" = "Lo stato di autorizzazione è con restrizioni.";
 
 "CNAuthorizationStatus.denied.fullName" = "Lo stato di autorizzazione è negato.";
 
@@ -72,7 +72,7 @@
 
 "CNAuthorizationStatus.notDetermined.partName" = "non determinato";
 
-"CNAuthorizationStatus.restricted.partName" = "limitata";
+"CNAuthorizationStatus.restricted.partName" = "con restrizioni";
 
 "CNAuthorizationStatus.denied.partName" = "negato";
 
@@ -80,61 +80,61 @@
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Il tuo elenco di contatti è caricabile.";
+"CursorState.Loadable" = "La tua lista dei contatti è caricabile.";
 
-"CursorState.Loading" = "Il tuo elenco di contatti è in caricamento.";
+"CursorState.Loading" = "La tua lista dei contatti si sta caricando.";
 
-"CursorState.Loaded" = "La tua lista di contatti è caricata.";
+"CursorState.Loaded" = "La tua lista dei contatti è caricata.";
 
-"CursorState.Loaded & cursor.isEmpty" = "L'elenco dei contatti è caricato, ma è vuoto.";
+"CursorState.Loaded & cursor.isEmpty" = "La tua lista dei contatti è caricata, ma è vuota.";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Maria";
-"Demo.persons[0].familyName" = "Rossi";
+"Demo.persons[0].givenName" = "Anna";
+"Demo.persons[0].familyName" = "Russo";
 
-"Demo.persons[1].givenName" = "Marco";
-"Demo.persons[1].familyName" = "Ferrari";
+"Demo.persons[1].givenName" = "Paolo";
+"Demo.persons[1].familyName" = "Rossi";
 
-"Demo.persons[2].givenName" = "Anna";
-"Demo.persons[2].familyName" = "Esposito";
+"Demo.persons[2].givenName" = "Carolina";
+"Demo.persons[2].familyName" = "Bianchi";
 
-"Demo.persons[3].givenName" = "Alessandro";
-"Demo.persons[3].familyName" = "Bianchi";
+"Demo.persons[3].givenName" = "Davide";
+"Demo.persons[3].familyName" = "Ferrari";
 
-"Demo.persons[4].givenName" = "Valentina";
+"Demo.persons[4].givenName" = "Elisa";
 "Demo.persons[4].familyName" = "Romano";
 
-"Demo.persons[5].givenName" = "Flavio";
-"Demo.persons[5].familyName" = "Colombo";
+"Demo.persons[5].givenName" = "Franco";
+"Demo.persons[5].familyName" = "Coppola";
 
 //
 // Demo groups
 //
 
-"Demo.groups[0].name" = "ALS Association";
-"Demo.groups[0].website" = "https://www.als.org";
-"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
-"Demo.groups[0].phone" = "1-800-782-4747";
+"Demo.groups[0].name" = "AISLA | Associazione Italiana Sclerosi Laterale Amiotrofica";
+"Demo.groups[0].website" = "https://www.aisla.it/";
+"Demo.groups[0].twitter" = "https://twitter.com/aislaonlus";
+"Demo.groups[0].phone" = "+39-02-66982114";
 
-"Demo.groups[1].name" = "Alzheimer's Association";
-"Demo.groups[1].website" = "https://www.alz.org";
-"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
-"Demo.groups[1].phone" = "1-800-272-3900";
+"Demo.groups[1].name" = "Associazione Alzheimer Italia";
+"Demo.groups[1].website" = "http://www.alzheimer.it";
+"Demo.groups[1].twitter" = "https://twitter.com/alzheimeritalia";
+"Demo.groups[1].phone" = "+39-02-809767";
 
-"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
-"Demo.groups[2].website" = "https://msfocus.org";
-"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
-"Demo.groups[2].phone" = "1-888-673-6287";
+"Demo.groups[2].name" = "Associazione Italiana Sclerosi Multipla";
+"Demo.groups[2].website" = "https://www.aism.it";
+"Demo.groups[2].twitter" = "https://twitter.com/aism_nazionale";
+"Demo.groups[2].phone" = "+39-800-803028";
 
-"Demo.groups[3].name" = "Muscular Dystrophy Association";
-"Demo.groups[3].website" = "http://www.mdausa.org";
-"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
-"Demo.groups[3].phone" = "1-833-275-6321";
+"Demo.groups[3].name" = "Unione Italiana Lotta alla Distrofia Muscolare";
+"Demo.groups[3].website" = "https://www.uildm.org/";
+"Demo.groups[3].twitter" = "https://twitter.com/UILDMnazionale";
+"Demo.groups[3].phone" = "+39-049-8021001";
 
-"Demo.groups[4].name" = "Parkinson's Foundation";
-"Demo.groups[4].website" = "https://www.parkinson.org";
-"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
-"Demo.groups[4].phone" = "1-800-473-4636";
+"Demo.groups[4].name" = "Confederazione Parkinson Italia";
+"Demo.groups[4].website" = "https://www.parkinson-italia.it/";
+"Demo.groups[4].twitter" = "https://twitter.com/parkinsonitaly";
+"Demo.groups[4].phone" = "+39-348-7585755";
