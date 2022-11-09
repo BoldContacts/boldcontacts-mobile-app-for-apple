@@ -3,118 +3,112 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
+"OK" = "Oke";
 "Cancel" = "Cancel";
 
 // Yes | No
 "Yes" = "Yes";
-"No" = "No";
+"No" = "Tidak";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Kesuksesan";
+"Failure" = "Kegagalan";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Mengizinkan";
+"Don't Allow" = "Jangan Izinkan";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Menerima";
+"Reject" = "Menolak";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "Pengenalan \"BoldContacts\"";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Aplikasi ini menampilkan kontak Anda yang ada di perangkat Anda. Anda dapat menggunakan aplikasi Kontak untuk mengelola kontak Anda.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Ingin Menunjukkan Contoh";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Aplikasi ini membaca kontak yang ada di perangkat Anda, tetapi sepertinya Anda tidak memilikinya. Jadi aplikasi ini akan menunjukkan contoh demonstrasi sementara alih-alih kontak yang ada.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Aplikasi ini dapat membaca daftar kontak Anda.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Aplikasi ini ingin membaca daftar kontak Anda.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Aplikasi ini tidak dapat membaca daftar kontak Anda karena status otorisasi toko kontak Anda disetel ke dibatasi. Anda dapat keluar dari aplikasi sekarang. Anda dapat meluncurkan aplikasi Preferensi Anda, lalu mengizinkan aplikasi ini untuk membaca daftar kontak Anda, lalu meluncurkan kembali aplikasi ini.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Aplikasi ini tidak dapat membaca daftar kontak Anda karena status otorisasi toko kontak Anda disetel ke ditolak. Anda dapat keluar dari aplikasi sekarang. Anda dapat meluncurkan aplikasi Preferensi Anda, lalu mengizinkan aplikasi ini untuk membaca daftar kontak Anda, lalu meluncurkan kembali aplikasi ini.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Aplikasi ini tidak dapat membaca daftar kontak Anda karena kesalahan yang tidak diketahui. Silakan hubungi pengembang aplikasi untuk melihat lebih dekat apa yang terjadi dan cara memperbaikinya untuk Anda. Email joel@joelparkerhenderson.com atau telepon +1-415-317-2700. Terima kasih.";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Status otorisasi diotorisasi.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Status otorisasi tidak ditentukan.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Status otorisasi dibatasi.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Status otorisasi ditolak.";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "berwenang";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "tidak ditentukan";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "terbatas";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "ditolak";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Daftar kontak Anda dapat dimuat.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Daftar kontak Anda sedang dimuat.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Daftar kontak Anda dimuat.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Daftar kontak Anda dimuat, tetapi kosong.";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "Siti";
+"Demo.persons[0].familyName" = "Sari";
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "Muhammad";
+"Demo.persons[1].familyName" = "Hidayat";
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "Nur";
+"Demo.persons[2].familyName" = "Lestari";
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "Ahmad";
+"Demo.persons[3].familyName" = "Saputra";
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "Endang";
+"Demo.persons[4].familyName" = "Rahayu";
 
-"Demo.persons[5].givenName" = "Frank";
-"Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
+"Demo.persons[5].givenName" = "Haji";
+"Demo.persons[5].familyName" = "Dewi";
 
 //
 // Demo groups
