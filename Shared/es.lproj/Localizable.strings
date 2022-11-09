@@ -16,7 +16,7 @@
 
 // Allow | Don't Allow
 "Allow" = "Permitir";
-"Don't Allow" = "No Permitido";
+"Don't Allow" = "No Permitir";
 
 // Accept | Reject
 "Accept" = "Aceptar";
