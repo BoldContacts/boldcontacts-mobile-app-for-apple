@@ -3,66 +3,66 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Được";
+"Cancel" = "Hủy bỏ";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Có";
+"No" = "Không";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Thành công";
+"Failure" = "Không đạt";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Cho phép";
+"Don't Allow" = "Không cho phép";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Chấp nhận";
+"Reject" = "Từ chối";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Giới thiệu";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Ứng dụng này hiển thị các số liên lạc hiện có trên thiết bị của bạn. Bạn có thể sử dụng ứng dụng Danh bạ để quản lý các số liên lạc của mình.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Muốn Hiển thị Ví dụ";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ứng dụng này đọc các số liên lạc hiện có trên thiết bị của bạn, nhưng bạn dường như không có. Vì vậy, ứng dụng này sẽ hiển thị cho bạn các ví dụ minh họa tạm thời thay vì các số liên lạc hiện có của bạn.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Ứng dụng này có thể đọc danh sách liên hệ của bạn.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetined" = "Ứng dụng này muốn đọc danh sách liên hệ của bạn.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Ứng dụng này không thể đọc danh sách liên hệ của bạn vì trạng thái ủy quyền cửa hàng liên hệ của bạn được đặt thành hạn chế. Bạn có thể thoát ứng dụng ngay bây giờ. Bạn có thể khởi chạy ứng dụng Tùy chọn, sau đó ủy quyền cho ứng dụng này đọc danh sách liên hệ, sau đó khởi chạy lại ứng dụng này.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Ứng dụng này không thể đọc danh sách liên hệ của bạn vì trạng thái ủy quyền cửa hàng liên hệ của bạn được đặt thành bị từ chối. Bạn có thể thoát khỏi ứng dụng ngay bây giờ. Bạn có thể khởi chạy ứng dụng Tùy chọn, sau đó ủy quyền cho ứng dụng này đọc danh sách liên hệ, sau đó khởi chạy lại ứng dụng này.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Ứng dụng này không thể đọc danh sách liên hệ của bạn do lỗi không xác định. Vui lòng liên hệ với nhà phát triển ứng dụng để xem xét kỹ hơn những gì đang xảy ra và cách khắc phục sự cố cho bạn. Gửi email tới joel @ joelparkerhenderson. com hoặc điện thoại + 1-415-317-2700. Xin cảm ơn.";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.partName" = "được ủy quyền";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetined.partName" = "không xác định";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.partName" = "bị hạn chế";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.partName" = "bị từ chối";
 
 //
 // CNAuthorizationStatus partName
@@ -80,41 +80,35 @@
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Danh sách liên hệ của bạn có thể tải được.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Danh sách liên hệ của bạn đang tải.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Danh sách liên hệ của bạn đã được tải.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Danh sách liên hệ của bạn đã được tải nhưng còn trống.";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "Anh";
+"Demo.persons[0].familyName" = "Nguyễn";
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "Thanh";
+"Demo.persons[1].familyName" = "Trần";
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "Linh";
+"Demo.persons[2].familyName" = "Lê";
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "Tuân";
+"Demo.persons[3].familyName" = "Phạm";
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "Trang";
+"Demo.persons[4].familyName" = "Hoàng";
 
-"Demo.persons[5].givenName" = "Frank";
-"Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
+"Demo.persons[5].givenName" = "Hùng";
+"Demo.persons[5].familyName" = "Vũ";
 
 //
 // Demo groups

@@ -94,27 +94,21 @@
 
 "Demo.persons[0].givenName" = "Alice";
 "Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
 
 "Demo.persons[1].givenName" = "Bob";
 "Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
 
 "Demo.persons[2].givenName" = "Carol";
 "Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
 
 "Demo.persons[3].givenName" = "Dave";
 "Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
 
 "Demo.persons[4].givenName" = "Eve";
 "Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
 
 "Demo.persons[5].givenName" = "Frank";
 "Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
 
 //
 // Demo groups

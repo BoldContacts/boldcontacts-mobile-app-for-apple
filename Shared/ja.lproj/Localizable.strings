@@ -102,7 +102,7 @@
 "Demo.persons[2].familyName" = "高橋"; // Takahashi
 
 "Demo.persons[3].givenName" = "みなと"; // Minato
-"Demo.persons[3].familyName" = "田中"; Tanaka
+"Demo.persons[3].familyName" = "田中"; // Tanaka
 
 "Demo.persons[4].givenName" = "えま"; // Emi
 "Demo.persons[4].familyName" = "渡辺"; // Watanabe

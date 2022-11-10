@@ -44,6 +44,13 @@ You can personalize how your BoldContacts app will connect to your contact:
 3. Edit the new contact field label to be "BoldContacts".
 
 
+## Localization and Internationalization
+
+The app currently has draft-quality localization for Arabic, Bangla, Chinese, English, French, German, Hindi, Hindi, Indonesian, Irish, Italian, Japanese, Portugese, Russian, Spanish, Swedish, Turkish, Urdu, Vietnamese, Welsh.
+
+The app currently has placeholder localization files for many more languages that are available via popular translation services such as Google Translate. We welcome help with these translations.
+
+
 ## Help Wanted
 
 Contact the author at <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.

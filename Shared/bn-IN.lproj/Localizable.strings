@@ -96,7 +96,7 @@
 "Demo.persons[0].givenName" = "অদিতি"; // Aditi
 "Demo.persons[0].familyName" = "সৈয়দ"; // Sóíjed / Syed
 
-"Demo.persons[1].givenName" = "মুহাম্মদ" // Mohammad
+"Demo.persons[1].givenName" = "মুহাম্মদ"; // Mohammad
 "Demo.persons[1].familyName" = "লস্কর"; // Loškor / Laskar
 
 "Demo.persons[2].givenName" = "জান্নাত"; // Jannat

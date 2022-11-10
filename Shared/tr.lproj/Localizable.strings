@@ -3,118 +3,111 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Tamam";
+"Cancel" = "İptal";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Evet";
+"No" = "Hayır";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Başarı";
+"Failure" = "Başarısızlık";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "İzin ver";
+"Don't Allow" = "İzin Verme";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Kabul Et";
+"Reject" = "Reddet";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Giriş";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
-
+"AlertForIntroduction.message" = "Bu uygulama, cihazınızda bulunan mevcut kişilerinizi görüntüler. Kişilerinizi yönetmek için Kişiler uygulamanızı kullanabilirsiniz.";
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Örnekleri Göstermek İstiyorum";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Bu uygulama, cihazınızdaki mevcut kişilerinizi okur, ancak sizde hiç kişi yok gibi görünüyor. Dolayısıyla, bu uygulama size mevcut kişileriniz yerine geçici tanıtım örnekleri gösterecektir.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Bu uygulama kişi listenizi okuyabilir.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Bu uygulama, kişi listenizi okumak istiyor.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Kişi deposu yetkilendirme durumunuz kısıtlı olarak ayarlandığından bu uygulama kişi listenizi okuyamıyor. Uygulamadan şimdi çıkabilirsiniz. Tercihler uygulamanızı başlatabilir ve ardından bu uygulamaya, bilgilerinizi okuması için yetki verebilirsiniz. kişiler listesi, ardından bu uygulamayı yeniden başlatın.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Kişi deposu yetkilendirme durumunuz reddedildi olarak ayarlandığından bu uygulama kişi listenizi okuyamıyor. Uygulamadan şimdi çıkabilirsiniz. Tercihler uygulamanızı başlatabilir ve ardından bu uygulamaya, bilgilerinizi okuması için yetki verebilirsiniz. kişiler listesi, ardından bu uygulamayı yeniden başlatın.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Bilinmeyen bir hata nedeniyle bu uygulama kişi listenizi okuyamıyor. Neler olup bittiğine ve sizin için nasıl düzeltileceğine daha yakından bakmak için lütfen uygulama geliştiricisiyle iletişime geçin. joel@joelparkerhenderson'a e-posta gönderin. com veya telefon +1-415-317-2700. Teşekkürler.";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Yetkilendirme durumuna yetki verildi.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Yetkilendirme durumu belirlenmedi.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Yetkilendirme durumu kısıtlı.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Yetkilendirme durumu reddedildi.";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "yetkili";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "belirlenmedi";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "kısıtlı";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "reddedildi";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Kişi listeniz yüklenebilir.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Kişi listeniz yükleniyor.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Kişi listeniz yüklendi.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Kişi listeniz yüklendi, ancak boş.";
 
 //
 // Demo persons
 //
 
-"Demo.persons[0].givenName" = "Alice";
-"Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
+"Demo.persons[0].givenName" = "Fatma";
+"Demo.persons[0].familyName" = "Yılmaz";
 
-"Demo.persons[1].givenName" = "Bob";
-"Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
+"Demo.persons[1].givenName" = "Mehmet";
+"Demo.persons[1].familyName" = "Kaya";
 
-"Demo.persons[2].givenName" = "Carol";
-"Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
+"Demo.persons[2].givenName" = "Ayşe";
+"Demo.persons[2].familyName" = "Demir";
 
-"Demo.persons[3].givenName" = "Dave";
-"Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
+"Demo.persons[3].givenName" = "Mustafa";
+"Demo.persons[3].familyName" = "Çelik";
 
-"Demo.persons[4].givenName" = "Eve";
-"Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
+"Demo.persons[4].givenName" = "Emine";
+"Demo.persons[4].familyName" = "Şahin";
 
-"Demo.persons[5].givenName" = "Frank";
-"Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
+"Demo.persons[5].givenName" = "Hasan";
+"Demo.persons[5].familyName" = "Öztürk";
 
 //
 // Demo groups
