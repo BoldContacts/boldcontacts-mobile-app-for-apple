@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Anulo";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Po";
+"No" = "Jo";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Sukses";
+"Failure" = "Dështim";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Lejo";
+"Don't Allow" = "Mos lejo";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Prano";
+"Reject" = "Refuzo";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Hyrje";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Ky aplikacion shfaq kontaktet tuaja ekzistuese që janë në pajisjen tuaj. Ju mund të përdorni aplikacionin tuaj Kontaktet për të menaxhuar kontaktet tuaja.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Do të donte të shfaqte shembuj";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ky aplikacion lexon kontaktet tuaja ekzistuese në pajisjen tuaj, por ju nuk duket se i keni. Kështu që ky aplikacion do t'ju tregojë shembuj të përkohshëm demonstrimi në vend të kontakteve tuaja ekzistuese.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Ky aplikacion mund të lexojë listën tuaj të kontakteve.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Ky aplikacion dëshiron të lexojë listën tuaj të kontakteve.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Ky aplikacion nuk është në gjendje të lexojë listën tuaj të kontakteve sepse statusi i autorizimit të dyqanit tuaj të kontakteve është caktuar si i kufizuar. Mund të dilni nga aplikacioni tani. Mund të hapni aplikacionin tuaj të Preferencave dhe më pas autorizoni këtë aplikacion për të lexuar listën e kontakteve, më pas rinisni këtë aplikacion.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Ky aplikacion nuk është në gjendje të lexojë listën tuaj të kontakteve sepse statusi i autorizimit të dyqanit tuaj të kontakteve është caktuar si i refuzuar. Mund të dilni nga aplikacioni tani. Mund të hapni aplikacionin tuaj Preferenca dhe më pas autorizoni këtë aplikacion për të lexuar listën e kontakteve, më pas rinisni këtë aplikacion.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Ky aplikacion nuk është në gjendje të lexojë listën e kontakteve tuaja për shkak të një gabimi të panjohur. Ju lutemi, kontaktoni zhvilluesin e aplikacionit për të parë më nga afër se çfarë po ndodh dhe si ta rregulloni atë për ju. Dërgo email joel@joelparkerhenderson. com ose telefononi +1-415-317-2700. Faleminderit.";
 
 //
 // CNAuthorizationStatus fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Statusi i autorizimit është i autorizuar.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Statusi i autorizimit nuk është përcaktuar.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Statusi i autorizimit është i kufizuar.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Statusi i autorizimit është refuzuar.";
 
 //
 // CNAuthorizationStatus partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "i autorizuar";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "nuk është përcaktuar";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "i kufizuar";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "mohuar";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Lista juaj e kontakteve është e ngarkueshme.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Lista juaj e kontakteve po ngarkohet.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Lista juaj e kontakteve është ngarkuar.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Lista juaj e kontakteve është e ngarkuar, por është bosh.";
 
 //
 // Demo persons
