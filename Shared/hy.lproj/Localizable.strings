@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Լավ";
+"Cancel" = "Չեղարկել";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Այո";
+"No" = "Ոչ";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Հաջողություն";
+"Failure" = "Անհաջողություն";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Թույլատրել";
+"Don't Allow" = "Թույլ մի տվեք";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Ընդունել";
+"Reject" = "Մերժել";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Ներածություն";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Այս հավելվածը ցուցադրում է ձեր գոյություն ունեցող կոնտակտները, որոնք գտնվում են ձեր սարքում: Դուք կարող եք օգտագործել Ձեր Կոնտակտներ հավելվածը՝ ձեր կոնտակտները կառավարելու համար։";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Կցանկանայի ցույց տալ օրինակներ";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Այս հավելվածը կարդում է ձեր առկա կոնտակտները ձեր սարքում, բայց դուք, թվում է, չունեք: Այսպիսով, այս հավելվածը ձեզ ցույց կտա ժամանակավոր ցուցադրական օրինակներ ձեր առկա կոնտակտների փոխարեն:";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Այս հավելվածը կարող է կարդալ ձեր կոնտակտների ցանկը։";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Այս հավելվածը ցանկանում է կարդալ ձեր կոնտակտների ցանկը։";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+«CNContactStore.authorizationStatus.restricted» = «Այս հավելվածը չի կարող կարդալ ձեր կոնտակտների ցանկը, քանի որ ձեր կոնտակտային խանութի թույլտվության կարգավիճակը սահմանված է սահմանափակված: Դուք կարող եք դուրս գալ հավելվածից հիմա: Կարող եք գործարկել ձեր Preferences հավելվածը, այնուհետև թույլատրել այս հավելվածին կարդալ ձեր կոնտակտների ցանկը, այնուհետև վերագործարկեք այս հավելվածը:";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = «Այս հավելվածը չի կարող կարդալ ձեր կոնտակտների ցանկը, քանի որ ձեր կոնտակտային խանութի թույլտվության կարգավիճակը սահմանված է մերժված: Դուք կարող եք դուրս գալ հավելվածից հիմա: Կարող եք գործարկել ձեր Preferences հավելվածը, այնուհետև թույլատրել այս հավելվածին կարդալ ձեր կոնտակտների ցանկը, այնուհետև վերագործարկեք այս հավելվածը:";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Այս հավելվածը չի կարողանում կարդալ ձեր կոնտակտների ցանկը անհայտ սխալի պատճառով: Խնդրում ենք կապվել հավելվածի մշակողի հետ՝ ավելի մոտիկից ծանոթանալու, թե ինչ է տեղի ունենում և ինչպես ուղղել այն ձեզ համար: Գրեք joel@joelparkerhenderson: com կամ հեռախոս +1-415-317-2700։ Շնորհակալություն։";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Լիազորման կարգավիճակը լիազորված է";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Լիազորման կարգավիճակը որոշված ​​չէ։";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Լիազորման կարգավիճակը սահմանափակված է";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Լիազորման կարգավիճակը մերժված է";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "լիազորված";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "որոշված ​​չէ";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "սահմանափակված";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "մերժված է";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Ձեր կոնտակտների ցանկը բեռնելի է";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Ձեր կոնտակտների ցանկը բեռնվում է.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Ձեր կոնտակտների ցանկը բեռնված է";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Ձեր կոնտակտների ցանկը բեռնված է, բայց դատարկ է.";
 
 //
 // Demo persons
