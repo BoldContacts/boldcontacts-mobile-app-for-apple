@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Ky aplikacion nuk është në gjendje të lexojë listën e kontakteve tuaja për shkak të një gabimi të panjohur. Ju lutemi, kontaktoni zhvilluesin e aplikacionit për të parë më nga afër se çfarë po ndodh dhe si ta rregulloni atë për ju. Dërgo email joel@joelparkerhenderson. com ose telefononi +1-415-317-2700. Faleminderit.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "Statusi i autorizimit është i autorizuar.";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "Statusi i autorizimit është refuzuar.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "i autorizuar";

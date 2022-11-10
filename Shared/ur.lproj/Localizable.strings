@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "یہ ایپ نامعلوم خرابی کی وجہ سے آپ کے رابطوں کی فہرست کو پڑھنے سے قاصر ہے۔ براہ کرم ایپ ڈویلپر سے رابطہ کریں کہ کیا ہو رہا ہے اور اسے اپنے لیے کیسے ٹھیک کیا جائے۔ joel@joelparkerhenderson.com پر ای میل کریں یا فون +1-415-317-2700۔ شکریہ";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "اجازت کی حیثیت مجاز ہے۔";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "اجازت کی حیثیت سے انکار کر دیا گیا ہے۔";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "مجاز";

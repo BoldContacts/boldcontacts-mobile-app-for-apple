@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Ứng dụng này không thể đọc danh sách liên hệ của bạn do lỗi không xác định. Vui lòng liên hệ với nhà phát triển ứng dụng để xem xét kỹ hơn những gì đang xảy ra và cách khắc phục sự cố cho bạn. Gửi email tới joel @ joelparkerhenderson. com hoặc điện thoại + 1-415-317-2700. Xin cảm ơn.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "được ủy quyền";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.partName" = "bị từ chối";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "authorized";

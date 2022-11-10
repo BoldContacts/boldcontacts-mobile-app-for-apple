@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Nid yw'r ap hwn yn gallu darllen eich rhestr cysylltiadau oherwydd gwall anhysbys. Cysylltwch â datblygwr yr ap i gael golwg agosach ar yr hyn sy'n digwydd a sut i'w drwsio i chi. E-bostiwch joel@joelparkerhenderson.com neu ffoniwch +1-415-317-2700. Diolch.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "Mae statws awdurdodiad wedi'i awdurdodi.";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "Statws awdurdodi yn cael ei wrthod.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "awdurdodedig";

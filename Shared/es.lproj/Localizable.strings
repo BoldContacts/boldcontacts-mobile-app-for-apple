@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Esta aplicación no puede leer su lista de contactos debido a un error desconocido. Ponte en contacto con el desarrollador de la aplicación para ver más de cerca lo que está sucediendo y cómo solucionarlo. Envía un correo electrónico a joel@joelparkerhenderson.com o llama al +1-415-317-2700. Gracias.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "La autorización se encuentra aprobada.";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "La autorización se encuentra denegada.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "autorizado";

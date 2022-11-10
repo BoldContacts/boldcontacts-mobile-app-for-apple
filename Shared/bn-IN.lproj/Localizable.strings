@@ -54,7 +54,7 @@
 
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "অনুমোদনের স্থিতি অনুমোদিত।";
@@ -66,7 +66,7 @@
 "CNAuthorizationStatus.denied.fullName" = "অনুমোদন স্থিতি অস্বীকৃত।";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "অনুমোদিত";

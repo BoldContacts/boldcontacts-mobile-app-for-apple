@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "अज्ञात त्रुटि के कारण यह ऐप आपकी संपर्क सूची को पढ़ने में असमर्थ है। क्या हो रहा है और इसे आपके लिए कैसे ठीक किया जाए, इस पर करीब से नज़र डालने के लिए कृपया ऐप डेवलपर से संपर्क करें। ईमेल joel@joelparkerhenderson.com या फोन +1-415-317-2700। शुक्रिया।";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "प्राधिकरण स्थिति अधिकृत है।";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "प्राधिकरण की स्थिति अस्वीकार कर दी गई है।";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "अधिकार दिया गया";

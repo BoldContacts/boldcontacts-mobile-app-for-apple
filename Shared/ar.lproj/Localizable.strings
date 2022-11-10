@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "هذا التطبيق غير قادر على قراءة قائمة جهات الاتصال الخاصة بك بسبب خطأ غير معروف. يرجى الاتصال بمطور التطبيق لإلقاء نظرة فاحصة على ما يحدث وكيفية إصلاحه لك. أرسل بريدًا إلكترونيًا إلى joel@joelparkerhenderson.com أو هاتف + 1-415-317-2700. شكرًا لك.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "حالة التفويض مصرح بها.";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "تم رفض حالة التفويض.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "مخول";

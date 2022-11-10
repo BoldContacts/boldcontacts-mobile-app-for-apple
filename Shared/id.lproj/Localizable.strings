@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Aplikasi ini tidak dapat membaca daftar kontak Anda karena kesalahan yang tidak diketahui. Silakan hubungi pengembang aplikasi untuk melihat lebih dekat apa yang terjadi dan cara memperbaikinya untuk Anda. Email joel@joelparkerhenderson.com atau telepon +1-415-317-2700. Terima kasih.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "Status otorisasi diotorisasi.";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "Status otorisasi ditolak.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "berwenang";

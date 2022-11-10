@@ -52,7 +52,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Bilinmeyen bir hata nedeniyle bu uygulama kişi listenizi okuyamıyor. Neler olup bittiğine ve sizin için nasıl düzeltileceğine daha yakından bakmak için lütfen uygulama geliştiricisiyle iletişime geçin. joel@joelparkerhenderson'a e-posta gönderin. com veya telefon +1-415-317-2700. Teşekkürler.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "Yetkilendirme durumuna yetki verildi.";
@@ -64,7 +64,7 @@
 "CNAuthorizationStatus.denied.fullName" = "Yetkilendirme durumu reddedildi.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "yetkili";

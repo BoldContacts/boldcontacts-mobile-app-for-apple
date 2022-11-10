@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Ní féidir leis an aip seo do liosta teagmhálaithe a léamh mar gheall ar earráid anaithnid. Déan teagmháil le forbróir na haipe le do thoil chun breathnú níos géire ar cad atá ag tarlú agus conas é a shocrú duitse. Seol ríomhphost chuig joel@joelparkerhenderson.com nó glaoigh ar +1-415-317-2700. Go raibh maith agat.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "Tá stádas údaraithe údaraithe.";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "Diúltaítear stádas údaraithe.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "údaraithe";

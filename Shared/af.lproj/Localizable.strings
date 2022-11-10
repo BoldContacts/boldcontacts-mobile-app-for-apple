@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Hierdie toepassing kan nie jou kontaktelys lees nie as gevolg van 'n onbekende fout. Kontak asseblief die toepassingontwikkelaar om nader te kyk na wat aan die gebeur is en hoe om dit vir jou reg te stel. E-pos joel@joelparkerhenderson. com of skakel +1-415-317-2700. Dankie.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNauthorizationStatus.authorized.fullName" = "Magtigingstatus is gemagtig.";
@@ -65,7 +65,7 @@
 "CNauthorizationStatus.denied.fullName" = "Magtigingstatus word geweier.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNauthorizationStatus.authorized.partName" = "gemagtig";

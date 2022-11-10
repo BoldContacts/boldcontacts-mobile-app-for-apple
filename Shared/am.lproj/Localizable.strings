@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "ይህ መተግበሪያ ባልታወቀ ስህተት ምክንያት የእውቂያዎች ዝርዝርህን ማንበብ አልቻለም። ምን እየተፈጠረ እንዳለ እና እንዴት እንደሚስተካከልልህ በቅርበት ለማየት የመተግበሪያውን ገንቢ አግኝ። ኢሜይል joel@joelparkerhenderson። ኮም ወይም ስልክ +1-415-317-2700. አመሰግናለሁ.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "የፈቀዳ ሁኔታ ተፈቅዷል።";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "የፈቀዳ ሁኔታ ተከልክሏል።";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "የተፈቀደ";

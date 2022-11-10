@@ -53,7 +53,7 @@
 "CNContactStore.authorizationStatus.unknown" = "Diese App kann Ihre Kontaktliste aufgrund eines unbekannten Fehlers nicht lesen. Bitte wenden Sie sich an den App-Entwickler, um sich genauer anzusehen, was passiert und wie Sie es für Sie beheben können. E-Mail joel@joelparkerhenderson.com oder Telefon +1-415-317-2700. Vielen Dank.";
 
 //
-// CNAuthorizationStatus fullName
+// CNAuthorizationStatus.*.fullName
 //
 
 "CNAuthorizationStatus.authorized.fullName" = "Autorisierungsstatus ist autorisiert.";
@@ -65,7 +65,7 @@
 "CNAuthorizationStatus.denied.fullName" = "Der Autorisierungsstatus wird verweigert.";
 
 //
-// CNAuthorizationStatus partName
+// CNAuthorizationStatus.*.partName
 //
 
 "CNAuthorizationStatus.authorized.partName" = "autorisiert";
