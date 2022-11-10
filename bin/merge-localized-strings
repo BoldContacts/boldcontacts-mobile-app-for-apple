@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+
+import sys
+import re
+
+aPath = sys.argv[1]
+aLines = open(aPath, 'r').readlines()
+aLen = len(aLines)
+
+bPath = sys.argv[2]
+bLines = open(bPath, 'r').readlines()
+bLen = len(bLines)
+
+separator = "\" = \""
+separatorLen = len(separator)
+
+for i in range(0, max(aLen, bLen)):
+	if i < aLen and i < bLen:
+		aLine = aLines[i]
+		bLine = bLines[i]
+		aPos = aLine.find(separator)
+		bPos = bLine.find(separator)
+		if aPos >= 0 and bPos >= 0:
+			print(f"{aLine[:aPos]}{separator}{bLine[(bPos+separatorLen):]}", end = "")
+			continue
+	if i < aLen:
+		print(aLines[i], end = "")
+		continue
+	if i < bLen:
+		print(bLines[i], end = "")
+		continue
