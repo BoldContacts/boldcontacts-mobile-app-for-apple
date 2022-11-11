@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Odustani";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Da";
+"No" = "Ne";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Uspjeh";
+"Failure" = "Neuspjeh";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Dopusti";
+"Don't Allow" = "Nemoj dopustiti";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Prihvati";
+"Reject" = "Odbaci";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Uvod";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Ova aplikacija prikazuje vaše postojeće kontakte koji se nalaze na vašem uređaju. Možete koristiti svoju aplikaciju Kontakti za upravljanje svojim kontaktima.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" želi prikazati primjere";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ova aplikacija čita vaše postojeće kontakte na vašem uređaju, ali čini se da ih nemate. Tako da će vam ova aplikacija pokazati privremene primjere demonstracije umjesto vaših postojećih kontakata.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Ova aplikacija može čitati vaš popis kontakata.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Ova aplikacija želi čitati vaš popis kontakata.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Ova aplikacija ne može čitati vaš popis kontakata jer je status autorizacije vaše trgovine kontakata postavljen na ograničeno. Sada možete izaći iz aplikacije. Možete pokrenuti svoju aplikaciju Postavke, a zatim autorizirati ovu aplikaciju da čita vaše popis kontakata, zatim ponovno pokrenite ovu aplikaciju.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Ova aplikacija ne može čitati vaš popis kontakata jer je status autorizacije vaše trgovine kontakata postavljen na odbijeno. Sada možete izaći iz aplikacije. Možete pokrenuti svoju aplikaciju Postavke, a zatim autorizirati ovu aplikaciju da čita vaše popis kontakata, zatim ponovno pokrenite ovu aplikaciju.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Ova aplikacija ne može čitati vaš popis kontakata zbog nepoznate pogreške. Molimo kontaktirajte razvojnog programera aplikacije da pobliže pogleda što se događa i kako to popraviti umjesto vas. Pošaljite e-poštu na joel@joelparkerhenderson. com ili nazovite +1-415-317-2700. Hvala.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Status autorizacije je ovlašten.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Status autorizacije nije određen.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Status autorizacije je ograničen.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Status autorizacije je odbijen.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "ovlašteno";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "nije određeno";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "ograničeno";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "odbijeno";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Vaš popis kontakata se može učitati.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Vaš popis kontakata se učitava.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Vaš popis kontakata je učitan.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Vaš popis kontakata je učitan, ali je prazan.";
 
 //
 // Demo persons
