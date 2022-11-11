@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Peruuta";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Kyllä";
+"No" = "Ei";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Menestys";
+"Failure" = "Epäonnistuminen";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Salli";
+"Don't Allow" = "Älä salli";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Hyväksy";
+"Reject" = "Hylkää";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Esittely";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Tämä sovellus näyttää olemassa olevat yhteystietosi, jotka ovat laitteellasi. Voit hallita yhteystietojasi Yhteystiedot-sovelluksella.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"Lihavoitu yhteyshenkilö\" Haluaisi näyttää esimerkkejä";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Tämä sovellus lukee olemassa olevat yhteystietosi laitteellasi, mutta sinulla ei näytä olevan niitä. Joten tämä sovellus näyttää väliaikaisia ​​esimerkkejä olemassa olevien yhteystietojen sijaan.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Tämä sovellus voi lukea yhteystietoluettelosi.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Tämä sovellus haluaa lukea yhteystietoluettelosi.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Tämä sovellus ei voi lukea yhteystietoluetteloasi, koska yhteystietokaupan valtuutustila on rajoitettu. Voit sulkea sovelluksen nyt. Voit käynnistää Asetukset-sovelluksen ja valtuuttaa tämän sovelluksen lukemaan yhteystietoluettelo ja käynnistä tämä sovellus uudelleen.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Tämä sovellus ei voi lukea yhteystietoluetteloasi, koska yhteystietokaupan valtuutustilaksi on asetettu estetty. Voit sulkea sovelluksen nyt. Voit käynnistää Asetukset-sovelluksen ja valtuuttaa tämän sovelluksen lukemaan yhteystietoluettelo ja käynnistä tämä sovellus uudelleen.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Tämä sovellus ei pysty lukemaan yhteystietoluetteloasi tuntemattoman virheen vuoksi. Ota yhteyttä sovelluksen kehittäjään ja katso tarkemmin, mitä tapahtuu ja miten se korjataan puolestasi. Sähköposti joel@joelparkerhenderson. com tai puhelin +1-415-317-2700. Kiitos.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Valtuutustila on valtuutettu.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Valtuutuksen tilaa ei ole määritetty.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Valtuutustila on rajoitettu.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Valtuutuksen tila on evätty.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "valtuutettu";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ei määritetty";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "rajoitettu";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "kielletty";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Yhteystietoluettelosi on ladattavissa.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Yhteystietoluettelosi latautuu.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Yhteystietoluettelosi on ladattu.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Yhteystietoluettelosi on ladattu, mutta se on tyhjä.";
 
 //
 // Demo persons
