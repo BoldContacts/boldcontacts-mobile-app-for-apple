@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "ОК";
+"Cancel" = "Отказ";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Да";
+"No" = "Не";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Успех";
+"Failure" = "Неуспех";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Разрешаване";
+"Don't Allow" = "Не позволявай";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Приемам";
+"Reject" = "Отхвърляне";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "Въведение \"BoldContacts\"";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Това приложение показва вашите съществуващи контакти, които са на вашето устройство. Можете да използвате вашето приложение Контакти, за да управлявате вашите контакти.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" иска да покаже примери";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Това приложение чете вашите съществуващи контакти на вашето устройство, но вие изглежда нямате такива. Така че това приложение ще ви покаже примери за временна демонстрация вместо вашите съществуващи контакти.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Това приложение може да чете вашия списък с контакти.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Това приложение иска да прочете вашия списък с контакти.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Това приложение не може да прочете вашия списък с контакти, тъй като състоянието на упълномощаване на магазина ви за контакти е зададено на ограничено. Можете да излезете от приложението сега. Можете да стартирате вашето приложение Предпочитания, след което да упълномощите това приложение да чете вашите списък с контакти, след което рестартирайте това приложение.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Това приложение не може да прочете вашия списък с контакти, тъй като състоянието на оторизация на магазина ви за контакти е зададено на отказано. Можете да излезете от приложението сега. Можете да стартирате вашето приложение Предпочитания, след което да упълномощите това приложение да чете вашите списък с контакти, след което рестартирайте това приложение.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Това приложение не може да прочете списъка ви с контакти поради неизвестна грешка. Моля, свържете се с разработчика на приложението, за да разгледате по-отблизо какво се случва и как да го поправите вместо вас. Изпратете имейл на joel@joelparkerhenderson. com или на телефон +1-415-317-2700. Благодаря.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Състоянието на оторизацията е разрешено.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Състоянието на оторизацията не е определено.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Състоянието на оторизацията е ограничено.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Състоянието на оторизацията е отказано.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "упълномощен";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "не е определено";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "ограничено";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "отказано";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Вашият списък с контакти може да се зарежда.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Вашият списък с контакти се зарежда.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Вашият списък с контакти е зареден.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Вашият списък с контакти е зареден, но е празен.";
 
 //
 // Demo persons
