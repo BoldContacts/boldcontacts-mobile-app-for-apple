@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "확인";
+"Cancel" = "취소";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "예";
+"No" = "아니요";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "성공";
+"Failure" = "실패";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "허용";
+"Don't Allow" = "허용하지 않음";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "수락";
+"Reject" = "거부";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" 소개";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "이 앱은 장비에 있는 기존 연락처를 표시합니다. 연락처 앱을 사용하여 연락처를 관리할 수 있습니다.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContactacts\" 예제를 보여주고 싶습니다";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "이 앱은 기기에 있는 기존 연락처를 읽지만 없는 것 같습니다. 따라서 이 앱은 기존 연락처 대신 임시 데모 예제를 표시합니다.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "이 앱은 연락처 목록을 읽을 수 있습니다.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "이 앱은 연락처 목록을 읽으려고 합니다.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "연락처 저장소 승인 상태가 제한됨으로 설정되어 있기 때문에 이 앱은 연락처 목록을 읽을 수 없습니다. 지금 앱을 종료할 수 있습니다. 기본 설정 앱을 시작한 다음 이 앱이 사용자의 연락처를 읽도록 승인할 수 있습니다. 연락처 목록에서 이 앱을 다시 실행하십시오.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "연락처 저장소 승인 상태가 거부됨으로 설정되어 있기 때문에 이 앱은 연락처 목록을 읽을 수 없습니다. 지금 앱을 종료할 수 있습니다. 기본 설정 앱을 시작한 다음 이 앱이 사용자의 연락처를 읽도록 승인할 수 있습니다. 연락처 목록에서 이 앱을 다시 실행하십시오.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "이 앱은 알 수 없는 오류로 인해 연락처 목록을 읽을 수 없습니다. 앱 개발자에게 연락하여 무슨 일이 일어나고 있고 문제를 해결할 수 있는지 자세히 알아보십시오. joel@joelparkerhenderson으로 이메일을 보내십시오. com 또는 전화 +1-415-317-2700. 감사합니다.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "인증 상태가 인증되었습니다.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "인증 상태가 결정되지 않았습니다.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "인증 상태가 제한되었습니다.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "인증 상태가 거부되었습니다.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "승인됨";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "결정되지 않음";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "제한됨";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "거부됨";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "연락처 목록을 로드할 수 있습니다.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "연락처 목록을 로드하는 중입니다.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "연락처 목록이 로드되었습니다.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "연락처 목록이 로드되었지만 비어 있습니다.";
 
 //
 // Demo persons
