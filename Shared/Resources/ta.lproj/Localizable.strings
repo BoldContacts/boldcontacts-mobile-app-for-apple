@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "சரி";
+"Cancel" = "ரத்துசெய்";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "ஆம்";
+"No" = "இல்லை";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "வெற்றி";
+"Failure" = "தோல்வி";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "அனுமதி";
+"Don't Allow" = "அனுமதிக்காதே";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "ஏற்றுக்கொள்";
+"Reject" = "நிராகரி";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" அறிமுகம்";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "உங்கள் சாதனத்தில் இருக்கும் தொடர்புகளை இந்தப் பயன்பாடு காட்டுகிறது. உங்கள் தொடர்புகளை நிர்வகிக்க உங்கள் தொடர்புகள் பயன்பாட்டைப் பயன்படுத்தலாம்.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" எடுத்துக்காட்டுகளைக் காட்ட விரும்புகிறேன்";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "இந்தப் பயன்பாடானது உங்கள் சாதனத்தில் ஏற்கனவே உள்ள தொடர்புகளைப் படிக்கிறது, ஆனால் உங்களிடம் எதுவும் இருப்பதாகத் தெரியவில்லை. எனவே இந்தப் பயன்பாடானது உங்களுடைய தற்போதைய தொடர்புகளுக்குப் பதிலாக தற்காலிக விளக்க எடுத்துக்காட்டுகளைக் காண்பிக்கும்.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "இந்தப் பயன்பாட்டில் உங்கள் தொடர்புகள் பட்டியலைப் படிக்க முடியும்.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "இந்தப் பயன்பாடு உங்கள் தொடர்புகள் பட்டியலைப் படிக்க விரும்புகிறது.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "உங்கள் தொடர்பு அங்காடி அங்கீகார நிலை கட்டுப்படுத்தப்பட்டதாக அமைக்கப்பட்டுள்ளதால், இந்தப் பயன்பாட்டினால் உங்கள் தொடர்புகள் பட்டியலைப் படிக்க முடியவில்லை. நீங்கள் இப்போது பயன்பாட்டிலிருந்து வெளியேறலாம். உங்கள் விருப்பத்தேர்வுகள் பயன்பாட்டைத் தொடங்கலாம், பின்னர் உங்கள் விருப்பங்களைப் படிக்க இந்த பயன்பாட்டை அங்கீகரிக்கலாம். தொடர்புகள் பட்டியல், பின்னர் இந்த பயன்பாட்டை மீண்டும் துவக்கவும்.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "உங்கள் தொடர்பு அங்காடி அங்கீகார நிலை மறுக்கப்பட்டதாக அமைக்கப்பட்டுள்ளதால், இந்த பயன்பாட்டால் உங்கள் தொடர்புகள் பட்டியலைப் படிக்க முடியவில்லை. நீங்கள் இப்போது பயன்பாட்டிலிருந்து வெளியேறலாம். உங்கள் விருப்பத்தேர்வுகள் பயன்பாட்டைத் தொடங்கலாம், பின்னர் இந்த பயன்பாட்டைப் படிக்க அங்கீகரிக்கவும். தொடர்புகள் பட்டியல், பின்னர் இந்த பயன்பாட்டை மீண்டும் துவக்கவும்.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "தெரியாத பிழையின் காரணமாக இந்தப் பயன்பாட்டினால் உங்கள் தொடர்புகள் பட்டியலைப் படிக்க முடியவில்லை. என்ன நடக்கிறது மற்றும் அதை எவ்வாறு சரிசெய்வது என்பதை உற்றுப் பார்க்க ஆப்ஸ் டெவலப்பரைத் தொடர்பு கொள்ளவும். joel@joelparkerhenderson ஐ மின்னஞ்சல் செய்யவும். com அல்லது தொலைபேசி +1-415-317-2700. நன்றி.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "அங்கீகார நிலை அங்கீகரிக்கப்பட்டது.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "அங்கீகார நிலை தீர்மானிக்கப்படவில்லை.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "அங்கீகார நிலை கட்டுப்படுத்தப்பட்டுள்ளது.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "அங்கீகார நிலை மறுக்கப்பட்டது.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "அங்கீகரிக்கப்பட்ட";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "தீர்மானிக்கப்படவில்லை";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "கட்டுப்படுத்தப்பட்டது";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "மறுக்கப்பட்டது";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "உங்கள் தொடர்புகள் பட்டியல் ஏற்றக்கூடியது.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "உங்கள் தொடர்புகள் பட்டியல் ஏற்றப்படுகிறது.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "உங்கள் தொடர்புகள் பட்டியல் ஏற்றப்பட்டது.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "உங்கள் தொடர்புகள் பட்டியல் ஏற்றப்பட்டது, ஆனால் காலியாக உள்ளது.";
 
 //
 // Demo persons
