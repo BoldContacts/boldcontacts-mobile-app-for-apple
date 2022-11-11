@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "ОК";
+"Cancel" = "Адмена";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Так";
+"No" = "Не";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Поспех";
+"Failure" = "Няўдача";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Дазволіць";
+"Don't Allow" = "Не дазваляць";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Прыняць";
+"Reject" = "Адхіліць";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "Увядзенне \"BoldContacts\"";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Гэта праграма адлюстроўвае існуючыя кантакты, якія знаходзяцца на вашай прыладзе. Вы можаце выкарыстоўваць праграму "Кантакты", каб кіраваць сваімі кантактамі.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" хоча паказаць прыклады";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Гэта праграма счытвае вашы існуючыя кантакты на вашым прыладзе, але здаецца, што ў вас іх няма. Такім чынам, гэта праграма пакажа вам часовыя дэманстрацыйныя прыклады замест існуючых кантактаў.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Гэта праграма можа чытаць ваш спіс кантактаў.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Гэта праграма хоча прачытаць ваш спіс кантактаў.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Гэта праграма не можа прачытаць ваш спіс кантактаў, таму што стан аўтарызацыі вашай крамы кантактаў абмежаваны. Вы можаце выйсці з праграмы зараз. Вы можаце запусціць праграму "Настройкі", а затым аўтарызаваць гэтую праграму для чытання вашых спіс кантактаў, затым перазапусціце гэта дадатак.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Гэта праграма не можа прачытаць ваш спіс кантактаў, таму што стан аўтарызацыі вашага сховішча кантактаў усталяваны як забаронена. Вы можаце выйсці з праграмы зараз. Вы можаце запусціць праграму налад, затым аўтарызаваць гэтую праграму для чытання вашых спіс кантактаў, затым перазапусціце гэта дадатак.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Гэта праграма не можа прачытаць ваш спіс кантактаў з-за невядомай памылкі. Калі ласка, звярніцеся да распрацоўшчыка праграмы, каб больш уважліва вывучыць, што адбываецца і як гэта выправіць. Адпраўце электронны ліст на joel@joelparkerhenderson. com або па тэлефоне +1-415-317-2700. Дзякуй.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Статус аўтарызацыі дазволены.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Статус аўтарызацыі не вызначаны.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Статус аўтарызацыі абмежаваны.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Статус аўтарызацыі забаронены.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "аўтарызаваны";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "не вызначана";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "абмежаваны";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "адмоўлена";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Ваш спіс кантактаў даступны для загрузкі.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Ваш спіс кантактаў загружаецца.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Ваш спіс кантактаў загружаны.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Ваш спіс кантактаў загружаны, але пусты.";
 
 //
 // Demo persons
