@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Batal";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ya";
+"No" = "Ora";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Sukses";
+"Failure" = "Gagal";
 
 // Allow | Don't Allow
 "Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Don't Allow" = "Aja Ngidini";
 
 // Accept | Reject
 "Accept" = "Accept";
-"Reject" = "Reject";
+"Reject" = "Tolak";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Pambuka";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Aplikasi iki nampilake kontak sing ana ing piranti sampeyan. Sampeyan bisa nggunakake aplikasi Kontak kanggo ngatur kontak.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Kepengin Nuduhake Conto";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Aplikasi iki maca kontak sing wis ana ing piranti sampeyan, nanging kayane ora ana. Dadi app iki bakal nuduhake conto demonstrasi sauntara tinimbang kontak sing wis ana.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Aplikasi iki bisa maca dhaptar kontak sampeyan.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Aplikasi iki pengin maca dhaptar kontak sampeyan.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Aplikasi iki ora bisa maca dhaptar kontak sampeyan amarga status wewenang toko kontak disetel kanggo diwatesi. Sampeyan bisa metu saka app saiki. Sampeyan bisa mbukak aplikasi Preferensi, banjur wewenang aplikasi iki kanggo maca sampeyan dhaptar kontak, banjur bukak maneh app iki.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Aplikasi iki ora bisa maca dhaptar kontak sampeyan amarga status wewenang toko kontak disetel ditolak. Sampeyan bisa metu saka app saiki. Sampeyan bisa mbukak aplikasi Preferensi, banjur wewenang aplikasi iki kanggo maca sampeyan dhaptar kontak, banjur bukak maneh app iki.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Aplikasi iki ora bisa maca dhaptar kontak sampeyan amarga ana kesalahan sing ora dingerteni. Hubungi pangembang app kanggo ndeleng kanthi luwih rinci babagan kedadeyan lan carane ndandani. Email joel@joelparkerhenderson. com utawa telpon +1-415-317-2700. Matur nuwun.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Status wewenang wis sah.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Status wewenang ora ditemtokake.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Status wewenang diwatesi.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Status wewenang ditolak.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "wewenang";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ora ditemtokake";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "diwatesi";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "ditampik";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Dhaptar kontak sampeyan bisa dimuat.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Dhaptar kontak sampeyan lagi dimuat.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Dhaptar kontak sampeyan dimuat.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Dhaptar kontak sampeyan dimuat, nanging kosong.";
 
 //
 // Demo persons
