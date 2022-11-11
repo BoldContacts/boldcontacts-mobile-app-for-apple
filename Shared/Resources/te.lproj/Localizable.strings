@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "సరే";
+"Cancel" = "రద్దు";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "అవును";
+"No" = "లేదు";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "విజయం";
+"Failure" = "ఫెయిల్యూర్";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "అనుమతించు";
+"Don't Allow" = "అనుమతించవద్దు";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "అంగీకరించు";
+"Reject" = "తిరస్కరించు";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" పరిచయం";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "ఈ అనువర్తనం మీ పరికరంలో ఇప్పటికే ఉన్న మీ పరిచయాలను ప్రదర్శిస్తుంది. మీరు మీ పరిచయాలను నిర్వహించడానికి మీ పరిచయాల అనువర్తనాన్ని ఉపయోగించవచ్చు.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"బోల్డ్ కాంటాక్ట్స్\" ఉదాహరణలు చూపించాలనుకుంటున్నాను";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "ఈ యాప్ మీ పరికరంలో ఇప్పటికే ఉన్న మీ పరిచయాలను చదువుతుంది, కానీ మీకు ఏదీ ఉన్నట్లు కనిపించడం లేదు. కాబట్టి ఈ యాప్ మీ ప్రస్తుత పరిచయాలకు బదులుగా తాత్కాలిక ప్రదర్శన ఉదాహరణలను చూపుతుంది.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "ఈ యాప్ మీ పరిచయాల జాబితాను చదవగలదు.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "ఈ యాప్ మీ పరిచయాల జాబితాను చదవాలనుకుంటోంది.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "ఈ యాప్ మీ పరిచయాల జాబితాను చదవలేకపోయింది ఎందుకంటే మీ కాంటాక్ట్ స్టోర్ ఆథరైజేషన్ స్టేటస్ పరిమితం చేయబడింది. మీరు ఇప్పుడు యాప్ నుండి నిష్క్రమించవచ్చు. మీరు మీ ప్రాధాన్యతల యాప్‌ను ప్రారంభించవచ్చు, ఆపై మీ చదవడానికి ఈ యాప్‌ని ఆథరైజ్ చేయవచ్చు పరిచయాల జాబితా, ఆపై ఈ అనువర్తనాన్ని పునఃప్రారంభించండి.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "ఈ యాప్ మీ పరిచయాల జాబితాను చదవలేకపోయింది ఎందుకంటే మీ కాంటాక్ట్ స్టోర్ ఆథరైజేషన్ స్టేటస్ నిరాకరణకు సెట్ చేయబడింది. మీరు ఇప్పుడు యాప్ నుండి నిష్క్రమించవచ్చు. మీరు మీ ప్రాధాన్యతల అనువర్తనాన్ని ప్రారంభించవచ్చు, ఆపై మీ చదవడానికి ఈ యాప్‌కు అధికారం ఇవ్వవచ్చు పరిచయాల జాబితా, ఆపై ఈ అనువర్తనాన్ని పునఃప్రారంభించండి.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "తెలియని లోపం కారణంగా ఈ యాప్ మీ పరిచయాల జాబితాను చదవలేకపోయింది. దయచేసి మీ కోసం ఏమి జరుగుతుందో మరియు దాన్ని ఎలా పరిష్కరించాలో నిశితంగా పరిశీలించడానికి అనువర్తన డెవలపర్‌ని సంప్రదించండి. joel@joelparkerhendersonకు ఇమెయిల్ చేయండి. com లేదా ఫోన్ +1-415-317-2700. ధన్యవాదాలు.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "అధికార స్థితి అధికారం కలిగి ఉంది.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "అధికార స్థితి నిర్ణయించబడలేదు.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "అధికార స్థితి పరిమితం చేయబడింది.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "అధికార స్థితి నిరాకరించబడింది.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "అధీకృతం";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "నిర్ణయించబడలేదు";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "పరిమితం చేయబడింది";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "నిరాకరించారు";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "మీ పరిచయాల జాబితా లోడ్ చేయదగినది.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "మీ పరిచయాల జాబితా లోడ్ అవుతోంది.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "మీ పరిచయాల జాబితా లోడ్ చేయబడింది.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "మీ పరిచయాల జాబితా లోడ్ చేయబడింది, కానీ ఖాళీగా ఉంది.";
 
 //
 // Demo persons
