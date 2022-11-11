@@ -15,6 +15,10 @@ separator = "\" = \""
 separatorLen = len(separator)
 
 for i in range(0, max(aLen, bLen)):
+	if i < aLen:
+		if aLines[i].startswith("\"Demo.\""):
+			print(aLines[i], end = "")
+			continue		
 	if i < aLen and i < bLen:
 		aLine = aLines[i]
 		bLine = bLines[i]

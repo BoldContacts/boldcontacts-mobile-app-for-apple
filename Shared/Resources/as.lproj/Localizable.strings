@@ -1,0 +1,140 @@
+//
+// Labels
+//
+
+// OK | Cancel
+"OK" = "ঠিক আছে";
+"Cancel" = "বাতিল কৰক";
+
+// Yes | No
+"Yes" = "হয়";
+"No" = "নাই";
+
+// Success | Failure
+"Success" = "সফলতা";
+"Failure" = "বিফলতা";
+
+// Allow | Don't Allow
+"Allow" = "অনুমতি দিয়ক";
+"Don't Allow" = "অনুমতি নিদিব";
+
+// Accept | Reject
+"Accept" = "গ্ৰহণ কৰক";
+"Reject" = "প্ৰত্যাখ্যান";
+
+//
+// AlertForIntroduction.swift
+//
+
+"AlertForIntroduction.title" = "\"বল্ড যোগাযোগ\" পৰিচয়";
+
+"AlertForIntroduction.message" = "এই এপে আপোনাৰ ডিভাইচত থকা আপোনাৰ বৰ্ত্তমানৰ পৰিচয়সমূহ প্ৰদৰ্শন কৰে। আপুনি আপোনাৰ পৰিচয়সমূহ পৰিচালনা কৰিবলৈ আপোনাৰ পৰিচয়সমূহ এপ ব্যৱহাৰ কৰিব পাৰে।";
+
+//
+// AlertForDemonstration.swift
+//
+
+"AlertForDemonstration.title" = "\"BoldContacts\" উদাহৰণ দেখুৱাব বিচাৰে";
+
+"AlertForDemonstration.message" = "এই এপটোৱে আপোনাৰ ডিভাইচত আপোনাৰ বৰ্ত্তমানৰ পৰিচয়সমূহ পঢ়ে, কিন্তু আপোনাৰ কোনো নাই যেন লাগে। গতিকে এই এপে আপোনাক আপোনাৰ বৰ্তমানৰ পৰিচয়সমূহৰ পৰিৱৰ্তে অস্থায়ী প্ৰদৰ্শনৰ উদাহৰণ দেখুৱাব।";
+
+//
+// CNContactStore.authorizationStatus.*
+//
+
+"CNContactStore.authorizationStatus.authorized" = "এই এপটোৱে আপোনাৰ পৰিচয় তালিকা পঢ়িব পাৰে।";
+
+"CNContactStore.authorizationStatus.notDetermined" = "এই এপটোৱে আপোনাৰ পৰিচয় তালিকা পঢ়িব বিচাৰে।";
+
+"CNContactStore.authorizationStatus.restricted" = "এই এপটোৱে আপোনাৰ যোগাযোগৰ তালিকা পঢ়িবলৈ অক্ষম কাৰণ আপোনাৰ যোগাযোগ ষ্ট'ৰৰ অনুমোদন অৱস্থা নিষিদ্ধ হিচাপে সংহতি কৰা হৈছে। আপুনি এতিয়া এপটো এৰিব পাৰে। আপুনি আপোনাৰ পছন্দসমূহ এপটো আৰম্ভ কৰিব পাৰে, তাৰ পিছত এই এপটোক আপোনাৰ পঢ়িবলৈ অনুমোদন দিব পাৰে যোগাযোগ তালিকা, তাৰ পিছত এই এপটো পুনৰ আৰম্ভ কৰক।";
+
+"CNContactStore.authorizationStatus.denied" = "এই এপটোৱে আপোনাৰ যোগাযোগৰ তালিকা পঢ়িবলৈ অক্ষম কাৰণ আপোনাৰ যোগাযোগ ষ্ট'ৰৰ অনুমোদন অৱস্থা অস্বীকাৰ কৰা হৈছে। আপুনি এতিয়া এপটো এৰিব পাৰে। আপুনি আপোনাৰ পছন্দসমূহ এপটো আৰম্ভ কৰিব পাৰে, তাৰ পিছত এই এপটোক আপোনাৰ পঢ়িবলৈ অনুমোদন দিব পাৰে যোগাযোগ তালিকা, তাৰ পিছত এই এপটো পুনৰ আৰম্ভ কৰক।";
+
+"CNContactStore.authorizationStatus.unknown" = "এটা অজ্ঞাত ত্ৰুটিৰ বাবে এই এপটোৱে আপোনাৰ পৰিচয় তালিকা পঢ়িব পৰা নাই। কি হৈছে আৰু আপোনাৰ বাবে ইয়াক কেনেকৈ সমাধান কৰিব পাৰি তাক ভালদৰে চাবলৈ অনুগ্ৰহ কৰি এপ ডেভেলপাৰৰ সৈতে যোগাযোগ কৰক। joel@joelparkerhenderson ইমেইল কৰক।" com বা +1-415-317-2700 ফোন কৰক। ধন্যবাদ।";
+
+//
+// CNAuthorizationStatus.*.fullName
+//
+
+"CNAuthorizationStatus.authorized.fullName" = "অনুমোদনৰ অৱস্থা অনুমোদিত হৈছে।";
+
+"CNAuthorizationStatus.notDetermined.fullName" = "অনুমোদনৰ অৱস্থা নিৰ্ধাৰণ কৰা হোৱা নাই।";
+
+"CNAuthorizationStatus.restricted.fullName" = "অনুমোদনৰ অৱস্থা নিষিদ্ধ কৰা হৈছে।";
+
+"CNAuthorizationStatus.denied.fullName" = "অনুমোদনৰ অৱস্থা অস্বীকাৰ কৰা হৈছে।";
+
+//
+// CNAuthorizationStatus.*.partName
+//
+
+"CNAuthorizationStatus.authorized.partName" = "অনুমোদিত";
+
+"CNAuthorizationStatus.notDetermined.partName" = "নিৰ্ধাৰিত নহয়";
+
+"CNAuthorizationStatus.restricted.partName" = "নিষিদ্ধ";
+
+"CNAuthorizationStatus.denied.partName" = "অস্বীকাৰ কৰা হৈছে";
+
+//
+// CursorState.swift
+//
+
+"CursorState.Loadable" = "আপোনাৰ পৰিচয় তালিকা লোডযোগ্য।";
+
+"CursorState.Loading" = "আপোনাৰ পৰিচয় তালিকা লোড হৈ আছে।";
+
+"CursorState.Loaded" = "আপোনাৰ পৰিচয় তালিকা লোড কৰা হৈছে।";
+
+"CursorState.Loaded & cursor.isEmpty" = "আপোনাৰ পৰিচয় তালিকা লোড কৰা হৈছে, কিন্তু খালী।";
+
+//
+// Demo persons
+//
+
+"Demo.persons[0].givenName" = "Alice";
+"Demo.persons[0].familyName" = "Adams";
+
+"Demo.persons[1].givenName" = "Bob";
+"Demo.persons[1].familyName" = "Brown";
+
+"Demo.persons[2].givenName" = "Carol";
+"Demo.persons[2].familyName" = "Curtis";
+
+"Demo.persons[3].givenName" = "Dave";
+"Demo.persons[3].familyName" = "Davis";
+
+"Demo.persons[4].givenName" = "Eve";
+"Demo.persons[4].familyName" = "Evans";
+
+"Demo.persons[5].givenName" = "Frank";
+"Demo.persons[5].familyName" = "Franklin";
+
+//
+// Demo groups
+//
+
+"Demo.groups[0].name" = "ALS Association";
+"Demo.groups[0].website" = "https://www.als.org";
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
+"Demo.groups[0].phone" = "1-800-782-4747";
+
+"Demo.groups[1].name" = "Alzheimer's Association";
+"Demo.groups[1].website" = "https://www.alz.org";
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
+"Demo.groups[1].phone" = "1-800-272-3900";
+
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
+"Demo.groups[2].website" = "https://msfocus.org";
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
+"Demo.groups[2].phone" = "1-888-673-6287";
+
+"Demo.groups[3].name" = "Muscular Dystrophy Association";
+"Demo.groups[3].website" = "http://www.mdausa.org";
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
+"Demo.groups[3].phone" = "1-833-275-6321";
+
+"Demo.groups[4].name" = "Parkinson's Foundation";
+"Demo.groups[4].website" = "https://www.parkinson.org";
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
+"Demo.groups[4].phone" = "1-800-473-4636";
