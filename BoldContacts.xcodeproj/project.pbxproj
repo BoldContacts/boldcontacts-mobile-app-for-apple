@@ -465,12 +465,10 @@
 		F498F67B291F00F2001D28CB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F67C291F00F2001D28CB /* mi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mi; path = mi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F67D291F00F2001D28CB /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F498F67E291F00F2001D28CB /* lo-LA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "lo-LA"; path = "lo-LA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F67F291F00F2001D28CB /* mr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mr; path = mr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F680291F00F2001D28CB /* ms-MY */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ms-MY"; path = "ms-MY.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F681291F00F2001D28CB /* mk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mk; path = mk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F682291F00F2001D28CB /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F498F683291F00F2001D28CB /* hr-BA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hr-BA"; path = "hr-BA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F684291F00F2001D28CB /* ak */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ak; path = ak.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F685291F00F2001D28CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F686291F00F2001D28CB /* co */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = co; path = co.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1749,12 +1747,10 @@
 				F498F67B291F00F2001D28CB /* ja */,
 				F498F67C291F00F2001D28CB /* mi */,
 				F498F67D291F00F2001D28CB /* fa */,
-				F498F67E291F00F2001D28CB /* lo-LA */,
 				F498F67F291F00F2001D28CB /* mr */,
 				F498F680291F00F2001D28CB /* ms-MY */,
 				F498F681291F00F2001D28CB /* mk */,
 				F498F682291F00F2001D28CB /* sq */,
-				F498F683291F00F2001D28CB /* hr-BA */,
 				F498F684291F00F2001D28CB /* ak */,
 				F498F685291F00F2001D28CB /* en */,
 				F498F686291F00F2001D28CB /* co */,
