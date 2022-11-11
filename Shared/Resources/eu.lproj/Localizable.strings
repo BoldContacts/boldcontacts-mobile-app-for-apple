@@ -1,0 +1,140 @@
+//
+// Labels
+//
+
+// OK | Cancel
+"OK" = "Ados";
+"Cancel" = "Utzi";
+
+// Yes | No
+"Yes" = "Bai";
+"No" = "Ez";
+
+// Success | Failure
+"Success" = "Arrakasta";
+"Failure" = "Porrot";
+
+// Allow | Don't Allow
+"Allow" = "Baimendu";
+"Don't Allow" = "Ez onartu";
+
+// Accept | Reject
+"Accept" = "Onartu";
+"Reject" = "Ukatu";
+
+//
+// AlertForIntroduction.swift
+//
+
+"AlertForIntroduction.title" = "\"BoldContacts\" Aurkezpena";
+
+"AlertForIntroduction.message" = "Aplikazio honek zure gailuan dituzun lehendik dituzun kontaktuak bistaratzen ditu. Zure Kontaktuak aplikazioa erabil dezakezu zure kontaktuak kudeatzeko.";
+
+//
+// AlertForDemonstration.swift
+//
+
+"AlertForDemonstration.title" = "\"BoldContacts\" Adibideak Erakutsi nahiko lituzke";
+
+"AlertForDemonstration.message" = "Aplikazio honek lehendik dituzun kontaktuak irakurtzen ditu zure gailuan, baina ez duzu antza. Beraz, aplikazio honek aldi baterako erakustaldi-adibideak erakutsiko dizkizu lehendik dituzun kontaktuen ordez.";
+
+//
+// CNContactStore.authorizationStatus.*
+//
+
+"CNContactStore.authorizationStatus.authorized" = "Aplikazio honek zure kontaktuen zerrenda irakur dezake.";
+
+"CNContactStore.authorizationStatus.notDetermined" = "Aplikazio honek zure kontaktuen zerrenda irakurri nahi du.";
+
+"CNContactStore.authorizationStatus.restricted" = "Aplikazio honek ezin du irakurri zure kontaktuen zerrenda, kontaktuen dendaren baimenaren egoera mugatuta dagoelako. Aplikaziotik irten zaitezke orain. Zure Hobespenak aplikazioa abiarazi dezakezu eta, ondoren, baimena eman aplikazioari zure irakurtzeko. kontaktuen zerrenda eta, ondoren, berriro abiarazi aplikazio hau.";
+
+"CNContactStore.authorizationStatus.denied" = "Aplikazio honek ezin du irakurri zure kontaktuen zerrenda, kontaktuen dendaren baimenaren egoera ukatuta dagoelako. Aplikaziotik irten zaitezke orain. Zure Hobespenak aplikazioa abiarazi dezakezu eta, ondoren, baimena eman aplikazioari zure irakurtzeko. kontaktuen zerrenda eta, ondoren, berriro abiarazi aplikazio hau.";
+
+"CNContactStore.authorizationStatus.unknown" = "Aplikazio honek ezin du irakurri zure kontaktuen zerrenda errore ezezagun bat dela-eta. Jarri harremanetan aplikazioaren garatzailearekin zer gertatzen ari den eta nola konpondu behar den ikusteko. Bidali mezu bat joel@joelparkerhenderson. com edo telefonoa +1-415-317-2700. Eskerrik asko.";
+
+//
+// CNAuthorizationStatus.*.fullName
+//
+
+"CNAuthorizationStatus.authorized.fullName" = "Baimen egoera baimenduta dago.";
+
+"CNAuthorizationStatus.notDetermined.fullName" = "Baimen egoera ez dago zehaztuta.";
+
+"CNAuthorizationStatus.restricted.fullName" = "Baimen egoera mugatuta dago.";
+
+"CNAuthorizationStatus.denied.fullName" = "Baimen egoera ukatu egin da.";
+
+//
+// CNAuthorizationStatus.*.partName
+//
+
+"CNAuthorizationStatus.authorized.partName" = "baimendutakoa";
+
+"CNAuthorizationStatus.notDetermined.partName" = "ez dago zehaztuta";
+
+"CNAuthorizationStatus.restricted.partName" = "murriztuta";
+
+"CNAuthorizationStatus.denied.partName" = "ukatua";
+
+//
+// CursorState.swift
+//
+
+"CursorState.Loadable" = "Zure kontaktuen zerrenda kargatu daiteke.";
+
+"CursorState.Loading" = "Zure kontaktuen zerrenda kargatzen ari da.";
+
+"CursorState.Loaded" = "Zure kontaktuen zerrenda kargatuta dago.";
+
+"CursorState.Loaded & cursor.isEmpty" = "Zure kontaktuen zerrenda kargatuta dago, baina hutsik dago.";
+
+//
+// Demo persons
+//
+
+"Demo.persons[0].givenName" = "Alice";
+"Demo.persons[0].familyName" = "Adams";
+
+"Demo.persons[1].givenName" = "Bob";
+"Demo.persons[1].familyName" = "Brown";
+
+"Demo.persons[2].givenName" = "Carol";
+"Demo.persons[2].familyName" = "Curtis";
+
+"Demo.persons[3].givenName" = "Dave";
+"Demo.persons[3].familyName" = "Davis";
+
+"Demo.persons[4].givenName" = "Eve";
+"Demo.persons[4].familyName" = "Evans";
+
+"Demo.persons[5].givenName" = "Frank";
+"Demo.persons[5].familyName" = "Franklin";
+
+//
+// Demo groups
+//
+
+"Demo.groups[0].name" = "ALS Association";
+"Demo.groups[0].website" = "https://www.als.org";
+"Demo.groups[0].twitter" = "https://twitter.com/alsassociation";
+"Demo.groups[0].phone" = "1-800-782-4747";
+
+"Demo.groups[1].name" = "Alzheimer's Association";
+"Demo.groups[1].website" = "https://www.alz.org";
+"Demo.groups[1].twitter" = "https://twitter.com/alzassociation";
+"Demo.groups[1].phone" = "1-800-272-3900";
+
+"Demo.groups[2].name" = "Multiple Sclerosis Foundation";
+"Demo.groups[2].website" = "https://msfocus.org";
+"Demo.groups[2].twitter" = "https://twitter.com/MS_Focus";
+"Demo.groups[2].phone" = "1-888-673-6287";
+
+"Demo.groups[3].name" = "Muscular Dystrophy Association";
+"Demo.groups[3].website" = "http://www.mdausa.org";
+"Demo.groups[3].twitter" = "https://twitter.com/MDAorg";
+"Demo.groups[3].phone" = "1-833-275-6321";
+
+"Demo.groups[4].name" = "Parkinson's Foundation";
+"Demo.groups[4].website" = "https://www.parkinson.org";
+"Demo.groups[4].twitter" = "https://twitter.com/ParkinsonDotOrg";
+"Demo.groups[4].phone" = "1-800-473-4636";
