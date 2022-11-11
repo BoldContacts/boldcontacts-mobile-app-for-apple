@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Ceart";
+"Cancel" = "Sguir dheth";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Tha";
+"No" = "Chan eil";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Soirbheachas";
+"Failure" = "Dh'fhàillig";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Ceadaich";
+"Don't Allow" = "Na Ceadaich";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Gabh";
+"Reject" = "Diùlt";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Ro-ràdh";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Seallaidh an aplacaid seo an luchd-aithne a th’ agad mu thràth a tha air an inneal agad. 'S urrainn dhut an aplacaid Contacts agad a chleachdadh gus an luchd-aithne agad a stiùireadh.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "Bu mhath le \"BoldContacts\" eisimpleirean a shealltainn";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Leugh an aplacaid seo an luchd-aithne a th’ agad mu thràth air an inneal agad, ach chan eil coltas gu bheil gin agad. Mar sin seallaidh an aplacaid seo eisimpleirean taisbeanaidh sealach dhut an àite an luchd-aithne a th’ agad mu thràth.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Is urrainn dhan aplacaid seo liosta an luchd-aithne agad a leughadh.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Tha an aplacaid seo airson liosta an luchd-aithne agad a leughadh.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Chan urrainn dhan aplacaid seo an liosta luchd-aithne agad a leughadh a chionn 's gu bheil an inbhe ceadachaidh stòr conaltraidh agad air a shuidheachadh gu cuingichte. Faodaidh tu an aplacaid fhàgail an-dràsta. 'S urrainn dhut an aplacaid Roghainnean agad a chur air bhog, agus an uairsin cead a thoirt don aplacaid seo do liosta luchd-fios, an uairsin ath-chuir air bhog an aplacaid seo.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Chan urrainn dhan aplacaid seo an liosta luchd-aithne agad a leughadh a chionn 's gu bheil inbhe cead stòr an luchd-aithne agad gu bhith air a dhiùltadh. Faodaidh tu an aplacaid fhàgail an-dràsta. 'S urrainn dhut an aplacaid Roghainnean agad a chur air bhog, agus an uairsin cead a thoirt don aplacaid seo do liosta luchd-fios, an uairsin ath-chuir air bhog an aplacaid seo.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Chan urrainn dhan aplacaid seo an liosta luchd-aithne agad a leughadh air sgàth mearachd neo-aithnichte. Feuch an cuir thu fios gu leasaiche na h-aplacaid gus sùil nas mionaidiche a thoirt air na tha a’ tachairt agus mar a nì thu ceartachadh air. Cuir post-d gu joel@joelparkerhenderson. com no fòn +1-415-317-2700. Tapadh leibh.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Tha inbhe an ùghdarrais ceadaichte.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Chan eil inbhe an ùghdarrais air a dhearbhadh.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Tha inbhe an ùghdarrais air a chuingealachadh.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Tha inbhe an ùghdarrais ga àicheadh.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "ùghdarraichte";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "Cha deach a dhearbhadh";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "cuingichte";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "àicheadh";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Tha liosta an luchd-aithne agad ri luchdachadh.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Tha liosta an luchd-aithne agad 'ga luchdadh.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Tha liosta an luchd-aithne agad air a luchdachadh.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Tha liosta an luchd-aithne agad air a luchdachadh, ach tha e falamh.";
 
 //
 // Demo persons
