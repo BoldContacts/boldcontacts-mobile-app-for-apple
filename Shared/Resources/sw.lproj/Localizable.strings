@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Sawa";
+"Cancel" = "Ghairi";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ndiyo";
+"No" = "Hapana";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Mafanikio";
+"Failure" = "Kushindwa";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Ruhusu";
+"Don't Allow" = "Usiruhusu";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Kubali";
+"Reject" = "Kataa";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Utangulizi";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Programu hii huonyesha anwani zako zilizopo kwenye kifaa chako. Unaweza kutumia programu yako ya Anwani kudhibiti anwani zako.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Ingependa Kuonyesha Mifano";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Programu hii inasoma anwani zako zilizopo kwenye kifaa chako, lakini inaonekana huna yoyote. Kwa hivyo programu hii itakuonyesha mifano ya maonyesho ya muda badala ya anwani zako zilizopo.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Programu hii inaweza kusoma orodha yako ya anwani.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Programu hii inataka kusoma orodha yako ya anwani.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Programu hii haiwezi kusoma orodha yako ya anwani kwa sababu hali ya uidhinishaji wa duka la anwani yako imewekwa kuzuiliwa. Unaweza kuacha programu sasa. Unaweza kuzindua programu yako ya Mapendeleo, kisha uidhinishe programu hii kusoma yako. orodha ya anwani, kisha uzindue upya programu hii.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Programu hii haiwezi kusoma orodha yako ya anwani kwa sababu hali ya uidhinishaji wa duka la anwani yako imewekwa kukataliwa. Unaweza kuacha programu sasa. Unaweza kuzindua programu yako ya Mapendeleo, kisha uidhinishe programu hii kusoma yako. orodha ya anwani, kisha uzindue upya programu hii.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Programu hii haiwezi kusoma orodha yako ya anwani kwa sababu ya hitilafu isiyojulikana. Tafadhali wasiliana na msanidi programu ili kuangalia kwa karibu kile kinachotokea na jinsi ya kusuluhisha kwa ajili yako. Barua pepe joel@joelparkerhenderson. com au simu +1-415-317-2700. Asante.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Hali ya uidhinishaji imeidhinishwa.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Hali ya uidhinishaji haijabainishwa.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Hali ya uidhinishaji imezuiwa.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Hali ya uidhinishaji imekataliwa.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "imeidhinishwa";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "haijabainishwa";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "imezuiliwa";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "imekataliwa";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Orodha yako ya anwani inaweza kupakiwa.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Orodha yako ya anwani inapakia.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Orodha yako ya anwani imepakiwa.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Orodha yako ya anwani imepakiwa, lakini ni tupu.";
 
 //
 // Demo persons
