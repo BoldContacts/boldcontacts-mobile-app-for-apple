@@ -4,90 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Ləğv et";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Bəli";
+"No" = "Xeyr";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Uğur";
+"Failure" = "Uğursuzluq";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "İcazə verin";
+"Don't Allow" = "İcazə Vermə";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Qəbul edirəm";
+"Reject" = "Rədd et";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Giriş";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Bu proqram cihazınızda olan mövcud kontaktlarınızı göstərir. Siz kontaktlarınızı idarə etmək üçün Kontaktlar proqramından istifadə edə bilərsiniz.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Nümunələri Göstərmək İstəyir";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Bu proqram cihazınızda mövcud kontaktlarınızı oxuyur, lakin sizdə yoxdur. Beləliklə, bu proqram mövcud kontaktlarınızın əvəzinə sizə müvəqqəti nümayiş nümunələri göstərəcək.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Bu proqram əlaqə siyahınızı oxuya bilər.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Bu proqram əlaqə siyahınızı oxumaq istəyir.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Kontakt mağazanızın icazə statusu məhdudlaşdırıldığı üçün bu proqram kontaktlar siyahınızı oxuya bilmir. Tətbiqdən indi çıxa bilərsiniz. Siz Preferences proqramınızı işə salıb, sonra bu proqrama sizin məlumatlarınızı oxumaq üçün icazə verə bilərsiniz. kontaktlar siyahısı, sonra bu proqramı yenidən başladın.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Kontakt mağazasının icazə statusunuz rədd edildiyi üçün bu proqram kontaktlar siyahınızı oxuya bilmir. Tətbiqdən indi çıxa bilərsiniz. Siz Preferences proqramınızı işə sala və sonra bu proqrama sizin məlumatlarınızı oxumağa icazə verə bilərsiniz. kontaktlar siyahısı, sonra bu proqramı yenidən başladın.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Naməlum xəta üzündən bu proqram sizin kontaktlar siyahınızı oxuya bilmir. Nə baş verdiyini və sizin üçün bunu necə düzəltməyi daha yaxından öyrənmək üçün proqram tərtibatçısı ilə əlaqə saxlayın. Joel@joelparkerhenderson ünvanına e-poçt göndərin. com və ya telefon +1-415-317-2700. Təşəkkür edirəm.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "İcazə statusu icazəlidir.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "İcazə statusu təyin olunmayıb.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "İcazə statusu məhdudlaşdırılıb.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "İcazə statusu rədd edildi.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "səlahiyyətli";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "müəyyən edilməyib";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "məhdudlaşdırılıb";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "reddedildi";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Kontaktlar siyahınız yüklənə bilər.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Kontaktlar siyahınız yüklənir.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Kontaktlar siyahınız yükləndi.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
-
+"CursorState.Loaded & cursor.isEmpty" = "Kontaktlar siyahınız yüklənib, lakin boşdur.";
 //
 // Demo persons
 //
