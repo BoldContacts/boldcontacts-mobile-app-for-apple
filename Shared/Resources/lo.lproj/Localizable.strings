@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "ຕົກລົງ";
+"Cancel" = "ຍົກເລີກ";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "ແມ່ນ";
+"No" = "ບໍ່";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "ຄວາມສໍາເລັດ";
+"Failure" = "ຄວາມລົ້ມເຫຼວ";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "ອະນຸຍາດ";
+"Don't Allow" = "ບໍ່ອະນຸຍາດ";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "ຍອມຮັບ";
+"Reject" = "ປະຕິເສດ";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" ແນະນໍາ";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "ແອັບນີ້ສະແດງລາຍຊື່ຜູ້ຕິດຕໍ່ທີ່ມີຢູ່ແລ້ວຂອງເຈົ້າທີ່ຢູ່ໃນອຸປະກອນຂອງທ່ານ. ທ່ານສາມາດໃຊ້ແອັບຕິດຕໍ່ພົວພັນຂອງເຈົ້າເພື່ອຈັດການລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າ.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" ຢາກສະແດງຕົວຢ່າງ";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "ແອັບນີ້ອ່ານຜູ້ຕິດຕໍ່ທີ່ມີຢູ່ແລ້ວຂອງເຈົ້າຢູ່ໃນອຸປະກອນຂອງທ່ານ, ແຕ່ເບິ່ງຄືວ່າເຈົ້າບໍ່ມີອັນໃດເລີຍ. ດັ່ງນັ້ນແອັບນີ້ຈະສະແດງຕົວຢ່າງການສາທິດຊົ່ວຄາວໃຫ້ກັບເຈົ້າແທນການຕິດຕໍ່ທີ່ມີຢູ່ຂອງເຈົ້າ.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "ແອັບນີ້ສາມາດອ່ານລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າໄດ້.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "ແອັບນີ້ຕ້ອງການອ່ານລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າ.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "ແອັບນີ້ບໍ່ສາມາດອ່ານລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າໄດ້ ເພາະວ່າສະຖານະການອະນຸຍາດຮ້ານຕິດຕໍ່ຂອງເຈົ້າຖືກຕັ້ງເປັນຈຳກັດ. ເຈົ້າສາມາດອອກຈາກແອັບດຽວນີ້ໄດ້. ເຈົ້າສາມາດເປີດແອັບ Preferences ຂອງເຈົ້າ, ຈາກນັ້ນອະນຸຍາດໃຫ້ແອັບນີ້ອ່ານຂອງເຈົ້າ ລາຍຊື່ຜູ້ຕິດຕໍ່, ຈາກນັ້ນເປີດແອັບນີ້ຄືນໃໝ່."
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "ແອັບນີ້ບໍ່ສາມາດອ່ານລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າໄດ້ ເພາະວ່າສະຖານະການອະນຸຍາດຮ້ານຕິດຕໍ່ຂອງເຈົ້າຖືກຕັ້ງເປັນປະຕິເສດ. ເຈົ້າສາມາດອອກຈາກແອັບດຽວນີ້ໄດ້. ເຈົ້າສາມາດເປີດແອັບ Preferences ຂອງເຈົ້າ, ຈາກນັ້ນອະນຸຍາດໃຫ້ແອັບນີ້ອ່ານຂອງເຈົ້າ ລາຍຊື່ຜູ້ຕິດຕໍ່, ຈາກນັ້ນເປີດແອັບນີ້ຄືນໃໝ່."
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "ແອັບນີ້ບໍ່ສາມາດອ່ານລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າໄດ້ເນື່ອງຈາກຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກ. ກະລຸນາຕິດຕໍ່ຜູ້ພັດທະນາແອັບເພື່ອກວດເບິ່ງຢ່າງເລິກເຊິ່ງກ່ຽວກັບສິ່ງທີ່ເກີດຂຶ້ນ ແລະວິທີການແກ້ໄຂໃຫ້ທ່ານ. ອີເມວ joel@joelparkerhenderson. com ຫຼືໂທລະສັບ +1-415-317-2700. ຂໍຂອບໃຈ. ";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "ສະຖານະໄດ້ຮັບການອະນຸຍາດແລ້ວ.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "ສະຖານະການອະນຸຍາດບໍ່ໄດ້ກຳນົດ.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "ສະຖານະການອະນຸຍາດຖືກຈຳກັດ.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "ສະຖານະການອະນຸຍາດຖືກປະຕິເສດ.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "ອະນຸຍາດ" ;
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ບໍ່ໄດ້ກໍານົດ";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "ຖືກຈຳກັດ";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "ປະຕິເສດ";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "ລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າສາມາດໂຫລດໄດ້.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "ລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງເຈົ້າກຳລັງໂຫລດ.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "ລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງທ່ານຖືກໂຫລດແລ້ວ.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "ລາຍຊື່ຜູ້ຕິດຕໍ່ຂອງທ່ານຖືກໂຫລດ, ແຕ່ຫວ່າງເປົ່າ.";
 
 //
 // Demo persons
