@@ -4,15 +4,15 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "لغو";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "بله";
+"No" = "نه";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "موفقیت";
+"Failure" = "شکست";
 
 // Allow | Don't Allow
 "Allow" = "Allow";
@@ -20,73 +20,73 @@
 
 // Accept | Reject
 "Accept" = "Accept";
-"Reject" = "Reject";
+"Reject" = "رد";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" مقدمه";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "این برنامه مخاطبین موجود شما را که در دستگاه شما هستند نمایش می دهد. می توانید از برنامه Contacts خود برای مدیریت مخاطبین خود استفاده کنید.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" می خواهد نمونه هایی را نشان دهد";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "این برنامه مخاطبین موجود شما را در دستگاه شما می خواند، اما به نظر نمی رسد شما هیچ کدام را ندارید. بنابراین این برنامه به جای مخاطبین موجود، نمونه های نمایش موقت را به شما نشان می دهد.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "این برنامه می تواند لیست مخاطبین شما را بخواند.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "این برنامه می خواهد لیست مخاطبین شما را بخواند.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "این برنامه قادر به خواندن لیست مخاطبین شما نیست زیرا وضعیت مجوز فروشگاه تماس شما روی محدود تنظیم شده است. اکنون می توانید برنامه را ترک کنید. می توانید برنامه تنظیمات خود را راه اندازی کنید، سپس به این برنامه اجازه دهید تا شما را بخواند. لیست مخاطبین، سپس این برنامه را دوباره راه اندازی کنید."
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "این برنامه قادر به خواندن لیست مخاطبین شما نیست زیرا وضعیت مجوز فروشگاه تماس شما روی رد شده است. اکنون می توانید از برنامه خارج شوید. می توانید برنامه تنظیمات خود را راه اندازی کنید، سپس به این برنامه اجازه دهید تا شما را بخواند. لیست مخاطبین، سپس این برنامه را دوباره راه اندازی کنید."
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "این برنامه به دلیل یک خطای ناشناخته قادر به خواندن لیست مخاطبین شما نیست. لطفاً با توسعه دهنده برنامه تماس بگیرید تا به آنچه در حال رخ دادن است و نحوه رفع آن برای شما نگاه دقیق تری داشته باشد. به joel@joelparkerhenderson ایمیل بزنید. com یا تلفن +1-415-317-2700. متشکرم.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "وضعیت مجوز مجاز است.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "وضعیت مجوز مشخص نشده است.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "وضعیت مجوز محدود شده است.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "وضعیت مجوز رد شد.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "مجاز";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "تعیین نشده است";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "محدود";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "رد شد";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "لیست مخاطبین شما قابل بارگیری است.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "لیست مخاطبین شما در حال بارگیری است.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "لیست مخاطبین شما بارگیری شده است.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "لیست مخاطبین شما بارگیری شده است، اما خالی است.";
 
 //
 // Demo persons
