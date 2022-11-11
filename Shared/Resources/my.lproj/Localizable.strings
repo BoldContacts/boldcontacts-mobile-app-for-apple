@@ -3,91 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "အိုကေ";
+"Cancel" = "ပယ်ဖျက်ရန်";
 
 // Yes | No
-"Yes" = "Yes";
+"Yes" = "ဟုတ်ကဲ့";
 "No" = "No";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "အောင်မြင်မှု";
+"Failure" = "ပျက်ကွက်";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "ခွင့်ပြု";
+"Don't Allow" = "ခွင့်မပြုပါ";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "လက်ခံသည်";
+"Reject" = "ငြင်းပယ်";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" နိဒါန်း";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "ဒီအက်ပ်က သင့်စက်ပစ္စည်းပေါ်ရှိ သင့်လက်ရှိအဆက်အသွယ်များကို ပြသပေးပါသည်။ သင့်အဆက်အသွယ်များကို စီမံခန့်ခွဲရန် သင့်အဆက်အသွယ်များအက်ပ်ကို သုံးနိုင်သည်။";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" နမူနာများကို ပြလိုသည်";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "ဒီအက်ပ်က သင့်စက်ပစ္စည်းပေါ်ရှိ သင်၏ရှိပြီးသားအဆက်အသွယ်များကို ဖတ်ပြသည်၊ သို့သော် သင့်တွင် ရှိပုံမပေါ်ပါ။ ထို့ကြောင့် ဤအက်ပ်က သင့်ရှိပြီးသားအဆက်အသွယ်များအစား ယာယီသရုပ်ပြနမူနာများကို ပြသပါမည်။";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "ဒီအက်ပ်က သင့်အဆက်အသွယ်စာရင်းကို ဖတ်နိုင်ပါတယ်။";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "ဒီအက်ပ်က သင့်အဆက်အသွယ်စာရင်းကို ဖတ်လိုသည်။";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "ဤအက်ပ်သည် သင်၏အဆက်အသွယ်စာရင်းကို ဖတ်ရန် မဖြစ်နိုင်သောကြောင့် သင်၏အဆက်အသွယ်စတိုးခွင့်ပြုချက်အခြေအနေအား ကန့်သတ်ရန် သတ်မှတ်ထားသည်။ သင်သည် အက်ပ်ကို ယခုမှ နှုတ်ထွက်နိုင်ပါသည်။ သင်၏ နှစ်သက်ရာအက်ပ်ကို စတင်နိုင်သည်၊ ထို့နောက် သင့်အား ဤအက်ပ်အား ဖတ်ရန် ခွင့်ပြုပေးလိုက်ပါ။ အဆက်အသွယ်များစာရင်း၊ ထို့နောက် ဤအက်ပ်ကို ပြန်လည်စတင်ပါ။";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "ဤအက်ပ်သည် သင်၏အဆက်အသွယ်စာရင်းကို ဖတ်ရန် မဖြစ်နိုင်သောကြောင့် သင်၏အဆက်အသွယ်စတိုးခွင့်ပြုချက်အခြေအနေကို ငြင်းဆိုရန် သတ်မှတ်ထားပါသည်။ သင်သည် အက်ပ်ကို ယခုမှ နှုတ်ထွက်နိုင်ပါပြီ။ သင်၏ နှစ်သက်ရာအက်ပ်ကို စတင်နိုင်ပြီး၊ ထို့နောက် ဤအက်ပ်အား သင့်အား ဖတ်ရန် ခွင့်ပြုပါ အဆက်အသွယ်များစာရင်း၊ ထို့နောက် ဤအက်ပ်ကို ပြန်လည်စတင်ပါ။";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "ဒီအက်ပ်က အမည်မသိ အမှားအယွင်းတစ်ခုကြောင့် သင့်အဆက်အသွယ်စာရင်းကို ဖတ်လို့ မရနိုင်ပါ။ ဖြစ်ပျက်နေတာတွေကို အနီးကပ်ကြည့်ရှုပြီး သင့်အတွက် ဘယ်လိုပြင်ဆင်ရမလဲဆိုတာ အက်ပ်ဆော့ဖ်ဝဲရေးသားသူကို ဆက်သွယ်ပါ။ joel@joelparkerhenderson အီးမေးလ်ပို့ပါ။ com သို့မဟုတ် ဖုန်း +1-415-317-2700။ ကျေးဇူးတင်ပါသည်။";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "ခွင့်ပြုချက်အဆင့်အတန်းကို ခွင့်ပြုထားသည်။";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "ခွင့်ပြုချက် အခြေအနေ မသတ်မှတ်ရပါ။";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "ခွင့်ပြုချက်အဆင့်အတန်းကို ကန့်သတ်ထားသည်။";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "ခွင့်ပြုချက် အခြေအနေကို ငြင်းဆိုထားသည်။";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "ခွင့်ပြုချက်";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "မဆုံးဖြတ်ပါ";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "ကန့်သတ်ထားသည်";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "ငြင်းပယ်သည်";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "သင့်အဆက်အသွယ်များစာရင်းကို တင်နိုင်ပါပြီ။";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "သင့်အဆက်အသွယ်များစာရင်းကို ဖွင့်နေပါသည်။";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "သင့်အဆက်အသွယ်များစာရင်းကို တင်ထားသည်။";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
-
+"CursorState.Loaded & cursor.isEmpty" = "သင့်အဆက်အသွယ်များစာရင်းကို ဖွင့်ထားသော်လည်း ဗလာဖြစ်နေသည်။";
 //
 // Demo persons
 //
