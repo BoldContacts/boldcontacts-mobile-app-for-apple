@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Kagbuo";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ee";
+"No" = "Mba";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Ọganihu";
+"Failure" = "Ọdịda";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Kwe Ka";
+"Don't Allow" = "Ekwela";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Nabata";
+"Reject" = "Ajụ";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = ""BoldContacts" Okwu mmalite";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "ngwa a na-egosiputa kọntaktị dị na ngwaọrụ gị. Ị nwere ike iji ngwa kọntaktị gị ijikwa kọntaktị gị.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = ""BoldContacts" ga-achọ igosi ihe atụ";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "ngwa a na-agụ kọntaktị ndị dị adị na ngwaọrụ gị, mana ọ dị ka ị nweghị nke ọ bụla. Ya mere ngwa a ga-egosi gị ihe ngosi ngosi nwa oge kama ịbụ kọntaktị gị dị.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "ngwa a nwere ike ịgụ ndepụta kọntaktị gị.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "ngwa a chọrọ ịgụ ndepụta kọntaktị gị.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "ngwa a enweghị ike ịgụ ndepụta kọntaktị gị n'ihi na edobere ọkwa ikike ụlọ ahịa kọntaktị gị ka amachibidoro. Ị nwere ike hapụ ngwa ahụ ugbu a. Ị nwere ike ịmalite ngwa Mmasị gị, nyezie ngwa a ka ọ gụọ gị. ndepụta kọntaktị, wee malitegharịa ngwa a.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "ngwa a enweghị ike ịgụ ndepụta kọntaktị gị n'ihi na atọrọ ka agọnarị ọkwa ụlọ ahịa kọntaktị gị. Ị nwere ike hapụ ngwa ahụ ugbu a. Ị nwere ike ịmalite ngwa Mmasị gị, nyezie ngwa a ka ọ gụọ gị. ndepụta kọntaktị, wee malitegharịa ngwa a.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "ngwa a enweghị ike ịgụ ndepụta kọntaktị gị n'ihi njehie amaghị. Biko kpọtụrụ onye nrụpụta ngwa ka ọ lebakwuo anya n'ihe na-eme na otu esi edozi ya. Email joel@joelparkerhenderson. com ma ọ bụ ekwentị +1-415-317-2700. Daalụ.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Enyere ikike ikike.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Enwebeghị ọkwa ikike.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Amachibidoro ọkwa ikike.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Agọnarị ọkwa ikike.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "nwere ikike";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "anaghị ekpebie";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "amachibidoro";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "agọrọ agọ";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Ndepụta kọntaktị gị nwere ike ibu.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Ndepụta kọntaktị gị na-ebu.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Ebuola ndepụta kọntaktị gị.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Ebuola ndepụta kọntaktị gị, mana ọ tọgbọrọ chakoo.";
 
 //
 // Demo persons
