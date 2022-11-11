@@ -1,192 +1,200 @@
 # Languages
 
-Planned: 
-
-Afrikaans, Albanian?, Amharic, Assamese, Azerbaijani, Bambara
+Progress:
 
 * [x] af Afrikaans
-* [ ] ak Akan
-* [ ] sq Albanian
+* [x] sq Albanian
 * [x] am Amharic
 * [x] ar Arabic
-* [ ] an Aragonese
 * [x] hy Armenian
 * [x] as Assamese
-* [ ] av Avaric
-* [ ] ae Avestan
-* [ ] ay Aymara
 * [x] az Azerbaijani
 * [x] bm Bambara
-* [ ] ba Bashkir
-* [ ] eu Basque
-* [ ] be Belarusian
-* [ ] bn Bengali
-* [ ] bi Bislama
-* [ ] bs Bosnian
-* [ ] br Breton
-* [ ] bg Bulgarian
-* [ ] my Burmese
-* [ ] ca Catalan, Valencian
-* [ ] ch Chamorro
-* [ ] ce Chechen
-* [ ] ny Chichewa, Chewa, Nyanja
-* [ ] zh Chinese
-* [ ] cu Church Slavonic, Old Slavonic, Old Church Slavonic
-* [ ] cv Chuvash
-* [ ] kw Cornish
-* [ ] co Corsican
-* [ ] cr Cree
-* [ ] hr Croatian
-* [ ] cs Czech
-* [ ] da Danish
+* [x] eu Basque
+* [x] be Belarusian
+* [x] bn Bengali
+* [x] bs Bosnian
+* [x] bg Bulgarian
+* [x] ca Catalan, Valencian
+* [x] cy Cymraeg, Welsh
+* [x] zh Chinese
+* [x] co Corsican
+* [x] hr Croatian
+* [x] cs Czech
+* [x] da Danish
+* [x] de Deutsch, German
 * [ ] dv Divehi, Dhivehi, Maldivian
 * [ ] nl Dutch, Flemish
-* [ ] dz Dzongkha
 * [ ] en English
 * [ ] eo Esperanto
 * [ ] et Estonian
 * [ ] ee Ewe
-* [ ] fo Faroese
-* [ ] fj Fijian
-* [ ] fi Finnish
-* [ ] fr French
-* [ ] fy Western Frisian
-* [ ] ff Fulah
-* [ ] gd Gaelic, Scottish Gaelic
+* [x] es España, Spanish, Castilian
+* [x] fi Finnish
+* [x] fr French
 * [ ] gl Galician
-* [ ] lg Ganda
 * [ ] ka Georgian
-* [ ] de German
 * [ ] el Greek, Modern (1453–)
-* [ ] kl Kalaallisut, Greenlandic
 * [ ] gn Guarani
 * [ ] gu Gujarati
 * [ ] ht Haitian, Haitian Creole
 * [ ] ha Hausa
-* [ ] he Hebrew
-* [ ] hz Herero
-* [ ] hi Hindi
-* [ ] ho Hiri Motu
+* [ ] ?? Hawaiian
+* [x] he Hebrew
+* [x] hi Hindi
+* [ ] ?? Hmong
 * [ ] hu Hungarian
 * [ ] is Icelandic
-* [ ] io Ido
-* [ ] ig Igbo
-* [ ] id Indonesian
-* [ ] ia Interlingua (International Auxiliary Language Association)
-* [ ] ie Interlingue, Occidental
-* [ ] iu Inuktitut
-* [ ] ik Inupiaq
-* [ ] ga Irish
-* [ ] it Italian
-* [ ] ja Japanese
-* [ ] jv Javanese
+* [x] ig Igbo
+* [ ] ?? Ilocano
+* [x] id Indonesian
+* [x] ga Irish / Gaelic
+* [x] it Italian
+* [x] ja Japanese
+* [x] jv Javanese
 * [ ] kn Kannada
-* [ ] kr Kanuri
-* [ ] ks Kashmiri
 * [ ] kk Kazakh
-* [ ] km Central Khmer
-* [ ] ki Kikuyu, Gikuyu
+* [ ] km Khmer / Central Khmer
 * [ ] rw Kinyarwanda
-* [ ] ky Kirghiz, Kyrgyz
-* [ ] kv Komi
-* [ ] kg Kongo
-* [ ] ko Korean
-* [ ] kj Kuanyama, Kwanyama
+* [x] ko Korean
 * [ ] ku Kurdish
-* [ ] lo Lao
+* [x] lo Lao
 * [ ] la Latin
 * [ ] lv Latvian
-* [ ] li Limburgan, Limburger, Limburgish
 * [ ] ln Lingala
 * [ ] lt Lithuanian
-* [ ] lu Luba-Katanga
 * [ ] lb Luxembourgish, Letzeburgesch
 * [ ] mk Macedonian
+* [ ] ?? Maithili
 * [ ] mg Malagasy
 * [ ] ms Malay
 * [ ] ml Malayalam
 * [ ] mt Maltese
-* [ ] gv Manx
 * [ ] mi Maori
-* [ ] mr Marathi
+* [x] mr Marathi
 * [ ] mh Marshallese
+* [ ] ?? Meiteilon (Manipuri)
+* [ ] ?? Mizo
 * [ ] mn Mongolian
-* [ ] na Nauru
-* [ ] nv Navajo, Navaho
-* [ ] nd North Ndebele
-* [ ] nr South Ndebele
-* [ ] ng Ndonga
+* [x] my Myanmar, Burmese
 * [ ] ne Nepali
 * [ ] no Norwegian
-* [ ] nb Norwegian Bokmål
-* [ ] nn Norwegian Nynorsk
-* [ ] ii Sichuan Yi, Nuosu
-* [ ] oc Occitan
-* [ ] oj Ojibwa
-* [ ] or Oriya
+* [ ] or Oriya, Odia
 * [ ] om Oromo
-* [ ] os Ossetian, Ossetic
-* [ ] pi Pali
 * [ ] ps Pashto, Pushto
-* [ ] fa Persian
+* [x] fa Persian
 * [ ] pl Polish
-* [ ] pt Portuguese
+* [x] pt Portuguese
 * [ ] pa Punjabi, Panjabi
 * [ ] qu Quechua
 * [ ] ro Romanian, Moldavian, Moldovan
-* [ ] rm Romansh
-* [ ] rn Rundi
-* [ ] ru Russian
-* [ ] se Northern Sami
+* [x] ru Russian
 * [ ] sm Samoan
-* [ ] sg Sango
 * [ ] sa Sanskrit
 * [ ] sc Sardinian
-* [ ] sr Serbian
+* [x] gd Scots Gaelic, Scottish Gaelic
+* [ ] ?? Sepedi
+* [x] sr Serbian
+* [ ] ?? Sesotho
 * [ ] sn Shona
 * [ ] sd Sindhi
 * [ ] si Sinhala, Sinhalese
 * [ ] sk Slovak
 * [ ] sl Slovenian
-* [ ] so Somali
-* [ ] st Southern Sotho
-* [ ] es Spanish, Castilian
 * [ ] su Sundanese
-* [ ] sw Swahili
-* [ ] ss Swati
-* [ ] sv Swedish
-* [ ] tl Tagalog
-* [ ] ty Tahitian
+* [x] sw Swahili
+* [x] sv Swedish
 * [ ] tg Tajik
-* [ ] ta Tamil
+* [x] ta Tamil
 * [ ] tt Tatar
-* [ ] te Telugu
-* [ ] th Thai
-* [ ] bo Tibetan
+* [x] te Telugu
+* [x] th Thai
 * [ ] ti Tigrinya
-* [ ] to Tonga (Tonga Islands)
 * [ ] ts Tsonga
 * [ ] tn Tswana
-* [ ] tr Turkish
+* [x] tr Turkish
 * [ ] tk Turkmen
 * [ ] tw Twi
 * [ ] ug Uighur, Uyghur
-* [ ] uk Ukrainian
-* [ ] ur Urdu
+* [x] uk Ukrainian
+* [x] ur Urdu
 * [ ] uz Uzbek
-* [ ] ve Venda
-* [ ] vi Vietnamese
-* [ ] vo Volapük
-* [ ] wa Walloon
-* [ ] cy Welsh
-* [ ] wo Wolof
+* [x] ca Valencian (see Catalan)
+* [x] vi Vietnamese
 * [ ] xh Xhosa
 * [ ] yi Yiddish
-* [ ] yo Yoruba
-* [ ] za Zhuang, Chuang
+* [x] yo Yoruba
 * [ ] zu Zulu
 
-TODO:
+Future ideas:
 
 * [ ] ab Abkhazian
 * [ ] aa Afar
+* [ ] ak Akan
+* [ ] an Aragonese
+* [ ] av Avaric
+* [ ] ae Avestan
+* [ ] ay Aymara
+* [ ] ba Bashkir
+* [ ] bi Bislama
+* [ ] br Breton
+* [ ] ch Chamorro
+* [ ] ce Chechen
+* [ ] ny Chichewa, Chewa, Nyanja
+* [ ] cu Church Slavonic, Old Slavonic, Old Church Slavonic
+* [ ] cv Chuvash
+* [ ] kw Cornish
+* [ ] cr Cree
+* [ ] dz Dzongkha
+* [ ] ff Fulah
+* [ ] ?? Fillipino
+* [ ] fo Faroese
+* [ ] fj Fijian
+* [ ] fy Western Frisian
+* [ ] lg Ganda
+* [ ] hz Herero
+* [ ] ho Hiri Motu
+* [ ] io Ido
+* [ ] kl Kalaallisut, Greenlandic
+* [ ] ia Interlingua (International Auxiliary Language Association)
+* [ ] ie Interlingue, Occidental
+* [ ] iu Inuktitut
+* [ ] ik Inupiaq
+* [ ] kr Kanuri
+* [ ] ks Kashmiri
+* [ ] ky Kirghiz, Kyrgyz
+* [ ] kv Komi
+* [ ] kg Kongo
+* [ ] kj Kuanyama, Kwanyama
+* [ ] ki Kikuyu, Gikuyu
+* [ ] li Limburgan, Limburger, Limburgish
+* [ ] lu Luba-Katanga
+* [ ] gv Manx
+* [ ] na Nauru
+* [ ] nv Navajo, Navaho
+* [ ] nd North Ndebele
+* [ ] nr South Ndebele
+* [ ] ng Ndonga
+* [ ] nb Norwegian Bokmål
+* [ ] nn Norwegian Nynorsk
+* [ ] ii Sichuan Yi, Nuosu
+* [ ] oc Occitan
+* [ ] oj Ojibwa
+* [ ] os Ossetian, Ossetic
+* [ ] pi Pali
+* [ ] rm Romansh
+* [ ] rn Rundi
+* [ ] se Northern Sami
+* [ ] sg Sango
+* [ ] so Somali
+* [ ] st Southern Sotho
+* [ ] ss Swati
+* [ ] tl Tagalog
+* [ ] ty Tahitian
+* [ ] bo Tibetan
+* [ ] to Tonga (Tonga Islands)
+* [ ] ve Venda
+* [ ] vo Volapük
+* [ ] wa Walloon
+* [ ] wo Wolof
+* [ ] za Zhuang, Chuang

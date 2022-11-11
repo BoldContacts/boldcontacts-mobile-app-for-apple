@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "ОК";
+"Cancel" = "Скасувати";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Так";
+"No" = "Ні";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Успіх";
+"Failure" = "Невдача";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Дозволити";
+"Don't Allow" = "Не дозволяти";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Прийняти";
+"Reject" = "Відхилити";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "Введення \"BoldContacts\"";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Ця програма відображає наявні контакти, які зберігаються на вашому пристрої. Ви можете використовувати програму \"Контакти\", щоб керувати своїми контактами.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" хоче показати приклади";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ця програма читає ваші наявні контакти на вашому пристрої, але, здається, у вас їх немає. Тож ця програма показуватиме вам тимчасові демонстраційні приклади замість наявних контактів.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Ця програма може читати ваш список контактів.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Ця програма хоче прочитати ваш список контактів.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Ця програма не може прочитати ваш список контактів, оскільки статус авторизації вашого магазину контактів обмежено. Ви можете вийти з програми зараз. Ви можете запустити програму налаштувань, а потім авторизувати цю програму для читання ваших список контактів, потім перезапустіть цю програму.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Ця програма не може прочитати ваш список контактів, тому що ваш статус авторизації магазину контактів встановлено як \"відмовлено\". Ви можете вийти з програми зараз. Ви можете запустити програму \"Налаштування\", а потім дозволити цій програмі читати ваші список контактів, потім перезапустіть цю програму.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Ця програма не може прочитати ваш список контактів через невідому помилку. Будь ласка, зв'яжіться з розробником програми, щоб детальніше розібратися, що відбувається, і як це виправити. Надішліть електронний лист на joel@joelparkerhenderson. com або за телефоном +1-415-317-2700. Дякуємо.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Статус авторизації авторизований.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Статус авторизації не визначено.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Статус авторизації обмежено.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Статус авторизації відхилено.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "авторизовано";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "не визначено";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "обмежено";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "відмовлено";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Ваш список контактів можна завантажити.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Ваш список контактів завантажується.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Ваш список контактів завантажено.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Ваш список контактів завантажено, але порожній.";
 
 //
 // Demo persons
@@ -94,27 +94,21 @@
 
 "Demo.persons[0].givenName" = "Alice";
 "Demo.persons[0].familyName" = "Adams";
-"Demo.persons[0].locale" = "en-us";
 
 "Demo.persons[1].givenName" = "Bob";
 "Demo.persons[1].familyName" = "Brown";
-"Demo.persons[1].locale" = "en-us";
 
 "Demo.persons[2].givenName" = "Carol";
 "Demo.persons[2].familyName" = "Curtis";
-"Demo.persons[2].locale" = "en-gb";
 
 "Demo.persons[3].givenName" = "Dave";
 "Demo.persons[3].familyName" = "Davis";
-"Demo.persons[3].locale" = "en-gb";
 
 "Demo.persons[4].givenName" = "Eve";
 "Demo.persons[4].familyName" = "Evans";
-"Demo.persons[4].locale" = "en-au";
 
 "Demo.persons[5].givenName" = "Frank";
 "Demo.persons[5].familyName" = "Franklin";
-"Demo.persons[5].locale" = "en-au";
 
 //
 // Demo groups
