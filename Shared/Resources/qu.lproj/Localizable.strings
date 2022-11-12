@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Allinmi";
+"Cancel" = "Cancelar";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Arí";
+"No" = "Mana";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Allin ruway";
+"Failure" = "Mana allin";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Permitir";
+"Don't Allow" = "Ama saqiychu";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Chaskiy";
+"Reject" = "Qhipakuy";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"Yanawan rimanakuna\" Riqsichikuy";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Kay ruwana kunan kaq tinkinaykikunata rikuchin mayqinkunachus dispositivoykipi kachkanku. Rimanakuna ruwanaykita llamk'achiy atikunki tinkinaykikunata kamachinaykipaq.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Ejemplokunata rikuchiyta munanman";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Kay ruwana dispositivoykipi kunan kaq tinkinaykikunata ñawirin, ichaqa mana mayqinniyuq hinachu kanki. Chaymi kay ruwana huk pachapaq rikuchiy ejemplokunata rikuchisunki kunan kaq tinkinaykikunamanta ranti.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Kay ruwana tinkiykuna listaykita ñawiriyta atin.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Kay ruwana tinkiykuna listayki ñawiriyta munan.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Kay ruwana mana atinchu tinkikuna listayki ñawiriyta imaraykuchus tinkinakuy waqaychasqa kamachiyniyki hark'asqa kaqman churasqa kachkan. Kunan ruwanamanta lluqsiyta atikunki. Munasqakuna ruwanaykita qallarichiyta atikunki, chaymanta kay ruwanata kamachiyta qampaq ñawirinanpaq tinkiykuna lista kaqpi, chaymanta kay app kaqmanta qallariy.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Kay ruwana mana atinchu ñawiriyta tinkikuna listaykita imaraykuchus tinkinakuy waqaychasqa kamachiyniyki mana munasqaman churasqa kachkan. Kunan ruwanamanta lluqsiyta atikunki. Munasqakuna ruwanaykita qallarichiyta atikunki, chaymanta kay ruwanata kamachiy qampaq ñawirinanpaq tinkiykuna lista kaqpi, chaymanta kay app kaqmanta qallariy.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Kay ruwana mana atinchu ñawiriyta tinkikuna listaykita mana riqsisqa pantasqarayku. Ama hina kaspa, ruwana ruwaqwan rimanakuy imachus ruwakuchkan chaymanta imaynatachus qampaq allichayta. Correo electrónico joel@joelparkerhenderson kaqman apachiy." com utaq telefono +1-415-317-2700. Gracias.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Autorizacionpa kayninqa kamachisqam.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Akachiypa kayninqa manam kamachisqachu.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Autochaypa kayninqa harkasqam.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Akachiypa kaynin mana chaskisqachu.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "atichisqa";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "mana kamachisqachu";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "hark'asqa";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "mana chaskisqachu";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "T'inkisqakuna listaykiqa karganapaqmi.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "T'inkisqakuna listaykiqa kargachkan.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "T'inkisqakuna listaykiqa kargasqañam.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "T'inkikuna listaykiqa kargasqam, ichaqa ch'usaqmi.";
 
 //
 // Demo persons
