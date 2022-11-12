@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "ꯑꯣꯀꯦ";
+"Cancel" = "ꯀꯦꯟꯁꯦꯜ ꯇꯧꯕꯥ";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "ꯍꯣꯌ";
+"No" = "ꯅꯠꯇꯦ";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "ꯃꯥꯏꯄꯥꯀꯄꯥ";
+"Failure" = "ꯐꯦꯜ";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "ꯑꯌꯥꯕꯥ ꯄꯤꯕꯥ";
+"Don't Allow" = "ꯑꯌꯥꯕꯥ ꯄꯤꯔꯣꯏꯗꯕꯅꯤ";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "ꯌꯥꯕꯥ";
+"Reject" = "ꯔꯤꯖꯦꯛꯇ";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"ꯕꯣꯜꯗꯀꯟꯇꯦꯛꯇꯁꯤꯡ\" ꯏꯅꯠꯔꯣꯗ꯭ꯌꯨꯁꯟ";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯗꯤꯚꯥꯏꯁꯇꯥ ꯂꯩꯔꯤꯕꯥ ꯅꯍꯥꯛꯀꯤ ꯍꯧꯖꯤꯛ ꯂꯩꯔꯤꯕꯥ ꯀꯟꯇꯦꯛꯇꯁꯤꯡ ꯑꯗꯨ ꯎꯠꯂꯤ. ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡ ꯃꯦꯅꯦꯖ ꯇꯧꯅꯕꯥ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯑꯦꯞ ꯑꯗꯨ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯒꯅꯤ꯫";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"ꯕꯣꯜꯗꯀꯟꯇꯦꯛꯇꯁꯤꯡ\" ꯈꯨꯗꯃꯁꯤꯡ ꯎꯠꯄꯥ ꯄꯥꯝꯃꯤ";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯗꯤꯚꯥꯏꯁꯇꯥ ꯅꯍꯥꯛꯀꯤ ꯍꯧꯖꯤꯛ ꯂꯩꯔꯤꯕꯥ ꯀꯟꯇꯦꯛꯇꯁꯤꯡ ꯑꯗꯨ ꯄꯥꯔꯤ, ꯑꯗꯨꯕꯨ ꯅꯍꯥꯛꯅꯥ ꯑꯃꯠꯇꯥ ꯂꯩꯕꯥ ꯎꯕꯥ ꯐꯪꯗꯦ꯫ ꯃꯔꯝ ꯑꯗꯨꯅꯥ ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯍꯧꯖꯤꯛ ꯂꯩꯔꯤꯕꯥ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯃꯍꯨꯠꯇꯥ ꯃꯇꯝ ꯈꯔꯒꯤ ꯑꯣꯏꯕꯥ ꯗꯦꯃꯣꯟꯁꯠꯔꯦꯁꯅꯒꯤ ꯈꯨꯗꯃꯁꯤꯡ ꯎꯠꯀꯅꯤ꯫";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯄꯥꯕꯥ ꯌꯥꯏ꯫";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯄꯥꯕꯥ ꯄꯥꯝꯃꯤ꯫";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯄꯥꯕꯥ ꯉꯃꯗꯦ ꯃꯔꯃꯗꯤ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇ ꯁ꯭ꯇꯣꯔ ꯑꯣꯊꯣꯔꯥꯏꯖꯦꯁꯟ ꯁ꯭ꯇꯦꯇꯁ ꯑꯗꯨ ꯔꯤꯁ꯭ꯠꯔꯤꯛꯇ ꯑꯣꯏꯅꯥ ꯁꯦꯠ ꯇꯧꯔꯦ꯫ ꯅꯍꯥꯛꯅꯥ ꯍꯧꯖꯤꯛ ꯑꯦꯞ ꯑꯁꯤ ꯊꯥꯗꯣꯀꯄꯥ ꯌꯥꯏ꯫ ꯅꯍꯥꯛꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯄꯁꯟꯗꯁꯤꯡꯒꯤ ꯑꯦꯞ ꯑꯁꯤ ꯍꯧꯗꯣꯀꯄꯥ ꯌꯥꯏ, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯑꯦꯞ ꯑꯁꯤ ꯅꯍꯥꯛꯀꯤ ꯄꯥꯕꯥ ꯌꯥꯅꯕꯥ ꯑꯣꯊꯣꯔꯥꯏꯖ ꯇꯧꯕꯥ ꯌꯥꯏ꯫ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯑꯦꯞ ꯑꯁꯤ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯧꯗꯣꯀꯎ꯫";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯄꯥꯕꯥ ꯉꯃꯗꯦ ꯃꯔꯃꯗꯤ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇ ꯁ꯭ꯇꯣꯔ ꯑꯣꯊꯣꯔꯥꯏꯖꯦꯁꯟ ꯁ꯭ꯇꯦꯇꯁ ꯑꯗꯨ ꯗꯤꯅꯤꯗ ꯇꯧꯅꯕꯥ ꯁꯦꯠ ꯇꯧꯔꯦ꯫ ꯅꯍꯥꯛꯅꯥ ꯍꯧꯖꯤꯛ ꯑꯦꯞ ꯑꯁꯤ ꯊꯥꯗꯣꯀꯄꯥ ꯌꯥꯏ꯫ ꯅꯍꯥꯛꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯄꯁꯟꯗꯁꯤꯡꯒꯤ ꯑꯦꯞ ꯑꯁꯤ ꯍꯧꯗꯣꯀꯄꯥ ꯌꯥꯏ, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯑꯦꯞ ꯑꯁꯤ ꯅꯍꯥꯛꯀꯤ ꯄꯥꯕꯥ ꯌꯥꯅꯕꯥ ꯑꯣꯊꯣꯔꯥꯏꯖ ꯇꯧꯕꯥ ꯌꯥꯏ꯫ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ, ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯑꯦꯞ ꯑꯁꯤ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯧꯗꯣꯀꯎ꯫";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "ꯑꯦꯞ ꯑꯁꯤꯅꯥ ꯈꯉꯗꯕꯥ ꯑꯁꯣꯌꯕꯥ ꯑꯃꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯄꯥꯕꯥ ꯉꯃꯗꯦ꯫ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯊꯣꯛꯂꯤꯕꯥ ꯊꯧꯗꯣꯀꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯀꯤꯗꯃꯛꯇꯥ ꯃꯁꯤ ꯀꯔꯝꯅꯥ ꯐꯤꯛꯁ ꯇꯧꯒꯗꯒꯦ ꯍꯥꯌꯕꯗꯨ ꯍꯦꯟꯅꯥ ꯅꯛꯅꯥ ꯌꯦꯡꯅꯕꯒꯤꯗꯃꯛ ꯑꯦꯞ ꯗꯤꯕꯦꯂꯄꯔꯒꯥ ꯄꯥꯎ ꯐꯥꯑꯣꯅꯕꯤꯌꯨ꯫ joel@joelparkerhendersonꯗꯥ ꯏꯃꯦꯜ ꯇꯧꯕꯤꯌꯨ." com ꯅꯠꯔꯒꯥ ꯐꯣꯟ +꯱-꯴꯱꯵-꯳꯱꯷-꯲꯷꯰꯰ꯗꯥ ꯐꯣꯟ ꯇꯧꯕꯤꯌꯨ꯫ꯊꯥꯒꯠꯆꯔꯤ꯫";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "ꯑꯣꯊꯣꯔꯥꯏꯖꯦꯁꯅꯒꯤ ꯐꯤꯚꯝ ꯑꯁꯤ ꯑꯣꯊꯣꯔꯥꯏꯖ ꯇꯧꯔꯦ꯫";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "ꯑꯣꯊꯣꯔꯥꯏꯖꯦꯁꯅꯒꯤ ꯐꯤꯚꯝ ꯂꯦꯄꯊꯣꯛꯇꯦ.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "ꯑꯣꯊꯣꯔꯥꯏꯖꯦꯁꯅꯒꯤ ꯐꯤꯚꯝ ꯑꯁꯤ ꯑꯊꯤꯡꯕꯥ ꯊꯝꯂꯦ꯫";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "ꯑꯣꯊꯣꯔꯥꯏꯖꯦꯁꯅꯒꯤ ꯁ꯭ꯇꯦꯇꯁ ꯑꯗꯨ ꯌꯥꯗꯔꯦ꯫";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "ꯑꯣꯊꯣꯔꯥꯏꯖ ꯇꯧꯔꯕꯥ";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ꯗꯤꯇꯔꯃꯤꯅꯦꯠ ꯇꯧꯗ꯭ꯔꯤ";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "ꯑꯊꯤꯡꯕꯥ ꯊꯝꯂꯤꯕꯥ";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "ꯑꯀꯥꯌꯕꯥ ꯄꯤꯔꯦ";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯁꯤ ꯂꯣꯗ ꯇꯧꯕꯥ ꯌꯥꯏ꯫";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯂꯣꯗ ꯇꯧꯔꯤ꯫";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯂꯣꯗ ꯇꯧꯔꯦ꯫";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "ꯅꯍꯥꯛꯀꯤ ꯀꯟꯇꯦꯛꯇꯁꯤꯡꯒꯤ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨ ꯂꯣꯗ ꯇꯧꯔꯦ, ꯑꯗꯨꯕꯨ ꯏꯝꯄꯣꯔꯠ ꯇꯧꯔꯦ꯫";
 
 //
 // Demo persons
