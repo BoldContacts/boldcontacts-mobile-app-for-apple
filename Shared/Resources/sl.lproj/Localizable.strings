@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "V redu";
+"Cancel" = "Prekliči";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Da";
+"No" = "Ne";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Uspeh";
+"Failure" = "Neuspeh";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Dovoli";
+"Don't Allow" = "Ne dovoli";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Sprejmi";
+"Reject" = "Zavrni";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Uvod";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Ta aplikacija prikazuje vaše obstoječe stike, ki so v vaši napravi. Za upravljanje svojih stikov lahko uporabite aplikacijo Stiki.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" bi rad prikazal primere";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ta aplikacija bere vaše obstoječe stike v vaši napravi, vendar se zdi, da jih nimate. Zato vam bo ta aplikacija namesto obstoječih stikov prikazala začasne predstavitvene primere.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Ta aplikacija lahko bere vaš seznam stikov.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Ta aplikacija želi prebrati vaš seznam stikov.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Ta aplikacija ne more prebrati vašega seznama stikov, ker je status pooblastila vaše trgovine s stiki nastavljen na omejeno. Zdaj lahko zaprete aplikacijo. Zaženete lahko svojo aplikacijo Nastavitve in nato pooblastite to aplikacijo za branje vaših seznam stikov, nato znova zaženite to aplikacijo.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Ta aplikacija ne more prebrati vašega seznama stikov, ker je stanje avtorizacije vaše trgovine s stiki nastavljeno na zavrnjeno. Aplikacijo lahko zaprete zdaj. Zaženete lahko aplikacijo Preferences in nato pooblastite to aplikacijo za branje vaših seznam stikov, nato znova zaženite to aplikacijo.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Ta aplikacija ne more brati vašega seznama stikov zaradi neznane napake. Obrnite se na razvijalca aplikacije, da si podrobneje ogleda, kaj se dogaja in kako lahko to popravi namesto vas. Pišite na joel@joelparkerhenderson. com ali telefon +1-415-317-2700. Hvala.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Status avtorizacije je avtoriziran.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Status avtorizacije ni določen.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Stanje avtorizacije je omejeno.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Status avtorizacije je zavrnjen.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "pooblaščeno";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ni določen";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "omejeno";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "zavrnjeno";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Vaš seznam stikov je mogoče naložiti.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Vaš seznam stikov se nalaga.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Vaš seznam stikov je naložen.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Vaš seznam stikov je naložen, vendar je prazen.";
 
 //
 // Demo persons
