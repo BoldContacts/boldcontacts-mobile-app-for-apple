@@ -4,23 +4,23 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Whakakore";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ae";
+"No" = "Kao";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Angitu";
+"Failure" = "Rahua";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Tukua";
+"Don't Allow" = "Kaua e Whakaae";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Whakaae";
+"Reject" = "Tukuhia";
 
 //
 // AlertForIntroduction.swift
@@ -28,65 +28,65 @@
 
 "AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Kei te whakaatu tenei taupānga i o hoapaki o mua kei runga i to taputapu. Ka taea e koe te whakamahi i to taupānga Hoapā ki te whakahaere i o hoapaki.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Kei te pirangi ki te Whakaatu Tauira";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ka panuitia e tenei taupānga o hoapaki kei runga i to taputapu, engari te ahua karekau he.
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Ka taea e tenei taupānga te panui i to rarangi hoapaki.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Kei te hiahia tenei taupānga ki te panui i to rarangi hoapaki.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Kaore e taea e tenei taupānga te panui i to rarangi hoapaki na te mea kua whakatauhia to mana whakamana toa whakapā ki te aukati. Ka taea e koe te whakamutu i te taupānga inaianei. Ka taea e koe te whakarewa i to taupānga Manakohanga, ka whakamanahia tenei taupānga ki te panui i to rārangi hoapā, kātahi ka whakarewahia anō tēnei taupānga.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Kare e taea e tenei taupānga te panui i to rarangi hoapaki na te mea kua whakahēngia to mana whakamana toa toa whakapā. Ka taea e koe te whakamutu i te taupānga inaianei. Ka taea e koe te whakarewa i to taupānga Manakohanga, ka whakamanahia tenei taupānga ki te panui i to rārangi hoapā, kātahi ka whakarewahia anō tēnei taupānga.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Kare e taea e tenei taupānga te panui i to rarangi hoapaki na te mea he hapa kaore e mohiotia. Tena waea atu ki te kaiwhakawhanake taupānga kia ata tirohia nga mea kei te tupu me pehea te whakatika mo koe. Imeera joel@joelparkerhenderson. com ranei waea + 1-415-317-2700. Mauruuru. ";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Kua whakamanahia te mana mana.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Kaore i te whakatauhia te mana mana.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Kua herea te mana whakamana.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Kua whakakorehia te mana whakamana.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "whakamana";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "kaore i whakatauhia";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "kua rāhuitia";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "whakakahoretia";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Ka taea te utaina o rarangi hoapaki.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Kei te uta to rarangi hoapā.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Kua utaina to rarangi hoapaki.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Kua utaina to rarangi hoapā, engari kei te putua.";
 
 //
 // Demo persons
