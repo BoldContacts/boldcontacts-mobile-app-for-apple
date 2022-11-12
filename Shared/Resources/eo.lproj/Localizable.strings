@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Bone";
+"Cancel" = "Nuligi";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Jes";
+"No" = "Ne";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Sukceso";
+"Failure" = "Fiasko";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Permesi";
+"Don't Allow" = "Ne permesi";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Akcepti";
+"Reject" = "Malakcepti";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"Grasataj Kontaktoj\" Enkonduko";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Ĉi tiu aplikaĵo montras viajn ekzistantajn kontaktojn, kiuj estas sur via aparato. Vi povas uzi vian apon Kontaktoj por administri viajn kontaktojn.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Dezirus Montri Ekzemplojn";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ĉi tiu aplikaĵo legas viajn ekzistantajn kontaktojn en via aparato, sed vi ŝajne ne havas iujn ajn. Do ĉi tiu aplikaĵo montros al vi provizorajn pruvekzemplojn anstataŭ viajn ekzistantajn kontaktojn.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Tiu programo povas legi vian liston de kontaktoj.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Ĉi tiu aplikaĵo volas legi vian liston de kontaktoj.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Ĉi tiu programo ne povas legi vian liston de kontaktoj ĉar via kontaktvendeja rajtigo statuso estas agordita al limigita. Vi povas forlasi la apon nun. Vi povas lanĉi viajn Preferojn, poste rajtigi ĉi tiun apon legi viajn listo de kontaktoj, tiam relanĉu ĉi tiun programon.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Ĉi tiu aplikaĵo ne povas legi vian liston de kontaktoj ĉar via kontaktvendeja rajtigo statuso estas malakceptita. Vi povas forlasi la apon nun. Vi povas lanĉi viajn Preferojn, poste rajtigi ĉi tiun apon legi viajn listo de kontaktoj, tiam relanĉu ĉi tiun programon.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Ĉi tiu programo ne povas legi vian liston de kontaktoj pro nekonata eraro. Bonvolu kontakti la programiston de la aplikaĵo por pli detale rigardi kio okazas kaj kiel ripari ĝin por vi. Retpoŝtu al joel@joelparkerhenderson. com aŭ telefonu +1-415-317-2700. Dankon.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Stato de rajtigo estas rajtigita.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Stato de rajtigo ne estas determinita.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Stato de rajtigo estas limigita.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Stato de rajtigo estas rifuzita.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "rajtigita";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ne determinita";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "limigita";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "neita";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Via listo de kontaktoj estas ŝarĝebla.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Via listo de kontaktoj ŝargas.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Via listo de kontaktoj estas ŝarĝita.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Via listo de kontaktoj estas ŝarĝita, sed estas malplena.";
 
 //
 // Demo persons
