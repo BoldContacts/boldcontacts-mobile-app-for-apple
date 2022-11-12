@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Avbryt";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ja";
+"No" = "Nei";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Suksess";
+"Failure" = "Feil";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Tillat";
+"Don't Allow" = "Ikke tillat";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Godta";
+"Reject" = "Avvis";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"Fet kontakter\" Introduksjon";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Denne appen viser dine eksisterende kontakter som er på enheten din. Du kan bruke Kontakter-appen til å administrere kontaktene dine.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"Fet kontakter\" vil gjerne vise eksempler";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Denne appen leser dine eksisterende kontakter på enheten din, men du ser ikke ut til å ha noen. Så denne appen vil vise deg midlertidige demonstrasjonseksempler i stedet for dine eksisterende kontakter.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Denne appen kan lese kontaktlisten din.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Denne appen ønsker å lese kontaktlisten din.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Denne appen kan ikke lese kontaktlisten din fordi autorisasjonsstatusen for kontaktbutikken din er satt til begrenset. Du kan avslutte appen nå. Du kan starte Preferences-appen og deretter autorisere denne appen til å lese kontaktliste, og start deretter denne appen på nytt.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Denne appen kan ikke lese kontaktlisten din fordi autorisasjonsstatusen for kontaktbutikken din er satt til nektet. Du kan avslutte appen nå. Du kan starte Preferences-appen og deretter autorisere denne appen til å lese kontaktliste, og start deretter denne appen på nytt.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Denne appen kan ikke lese kontaktlisten din på grunn av en ukjent feil. Ta kontakt med apputvikleren for å se nærmere på hva som skjer og hvordan du fikser det for deg. Send e-post til joel@joelparkerhenderson. com eller telefon +1-415-317-2700. Takk.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Autorisasjonsstatus er autorisert.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Autorisasjonsstatus er ikke bestemt.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Autorisasjonsstatus er begrenset.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Autorisasjonsstatus er avslått.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "autorisert";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ikke bestemt";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "begrenset";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "avslått";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Kontaktlisten din kan lastes inn.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Kontaktlisten din lastes inn.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Kontaktlisten din er lastet inn.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Kontaktlisten din er lastet inn, men er tom.";
 
 //
 // Demo persons
