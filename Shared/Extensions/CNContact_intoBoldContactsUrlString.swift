@@ -57,7 +57,7 @@ extension CNContact {
             return "tel://\(parsePhoneNumberStringToURLSafeString(string: x.value.stringValue))"
         }
         if let x = getEmailAddress() {
-            return "mailto://\(parsePhoneNumberStringToURLSafeString(string: x.value as String))"
+            return "mailto://\(parseEmailAddressStringToURLSafeString(string: x.value as String))"
         }
         return nil
     }
