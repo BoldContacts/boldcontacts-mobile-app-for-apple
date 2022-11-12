@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "ठीक छ";
+"Cancel" = "रद्द गर्नुहोस्";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "हो";
+"No" = "होइन";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "सफलता";
+"Failure" = "असफलता";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "अनुमति";
+"Don't Allow" = "अनुमति नदिनुहोस्";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "स्वीकार";
+"Reject" = "अस्वीकार";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"बोल्डसम्पर्क\" परिचय";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "यस एपले तपाइँको यन्त्रमा रहेका तपाइँका अवस्थित सम्पर्कहरू प्रदर्शन गर्दछ। तपाइँ तपाइँको सम्पर्कहरू प्रबन्ध गर्न तपाइँको सम्पर्क एप प्रयोग गर्न सक्नुहुन्छ।";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = ""बोल्डसम्पर्कहरू" उदाहरणहरू देखाउन चाहन्छन्";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "यो एपले तपाइँको यन्त्रमा तपाइँको अवस्थित सम्पर्कहरू पढ्छ, तर तपाइँसँग कुनै पनि छैन जस्तो देखिन्छ। त्यसैले यो एपले तपाइँको अवस्थित सम्पर्कहरूको सट्टा तपाइँलाई अस्थायी प्रदर्शन उदाहरणहरू देखाउनेछ।";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "यो एपले तपाइँको सम्पर्क सूची पढ्न सक्छ।";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "यो एपले तपाइँको सम्पर्क सूची पढ्न चाहन्छ।";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "यो एपले तपाइँको सम्पर्क सूची पढ्न असमर्थ छ किनभने तपाइँको सम्पर्क स्टोर प्राधिकरण स्थिति प्रतिबन्धित मा सेट गरिएको छ। तपाइँ अब एप छोड्न सक्नुहुन्छ। तपाइँ तपाइँको प्राथमिकता एप सुरु गर्न सक्नुहुन्छ, त्यसपछि यो एपलाई तपाइँको पढ्नको लागि अधिकार दिनुहोस्। सम्पर्क सूची, त्यसपछि यो एप पुन: सुरु गर्नुहोस्।";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "यो एपले तपाइँको सम्पर्क सूची पढ्न असमर्थ छ किनभने तपाइँको सम्पर्क स्टोर प्राधिकरण स्थिति अस्वीकार गर्न सेट गरिएको छ। तपाइँ अहिले एप छोड्न सक्नुहुन्छ। तपाइँ तपाइँको प्राथमिकता एप सुरु गर्न सक्नुहुन्छ, त्यसपछि यो एपलाई तपाइँको पढ्नको लागि अधिकार दिनुहोस्। सम्पर्क सूची, त्यसपछि यो एप पुन: सुरु गर्नुहोस्।";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "यो एपले अज्ञात त्रुटिको कारणले तपाइँको सम्पर्क सूची पढ्न असमर्थ छ। के भइरहेको छ र तपाइँको लागि यसलाई कसरी समाधान गर्ने भनेर नजिकबाट हेर्नको लागि कृपया एप विकासकर्तालाई सम्पर्क गर्नुहोस्। joel@joelparkerhenderson लाई इमेल गर्नुहोस्। com वा फोन +1-415-317-2700। धन्यवाद।";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "प्राधिकरण स्थिति अधिकृत छ।";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "प्राधिकरण स्थिति निर्धारण गरिएको छैन।";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "प्राधिकरण स्थिति प्रतिबन्धित छ।";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "प्राधिकरण स्थिति अस्वीकार गरिएको छ।";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "अधिकृत";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "निर्धारित छैन";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "प्रतिबन्धित";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "अस्वीकृत";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "तपाईँको सम्पर्क सूची लोडयोग्य छ।";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "तपाईँको सम्पर्क सूची लोड हुँदैछ।";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "तपाईँको सम्पर्क सूची लोड भएको छ।";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "तपाईँको सम्पर्क सूची लोड गरिएको छ, तर खाली छ।";
 
 //
 // Demo persons
