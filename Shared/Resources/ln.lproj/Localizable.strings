@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Kolongola";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ee";
+"No" = "Te";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Elonga";
+"Failure" = "Elongi";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Tika";
+"Don't Allow" = "Kopesa nzela te";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Ndima";
+"Reject" = "Boboya";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"Bacontacts ya moindo\" Maloba ya ebandeli";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Application oyo elakisaka ba contacts na yo oyo ezali na appareil na yo. Okoki kosalela appli na yo ya ba Contacts pona ko gérer ba contacts na yo.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Alingi Kolakisa Bandakisa";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Application oyo etangi ba contacts na yo oyo ezali na appareil na yo, kasi emonani lokola ozali na yango te. Yango wana appli oyo ekolakisa yo ba exemples ya démonstration temporaire na esika ya ba contacts na yo oyo ezali.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Application oyo ekoki kotanga liste ya ba contacts na yo.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Application oyo elingi kotanga liste ya ba contacts na yo.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Application oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo ezalela ya ndingisa ya magasin ya contact na yo etiamaki na restricted. Okoki kobima na appli sikoyo. Okoki ko lancer appli ya Preferences na yo, sima kopesa ndingisa ya app oyo etanga ya yo." liste ya ba contacts, sima lance lisusu appli oyo.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Application oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo ezalela ya ndingisa ya magasin ya contact na yo etiamaki na denied. Okoki kobima na appli sikoyo. Okoki ko lancer app ya Preferences na yo, sima kopesa ndingisa ya app oyo etanga ya yo." liste ya ba contacts, sima lance lisusu appli oyo.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Aplikasi oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo na libunga eyebani te. Tosengi yo benga mosali ya app mpo na kotala malamu makambo oyo ezali koleka mpe ndenge nini kobongisa yango mpo na yo. Tindela email na joel@joelparkerhenderson." com to na telefone +1-415-317-2700. Matondo mingi.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Ezalela ya ndingisa epesami ndingisa.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Ezalela ya ndingisa ezwami te.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Ezalela ya ndingisa ekangami.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Ezalela ya ndingisa eboyami.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "epesameli ndingisa";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "eyebani te";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "epekisami";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "eboyami";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Liste ya ba contacts na yo ekoki ko charger.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Liste ya ba contacts na yo ezali ko charger.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Liste ya ba contacts na yo e charger.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Liste ya ba contacts na yo e charger, kasi ezali vide.";
 
 //
 // Demo persons
