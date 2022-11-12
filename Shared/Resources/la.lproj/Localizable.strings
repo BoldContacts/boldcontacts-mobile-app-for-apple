@@ -7,86 +7,86 @@
 "Cancel" = "Cancel";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Etiam";
+"No" = "Nullus";
 
 // Success | Failure
 "Success" = "Success";
-"Failure" = "Failure";
+"Failure" = "defectum";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = " permitte " ;
+"Don't Allow" = "Ne sinas";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "accipe";
+"Reject" = "Rejicio";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "BoldContacts";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Hoc app ostendit notiones tuas existentes qui sunt in fabrica tuo. Contactus app uti potes ad contactus tuos administrare.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts" Exempla monstrare velim";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Hic app legit notiones tuas in tuo artificio existentes, sed nullam habere videris. Haec igitur app demonstrabit tibi temporariam demonstrationem exempla pro notorum tuorum existentium.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Hoc app legere notorum indices potes.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Hoc app legere vult indice notorum.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Hic app legere notorum notorum nequit, quia status contactus copiae auctoritatis tuae ad restrictam statuitur. Potes nunc app excedere. Optiones tuas app mittere potes, permitte hoc app legere tuum notorum indices, tunc remitte hoc app. ";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Hoc app indicem notorum tuum legere nequit, quia status contactus tui authorisationi status negatur. Potes decedere in app nunc. Optiones tuas app mittere potes, permitte hoc app legere tuum notorum indices, tunc remitte hoc app. ";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Hoc app notorum notorum legere non potest propter errorem ignotum. Quaeso contactum app elit ut propius inspicias quid fit et quomodo illud tibi figere. Email joel@joelparkerhenderson. com vel telephonum +1-415-317-2700. Gratias tibi.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "LICENTIA status est auctoritate."
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "LICENTIA status non determinatur.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "LICENTIA status restringitur.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "LICENTIA status negatur.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "authorised";
 
 "CNAuthorizationStatus.notDetermined.partName" = "not determined";
 
 "CNAuthorizationStatus.restricted.partName" = "restricted";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "negavit";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Notorum notorum onerosus est."
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Notorum notorum oneret."
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Notorum notorum oneratus est.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Notorum notorum oneratus est, sed inanis est.";
 
 //
 // Demo persons
