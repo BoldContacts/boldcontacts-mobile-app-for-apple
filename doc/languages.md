@@ -1,6 +1,6 @@
 # Languages
 
-Version 1.7.0: Language localization for Dutch, Esperanto, Galician, Greek, Gujarati, Hawaiian, Icelandic, Kannada, Khmer, Latin, Lingala, Lithuanian, Malay, Maori, Meiteilon, Nepali, Norwegian, Punjabi, Sanskrit, Samoan, Shona, Slovenian, Quechua, Turkmen, Uyghur, Uzbek, Xhosa, Yiddish, Zulu.
+Version 1.7.0: Language localization for Dutch, Esperanto, Galician, Greek, Gujarati, Hawaiian, Hmong, Icelandic, Kannada, Khmer, Latin, Lingala, Lithuanian, Malay, Maori, Meiteilon, Nepali, Norwegian, Punjabi, Sanskrit, Samoan, Shona, Slovenian, Quechua, Turkmen, Uyghur, Uzbek, Xhosa, Yiddish, Zulu.
 
 Progress:
 
@@ -36,6 +36,7 @@ Progress:
 * [x] fr French
 * [x] gl Galician
 * [ ] ka Georgian
+* [x] de German (use Deutsch)
 * [x] el Greek, Modern (1453–)
 * [ ] gn Guarani
 * [x] gu Gujarati
@@ -44,9 +45,11 @@ Progress:
 * [x] haw Hawaiian
 * [x] he Hebrew
 * [x] hi Hindi
+* [x] hmn Hmong
 * [ ] hu Hungarian
 * [x] is Icelandic
 * [x] ig Igbo
+* [ ] ilo Ilocano
 * [x] id Indonesian
 * [x] ga Irish / Gaelic
 * [x] it Italian
@@ -65,6 +68,7 @@ Progress:
 * [x] lt Lithuanian
 * [ ] lb Luxembourgish, Letzeburgesch
 * [ ] mk Macedonian
+* [ ] mai Maithili
 * [ ] mg Malagasy
 * [x] ms Malay
 * [ ] ml Malayalam
@@ -73,14 +77,18 @@ Progress:
 * [x] mi Maori
 * [x] mr Marathi
 * [ ] mh Marshallese
+* [ ] st Mosotho (use Sotho)
+* [ ] lus Mizo
 * [ ] mn Mongolian
 * [x] my Myanmar, Burmese
 * [x] ne Nepali
+* [ ] nso Northern Sotho, Sepedi, Pedi
 * [x] nb Norwegian Bokmål
 * [x] nn Norwegian Nynorsk
 * [ ] or Oriya, Odia
 * [ ] om Oromo
 * [ ] ps Pashto, Pushto
+* [ ] nso Pedi (use Northern Sotho)
 * [x] fa Persian
 * [x] pl Polish
 * [x] pt Portuguese
@@ -92,12 +100,15 @@ Progress:
 * [x] sa Sanskrit
 * [ ] sc Sardinian
 * [x] gd Scots Gaelic, Scottish Gaelic
+* [ ] nso Sepedi (use Northern Sotho)
 * [x] sr Serbian
+* [ ] st Sesotho (use Sotho)
 * [x] sn Shona
 * [ ] sd Sindhi
 * [ ] si Sinhala, Sinhalese
 * [ ] sk Slovak
 * [x] sl Slovenian
+* [ ] st Sotho, Southern Sotho, Sesotho, Mosotho
 * [ ] su Sundanese
 * [x] sw Swahili
 * [x] sv Swedish
@@ -116,21 +127,12 @@ Progress:
 * [x] uk Ukrainian
 * [x] ur Urdu
 * [x] uz Uzbek
-* [x] ca Valencian (see Catalan)
+* [x] ca Valencian (use Catalan)
 * [x] vi Vietnamese
 * [x] xh Xhosa
 * [x] yi Yiddish
 * [x] yo Yoruba
 * [x] zu Zulu
-
-Research these:
-
-* [ ] ?? Hmong
-* [ ] ?? Ilocano
-* [ ] ?? Maithili
-* [ ] ?? Mizo
-* [ ] ?? Sepedi
-* [ ] ?? Sesotho
 
 Future ideas:
 
@@ -189,7 +191,7 @@ Future ideas:
 * [ ] rm Romansh
 * [ ] rn Rundi
 * [ ] se Northern Sami
-* [ ] no Norwegian (see instead Norwegian Bokmål and Norwegian Nynorsk)
+* [ ] no Norwegian (use Norwegian Bokmål or Norwegian Nynorsk)
 * [ ] sg Sango
 * [ ] so Somali
 * [ ] st Southern Sotho
