@@ -4,75 +4,75 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Batal";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ya";
+"No" = "Tidak";
 
 // Success | Failure
 "Success" = "Success";
-"Failure" = "Failure";
+"Failure" = "Kegagalan";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Izinkan";
+"Don't Allow" = "Jangan Benarkan";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Terima";
+"Reject" = "Tolak";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Pengenalan";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Apl ini memaparkan kenalan sedia ada anda yang ada pada peranti anda. Anda boleh menggunakan apl Kenalan anda untuk mengurus kenalan anda.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Ingin Menunjukkan Contoh";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Apl ini membaca kenalan sedia ada anda pada peranti anda, tetapi anda nampaknya tidak mempunyai apa-apa. Jadi apl ini akan menunjukkan kepada anda contoh tunjuk cara sementara dan bukannya kenalan sedia ada anda.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Apl ini boleh membaca senarai kenalan anda.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Apl ini mahu membaca senarai kenalan anda.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Apl ini tidak dapat membaca senarai kenalan anda kerana status keizinan kedai kenalan anda ditetapkan kepada terhad. Anda boleh keluar dari apl itu sekarang. Anda boleh melancarkan apl Keutamaan anda, kemudian membenarkan apl ini membaca anda senarai kenalan, kemudian lancarkan semula apl ini.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Apl ini tidak dapat membaca senarai kenalan anda kerana status kebenaran kedai kenalan anda ditetapkan kepada dinafikan. Anda boleh keluar dari apl itu sekarang. Anda boleh melancarkan apl Keutamaan anda, kemudian membenarkan apl ini membaca anda senarai kenalan, kemudian lancarkan semula apl ini.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Apl ini tidak dapat membaca senarai kenalan anda kerana ralat yang tidak diketahui. Sila hubungi pembangun apl untuk melihat dengan lebih dekat apa yang berlaku dan cara membetulkannya untuk anda. E-mel joel@joelparkerhenderson. com atau telefon +1-415-317-2700. Terima kasih.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Status kebenaran dibenarkan.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Status kebenaran tidak ditentukan.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Status kebenaran adalah terhad.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Status kebenaran ditolak.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "diberi kuasa";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "tidak ditentukan";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "terhad";
 
 "CNAuthorizationStatus.denied.partName" = "denied";
 
@@ -80,13 +80,13 @@
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Senarai kenalan anda boleh dimuatkan.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Senarai kenalan anda sedang dimuatkan.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Senarai kenalan anda dimuatkan.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Senarai kenalan anda dimuatkan, tetapi kosong.";
 
 //
 // Demo persons
