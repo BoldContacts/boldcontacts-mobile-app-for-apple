@@ -26,7 +26,7 @@
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = ""BoldContacts" Okwu mmalite";
+"AlertForIntroduction.title" = "\"BoldContacts\" Okwu mmalite";
 
 "AlertForIntroduction.message" = "ngwa a na-egosiputa kọntaktị dị na ngwaọrụ gị. Ị nwere ike iji ngwa kọntaktị gị ijikwa kọntaktị gị.";
 
@@ -34,7 +34,7 @@
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = ""BoldContacts" ga-achọ igosi ihe atụ";
+"AlertForDemonstration.title" = "\"BoldContacts\" ga-achọ igosi ihe atụ";
 
 "AlertForDemonstration.message" = "ngwa a na-agụ kọntaktị ndị dị adị na ngwaọrụ gị, mana ọ dị ka ị nweghị nke ọ bụla. Ya mere ngwa a ga-egosi gị ihe ngosi ngosi nwa oge kama ịbụ kọntaktị gị dị.";
 

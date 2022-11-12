@@ -28,21 +28,21 @@
 
 "AlertForIntroduction.title" = "\" ደማቅ እውቂያዎች \" መግቢያ";
 
-"AlertForIntroduction.message" = "ይህ መተግበሪያ በመሳሪያዎ ላይ ያሉትን ነባር እውቂያዎችህን ያሳያል። እውቂያዎችህን ለማስተዳደር የእውቂያዎች መተግበሪያህን መጠቀም ትችላለህ።"
+"AlertForIntroduction.message" = "ይህ መተግበሪያ በመሳሪያዎ ላይ ያሉትን ነባር እውቂያዎችህን ያሳያል። እውቂያዎችህን ለማስተዳደር የእውቂያዎች መተግበሪያህን መጠቀም ትችላለህ።";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" ምሳሌዎችን ማሳየት ይፈልጋል"፤
+"AlertForDemonstration.title" = "\"BoldContacts\" ምሳሌዎችን ማሳየት ይፈልጋል";
 
-"AlertForDemonstration.message" = "ይህ መተግበሪያ ያሉትን እውቂያዎችህን በመሳሪያህ ላይ ያነብባል፣ነገር ግን ምንም ያለህ አይመስልም።ስለዚህ ይህ መተግበሪያ ከነባር እውቂያዎችህ ይልቅ ጊዜያዊ የማሳያ ምሳሌዎችን ያሳየሃል።"
+"AlertForDemonstration.message" = "ይህ መተግበሪያ ያሉትን እውቂያዎችህን በመሳሪያህ ላይ ያነብባል፣ነገር ግን ምንም ያለህ አይመስልም።ስለዚህ ይህ መተግበሪያ ከነባር እውቂያዎችህ ይልቅ ጊዜያዊ የማሳያ ምሳሌዎችን ያሳየሃል።";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "ይህ መተግበሪያ የእውቂያዎች ዝርዝርዎን ማንበብ ይችላል።"
+"CNContactStore.authorizationStatus.authorized" = "ይህ መተግበሪያ የእውቂያዎች ዝርዝርዎን ማንበብ ይችላል።";
 
 "CNContactStore.authorizationStatus.notDetermined" = "ይህ መተግበሪያ የእውቂያዎች ዝርዝርዎን ማንበብ ይፈልጋል።";
 

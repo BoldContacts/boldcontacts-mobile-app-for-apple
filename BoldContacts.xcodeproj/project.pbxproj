@@ -550,7 +550,6 @@
 		F498F6D2291F00F2001D28CB /* tk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tk; path = tk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6D3291F00F2001D28CB /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6D4291F00F2001D28CB /* om-KE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "om-KE"; path = "om-KE.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F498F6D5291F00F2001D28CB /* hr-HR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hr-HR"; path = "hr-HR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F6D6291F00F2001D28CB /* hmn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hmn; path = hmn.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6D7291F00F2001D28CB /* bn-BD */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bn-BD"; path = "bn-BD.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F6D8291F00F2001D28CB /* ka */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ka; path = ka.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1304,8 +1303,6 @@
 				is,
 				bg,
 				sr,
-				"hr-BA",
-				"hr-HR",
 				et,
 				lv,
 				lt,
@@ -1348,7 +1345,6 @@
 				ku,
 				ckb,
 				ky,
-				"lo-LA",
 				la,
 				ln,
 				lb,
@@ -1832,7 +1828,6 @@
 				F498F6D2291F00F2001D28CB /* tk */,
 				F498F6D3291F00F2001D28CB /* hu */,
 				F498F6D4291F00F2001D28CB /* om-KE */,
-				F498F6D5291F00F2001D28CB /* hr-HR */,
 				F498F6D6291F00F2001D28CB /* hmn */,
 				F498F6D7291F00F2001D28CB /* bn-BD */,
 				F498F6D8291F00F2001D28CB /* ka */,
@@ -2063,7 +2058,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2081,7 +2076,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.0;
+				MARKETING_VERSION = 1.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = iphoneos;
@@ -2097,7 +2092,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2115,7 +2110,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.0;
+				MARKETING_VERSION = 1.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = iphoneos;
