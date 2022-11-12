@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Gerai";
+"Cancel" = "Atšaukti";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Taip";
+"No" = "Ne";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Sėkmė";
+"Failure" = "Nesėkmė";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Leisti";
+"Don't Allow" = "Neleisti";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Priimti";
+"Reject" = "Atmesti";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Įvadas";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Ši programa rodo jūsų esamus kontaktus, esančius jūsų įrenginyje. Kontaktams tvarkyti galite naudoti programą Kontaktai.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Norėtų parodyti pavyzdžius";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Ši programa nuskaito esamus kontaktus jūsų įrenginyje, bet atrodo, kad jų neturite. Taigi ši programa parodys laikinus demonstravimo pavyzdžius, o ne esamus kontaktus.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Ši programa gali skaityti jūsų kontaktų sąrašą.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Ši programa nori perskaityti jūsų kontaktų sąrašą.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Ši programa negali nuskaityti jūsų kontaktų sąrašo, nes jūsų kontaktų parduotuvės prieigos teisės būsena nustatyta į apribotą. Galite uždaryti programą dabar. Galite paleisti programą „Preferences“, tada įgalioti šią programą skaityti jūsų kontaktų sąrašą, tada iš naujo paleiskite šią programėlę.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Ši programa negali nuskaityti jūsų kontaktų sąrašo, nes jūsų kontaktų parduotuvės prieigos būsena nustatyta kaip atmesta. Galite uždaryti programą dabar. Galite paleisti programą „Preferences“, tada įgalioti šią programą skaityti jūsų kontaktų sąrašą, tada iš naujo paleiskite šią programėlę.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Ši programa negali perskaityti jūsų kontaktų sąrašo dėl nežinomos klaidos. Susisiekite su programos kūrėju, kad galėtumėte atidžiau pažvelgti į tai, kas vyksta ir kaip tai išspręsti už jus. El. paštu joel@joelparkerhenderson. com arba telefonu +1-415-317-2700. Ačiū.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Įgaliojimo būsena įgaliota.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Įgaliojimo būsena nenustatyta.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Įgaliojimo būsena apribota.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Įgaliojimo būsena atmesta.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "įgaliota";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "nenustatyta";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "apribota";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "atmesta";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Jūsų kontaktų sąrašas yra įkeliamas.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Jūsų kontaktų sąrašas įkeliamas.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Jūsų kontaktų sąrašas įkeltas.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Jūsų kontaktų sąrašas įkeltas, bet tuščias.";
 
 //
 // Demo persons
