@@ -3,16 +3,16 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
+"OK" = "ΟΚ";
 "Cancel" = "Cancel";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ναι";
+"No" = "Όχι";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Επιτυχία";
+"Failure" = "Αποτυχία";
 
 // Allow | Don't Allow
 "Allow" = "Allow";
@@ -20,73 +20,73 @@
 
 // Accept | Reject
 "Accept" = "Accept";
-"Reject" = "Reject";
+"Reject" = "Απόρριψη";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Εισαγωγή";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Αυτή η εφαρμογή εμφανίζει τις υπάρχουσες επαφές σας που βρίσκονται στη συσκευή σας. Μπορείτε να χρησιμοποιήσετε την εφαρμογή Επαφές για να διαχειριστείτε τις επαφές σας.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Θα ήθελε να εμφανίσει παραδείγματα";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Αυτή η εφαρμογή διαβάζει τις υπάρχουσες επαφές σας στη συσκευή σας, αλλά δεν φαίνεται να έχετε. Επομένως, αυτή η εφαρμογή θα σας εμφανίσει προσωρινά παραδείγματα επίδειξης αντί για τις υπάρχουσες επαφές σας.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Αυτή η εφαρμογή μπορεί να διαβάσει τη λίστα επαφών σας.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Αυτή η εφαρμογή θέλει να διαβάσει τη λίστα επαφών σας.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Αυτή η εφαρμογή δεν μπορεί να διαβάσει τη λίστα των επαφών σας επειδή η κατάσταση εξουσιοδότησης του καταστήματος επαφών σας έχει οριστεί ως περιορισμένη. Μπορείτε να κλείσετε την εφαρμογή τώρα. Μπορείτε να εκκινήσετε την εφαρμογή "Προτιμήσεις" και, στη συνέχεια, να εξουσιοδοτήσετε αυτήν την εφαρμογή να διαβάζει λίστα επαφών και, στη συνέχεια, επανεκκινήστε αυτήν την εφαρμογή.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Αυτή η εφαρμογή δεν μπορεί να διαβάσει τη λίστα επαφών σας επειδή η κατάσταση εξουσιοδότησης του καταστήματος επαφών σας έχει οριστεί σε άρνηση. Μπορείτε να κλείσετε την εφαρμογή τώρα. Μπορείτε να εκκινήσετε την εφαρμογή Προτιμήσεις και, στη συνέχεια, να εξουσιοδοτήσετε αυτήν την εφαρμογή να διαβάσει το λίστα επαφών και, στη συνέχεια, επανεκκινήστε αυτήν την εφαρμογή.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Αυτή η εφαρμογή δεν μπορεί να διαβάσει τη λίστα επαφών σας λόγω ενός άγνωστου σφάλματος. Επικοινωνήστε με τον προγραμματιστή της εφαρμογής για να δείτε πιο προσεκτικά τι συμβαίνει και πώς να το διορθώσετε για εσάς. Στείλτε email στο joel@joelparkerhenderson. com ή τηλεφωνήστε στο +1-415-317-2700. Σας ευχαριστώ.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Η κατάσταση εξουσιοδότησης είναι εξουσιοδοτημένη.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Η κατάσταση εξουσιοδότησης δεν έχει καθοριστεί.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Η κατάσταση εξουσιοδότησης είναι περιορισμένη.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Η κατάσταση εξουσιοδότησης δεν επιτρέπεται.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "εξουσιοδοτημένο";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "δεν έχει καθοριστεί";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "περιορισμένη";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "απορρίφθηκε";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Η λίστα επαφών σας μπορεί να φορτωθεί.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Η λίστα επαφών σας φορτώνεται.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Η λίστα επαφών σας έχει φορτωθεί.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Η λίστα επαφών σας έχει φορτωθεί, αλλά είναι κενή.";
 
 //
 // Demo persons
