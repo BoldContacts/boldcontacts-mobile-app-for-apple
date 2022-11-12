@@ -26,7 +26,7 @@
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\" BoldContacts \ "تونۇشتۇرۇش";
+"AlertForIntroduction.title" = "\"BoldContacts\"تونۇشتۇرۇش";
 
 "AlertForIntroduction.message" = "بۇ ئەپ ئۈسكۈنىڭىزدە بار بولغان ئالاقىلىرىڭىزنى كۆرسىتىدۇ. ئالاقىلىشىش دېتالى ئارقىلىق ئالاقىڭىزنى باشقۇرالايسىز.";
 
@@ -34,7 +34,7 @@
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\" BoldContacts \ "مىسال كۆرسەتمەكچى";
+"AlertForDemonstration.title" = "\"BoldContacts\"مىسال كۆرسەتمەكچى";
 
 "AlertForDemonstration.message" = "بۇ ئەپ ئۈسكۈنىڭىزدە بار بولغان ئالاقىلىرىڭىزنى ئوقۇيدۇ ، ئەمما سىزدە يوقتەك قىلىدۇ. شۇڭا بۇ ئەپ سىزگە ھازىرقى ئالاقىلىرىڭىزنىڭ ئورنىغا ۋاقىتلىق ئۈلگە كۆرسىتىپ بېرىدۇ.";
 

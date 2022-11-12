@@ -525,7 +525,6 @@
 		F498F6B9291F00F2001D28CB /* sm */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sm; path = sm.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6BA291F00F2001D28CB /* ml */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ml; path = ml.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6BB291F00F2001D28CB /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F498F6BC291F00F2001D28CB /* ko-KR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ko-KR"; path = "ko-KR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F6BD291F00F2001D28CB /* ha-NE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ha-NE"; path = "ha-NE.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F6BE291F00F2001D28CB /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6BF291F00F2001D28CB /* kri */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kri; path = kri.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -538,7 +537,6 @@
 		F498F6C6291F00F2001D28CB /* fil */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fil; path = fil.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6C7291F00F2001D28CB /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6C8291F00F2001D28CB /* ha-NG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ha-NG"; path = "ha-NG.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F498F6C9291F00F2001D28CB /* ko-KP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ko-KP"; path = "ko-KP.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F6CA291F00F2001D28CB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F498F6CB291F00F2001D28CB /* tg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tg; path = tg.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F498F6CC291F00F2001D28CB /* ga-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ga-GB"; path = "ga-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -1339,8 +1337,6 @@
 				km,
 				rw,
 				kok,
-				"ko-KP",
-				"ko-KR",
 				kri,
 				ku,
 				ckb,
@@ -1803,7 +1799,6 @@
 				F498F6B9291F00F2001D28CB /* sm */,
 				F498F6BA291F00F2001D28CB /* ml */,
 				F498F6BB291F00F2001D28CB /* sv */,
-				F498F6BC291F00F2001D28CB /* ko-KR */,
 				F498F6BD291F00F2001D28CB /* ha-NE */,
 				F498F6BE291F00F2001D28CB /* te */,
 				F498F6BF291F00F2001D28CB /* kri */,
@@ -1816,7 +1811,6 @@
 				F498F6C6291F00F2001D28CB /* fil */,
 				F498F6C7291F00F2001D28CB /* hy */,
 				F498F6C8291F00F2001D28CB /* ha-NG */,
-				F498F6C9291F00F2001D28CB /* ko-KP */,
 				F498F6CA291F00F2001D28CB /* zh-Hant */,
 				F498F6CB291F00F2001D28CB /* tg */,
 				F498F6CC291F00F2001D28CB /* ga-GB */,

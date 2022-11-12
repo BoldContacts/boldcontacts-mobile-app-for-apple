@@ -1,5 +1,7 @@
 # Languages
 
+Version 1.7.0: Language localization for Dutch, Esperanto, Galician, Greek, Gujarati, Hawaiian, Icelandic, Kannada, Khmer, Latin, Lingala, Lithuanian, Malay, Maori, Meiteilon, Nepali, Norwegian, Punjabi, Sanskrit, Samoan, Shona, Slovenian, Quechua, Turkmen, Uyghur, Uzbek, Xhosa, Yiddish, Zulu.
+
 Progress:
 
 * [x] af Afrikaans
@@ -24,83 +26,78 @@ Progress:
 * [x] da Danish
 * [x] de Deutsch, German
 * [ ] dv Divehi, Dhivehi, Maldivian
-* [ ] nl Dutch, Flemish
-* [ ] en English
-* [ ] eo Esperanto
+* [x] nl Dutch, Flemish
+* [x] en English
+* [x] eo Esperanto
 * [ ] et Estonian
 * [ ] ee Ewe
 * [x] es España, Spanish, Castilian
 * [x] fi Finnish
 * [x] fr French
-* [ ] gl Galician
+* [x] gl Galician
 * [ ] ka Georgian
-* [ ] el Greek, Modern (1453–)
+* [x] el Greek, Modern (1453–)
 * [ ] gn Guarani
-* [ ] gu Gujarati
+* [x] gu Gujarati
 * [ ] ht Haitian, Haitian Creole
 * [ ] ha Hausa
-* [ ] ?? Hawaiian
+* [x] haw Hawaiian
 * [x] he Hebrew
 * [x] hi Hindi
-* [ ] ?? Hmong
 * [ ] hu Hungarian
-* [ ] is Icelandic
+* [x] is Icelandic
 * [x] ig Igbo
-* [ ] ?? Ilocano
 * [x] id Indonesian
 * [x] ga Irish / Gaelic
 * [x] it Italian
 * [x] ja Japanese
 * [x] jv Javanese
-* [ ] kn Kannada
+* [x] kn Kannada
 * [ ] kk Kazakh
-* [ ] km Khmer / Central Khmer
+* [x] km Khmer / Central Khmer
 * [ ] rw Kinyarwanda
 * [x] ko Korean
 * [ ] ku Kurdish
 * [x] lo Lao
-* [ ] la Latin
+* [x] la Latin
 * [ ] lv Latvian
-* [ ] ln Lingala
-* [ ] lt Lithuanian
+* [x] ln Lingala
+* [x] lt Lithuanian
 * [ ] lb Luxembourgish, Letzeburgesch
 * [ ] mk Macedonian
-* [ ] ?? Maithili
 * [ ] mg Malagasy
-* [ ] ms Malay
+* [x] ms Malay
 * [ ] ml Malayalam
 * [ ] mt Maltese
-* [ ] mi Maori
+* [ ] mni Meiteilon, Meitei, Manipuri
+* [x] mi Maori
 * [x] mr Marathi
 * [ ] mh Marshallese
-* [ ] ?? Meiteilon (Manipuri)
-* [ ] ?? Mizo
 * [ ] mn Mongolian
 * [x] my Myanmar, Burmese
-* [ ] ne Nepali
-* [ ] no Norwegian
+* [x] ne Nepali
+* [x] nb Norwegian Bokmål
+* [x] nn Norwegian Nynorsk
 * [ ] or Oriya, Odia
 * [ ] om Oromo
 * [ ] ps Pashto, Pushto
 * [x] fa Persian
-* [ ] pl Polish
+* [x] pl Polish
 * [x] pt Portuguese
-* [ ] pa Punjabi, Panjabi
-* [ ] qu Quechua
+* [x] pa Punjabi, Panjabi
+* [x] qu Quechua
 * [ ] ro Romanian, Moldavian, Moldovan
 * [x] ru Russian
-* [ ] sm Samoan
-* [ ] sa Sanskrit
+* [x] sm Samoan
+* [x] sa Sanskrit
 * [ ] sc Sardinian
 * [x] gd Scots Gaelic, Scottish Gaelic
-* [ ] ?? Sepedi
 * [x] sr Serbian
-* [ ] ?? Sesotho
-* [ ] sn Shona
+* [x] sn Shona
 * [ ] sd Sindhi
 * [ ] si Sinhala, Sinhalese
 * [ ] sk Slovak
-* [ ] sl Slovenian
+* [x] sl Slovenian
 * [ ] su Sundanese
 * [x] sw Swahili
 * [x] sv Swedish
@@ -113,18 +110,27 @@ Progress:
 * [ ] ts Tsonga
 * [ ] tn Tswana
 * [x] tr Turkish
-* [ ] tk Turkmen
+* [x] tk Turkmen
 * [ ] tw Twi
-* [ ] ug Uighur, Uyghur
+* [x] ug Uighur, Uyghur
 * [x] uk Ukrainian
 * [x] ur Urdu
-* [ ] uz Uzbek
+* [x] uz Uzbek
 * [x] ca Valencian (see Catalan)
 * [x] vi Vietnamese
-* [ ] xh Xhosa
-* [ ] yi Yiddish
+* [x] xh Xhosa
+* [x] yi Yiddish
 * [x] yo Yoruba
-* [ ] zu Zulu
+* [x] zu Zulu
+
+Research these:
+
+* [ ] ?? Hmong
+* [ ] ?? Ilocano
+* [ ] ?? Maithili
+* [ ] ?? Mizo
+* [ ] ?? Sepedi
+* [ ] ?? Sesotho
 
 Future ideas:
 
@@ -175,8 +181,6 @@ Future ideas:
 * [ ] nd North Ndebele
 * [ ] nr South Ndebele
 * [ ] ng Ndonga
-* [ ] nb Norwegian Bokmål
-* [ ] nn Norwegian Nynorsk
 * [ ] ii Sichuan Yi, Nuosu
 * [ ] oc Occitan
 * [ ] oj Ojibwa
@@ -185,6 +189,7 @@ Future ideas:
 * [ ] rm Romansh
 * [ ] rn Rundi
 * [ ] se Northern Sami
+* [ ] no Norwegian (see instead Norwegian Bokmål and Norwegian Nynorsk)
 * [ ] sg Sango
 * [ ] so Somali
 * [ ] st Southern Sotho

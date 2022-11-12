@@ -46,11 +46,11 @@
 
 "CNContactStore.authorizationStatus.notDetermined" = "Application oyo elingi kotanga liste ya ba contacts na yo.";
 
-"CNContactStore.authorizationStatus.restricted" = "Application oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo ezalela ya ndingisa ya magasin ya contact na yo etiamaki na restricted. Okoki kobima na appli sikoyo. Okoki ko lancer appli ya Preferences na yo, sima kopesa ndingisa ya app oyo etanga ya yo." liste ya ba contacts, sima lance lisusu appli oyo.";
+"CNContactStore.authorizationStatus.restricted" = "Application oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo état ya autorisation ya magasin ya contact na yo etiamaki na restreint. Okoki kobima na appli yango sikoyo. Okoki kofungola appli na yo ya Préférences, sima kopesa ndingisa ya appli oyo etanga liste ya ba contacts na yo, sima ko lancer lisusu appli oyo.";
 
-"CNContactStore.authorizationStatus.denied" = "Application oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo ezalela ya ndingisa ya magasin ya contact na yo etiamaki na denied. Okoki kobima na appli sikoyo. Okoki ko lancer app ya Preferences na yo, sima kopesa ndingisa ya app oyo etanga ya yo." liste ya ba contacts, sima lance lisusu appli oyo.";
+"CNContactStore.authorizationStatus.denied" = "Application oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo état ya autorisation ya magasin ya contact na yo etiamaki na denied. Okoki kobima na appli yango sikoyo. Okoki kofungola appli na yo ya Préférences, sima kopesa ndingisa ya appli oyo etanga liste ya ba contacts na yo, sima ko lancer lisusu appli oyo.";
 
-"CNContactStore.authorizationStatus.unknown" = "Aplikasi oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo na libunga eyebani te. Tosengi yo benga mosali ya app mpo na kotala malamu makambo oyo ezali koleka mpe ndenge nini kobongisa yango mpo na yo. Tindela email na joel@joelparkerhenderson." com to na telefone +1-415-317-2700. Matondo mingi.";
+"CNContactStore.authorizationStatus.unknown" = "Application oyo ezali na makoki te ya kotanga liste ya ba contacts na yo mpo na erreur oyo eyebani te. Svp contacter développeur ya app pona kotala malamu makambo oyo ezali koleka pe ndenge nini kobongisa yango pona yo. Matondi.";
 
 //
 // CNAuthorizationStatus.*.fullName

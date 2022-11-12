@@ -26,7 +26,7 @@
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\" BoldContacts \ "Giriş";
+"AlertForIntroduction.title" = "\"BoldContacts\" Giriş";
 
 "AlertForIntroduction.message" = "Bu programma enjamyňyzdaky bar bolan aragatnaşyklaryňyzy görkezýär. Aragatnaşyk programmalaryňyzy kontaktlaryňyzy dolandyrmak üçin ulanyp bilersiňiz.";
 
@@ -34,7 +34,7 @@
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\" BoldContacts \ "Mysal görkezmek isleýärin";
+"AlertForDemonstration.title" = "\"BoldContacts\" Mysal görkezmek isleýärin";
 
 "AlertForDemonstration.message" = "Bu programma enjamyňyzdaky bar bolan aragatnaşyklaryňyzy okaýar, ýöne sizde ýok ýaly. Şonuň üçin bu programma bar bolan aragatnaşyklaryňyzyň ýerine wagtlaýyn görkeziş mysallaryny görkezer.";
 

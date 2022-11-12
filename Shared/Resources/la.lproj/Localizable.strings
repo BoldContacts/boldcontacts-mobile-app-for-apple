@@ -34,7 +34,7 @@
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts" Exempla monstrare velim";
+"AlertForDemonstration.title" = "\"BoldContacts\" Exempla monstrare velim";
 
 "AlertForDemonstration.message" = "Hic app legit notiones tuas in tuo artificio existentes, sed nullam habere videris. Haec igitur app demonstrabit tibi temporariam demonstrationem exempla pro notorum tuorum existentium.";
 
@@ -46,9 +46,9 @@
 
 "CNContactStore.authorizationStatus.notDetermined" = "Hoc app legere vult indice notorum.";
 
-"CNContactStore.authorizationStatus.restricted" = "Hic app legere notorum notorum nequit, quia status contactus copiae auctoritatis tuae ad restrictam statuitur. Potes nunc app excedere. Optiones tuas app mittere potes, permitte hoc app legere tuum notorum indices, tunc remitte hoc app. ";
+"CNContactStore.authorizationStatus.restricted" = "Hic app legere notorum notorum nequit, quia status contactus copiae auctoritatis tuae ad restrictam statuitur. Potes nunc app excedere. Optiones tuas app mittere potes, permitte hoc app legere tuum notorum indices, tunc remitte hoc app.";
 
-"CNContactStore.authorizationStatus.denied" = "Hoc app indicem notorum tuum legere nequit, quia status contactus tui authorisationi status negatur. Potes decedere in app nunc. Optiones tuas app mittere potes, permitte hoc app legere tuum notorum indices, tunc remitte hoc app. ";
+"CNContactStore.authorizationStatus.denied" = "Hoc app indicem notorum tuum legere nequit, quia status contactus tui authorisationi status negatur. Potes decedere in app nunc. Optiones tuas app mittere potes, permitte hoc app legere tuum notorum indices, tunc remitte hoc app.";
 
 "CNContactStore.authorizationStatus.unknown" = "Hoc app notorum notorum legere non potest propter errorem ignotum. Quaeso contactum app elit ut propius inspicias quid fit et quomodo illud tibi figere. Email joel@joelparkerhenderson. com vel telephonum +1-415-317-2700. Gratias tibi.";
 
@@ -56,7 +56,7 @@
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "LICENTIA status est auctoritate."
+"CNAuthorizationStatus.authorized.fullName" = "LICENTIA status est auctoritate.";
 
 "CNAuthorizationStatus.notDetermined.fullName" = "LICENTIA status non determinatur.";
 
@@ -80,9 +80,9 @@
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Notorum notorum onerosus est."
+"CursorState.Loadable" = "Notorum notorum onerosus est.";
 
-"CursorState.Loading" = "Notorum notorum oneret."
+"CursorState.Loading" = "Notorum notorum oneret.";
 
 "CursorState.Loaded" = "Notorum notorum oneratus est.";
 
