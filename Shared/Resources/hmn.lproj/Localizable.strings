@@ -7,8 +7,8 @@
 "Cancel" = "Cancel";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Yog";
+"No" = "Tsis yog";
 
 // Success | Failure
 "Success" = "Success";
@@ -16,7 +16,7 @@
 
 // Allow | Don't Allow
 "Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Don't Allow" = "Tsis Txhob";
 
 // Accept | Reject
 "Accept" = "Accept";
@@ -26,43 +26,43 @@
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Taw qhia";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Lub app no ​​​​pom koj cov neeg uas twb muaj lawm uas muaj nyob hauv koj lub cuab yeej. Koj tuaj yeem siv koj cov contacts app los tswj koj cov neeg tiv tauj.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Xav Qhia piv txwv";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Qhov no app nyeem koj cov neeg uas twb muaj lawm ntawm koj lub cuab yeej, tab sis koj zoo li tsis muaj. Yog li no app yuav qhia koj ib ntus ua qauv qhia es tsis txhob ntawm koj cov neeg uas twb muaj lawm.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Lub app no ​​​​tau nyeem koj cov npe hu.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Lub app no ​​xav nyeem koj cov npe hu.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Lub app no ​​​​tsis tuaj yeem nyeem koj cov npe hu vim tias koj qhov chaw tiv tauj rau lub khw tso cai raug txwv. Koj tuaj yeem tawm lub app tam sim no. Koj tuaj yeem tso koj qhov nyiam app, tom qab ntawd tso cai rau lub app no ​​los nyeem koj cov npe hu, tom qab ntawd rov qhib lub app no.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Lub app no ​​​​tsis tuaj yeem nyeem koj daim ntawv teev npe vim tias koj qhov chaw tiv tauj lub khw tso cai raug teeb tsa tsis pom zoo. Koj tuaj yeem tawm lub app tam sim no. Koj tuaj yeem tso koj qhov nyiam app, tom qab ntawd tso cai rau lub app no ​​los nyeem koj cov npe hu, tom qab ntawd rov qhib lub app no.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Lub app no ​​​​tsis tuaj yeem nyeem koj cov npe hu vim qhov tsis paub txog qhov yuam kev. Thov hu rau tus tsim tawm app kom saib ze dua ntawm qhov tshwm sim thiab yuav kho li cas rau koj. Email joel@joelparkerhenderson. com lossis xov tooj +1-415-317-2700. Ua tsaug. ";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Kev tso cai raug tso cai.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Qhov kev tso cai tsis raug txiav txim.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Kev tso cai raug txwv.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Kev tso cai tsis pom zoo.";
 
 //
 // CNAuthorizationStatus.*.partName
@@ -70,23 +70,23 @@
 
 "CNAuthorizationStatus.authorized.partName" = "authorized";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "tsis tau txiav txim siab";
 
 "CNAuthorizationStatus.restricted.partName" = "restricted";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "tsis lees paub";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Koj cov npe hu tuaj yeem thauj tau.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Koj daim ntawv teev npe tab tom thauj khoom.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Koj cov npe hu tau raug thauj khoom.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Koj cov npe hu tau raug thauj khoom, tab sis tsis muaj.";
 
 //
 // Demo persons
