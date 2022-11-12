@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Annuleren";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ja";
+"No" = "Nee";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Succes";
+"Failure" = "Fout";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Toestaan";
+"Don't Allow" = "Niet toestaan";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Accepteren";
+"Reject" = "Weigeren";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Inleiding";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Deze app geeft uw bestaande contacten weer die op uw apparaat staan. U kunt uw Contacten-app gebruiken om uw contacten te beheren.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" wil graag voorbeelden tonen";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Deze app leest uw bestaande contacten op uw apparaat, maar u lijkt er geen te hebben. Deze app laat u dus tijdelijke demonstratievoorbeelden zien in plaats van uw bestaande contacten.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Deze app kan uw contactenlijst lezen.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Deze app wil uw contactenlijst lezen.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Deze app kan uw contactenlijst niet lezen omdat de autorisatiestatus van uw contactwinkel is ingesteld op beperkt. U kunt de app nu afsluiten. U kunt uw Voorkeuren-app starten en deze app vervolgens autoriseren om uw lijst met contacten en start deze app opnieuw.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Deze app kan uw contactenlijst niet lezen omdat de autorisatiestatus van uw contactwinkel is ingesteld op geweigerd. U kunt de app nu afsluiten. U kunt uw Voorkeuren-app starten en deze app vervolgens autoriseren om uw lijst met contacten en start deze app opnieuw.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Deze app kan uw contactenlijst niet lezen vanwege een onbekende fout. Neem contact op met de app-ontwikkelaar om nader te bekijken wat er aan de hand is en hoe u dit voor u kunt oplossen. Stuur een e-mail naar joel@joelparkerhenderson. com of telefoon +1-415-317-2700. Bedankt.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Autorisatiestatus is geautoriseerd.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Autorisatiestatus is niet bepaald.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Autorisatiestatus is beperkt.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Autorisatiestatus is geweigerd.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "geautoriseerd";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "niet bepaald";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "beperkt";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "geweigerd";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Uw lijst met contacten kan worden geladen.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Uw lijst met contacten wordt geladen.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Je contactenlijst is geladen.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Uw contactenlijst is geladen, maar is leeg.";
 
 //
 // Demo persons
