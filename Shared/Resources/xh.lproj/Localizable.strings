@@ -3,76 +3,76 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Kulungile";
+"Cancel" = "Rhoxisa";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Ewe";
+"No" = "Hayi";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Impumelelo";
+"Failure" = "Ukusilela";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Vumela";
+"Don't Allow" = "Musa ukuvumela";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Yamkela";
+"Reject" = "Yala";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Intshayelelo";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Le app ibonisa abafowunelwa bakho abasele bekho kwisixhobo sakho. Ungasebenzisa usetyenziso lwabafowunelwa bakho ukulawula abafowunelwa bakho.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" Ingathanda ukubonisa imizekelo";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Le app ifunda abafowunelwa bakho abasele bekho kwisixhobo sakho, kodwa akubonakali ngathi unayo. Ke le app iza kukubonisa imizekelo yethutyana yokubonisa endaweni yabafowunelwa bakho abakhoyo.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Le app inokufunda uluhlu lwabafowunelwa bakho.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Le app ifuna ukufunda uluhlu lwabafowunelwa bakho.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Olu hlelo lokusebenza alukwazi ukufunda uluhlu lwabafowunelwa bakho ngenxa yokuba ugunyaziso lwakho lwevenkile lumiselwe ukuba luthintelwe. Ungaluyeka usetyenziso ngoku. Ungasungula usetyenziso oluzikhethwayo, emva koko ugunyazise olusetyenziso ukuba lufunde olwakho. uluhlu lwabafowunelwa, emva koko uqalise kwakhona olu setyenziso.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Olu hlelo lokusebenza alukwazi ukufunda uluhlu lwabafowunelwa bakho ngenxa yokuba isigunyaziso sakho sevenkile soqhagamshelwano simiselwe ukungavunywa. Ungaluyeka usetyenziso ngoku. Ungasungula usetyenziso oluZikhethwayo, emva koko ugunyazise olusetyenziso ukuba lufunde olwakho. uluhlu lwabafowunelwa, emva koko uqalise kwakhona olu setyenziso.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Olu hlelo lokusebenza alukwazi ukufunda uluhlu lwabafowunelwa bakho ngenxa yempazamo engaziwayo. Nceda uqhagamshelane nomphuhlisi wosetyenziso ukuze ajongisise okwenzekayo kunye nendlela yokuyilungisa kuwe. I-imeyile joel@joelparkerhenderson. com okanye ifowuni +1-415-317-2700. Enkosi.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Isimo sogunyaziso sigunyazisiwe.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Imeko yogunyaziso ayimiselwanga.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Imeko yogunyaziso ithintelwe.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Imeko yogunyaziso yaliwe.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "igunyazisiweyo";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ayimiselwanga";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "ithintelwe";
 
 "CNAuthorizationStatus.denied.partName" = "denied";
 
@@ -80,13 +80,13 @@
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Uluhlu lwabafowunelwa bakho luyalayisheka.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Uluhlu lwabafowunelwa bakho luyalayisha.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Uluhlu lwabafowunelwa bakho lulayishiwe.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Uluhlu lwabafowunelwa bakho lulayishiwe, kodwa alunanto.";
 
 //
 // Demo persons
