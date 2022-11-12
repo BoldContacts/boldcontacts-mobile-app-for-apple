@@ -4,9 +4,8 @@ import XCTest
 final class Bundle_diplayNameTests: XCTestCase {
 
     func test() throws {
-        let option: String?  = Bundle.main.displayName()
-        XCTAssertNotNil(option)
-        XTCAssert(!(option?.isEmpty()))
+        let name: String  = Bundle.main.displayName!
+        XCTAssert(!name.isEmpty)
     }
 
 }

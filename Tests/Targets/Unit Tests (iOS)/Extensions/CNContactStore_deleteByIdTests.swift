@@ -2,30 +2,32 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-final class CNContactStore_deleteByNameTests: XCTestCase {
-
+final class CNContactStore_deleteByIdTests: XCTestCase {
+    
     func fabContact(_ store: CNContactStore) -> CNMutableContact {
         let contact = CNMutableContact()
-        contact.givenName = "alfa"
-        contact.familyName = "bravo"
+        contact.givenName = "test"
         let result: Bool = store.create(contact: contact)
         XCTAssertTrue(result)
+        XCTAssertTrue(contact.isKeyAvailable(CNContactIdentifierKey))
         return contact
     }
-
+    
     func testSuccess() throws {
         let store = CNContactStore()
-        let _ = fabContact(store)
-        let actual1: Bool = store.deleteByName("alfa bravo")
+        let contact = fabContact(store)
+        let id = contact.identifier
+        let actual1 = store.deleteById(id)
         XCTAssertTrue(actual1)
-        let actual2: Bool = store.deleteByName("alfa bravo")
+        let actual2 = store.deleteById(id)
         XCTAssertFalse(actual2)
     }
 
     func testFailure() throws {
         let store = CNContactStore()
         let _ = fabContact(store)
-        let actual: Bool = store.deleteByName("charlie delta")
+        let id = "invalid"
+        let actual: Bool = store.deleteById(id)
         XCTAssertFalse(actual)
     }
 

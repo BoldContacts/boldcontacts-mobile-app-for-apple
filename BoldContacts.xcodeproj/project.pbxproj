@@ -210,7 +210,9 @@
 		F498F713291F00F2001D28CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F498F670291F00F2001D28CB /* Localizable.strings */; };
 		F4A02FE029203EB6002F4E54 /* Bundle_displayNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A02FDF29203EB6002F4E54 /* Bundle_displayNameTests.swift */; };
 		F4A02FE2292040BF002F4E54 /* CNAuthorizationStatus_fullNameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A02FE1292040BF002F4E54 /* CNAuthorizationStatus_fullNameTest.swift */; };
-		F4A02FE42920413B002F4E54 /* CNAuthorizationStatus_partName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A02FE32920413B002F4E54 /* CNAuthorizationStatus_partName.swift */; };
+		F4A02FE42920413B002F4E54 /* CNAuthorizationStatus_partNameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A02FE32920413B002F4E54 /* CNAuthorizationStatus_partNameTest.swift */; };
+		F4A02FE829204310002F4E54 /* CNContactStore_count.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A02FE729204310002F4E54 /* CNContactStore_count.swift */; };
+		F4A02FEA29204C97002F4E54 /* CNContactStore_deleteByIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A02FE929204C97002F4E54 /* CNContactStore_deleteByIdTests.swift */; };
 		F4D815CE28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */; };
 		F4D815D028C0294900D47A46 /* fabCNMutableContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */; };
 		F4D815D428C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815D328C02DBF00D47A46 /* fabSFSymbolsLetterCircle.swift */; };
@@ -617,7 +619,9 @@
 		F498F718291F7DB8001D28CB /* st */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = st; path = st.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4A02FDF29203EB6002F4E54 /* Bundle_displayNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle_displayNameTests.swift; sourceTree = "<group>"; };
 		F4A02FE1292040BF002F4E54 /* CNAuthorizationStatus_fullNameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNAuthorizationStatus_fullNameTest.swift; sourceTree = "<group>"; };
-		F4A02FE32920413B002F4E54 /* CNAuthorizationStatus_partName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNAuthorizationStatus_partName.swift; sourceTree = "<group>"; };
+		F4A02FE32920413B002F4E54 /* CNAuthorizationStatus_partNameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNAuthorizationStatus_partNameTest.swift; sourceTree = "<group>"; };
+		F4A02FE729204310002F4E54 /* CNContactStore_count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_count.swift; sourceTree = "<group>"; };
+		F4A02FE929204C97002F4E54 /* CNContactStore_deleteByIdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_deleteByIdTests.swift; sourceTree = "<group>"; };
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
 		F4D815CF28C0294900D47A46 /* fabCNMutableContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabCNMutableContact.swift; sourceTree = "<group>"; };
@@ -1053,7 +1057,7 @@
 				F4A02FDF29203EB6002F4E54 /* Bundle_displayNameTests.swift */,
 				F472294E28A9660A00773693 /* CharacterSet_uriTests.swift */,
 				F4A02FE1292040BF002F4E54 /* CNAuthorizationStatus_fullNameTest.swift */,
-				F4A02FE32920413B002F4E54 /* CNAuthorizationStatus_partName.swift */,
+				F4A02FE32920413B002F4E54 /* CNAuthorizationStatus_partNameTest.swift */,
 				F472294728A9660A00773693 /* CNContact_fullNameTests.swift */,
 				F40EACEC28B0451E0095C188 /* CNContact_list_emailAddressesTests.swift */,
 				F40EACF428B047840095C188 /* CNContact_list_phoneNumbersTests.swift */,
@@ -1065,8 +1069,10 @@
 				F472294B28A9660A00773693 /* CNContactStore_keysToFetchTests.swift */,
 				F472294828A9660A00773693 /* CNContactStore_isKeyAvailableOrFetchTests.swift */,
 				F472295428A9660A00773693 /* CNContactStore_areKeysAvailableOrFetchTests.swift */,
+				F4A02FE729204310002F4E54 /* CNContactStore_count.swift */,
 				F472294628A9660A00773693 /* CNContactStore_createTests.swift */,
 				F472295528A9660A00773693 /* CNContactStore_deleteTests.swift */,
+				F4A02FE929204C97002F4E54 /* CNContactStore_deleteByIdTests.swift */,
 				F472294D28A9660A00773693 /* CNContactStore_deleteByNameTests.swift */,
 				F472294F28A9660A00773693 /* CNContactStore_listTests.swift */,
 				F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */,
@@ -1492,6 +1498,7 @@
 				F4380BD02913133B005A585A /* fabSFSymbolsLetterCircleTests.swift in Sources */,
 				F4380BEB29131376005A585A /* parseEmailAddressStringToURLSafeStringTests.swift in Sources */,
 				F4380BC62913133B005A585A /* fabSocialProfileUsernameTests.swift in Sources */,
+				F4A02FEA29204C97002F4E54 /* CNContactStore_deleteByIdTests.swift in Sources */,
 				F4380BEA29131376005A585A /* parseContactIdentifierStringToURLSafeStringTetss.swift in Sources */,
 				F4380BB82913133B005A585A /* fabUnitedStatesCityNameTests.swift in Sources */,
 				F4A02FE029203EB6002F4E54 /* Bundle_displayNameTests.swift in Sources */,
@@ -1515,6 +1522,7 @@
 				F4380BBD2913133B005A585A /* fabLetterLowerTests.swift in Sources */,
 				F4380BE929131376005A585A /* parsePhoneNumberStringToURLSafeStringTests.swift in Sources */,
 				F4380BBA2913133B005A585A /* fabCNContactPostalAddressesTests.swift in Sources */,
+				F4A02FE829204310002F4E54 /* CNContactStore_count.swift in Sources */,
 				F4380BC72913133B005A585A /* fabUnitedStatesStreetAsStringTests.swift in Sources */,
 				F4380BC32913133B005A585A /* fabTreeNameTests.swift in Sources */,
 				F4380BDD29131366005A585A /* Collection_safeTests.swift in Sources */,
@@ -1522,7 +1530,7 @@
 				F4380BDC29131366005A585A /* CNContactStore_deleteTests.swift in Sources */,
 				F4380BE329131366005A585A /* UIImage_cropToSquareTests.swift in Sources */,
 				F4380BCF2913133B005A585A /* fabCNContactPhoneNumbersTests.swift in Sources */,
-				F4A02FE42920413B002F4E54 /* CNAuthorizationStatus_partName.swift in Sources */,
+				F4A02FE42920413B002F4E54 /* CNAuthorizationStatus_partNameTest.swift in Sources */,
 				F4380BD729131366005A585A /* CNContactStore_createTests.swift in Sources */,
 				F4380BC22913133B005A585A /* fabCNContactURLAddressesTests.swift in Sources */,
 				F4380BCD2913133B005A585A /* fabCNPostalAddressTests.swift in Sources */,

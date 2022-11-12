@@ -4,15 +4,25 @@ import Contacts
 
 final class CNContactStore_createTests: XCTestCase {
 
-    func testSuccess() throws {
+    func fabContact(_ store: CNContactStore) -> CNMutableContact {
         let contact = CNMutableContact()
-        let actual: Bool = CNContactStore.create(contact: contact)
+        contact.givenName = "test"
+        let result: Bool = store.create(contact: contact)
+        XCTAssertTrue(result)
+        return contact
+    }
+
+    func testSuccess() throws {
+        let store = CNContactStore()
+        let contact = fabContact(store)
+        let actual: Bool = store.create(contact: contact)
         XCTAssertTrue(actual)
     }
 
     func testFailure() throws {
-        let contact = CNMutableContact()
-        let actual: Bool = CNContactStore.create(contact: contact)
+        let store = CNContactStore()
+        let contact = fabContact(store)
+        let actual: Bool = store.create(contact: contact)
         XCTAssertFalse(actual)
     }
 
