@@ -3,90 +3,90 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Í lagi";
+"Cancel" = "Hætta við";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Já";
+"No" = "Nei";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Árangur";
+"Failure" = "Bilun";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Leyfa";
+"Don't Allow" = "Ekki leyfa";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Samþykkja";
+"Reject" = "Hafna";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" Kynning";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Þetta forrit sýnir núverandi tengiliði sem eru í tækinu þínu. Þú getur notað tengiliðaforritið til að stjórna tengiliðunum þínum.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" langar að sýna dæmi";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Þetta forrit les núverandi tengiliði í tækinu þínu, en þú virðist ekki hafa neina. Þannig að þetta forrit mun sýna þér tímabundin sýnidæmi í stað þeirra tengiliða sem fyrir eru.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Þetta forrit getur lesið tengiliðalistann þinn.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Þetta forrit vill lesa tengiliðalistann þinn.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Þetta forrit getur ekki lesið tengiliðalistann þinn vegna þess að heimildarstaða tengiliðaverslunar þinnar er stillt á takmörkuð. Þú getur hætt í forritinu núna. Þú getur ræst Preferences appið þitt og heimilað þetta forrit að lesa tengiliðalista, endurræstu síðan þetta forrit.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Þetta forrit getur ekki lesið tengiliðalistann þinn vegna þess að heimildarstaða tengiliðaverslunar þinnar er stillt á hafnað. Þú getur hætt í forritinu núna. Þú getur ræst Preferences appið þitt og heimilað þessu forriti að lesa tengiliðalista, endurræstu síðan þetta forrit.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Þetta forrit getur ekki lesið tengiliðalistann þinn vegna óþekktrar villu. Vinsamlegast hafðu samband við forritara forritsins til að skoða nánar hvað er að gerast og hvernig á að laga það fyrir þig. Sendu tölvupóst til joel@joelparkerhenderson. com eða í síma +1-415-317-2700. Þakka þér.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Heimildarstaða er leyfð.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Staða heimildar er ekki ákveðin.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Heimildarstaða er takmörkuð.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Stöðu heimildar er hafnað.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "heimilt";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "ekki ákveðið";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "takmarkað";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "hafnað";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Tengiliðalistinn þinn er hlaðanlegur.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Tengiliðalistinn þinn er að hlaðast.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Tengiliðalistinn þinn er hlaðinn.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Tengiliðalistinn þinn er hlaðinn, en er tómur.";
 
 //
 // Demo persons
