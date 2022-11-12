@@ -3,48 +3,48 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
-"Cancel" = "Cancel";
+"OK" = "Bolýar";
+"Cancel" = "elatyr";
 
 // Yes | No
-"Yes" = "Yes";
+"Yes" = "Hawa";
 "No" = "No";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Üstünlik";
+"Failure" = "Şowsuzlyk";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Rugsat";
+"Don't Allow" = "Rugsat bermäň";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Kabul et";
+"Reject" = "ret et";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\" BoldContacts \ "Giriş";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Bu programma enjamyňyzdaky bar bolan aragatnaşyklaryňyzy görkezýär. Aragatnaşyk programmalaryňyzy kontaktlaryňyzy dolandyrmak üçin ulanyp bilersiňiz.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\" BoldContacts \ "Mysal görkezmek isleýärin";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Bu programma enjamyňyzdaky bar bolan aragatnaşyklaryňyzy okaýar, ýöne sizde ýok ýaly. Şonuň üçin bu programma bar bolan aragatnaşyklaryňyzyň ýerine wagtlaýyn görkeziş mysallaryny görkezer.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Bu programma aragatnaşyk sanawyňyzy okap biler.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Bu programma aragatnaşyk sanawyňyzy okamak isleýär.";
 
 "CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
 
@@ -56,37 +56,37 @@
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "Awtorizasiýa statusy ygtyýarly.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Awtorizasiýa ýagdaýy kesgitlenmedi.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "Awtorizasiýa ýagdaýy çäklendirildi.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "Ygtyýarlylyk ýagdaýy ret edilýär.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "ygtyýarly";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "kesgitlenmedi";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "çäklendirilen";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "ret edildi";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "Aragatnaşyk sanawyňyz ýüklenýär.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "Aragatnaşyk sanawyňyz ýüklenýär.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "Aragatnaşyk sanawyňyz ýüklendi.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "Aragatnaşyk sanawyňyz ýüklendi, ýöne boş.";
 
 //
 // Demo persons
