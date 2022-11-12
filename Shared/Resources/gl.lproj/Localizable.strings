@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "Cancelar";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "Si";
+"No" = "Non";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "Éxito";
+"Failure" = "Fallo";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "Permitir";
+"Don't Allow" = "Non permitir";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "Aceptar";
+"Reject" = "Rexeitar";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "Introdución de \"BoldContacts\"";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "Esta aplicación mostra os teus contactos existentes que están no teu dispositivo. Podes usar a túa aplicación Contactos para xestionar os teus contactos.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" gustaríalle mostrar exemplos";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "Esta aplicación le os teus contactos existentes no teu dispositivo, pero parece que non tes ningún. Así que esta aplicación mostrarache exemplos de demostración temporais en lugar dos teus contactos existentes.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "Esta aplicación pode ler a túa lista de contactos.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "Esta aplicación quere ler a túa lista de contactos.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "Esta aplicación non pode ler a túa lista de contactos porque o estado de autorización da túa tenda de contactos está definido como restrinxido. Podes saír da aplicación agora. Podes iniciar a túa aplicación Preferencias e, a continuación, autorizar esta aplicación a ler o teu lista de contactos e despois reinicia esta aplicación.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "Esta aplicación non pode ler a túa lista de contactos porque o estado de autorización da túa tenda de contactos está definido como denegado. Podes saír da aplicación agora. Podes iniciar a túa aplicación Preferencias e, a continuación, autorizar esta aplicación a ler o teu lista de contactos e despois reinicia esta aplicación.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "Esta aplicación non pode ler a túa lista de contactos por mor dun erro descoñecido. Ponte en contacto co programador da aplicación para ver o que está a suceder e como solucionalo por ti. Envía un correo electrónico a joel@joelparkerhenderson. com ou teléfono +1-415-317-2700. Grazas.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "O estado de autorización está autorizado.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "Non se determina o estado da autorización.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "O estado de autorización está restrinxido.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "O estado de autorización é denegado.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "autorizado";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "non determinado";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "restrinxido";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "denegado";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "A súa lista de contactos pódese cargar.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "A súa lista de contactos estase cargando.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "A súa lista de contactos está cargada.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "A súa lista de contactos está cargada, pero está baleira.";
 
 //
 // Demo persons
