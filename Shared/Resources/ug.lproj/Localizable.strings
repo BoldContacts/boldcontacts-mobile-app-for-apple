@@ -3,48 +3,48 @@
 //
 
 // OK | Cancel
-"OK" = "OK";
+"OK" = "ماقۇل";
 "Cancel" = "Cancel";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "ھەئە";
+"No" = "ياق";
 
 // Success | Failure
-"Success" = "Success";
-"Failure" = "Failure";
+"Success" = "مۇۋەپپەقىيەت";
+"Failure" = "مەغلۇبىيەت";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "رۇخسەت";
+"Don't Allow" = "يول قويماڭ";
 
 // Accept | Reject
-"Accept" = "Accept";
-"Reject" = "Reject";
+"Accept" = "قوبۇل قىلىش";
+"Reject" = "رەت قىلىش";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\" BoldContacts \ "تونۇشتۇرۇش";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "بۇ ئەپ ئۈسكۈنىڭىزدە بار بولغان ئالاقىلىرىڭىزنى كۆرسىتىدۇ. ئالاقىلىشىش دېتالى ئارقىلىق ئالاقىڭىزنى باشقۇرالايسىز.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\" BoldContacts \ "مىسال كۆرسەتمەكچى";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "بۇ ئەپ ئۈسكۈنىڭىزدە بار بولغان ئالاقىلىرىڭىزنى ئوقۇيدۇ ، ئەمما سىزدە يوقتەك قىلىدۇ. شۇڭا بۇ ئەپ سىزگە ھازىرقى ئالاقىلىرىڭىزنىڭ ئورنىغا ۋاقىتلىق ئۈلگە كۆرسىتىپ بېرىدۇ.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "بۇ ئەپ سىزنىڭ ئالاقىلىشىش تىزىملىكىڭىزنى ئوقۇيالايدۇ.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "بۇ ئەپ سىزنىڭ ئالاقىلىشىش تىزىملىكىڭىزنى ئوقۇماقچى.";
 
 "CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
 
@@ -56,37 +56,37 @@
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "ھوقۇق بېرىش ھوقۇقى بېرىلگەن.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "ھوقۇق بېرىش ئورنى بېكىتىلمىگەن.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "ھوقۇق بېرىش ھوقۇقى چەكلەنگەن.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "ھوقۇق بېرىش ھوقۇقى رەت قىلىندى.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "ھوقۇق بېرىلگەن";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "بېكىتىلمىگەن";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "چەكلەنگەن";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "رەت قىلىندى";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "ئالاقىلىشىش تىزىملىكىڭىز يۈكلىنىدۇ.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "ئالاقىلىشىش تىزىملىكىڭىز يۈكلىنىۋاتىدۇ.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "ئالاقىلىشىش تىزىملىكىڭىز يۈكلەندى.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "ئالاقىلىشىش تىزىملىكىڭىز يۈكلەندى ، ئەمما قۇرۇق.";
 
 //
 // Demo persons
