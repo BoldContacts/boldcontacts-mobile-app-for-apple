@@ -4,89 +4,89 @@
 
 // OK | Cancel
 "OK" = "OK";
-"Cancel" = "Cancel";
+"Cancel" = "באָטלירן";
 
 // Yes | No
-"Yes" = "Yes";
-"No" = "No";
+"Yes" = "יא";
+"No" = "ניין";
 
 // Success | Failure
-"Success" = "Success";
+"Success" = "הצלחה";
 "Failure" = "Failure";
 
 // Allow | Don't Allow
-"Allow" = "Allow";
-"Don't Allow" = "Don't Allow";
+"Allow" = "לאָזן";
+"Don't Allow" = "דו זאלסט נישט לאָזן";
 
 // Accept | Reject
 "Accept" = "Accept";
-"Reject" = "Reject";
+"Reject" = "אָפּוואַרפן";
 
 //
 // AlertForIntroduction.swift
 //
 
-"AlertForIntroduction.title" = "\"BoldContacts\" Introduction";
+"AlertForIntroduction.title" = "\"BoldContacts\" הקדמה";
 
-"AlertForIntroduction.message" = "This app displays your existing contacts that are on your device. You can use your Contacts app to manage your contacts.";
+"AlertForIntroduction.message" = "די אַפּלאַקיישאַן ווייַזט דיין יגזיסטינג קאָנטאַקטן וואָס זענען אויף דיין מיטל. איר קענט נוצן דיין קאַנטאַקס אַפּ צו פירן דיין קאָנטאַקטן.";
 
 //
 // AlertForDemonstration.swift
 //
 
-"AlertForDemonstration.title" = "\"BoldContacts\" Would Like To Show Examples";
+"AlertForDemonstration.title" = "\"BoldContacts\" וואָלט ווי צו ווייַזן ביישפילן";
 
-"AlertForDemonstration.message" = "This app reads your existing contacts on your device, but you don't seem to have any. So this app will show you temporary demonstration examples instead of your existing contacts.";
+"AlertForDemonstration.message" = "די אַפּ לייענט דיין יגזיסטינג קאָנטאַקטן אויף דיין מיטל, אָבער איר טאָן ניט האָבן קיין. אַזוי די אַפּ וועט ווייַזן איר צייטווייליגע דעמאַנסטריישאַן ביישפילן אַנשטאָט פון דיין יגזיסטינג קאָנטאַקטן.";
 
 //
 // CNContactStore.authorizationStatus.*
 //
 
-"CNContactStore.authorizationStatus.authorized" = "This app can read your contacts list.";
+"CNContactStore.authorizationStatus.authorized" = "די אַפּ קען לייענען דיין קאָנטאַקט רשימה.";
 
-"CNContactStore.authorizationStatus.notDetermined" = "This app wants to read your contacts list.";
+"CNContactStore.authorizationStatus.notDetermined" = "די אַפּ וויל לייענען דיין קאָנטאַקט רשימה.";
 
-"CNContactStore.authorizationStatus.restricted" = "This app is unable to read your contacts list because your contact store authorization status is set to restricted. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.restricted" = "די אַפּ איז ניט ביכולת צו לייענען דיין קאָנטאַקט רשימה ווייַל דיין קאָנטאַקט קראָם דערלויבעניש סטאַטוס איז באַשטימט צו ריסטריקטיד. איר קענט פאַרלאָזן די אַפּ איצט. איר קענט קאַטער דיין פּרעפֿערענצן אַפּ, און דערלויבן דעם אַפּ צו לייענען דיין קאָנטאַקט רשימה, און רילאַונץ דעם אַפּ.";
 
-"CNContactStore.authorizationStatus.denied" = "This app is unable to read your contacts list because your contact store authorization status is set to denied. You can quit the app now. You can launch your Preferences app, then authorize this app to read your contacts list, then relaunch this app.";
+"CNContactStore.authorizationStatus.denied" = "די אַפּ קען נישט לייענען דיין קאָנטאַקט רשימה ווייַל דיין קאָנטאַקט קראָם דערלויבעניש סטאַטוס איז באַשטימט צו געלייקנט. איר קענט איצט פאַרלאָזן די אַפּ. איר קענט קאַטער דיין פּרעפֿערענצן אַפּ, און דערלויבן דעם אַפּ צו לייענען דיין אַפּלאַקיישאַן. קאָנטאַקט רשימה, און רילאַונץ דעם אַפּ.";
 
-"CNContactStore.authorizationStatus.unknown" = "This app is unable to read your contacts list because of an unknown error. Please contact the app developer to take a closer look at what's happening and how to fix it for you. Email joel@joelparkerhenderson.com or phone +1-415-317-2700. Thank you.";
+"CNContactStore.authorizationStatus.unknown" = "דאס אַפּ קען נישט לייענען דיין קאָנטאַקט רשימה ווייַל פון אַן אומבאַקאַנט טעות. ביטע קאָנטאַקט די אַפּ דעוועלאָפּער צו נעמען אַ נעענטער קוק אין וואָס איז געשעעניש און ווי צו פאַרריכטן עס פֿאַר איר. בליצפּאָסט joel@joelparkerhenderson. קאַם אָדער טעלעפאָן +1-415-317-2700. דאנק איר.";
 
 //
 // CNAuthorizationStatus.*.fullName
 //
 
-"CNAuthorizationStatus.authorized.fullName" = "Authorization status is authorized.";
+"CNAuthorizationStatus.authorized.fullName" = "דערלויבעניש סטאַטוס איז אָטערייזד.";
 
-"CNAuthorizationStatus.notDetermined.fullName" = "Authorization status is not determined.";
+"CNAuthorizationStatus.notDetermined.fullName" = "דערלויבעניש סטאַטוס איז נישט באשלאסן.";
 
-"CNAuthorizationStatus.restricted.fullName" = "Authorization status is restricted.";
+"CNAuthorizationStatus.restricted.fullName" = "דערוויילונג סטאטוס איז באגרעניצט.";
 
-"CNAuthorizationStatus.denied.fullName" = "Authorization status is denied.";
+"CNAuthorizationStatus.denied.fullName" = "דערלויבעניש סטאַטוס איז געלייקנט.";
 
 //
 // CNAuthorizationStatus.*.partName
 //
 
-"CNAuthorizationStatus.authorized.partName" = "authorized";
+"CNAuthorizationStatus.authorized.partName" = "אַוטהאָריזירט";
 
-"CNAuthorizationStatus.notDetermined.partName" = "not determined";
+"CNAuthorizationStatus.notDetermined.partName" = "נישט באשלאסן";
 
-"CNAuthorizationStatus.restricted.partName" = "restricted";
+"CNAuthorizationStatus.restricted.partName" = "ריסטריקטיד";
 
-"CNAuthorizationStatus.denied.partName" = "denied";
+"CNAuthorizationStatus.denied.partName" = "לייקענט";
 
 //
 // CursorState.swift
 //
 
-"CursorState.Loadable" = "Your contacts list is loadable.";
+"CursorState.Loadable" = "דיין קאָנטאַקט רשימה איז לאָודאַבלע.";
 
-"CursorState.Loading" = "Your contacts list is loading.";
+"CursorState.Loading" = "דיין קאָנטאַקט רשימה איז לאָדן.";
 
-"CursorState.Loaded" = "Your contacts list is loaded.";
+"CursorState.Loaded" = "דיין קאָנטאַקט רשימה איז לאָודיד.";
 
-"CursorState.Loaded & cursor.isEmpty" = "Your contacts list is loaded, but is empty.";
+"CursorState.Loaded & cursor.isEmpty" = "דיין קאָנטאַקט רשימה איז לאָודיד, אָבער איז ליידיק.";
 
 //
 // Demo persons
