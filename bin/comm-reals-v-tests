@@ -1,4 +1,5 @@
+#!/bin/zsh
+
 comm -3 \
 <(ls -1 Shared/Extensions | sed 's/\.swift$//') \
 <(ls -1 Tests/Targets/Unit\ Tests\ \(iOS\)/Extensions | sed 's/Tests\.swift$//')
-

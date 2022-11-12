@@ -1,7 +1,7 @@
 import XCTest
 @testable import BoldContacts
 
-class UIImage_emptyTests: XCTestCase {
+final class UIImage_emptyTests: XCTestCase {
 
     func test() throws {
         let size = CGSize(width: 1, height: 1)

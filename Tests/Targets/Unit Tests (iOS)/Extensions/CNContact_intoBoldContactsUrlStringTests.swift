@@ -2,7 +2,7 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContactsUrlStringTests: XCTestCase {
+final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContactsUrlStringTests: XCTestCase {
 
     func testLabelBoldContactsAndEmailAddress() throws {
         let contact = CNMutableContact()

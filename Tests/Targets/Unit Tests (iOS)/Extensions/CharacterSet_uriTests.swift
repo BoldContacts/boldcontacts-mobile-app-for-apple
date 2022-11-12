@@ -1,7 +1,7 @@
 import XCTest
 @testable import BoldContacts
 
-class CharacterSet_uriTests: XCTestCase {
+final class CharacterSet_uriTests: XCTestCase {
 
     func test_uriUnreserveds() throws {
         let _: CharacterSet = CharacterSet.uriUnreserveds

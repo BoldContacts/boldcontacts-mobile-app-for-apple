@@ -1,7 +1,7 @@
 import XCTest
 @testable import BoldContacts
 
-class UIImage_resizeTests: XCTestCase {
+final class UIImage_resizeTests: XCTestCase {
 
     func test() throws {
         let image: UIImage = UIImage(systemName: "star.fill")!

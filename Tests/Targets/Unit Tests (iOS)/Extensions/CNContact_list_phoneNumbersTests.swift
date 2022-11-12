@@ -2,7 +2,7 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-class CNContact_list_phoneNumbersTests: XCTestCase {
+final class CNContact_list_phoneNumbersTests: XCTestCase {
 
     func test_hasPhoneNumber_sans_index() throws {
         let contact = CNContact()

@@ -2,7 +2,7 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-class CNContact_list_socialProfilesTests: XCTestCase {
+final class CNContact_list_socialProfilesTests: XCTestCase {
 
     func test_hasSocialProfile_sans_index() throws {
         let contact = CNContact()
