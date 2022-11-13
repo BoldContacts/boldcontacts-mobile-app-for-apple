@@ -11,7 +11,7 @@ import UIKit
 ///
 public func openViaFaceTime(string: String) -> Bool {
     logger.debug("openViaFaceTime. string: \(string)")
-    let parsed = parsePhoneNumberStringToURLSafeString(string: string)
+    guard let parsed = string.xtrim.urlSafe else { return false }
     let urlString = "facetime://\(parsed)"
     if let url: URL = URL(string: urlString) {
         openViaFaceTimeTry(string: string, parsed: parsed, urlString: urlString, url: url)

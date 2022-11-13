@@ -11,8 +11,8 @@ import UIKit
 ///
 public func openViaString(string: String) -> Bool {
     logger.debug("openViaString. string: \(string)")
-    let parsed = string //TODO: parse
-    let urlString = parsePhoneNumberStringToURLSafeString(string: string)
+    guard let parsed = string.xtrim.urlSafe else { return false }
+    let urlString = parsed
     if let url: URL = URL(string: urlString) {
         openViaStringTry(string: string, parsed: parsed, urlString: urlString, url: url)
         UIApplication.shared.open(url)

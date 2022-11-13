@@ -11,7 +11,7 @@ import UIKit
 ///
 public func openViaMailTo(string: String) -> Bool {
     logger.debug("openViaMailTo. string: \(string)")
-    let parsed = parsePhoneNumberStringToURLSafeString(string: string)
+    guard let parsed = string.xtrim.urlSafe else { return false }
     let urlString = "mailto://\(parsed)"
     if let url: URL = URL(string: urlString) {
         openViaMailToTry(string: string, parsed: parsed, urlString: urlString, url: url)

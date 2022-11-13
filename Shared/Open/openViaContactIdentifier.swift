@@ -10,17 +10,18 @@ import UIKit
 ///      let string: String = contact.identifier
 ///      openViaContactIdentifier(string)
 ///
-public func openViaContactIdentifier(string: String) {
+public func openViaContactIdentifier(string: String) -> Bool {
     logger.debug("openViaContactIdentifier. string: \(string)")
-    let parsed = parseContactIdentifierStringToURLSafeString(string: string)
+    guard let parsed = string.xtrim.urlSafe else { return false }
     let urlString = "addressbook://\(parsed):ABPerson"
     if let url: URL = URL(string: urlString) {
         openViaContactIdentifierTry(string: string, parsed: parsed, urlString: urlString, url: url)
         UIApplication.shared.open(url)
         openViaContactIdentifierSuccess(string: string, parsed: parsed, urlString: urlString, url: url)
-    } else {
-        openViaContactIdentifierFailure(string: string, parsed: parsed, urlString: urlString)
+        return true
     }
+    openViaContactIdentifierFailure(string: string, parsed: parsed, urlString: urlString)
+    return false
 }
 
 private func openViaContactIdentifierTry(
