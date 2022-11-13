@@ -11,7 +11,7 @@ import UIKit
 ///
 public func openViaString(string: String) -> Bool {
     logger.debug("openViaString. string: \(string)")
-    guard let parsed = string.xtrim.urlSafe else { return false }
+    guard let parsed = string.xtrim.uriEncode else { return false }
     let urlString = parsed
     if let url: URL = URL(string: urlString) {
         openViaStringTry(string: string, parsed: parsed, urlString: urlString, url: url)

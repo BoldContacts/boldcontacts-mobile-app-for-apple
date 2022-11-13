@@ -6,6 +6,8 @@ struct ItemThumbnailImageView: View {
 
     var body: some View {
         intoImage(item: item)
+            .resizable()
+            .scaledToFit()
             .accessibilityLabel("ItemThumbnailImageView")
             .frame(maxWidth: .infinity, alignment: .center)
             .padding(.all, 0)
@@ -15,10 +17,8 @@ struct ItemThumbnailImageView: View {
         if let item = item {
             if let thumbnail: UIImage = item.intoThumbnail() {
                 if let cropped: UIImage = thumbnail.cropToSquare() {
-                    let size = CGSize(
-                        width: UIScreen.main.bounds.width,
-                        height: UIScreen.main.bounds.width /*sic*/
-                    )
+                    let side = min(UIScreen.main.bounds.width, UIScreen.main.bounds.height)
+                    let size = CGSize(width: side, height: side)
                     let resized: UIImage = cropped.resize(targetSize: size);
                     return Image(uiImage: resized)
                 }

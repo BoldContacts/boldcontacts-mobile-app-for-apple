@@ -6,7 +6,7 @@ class fabCNContactPostalAddressesTest: XCTestCase {
 
     func test() throws {
         let x: [CNLabeledValue<CNPostalAddress>] = fabCNContactPostalAddresses()
-        XCTAssertGreaterThan(0, x.count)
+        XCTAssertGreaterThan(x.count, 0)
         for lv: CNLabeledValue<CNPostalAddress> in x {
             let label: String? = lv.label
             XCTAssertNotNil(label)

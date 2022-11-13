@@ -11,7 +11,7 @@ import UIKit
 ///
 public func openViaTel(string: String) -> Bool {
     logger.debug("openViaTel. string: \(string)")
-    guard let parsed = string.xtrim.urlSafe else { return false }
+    guard let parsed = string.xtrim.uriEncode else { return false }
     let urlString = "tel://\(parsed)"
     if let url: URL = URL(string: urlString) {
         openViaTelTry(string: string, parsed: parsed, urlString: urlString, url: url)

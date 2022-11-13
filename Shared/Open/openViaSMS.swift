@@ -11,7 +11,7 @@ import UIKit
 ///
 public func openViaSMS(string: String) -> Bool {
     logger.debug("openViaSMS. string: \(string)")
-    guard let parsed = string.xtrim.urlSafe else { return false }
+    guard let parsed = string.xtrim.uriEncode else { return false }
     let urlString = "sms://\(parsed)"
     if let url: URL = URL(string: urlString) {
         openViaSMSTry(string: string, parsed: parsed, urlString: urlString, url: url)

@@ -11,6 +11,11 @@ public func fabCNMutableContact() -> CNMutableContact {
     contact.phoneNumbers = fabCNContactPhoneNumbers()
     contact.postalAddresses = fabCNContactPostalAddresses()
     contact.socialProfiles = fabCNContactSocialProfiles()
-    contact.imageData = UIImage(named: fabSFSymbolsLetterCircle())!.jpegData(compressionQuality: 1.0)
-    return contact    
+    let imageName = fabSFSymbolsLetterCircle()
+    if let image = UIImage(named: imageName) {
+        contact.imageData = image.jpegData(compressionQuality: 1.0)
+    } else {
+        logger.error("\(#file) imageName: \(imageName)")
+    }
+    return contact
 }

@@ -7,7 +7,7 @@ final class Collection_safeTests: XCTestCase {
         let x = ["alfa", "bravo", "charlie"]
         let expect = "alfa"
         let actual = x[safe: 0]
-        XCTAssertEqual(expect, actual)
+        XCTAssertEqual(actual, expect)
     }
 
 }

@@ -12,7 +12,7 @@ import UIKit
 ///
 public func openViaContactIdentifier(string: String) -> Bool {
     logger.debug("openViaContactIdentifier. string: \(string)")
-    guard let parsed = string.xtrim.urlSafe else { return false }
+    guard let parsed = string.xtrim.uriEncode else { return false }
     let urlString = "addressbook://\(parsed):ABPerson"
     if let url: URL = URL(string: urlString) {
         openViaContactIdentifierTry(string: string, parsed: parsed, urlString: urlString, url: url)

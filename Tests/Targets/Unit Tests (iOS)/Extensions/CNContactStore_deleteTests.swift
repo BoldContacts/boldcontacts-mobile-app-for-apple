@@ -24,7 +24,7 @@ final class CNContactStore_deleteTests: XCTestCase {
 
     func testFailure() throws {
         let store = CNContactStore()
-        let contact = fabContact(store)
+        let _ = fabContact(store)
         let invalid = CNMutableContact()
         let actual: Bool = store.delete(contact: invalid)
         XCTAssertFalse(actual)

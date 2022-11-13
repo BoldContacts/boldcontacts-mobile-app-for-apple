@@ -12,7 +12,7 @@ final class CNContact_fullName_Tests: XCTestCase {
         let y: CNContact = x
         let expect = "alfa bravo charlie"
         let actual = y.fullName()
-        XCTAssertEqual(expect, actual)
+        XCTAssertEqual(actual, expect)
     }
 
 }

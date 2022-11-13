@@ -19,7 +19,7 @@ final class ContentViewTests: XCTestCase {
 //        let sut = ContentView(cursor: cursor)
 //        let expect = "Alice Adams"
 //        let actual = try sut.inspect().text().string()
-//        XCTAssertEqual(expect, actual)
+//        XCTAssertEqual(actual, expect)
     }
 
     func testItemThumbnailImageView() throws {
@@ -30,7 +30,7 @@ final class ContentViewTests: XCTestCase {
 //        let cursor: Cursor<AppItem> = Cursor(list: [contact], callable: callable)
 //        let sut = ContentView(cursor: cursor)
 //        let actual = try sut.inspect().image().data()
-//        XCTAssertEqual(expect, actual)
+//        XCTAssertEqual(actual, expect)
     }
 
 }

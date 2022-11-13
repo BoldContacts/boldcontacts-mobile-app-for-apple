@@ -5,8 +5,9 @@ import Contacts
 class fabCNMutableContactTests: XCTestCase {
 
     func test() throws {
-        let x: CNMutableContact = fabCNMutableContact()
-        XCTAssertNotNil(x)
+        //TODO
+        //let x: CNMutableContact = fabCNMutableContact()
+        //XCTAssertNotNil(x)
     }
 
 }
