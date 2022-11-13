@@ -5,27 +5,28 @@ struct ItemThumbnailImageView: View {
     @Binding var item: AppItem?
 
     var body: some View {
-        intoImage(item: item)
-            .resizable()
-            .scaledToFit()
-            .accessibilityLabel("ItemThumbnailImageView")
-            .frame(maxWidth: .infinity, alignment: .center)
-            .padding(.all, 0)
+        if let thumbnail = thumbnail(item: item) {
+            GeometryReader { geo in
+                Image(uiImage: thumbnail)
+                    .resizable()
+                    .scaledToFit()
+                    .accessibilityLabel("ItemThumbnailImageView")
+                    .frame(width: geo.size.width, height: geo.size.height)
+            }
+        } else {
+            Image("transparent")
+        }
     }
     
-    private func intoImage(item: AppItem?) -> Image {
+    private func thumbnail(item: AppItem?) -> UIImage? {
         if let item = item {
             if let thumbnail: UIImage = item.intoThumbnail() {
                 if let cropped: UIImage = thumbnail.cropToSquare() {
-                    let side = min(UIScreen.main.bounds.width, UIScreen.main.bounds.height)
-                    let size = CGSize(width: side, height: side)
-                    let resized: UIImage = cropped.resize(targetSize: size);
-                    return Image(uiImage: resized)
+                    return cropped
                 }
             }
         }
-        //TODO: return blank image
-        return Image("")
+        return nil
     }
 
 }
