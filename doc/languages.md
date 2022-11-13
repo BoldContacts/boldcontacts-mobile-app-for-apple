@@ -1,7 +1,5 @@
 # Languages
 
-Version 1.7.0: Language localization for Dutch, Esperanto, Galician, Greek, Gujarati, Hawaiian, Hmong, Icelandic, Kannada, Khmer, Latin, Lingala, Lithuanian, Malay, Maori, Meiteilon, Nepali, Norwegian, Punjabi, Sanskrit, Samoan, Shona, Slovenian, Quechua, Turkmen, Uyghur, Uzbek, Xhosa, Yiddish, Zulu.
-
 Progress:
 
 * [x] af Afrikaans

@@ -14,7 +14,7 @@ struct ItemThumbnailImageView: View {
                     .frame(width: geo.size.width, height: geo.size.height)
             }
         } else {
-            Image("transparent")
+            Image("empty")
         }
     }
     

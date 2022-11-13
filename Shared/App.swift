@@ -30,6 +30,7 @@ struct BoldContactsApp: App {
         logger.debug("App init()")
         logger.debug("CNContactStore authorizationStatus \(CNContactStore.authorizationStatus(for: .contacts).partName()!)")
         addLaunchCount()
+        //demoContacts()
     }
     
     var body: some Scene {
