@@ -12,10 +12,10 @@ extension LocalizedStringKey {
     ///
     func value(locale: Locale = .current) -> String? {
         guard let key = self.key else { return nil }
-        guard let languageCode  = locale.language.languageCode else { return nil }
-        guard let path = Bundle.main.path(forResource: languageCode.identifier, ofType: "lproj") else { return nil }
+        guard let languageCodeIdentifierString = locale.languageCodeIdentifierString() else { return nil }
+        guard let path = Bundle.main.path(forResource: languageCodeIdentifierString, ofType: "lproj") else { return nil }
         guard let bundle = Bundle(path: path) else { return nil }
         return NSLocalizedString(key, bundle: bundle, comment: "")
     }
-    
+
 }

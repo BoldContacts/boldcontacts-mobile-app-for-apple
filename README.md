@@ -75,9 +75,9 @@ Good usability for people who experience cognitive difficulties.<br>Examples:  m
 
 * Project: BoldContacts
 
-* Version: 1.0.0
+* Version: 1.7.0
 
-* Updated: 2022-09-14T00:46:36Z
+* Updated: 2022-11-14T23:02:10Z
 
 * Contact: <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
 
@@ -118,6 +118,8 @@ Organization links:
 * [ALS Association](https://www.als.org)
 
 * [Alzheimer's Association](https://www.alz.org)
+
+* [Alzheimer’s Foundation of America](https://alzfdn.org)
 
 * [American Parkinson's Disease Association](https://www.apdaparkinson.org)
 
