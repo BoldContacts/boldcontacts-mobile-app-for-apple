@@ -1,6 +1,6 @@
 import Foundation
 
-// See https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-an-appdelegate-to-a-swiftui-app
+/// See https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-an-appdelegate-to-a-swiftui-app
 ///
 /// Add this to the SwiftUI setup:
 ///
@@ -35,7 +35,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
         logger.debug("AppDelegate application willFinishLaunchingWithOptions")
         return true
     }
-
+    
     // The launch process is almost done; the app is almost ready to run.
     func application(
         _ application: UIApplication,
@@ -44,14 +44,14 @@ class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
         logger.debug("AppDelegate application didFinishLaunchingWithOptions")
         return true
     }
-
+    
     // The app has become active.
     func applicationDidBecomeActive(
         _ application: UIApplication
     ) {
         logger.debug("AppDelegate apapplicationDidBecomeActives")
     }
-
+    
     // The app is about to become inactive.
     func applicationWillResignActive(
         _ application: UIApplication
@@ -68,20 +68,22 @@ class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
     
     // The app is about to enter the foreground.
     func applicationWillEnterForeground(
-        _ application: UIApplication) {
+        _ application: UIApplication
+    ) {
         logger.debug("AppDelegate applicationWillEnterForeground")
     }
     
     // The app is about to terminate.
     func applicationWillTerminate(
-        _ application: UIApplication) {
+        _ application: UIApplication
+    ) {
         logger.debug("AppDelegate applicationWillTerminate")
     }
-
+    
     //
     // Contact Store
     //
-
+    
     /// Observe contact store notifications
     func observeConactStoreNotifications() {
         NotificationCenter.default.addObserver(
@@ -91,7 +93,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
             object: nil
         )
     }
-
+    
     /// Refetch all contacts.
     ///
     /// Refetch by contact identifiers, or by however you originally fetched them.
@@ -108,31 +110,5 @@ class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
             """
         )
     }
-
-
-    //
-    // Terminate
-    //
-
-    // See https://stackoverflow.com/questions/64993265/swiftui-and-appkit-use-close-dialog-to-ask-if-the-app-is-allowed-to-quit
-    
-//    @Published var terminate = false
-//
-//    func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply {
-//        if NSApplication.shared.windows.count == 0 {
-//            return .terminateNow
-//        }
-//        self.terminate = true
-//        return .terminateLater
-//    }
-//
-//    /// This method tells the application, that it should not close
-//    func `continue`() {
-//        NSApplication.shared.reply(toApplicationShouldTerminate: false)
-//    }
-//
-//    func close() {
-//        NSApplication.shared.reply(toApplicationShouldTerminate: true)
-//    }
     
 }
