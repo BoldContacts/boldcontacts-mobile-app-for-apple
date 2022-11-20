@@ -4,7 +4,7 @@ import XCTest
 final class IntoThumbnail: XCTestCase {
 
     func test() throws {
-        let contact = fabCNMutableContact()
+        let contact = Fab.cnMutableContact()
         XCTAssertNotNil(contact.intoThumbnail())
     }
     

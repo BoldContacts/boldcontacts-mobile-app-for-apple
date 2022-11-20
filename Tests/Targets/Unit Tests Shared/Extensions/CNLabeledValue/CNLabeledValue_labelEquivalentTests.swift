@@ -2,7 +2,7 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-final class CNLabeledValue_labelEquivalentTests: XCTestCase {
+final class CNLabeledValue_labelEquivalentTest: XCTestCase {
 
     func test() throws {
         let lv = CNLabeledValue(label: "ALFA bravo", value: "Charlie Delta" as NSString) //

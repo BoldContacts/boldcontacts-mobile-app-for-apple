@@ -2,7 +2,7 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-final class CNContactStore_createTests: XCTestCase {
+final class CNContactStore_createTest: XCTestCase {
 
     func testSuccess() throws {
         let store = CNContactStore()

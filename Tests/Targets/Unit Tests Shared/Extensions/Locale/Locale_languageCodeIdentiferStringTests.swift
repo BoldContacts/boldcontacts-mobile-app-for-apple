@@ -1,6 +1,6 @@
 import XCTest
 
-class Locale_languageCodeIdentifierStringTests: XCTestCase {
+class Locale_languageCodeIdentifierStringTest: XCTestCase {
 
     func test() throws {
         let actual = Locale.current.languageCodeIdentifierString()

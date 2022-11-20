@@ -44,8 +44,30 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4380BAC29131325005A585A"
-               BuildableName = "Unit Tests (iOS).xctest"
-               BlueprintName = "Unit Tests (iOS)"
+               BuildableName = "Unit Tests Shared.xctest"
+               BlueprintName = "Unit Tests Shared"
+               ReferencedContainer = "container:BoldContacts.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F4CA332E2929A50000C5F28C"
+               BuildableName = "Unit Tests iOS.xctest"
+               BlueprintName = "Unit Tests iOS"
+               ReferencedContainer = "container:BoldContacts.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F4CA333B2929A55400C5F28C"
+               BuildableName = "Unit Tests macOS.xctest"
+               BlueprintName = "Unit Tests macOS"
                ReferencedContainer = "container:BoldContacts.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -2,7 +2,7 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-final class CNContactStore_deleteTests: XCTestCase {
+final class CNContactStore_deleteTest: XCTestCase {
 
     func fabContact(_ store: CNContactStore) -> CNMutableContact {
         let contact = CNMutableContact()
@@ -15,7 +15,7 @@ final class CNContactStore_deleteTests: XCTestCase {
 
     func testSuccess() throws {
         let store = CNContactStore()
-        let contact = fabContact(store)
+        let contact = Fab.Contact(store)
         let actual1: Bool = store.delete(contact: contact)
         XCTAssertTrue(actual1)
         let actual2: Bool = store.delete(contact: contact)
@@ -24,7 +24,7 @@ final class CNContactStore_deleteTests: XCTestCase {
 
     func testFailure() throws {
         let store = CNContactStore()
-        let _ = fabContact(store)
+        let _ = Fab.Contact(store)
         let invalid = CNMutableContact()
         let actual: Bool = store.delete(contact: invalid)
         XCTAssertFalse(actual)

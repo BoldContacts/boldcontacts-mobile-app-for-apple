@@ -1,7 +1,7 @@
 import XCTest
 @testable import BoldContacts
 
-final class NSImage_jpegDataTests: XCTestCase {
+final class NSImage_jpegDataTest: XCTestCase {
 
     func test() throws {
         let image = NSImage(named: "empty")

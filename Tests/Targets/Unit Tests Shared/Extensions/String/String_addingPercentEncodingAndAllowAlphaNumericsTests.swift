@@ -1,6 +1,6 @@
 import XCTest
 
-class String_addingPercentEncodingAndAllowAlphaNumericsTests: XCTestCase {
+class String_addingPercentEncodingAndAllowAlphaNumericsTest: XCTestCase {
 
     func test() throws {
         let string = "abc 123 + ñ % @"

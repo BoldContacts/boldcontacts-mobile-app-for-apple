@@ -1,7 +1,7 @@
 import XCTest
 @testable import BoldContacts
 
-final class UIImage_cropToSquareTests: XCTestCase {
+final class UIImage_cropToSquareTest: XCTestCase {
 
     func test() throws {
         let image: UIImage = UIImage(systemName: "star.fill")!
