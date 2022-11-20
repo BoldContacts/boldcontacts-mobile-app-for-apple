@@ -1,6 +1,11 @@
 import Contacts
-import UIKit
 import OSLog
+
+//#if os(iOS)
+//    import UIKit
+//#elseif os(OSX)
+//    import AppKit
+//#endif
 
 func demoPersons() -> [CNContact] {
     return (0...5).compactMap {
@@ -17,10 +22,11 @@ func demoPerson(_ i: Int) -> CNContact? {
         Logger().error("\(#file) demoPerson(\(i)) familyName is nil")
         return nil
     }
-    guard let image = UIImage(named: "demo-persons-\(i)-icons-512") else {
+    guard let image = ZZImage(named: "demo-persons-\(i)-icons-512") else {
         Logger().error("\(#file) demoPerson(\(i)) image is nil")
         return nil
     }
+
     let contact = CNMutableContact()
     contact.givenName = givenName
     contact.familyName = familyName

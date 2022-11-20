@@ -1,6 +1,11 @@
 import Contacts
-import UIKit
 import OSLog
+
+//#if os(iOS)
+//    import UIKit
+//#elseif os(OSX)
+//    import AppKit
+//#endif
 
 func demoOrganizations() -> [CNContact] {
     return (0...4).compactMap {
@@ -13,7 +18,7 @@ func demoOrganization(_ i: Int) -> CNContact? {
         Logger().error("\(#file) demoOrganization(\(i)) organizationName is nil")
         return nil
     }
-    guard let image = UIImage(named: "demo-organizations-\(i)-icons-400") else {
+    guard let image = ZZImage(named: "demo-organizations-\(i)-icons-400") else {
         Logger().error("\(#file) demoOrganization(\(i)) image is nil")
         return nil
     }

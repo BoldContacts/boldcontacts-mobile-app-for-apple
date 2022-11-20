@@ -1,7 +1,12 @@
 import Contacts
 import Foundation
-import UIKit
 import SwiftUI
+
+//#if os(iOS)
+//    import UIKit
+//#elseif os(OSX)
+//    import AppKit
+//#endif
 
 /// For our demo, initialize various contacts.
 ///
@@ -39,7 +44,7 @@ func demoContacts() {
 ///   phoneNumberString: "+1-800-555-5555",
 ///   socialProfileUrlString: "https://example.com/alice",
 ///   urlAddressString: "https://example.com/alice",
-///   uiImageNamed: "demo-persons-alice-icons-512"
+///   imageNamed: "demo-persons-alice-icons-512"
 /// )
 /// ```
 ///
@@ -51,7 +56,7 @@ public func demoCreateContact(
     phoneNumberString: String?,
     socialProfileUrlString: String?,
     urlAddressString: String?,
-    uiImageNamed: String?
+    imageNamed: String?
 ) -> CNContact {
     let contact = CNMutableContact()
 
@@ -108,8 +113,8 @@ public func demoCreateContact(
         ]
     }
 
-    if let x = uiImageNamed {
-        if let image = UIImage(named: x) {
+    if let x = imageNamed {
+        if let image = ZZImage(named: x) {
             contact.imageData = image.jpegData(compressionQuality: 1.0)
         } else {
             logger.error(
@@ -117,7 +122,7 @@ public func demoCreateContact(
                 demoCreateContact image failure.
                 code: b8f3f39a22695f30bef3d6c79c051e9f
                 contact: \(contact)
-                uiImageNamed: \(x)
+                imageNamed: \(x)
                 """
             )
         }
@@ -145,7 +150,7 @@ public func demoCreateContactForJoelParkerHenderson() -> CNContact {
         phoneNumberString: "1 (415) 317-2700",
         socialProfileUrlString: "https://instagram.com/joelparkerhenderson",
         urlAddressString: "https://github.com/joelparkerhenderson",
-        uiImageNamed: "demo-persons-joel@joelparkerhenderson.com-icons-512"
+        imageNamed: "demo-persons-joel@joelparkerhenderson.com-icons-512"
     )
 }
 
@@ -167,7 +172,7 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
         phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/alice",
-        uiImageNamed: "demo-persons-0-icons-512"
+        imageNamed: "demo-persons-0-icons-512"
     )
     let b = demoCreateContact(
         givenName: "Bob",
@@ -177,7 +182,7 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
         phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/bob",
-        uiImageNamed: "demo-persons-1-icons-512"
+        imageNamed: "demo-persons-1-icons-512"
     )
     let c = demoCreateContact(
         givenName: "Carol",
@@ -187,7 +192,7 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
         phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/carol",
-        uiImageNamed: "demo-persons-2-icons-512"
+        imageNamed: "demo-persons-2-icons-512"
     )
     let d = demoCreateContact(
         givenName: "Dave",
@@ -197,7 +202,7 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
         phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/dave",
-        uiImageNamed: "demo-persons-3-icons-512"
+        imageNamed: "demo-persons-3-icons-512"
     )
     let e = demoCreateContact(
         givenName: "Eve",
@@ -207,7 +212,7 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
         phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/eve",
-        uiImageNamed: "demo-persons-4-icons-512"
+        imageNamed: "demo-persons-4-icons-512"
     )
     let f = demoCreateContact(
         givenName: "Frank",
@@ -217,7 +222,7 @@ public func demoCreateContactsForABCDEF() -> [CNContact] {
         phoneNumberString: "1-248-434-5508",
         socialProfileUrlString: nil,
         urlAddressString: "https://example.com/frank",
-        uiImageNamed: "demo-persons-5-icons-512"
+        imageNamed: "demo-persons-5-icons-512"
     )
     return [a, b, c, d, e, f]
 }
