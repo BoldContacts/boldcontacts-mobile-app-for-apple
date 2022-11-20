@@ -3,14 +3,14 @@ import UIKit
 
 extension CNContact: IntoThumbnail {
 
-    /// Get this contact's UIImage.
+    /// Get this contact's thumbnail image.
     ///
-    /// This implementation uses the contact's thumnail image data.
+    /// This implementation uses the contact's thumbnail image data.
     ///
     /// Example:
     ///
     ///     let contact: CNContact = …
-    ///     let image: UIImage? = contact.intoUIImage()
+    ///     let image: UIImage? = contact.intoThumbnail()
     ///
     public func intoThumbnail() -> UIImage? {
         if self.imageDataAvailable {
