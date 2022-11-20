@@ -7,7 +7,7 @@ struct ItemThumbnailImageView: View {
     var body: some View {
         if let thumbnail = thumbnail(item: item) {
             GeometryReader { geo in
-                Image(uiImage: thumbnail)
+                Image(ZZImage: thumbnail)
                     .resizable()
                     .scaledToFit()
                     .accessibilityLabel("ItemThumbnailImageView")
@@ -18,10 +18,10 @@ struct ItemThumbnailImageView: View {
         }
     }
     
-    private func thumbnail(item: AppItem?) -> UIImage? {
+    private func thumbnail(item: AppItem?) -> ZZImage? {
         if let item = item {
-            if let thumbnail: UIImage = item.intoThumbnail() {
-                if let cropped: UIImage = thumbnail.cropToSquare() {
+            if let thumbnail: ZZImage = item.intoThumbnail() {
+                if let cropped: ZZImage = thumbnail.cropToSquare() {
                     return cropped
                 }
             }
