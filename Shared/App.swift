@@ -13,8 +13,8 @@ struct BoldContactsApp: App {
     //
     
     // Connect to app delegate class defined in AppDelegate.swift
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
+    @ZZApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     // Track the application state and their transitions
     //@State var appState: AppState = AppState.Init
 
@@ -30,7 +30,6 @@ struct BoldContactsApp: App {
         logger.debug("App init()")
         logger.debug("CNContactStore authorizationStatus \(CNContactStore.authorizationStatus(for: .contacts).partName()!)")
         addLaunchCount()
-        //demoContacts()
     }
     
     var body: some Scene {
