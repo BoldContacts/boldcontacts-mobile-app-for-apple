@@ -23,6 +23,14 @@
 "Reject" = "Reject";
 
 //
+// Menus
+//
+
+"NSMenuItemTitleAbout" = "About";
+"NSMenuItemTitleHide" = "Hide";
+"NSMenuItemTitleQuit" = "Quit";
+
+//
 // AlertForIntroduction.swift
 //
 
