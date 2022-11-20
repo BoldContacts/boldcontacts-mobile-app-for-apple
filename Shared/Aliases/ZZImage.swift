@@ -1,8 +1,3 @@
-/// Alias AppKit NSImage and UIKit UIImage because Apple hasn't yet unified these.
-///
-/// Thanks:
-/// https://www.alfianlosari.com/posts/building-cross-platform-swiftui-ios-macos-app/
-
 import Foundation
 import SwiftUI
 
