@@ -21,7 +21,7 @@ struct ItemThumbnailImageView: View {
     private func thumbnail(item: AppItem?) -> ZZImage? {
         if let item = item {
             if let thumbnail: ZZImage = item.intoThumbnail() {
-                if let cropped: ZZImage = thumbnail.cropToSquare() {
+                if let cropped: ZZImage = thumbnail.cropToCenterSquare() {
                     return cropped
                 }
             }

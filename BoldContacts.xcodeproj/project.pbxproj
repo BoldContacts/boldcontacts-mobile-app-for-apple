@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4008010292B042900C06644 /* IntoCGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400800F292B042900C06644 /* IntoCGImage.swift */; };
+		F4008014292B047500C06644 /* IntoCGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008012292B047500C06644 /* IntoCGImage.swift */; };
+		F4008017292B049900C06644 /* NSImage_intoCGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008015292B049900C06644 /* NSImage_intoCGImage.swift */; };
+		F4008019292B050D00C06644 /* UIImage_intoCGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008018292B050D00C06644 /* UIImage_intoCGImage.swift */; };
+		F400801D292B05FD00C06644 /* CGImage_centerSquareCGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400801C292B05FD00C06644 /* CGImage_centerSquareCGRect.swift */; };
+		F4008023292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008022292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift */; };
+		F4008026292B0A6100C06644 /* UIImage_cropToCenterSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008025292B0A6100C06644 /* UIImage_cropToCenterSquareTest.swift */; };
+		F4008029292B0C6200C06644 /* CGImage_centerSquareCGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008028292B0C6200C06644 /* CGImage_centerSquareCGRect.swift */; };
+		F400802F292B0CDC00C06644 /* CGImage_centerSquareCGRectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008020292B072500C06644 /* CGImage_centerSquareCGRectTest.swift */; };
+		F4008030292B0D6800C06644 /* CGImage_centerSquareCGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400801C292B05FD00C06644 /* CGImage_centerSquareCGRect.swift */; };
 		F40EACD128B0006F0095C188 /* CNContact_intoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */; };
 		F40EACD228B0006F0095C188 /* CNContact_intoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD028B0006F0095C188 /* CNContact_intoThumbnail.swift */; };
 		F40EACD428B000800095C188 /* CNContact_intoSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */; };
@@ -113,6 +123,9 @@
 		F445854D28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */; };
 		F445854F28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */; };
 		F445855628B6E37E00C5465F /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = F445855528B6E37E00C5465F /* ViewInspector */; };
+		F455EFE6292B3E4900AEC814 /* CGImage_initWithRGBA32.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFE5292B3E4900AEC814 /* CGImage_initWithRGBA32.swift */; };
+		F455EFE7292B3E4900AEC814 /* CGImage_initWithRGBA32.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFE5292B3E4900AEC814 /* CGImage_initWithRGBA32.swift */; };
+		F455EFE9292B3EBC00AEC814 /* CGImage_initWithRGBA32Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFE8292B3EBC00AEC814 /* CGImage_initWithRGBA32Test.swift */; };
 		F462180D290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F4621810290C463500CAA541 /* AlertForIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForIntroduction.swift */; };
@@ -139,7 +152,7 @@
 		F472286128A5903700773693 /* CNContactStore_delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285528A5903700773693 /* CNContactStore_delete.swift */; };
 		F472286228A5903700773693 /* Collection_safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285628A5903700773693 /* Collection_safe.swift */; };
 		F472286328A5903700773693 /* UIImage_empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285728A5903700773693 /* UIImage_empty.swift */; };
-		F472286428A5903700773693 /* UIImage_cropToSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285828A5903700773693 /* UIImage_cropToSquare.swift */; };
+		F472286428A5903700773693 /* UIImage_cropToCenterSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285828A5903700773693 /* UIImage_cropToCenterSquare.swift */; };
 		F472286528A5903700773693 /* UIImage_resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285928A5903700773693 /* UIImage_resize.swift */; };
 		F472286628A5903700773693 /* CNContactStore_create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285A28A5903700773693 /* CNContactStore_create.swift */; };
 		F472286928A5903700773693 /* CNContactStore_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472285D28A5903700773693 /* CNContactStore_list.swift */; };
@@ -313,7 +326,7 @@
 		F4CA33D2292A159E00C5F28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289728A5934B00773693 /* AppDelegate.swift */; };
 		F4CA33D4292A15D000C5F28C /* ZZApplicationDelegateAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33D3292A15D000C5F28C /* ZZApplicationDelegateAdaptor.swift */; };
 		F4CA33D5292A15E300C5F28C /* ZZApplicationDelegateAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33D3292A15D000C5F28C /* ZZApplicationDelegateAdaptor.swift */; };
-		F4CA33D7292A1A2A00C5F28C /* NSImage_cropToSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33D6292A1A2A00C5F28C /* NSImage_cropToSquare.swift */; };
+		F4CA33D7292A1A2A00C5F28C /* NSImage_cropToCenterSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33D6292A1A2A00C5F28C /* NSImage_cropToCenterSquare.swift */; };
 		F4CA33FB292ADE9B00C5F28C /* Fab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33FA292ADE9B00C5F28C /* Fab.swift */; };
 		F4CA33FC292AE19100C5F28C /* Fab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33FA292ADE9B00C5F28C /* Fab.swift */; };
 		F4D815CE28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */; };
@@ -376,6 +389,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F400800F292B042900C06644 /* IntoCGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoCGImage.swift; sourceTree = "<group>"; };
+		F4008012292B047500C06644 /* IntoCGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoCGImage.swift; sourceTree = "<group>"; };
+		F4008015292B049900C06644 /* NSImage_intoCGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_intoCGImage.swift; sourceTree = "<group>"; };
+		F4008018292B050D00C06644 /* UIImage_intoCGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage_intoCGImage.swift; sourceTree = "<group>"; };
+		F400801C292B05FD00C06644 /* CGImage_centerSquareCGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_centerSquareCGRect.swift; sourceTree = "<group>"; };
+		F4008020292B072500C06644 /* CGImage_centerSquareCGRectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_centerSquareCGRectTest.swift; sourceTree = "<group>"; };
+		F4008022292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_cropToCenterSquareTest.swift; sourceTree = "<group>"; };
+		F4008025292B0A6100C06644 /* UIImage_cropToCenterSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage_cropToCenterSquareTest.swift; sourceTree = "<group>"; };
+		F4008028292B0C6200C06644 /* CGImage_centerSquareCGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_centerSquareCGRect.swift; sourceTree = "<group>"; };
 		F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoTitle.swift; sourceTree = "<group>"; };
 		F40EACD028B0006F0095C188 /* CNContact_intoThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoThumbnail.swift; sourceTree = "<group>"; };
 		F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoSubtitle.swift; sourceTree = "<group>"; };
@@ -406,7 +428,7 @@
 		F4380B862912C924005A585A /* CNAuthorizationStatus_fullName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNAuthorizationStatus_fullName.swift; sourceTree = "<group>"; };
 		F4380B892912D784005A585A /* Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
 		F4380B8E2912DB7E005A585A /* Doer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doer.swift; sourceTree = "<group>"; };
-		F4380BAD29131325005A585A /* Unit Tests Shared.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests Shared.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4380BAD29131325005A585A /* Unit Test Shared.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Test Shared.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4380BF02915963E005A585A /* AlertForDemonstration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForDemonstration.swift; sourceTree = "<group>"; };
 		F4380BF329159714005A585A /* CNContactStore_count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_count.swift; sourceTree = "<group>"; };
 		F4380BF92915B6AD005A585A /* DemoPersonsViaLocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPersonsViaLocalizedStrings.swift; sourceTree = "<group>"; };
@@ -421,6 +443,8 @@
 		F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlString.swift; sourceTree = "<group>"; };
 		F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalent.swift; sourceTree = "<group>"; };
 		F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalentTests.swift; sourceTree = "<group>"; };
+		F455EFE5292B3E4900AEC814 /* CGImage_initWithRGBA32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_initWithRGBA32.swift; sourceTree = "<group>"; };
+		F455EFE8292B3EBC00AEC814 /* CGImage_initWithRGBA32Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_initWithRGBA32Test.swift; sourceTree = "<group>"; };
 		F462180C290B63BF00CAA541 /* LaunchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCount.swift; sourceTree = "<group>"; };
 		F462180F290C463500CAA541 /* AlertForIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForIntroduction.swift; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -431,10 +455,10 @@
 		F472280C28A58B4000773693 /* BoldContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoldContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F472281228A58B4000773693 /* BoldContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoldContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F472281428A58B4100773693 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		F472281928A58B4100773693 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472281928A58B4100773693 /* UI Test iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Test iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F472281D28A58B4100773693 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		F472281F28A58B4100773693 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		F472282528A58B4100773693 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472282528A58B4100773693 /* UI Test macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Test macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F472282928A58B4100773693 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F472282B28A58B4100773693 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		F472284528A58B7100773693 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -447,7 +471,7 @@
 		F472285528A5903700773693 /* CNContactStore_delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_delete.swift; sourceTree = "<group>"; };
 		F472285628A5903700773693 /* Collection_safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection_safe.swift; sourceTree = "<group>"; };
 		F472285728A5903700773693 /* UIImage_empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_empty.swift; sourceTree = "<group>"; };
-		F472285828A5903700773693 /* UIImage_cropToSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_cropToSquare.swift; sourceTree = "<group>"; };
+		F472285828A5903700773693 /* UIImage_cropToCenterSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_cropToCenterSquare.swift; sourceTree = "<group>"; };
 		F472285928A5903700773693 /* UIImage_resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_resize.swift; sourceTree = "<group>"; };
 		F472285A28A5903700773693 /* CNContactStore_create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_create.swift; sourceTree = "<group>"; };
 		F472285D28A5903700773693 /* CNContactStore_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactStore_list.swift; sourceTree = "<group>"; };
@@ -728,8 +752,8 @@
 		F4A030102922FA53002F4E54 /* Locale_languageCodeIdentifierString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale_languageCodeIdentifierString.swift; sourceTree = "<group>"; };
 		F4A030132922FACD002F4E54 /* Locale_languageCodeIdentiferStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale_languageCodeIdentiferStringTests.swift; sourceTree = "<group>"; };
 		F4CA33292929A41D00C5F28C /* UIDevice_isSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice_isSimulator.swift; sourceTree = "<group>"; };
-		F4CA332F2929A50000C5F28C /* Unit Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4CA333C2929A55400C5F28C /* Unit Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CA332F2929A50000C5F28C /* Unit Test iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Test iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CA333C2929A55400C5F28C /* Unit Test macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Test macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CA33472929A5DC00C5F28C /* UIDevice_isSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice_isSimulatorTests.swift; sourceTree = "<group>"; };
 		F4CA334A2929A70A00C5F28C /* ZZImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZImage.swift; sourceTree = "<group>"; };
 		F4CA334F2929AA8500C5F28C /* NSImage_jpegData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_jpegData.swift; sourceTree = "<group>"; };
@@ -746,7 +770,7 @@
 		F4CA33CA292A0F8800C5F28C /* ZZApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZApplicationDelegate.swift; sourceTree = "<group>"; };
 		F4CA33CD292A103B00C5F28C /* ZZApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZApplication.swift; sourceTree = "<group>"; };
 		F4CA33D3292A15D000C5F28C /* ZZApplicationDelegateAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZApplicationDelegateAdaptor.swift; sourceTree = "<group>"; };
-		F4CA33D6292A1A2A00C5F28C /* NSImage_cropToSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_cropToSquare.swift; sourceTree = "<group>"; };
+		F4CA33D6292A1A2A00C5F28C /* NSImage_cropToCenterSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_cropToCenterSquare.swift; sourceTree = "<group>"; };
 		F4CA33FA292ADE9B00C5F28C /* Fab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fab.swift; sourceTree = "<group>"; };
 		F4D815C928B6FE3700D47A46 /* CNContact_intoBoldContactsUrlStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlStringTests.swift; sourceTree = "<group>"; };
 		F4D815CD28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_requesetAccessAsNeeded.swift; sourceTree = "<group>"; };
@@ -820,6 +844,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F400801B292B05E200C06644 /* CGImage */ = {
+			isa = PBXGroup;
+			children = (
+				F400801C292B05FD00C06644 /* CGImage_centerSquareCGRect.swift */,
+				F455EFE5292B3E4900AEC814 /* CGImage_initWithRGBA32.swift */,
+			);
+			path = CGImage;
+			sourceTree = "<group>";
+		};
+		F400801F292B06FC00C06644 /* CGImage */ = {
+			isa = PBXGroup;
+			children = (
+				F4008020292B072500C06644 /* CGImage_centerSquareCGRectTest.swift */,
+				F455EFE8292B3EBC00AEC814 /* CGImage_initWithRGBA32Test.swift */,
+			);
+			path = CGImage;
+			sourceTree = "<group>";
+		};
+		F4008024292B0A4600C06644 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				F4008025292B0A6100C06644 /* UIImage_cropToCenterSquareTest.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		F4008027292B0C4B00C06644 /* CGImage */ = {
+			isa = PBXGroup;
+			children = (
+				F4008028292B0C6200C06644 /* CGImage_centerSquareCGRect.swift */,
+			);
+			path = CGImage;
+			sourceTree = "<group>";
+		};
 		F40EACD528B000FB0095C188 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -865,12 +923,12 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		F4380BA52913126D005A585A /* Tests */ = {
+		F4380BA52913126D005A585A /* Test */ = {
 			isa = PBXGroup;
 			children = (
 				F4380BA7291312E5005A585A /* Targets */,
 			);
-			path = Tests;
+			path = Test;
 			sourceTree = "<group>";
 		};
 		F4380BA7291312E5005A585A /* Targets */ = {
@@ -889,7 +947,6 @@
 			isa = PBXGroup;
 			children = (
 				F47228E028A5F6B400773693 /* Extensions */,
-				F47228D628A5D43A00773693 /* Fab */,
 				F4CA33C72929BE6C00C5F28C /* Protocols */,
 			);
 			path = "Unit Tests Shared";
@@ -927,7 +984,7 @@
 				F472280128A58B4000773693 /* Shared */,
 				F4CA33272929A3B100C5F28C /* iOS */,
 				F472281328A58B4100773693 /* macOS */,
-				F4380BA52913126D005A585A /* Tests */,
+				F4380BA52913126D005A585A /* Test */,
 				F472280D28A58B4000773693 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -940,7 +997,6 @@
 				F4380C0829188ABB005A585A /* Demo */,
 				F4380B912912DB87005A585A /* Enums */,
 				F472284628A58F2900773693 /* Extensions */,
-				F472286B28A591C000773693 /* Fab */,
 				F40EACD528B000FB0095C188 /* Protocols */,
 				F498F66F291F00F2001D28CB /* Resources */,
 				F4380C1229199AAE005A585A /* Settings */,
@@ -965,11 +1021,11 @@
 			children = (
 				F472280C28A58B4000773693 /* BoldContacts.app */,
 				F472281228A58B4000773693 /* BoldContacts.app */,
-				F472281928A58B4100773693 /* Tests iOS.xctest */,
-				F472282528A58B4100773693 /* Tests macOS.xctest */,
-				F4380BAD29131325005A585A /* Unit Tests Shared.xctest */,
-				F4CA332F2929A50000C5F28C /* Unit Tests iOS.xctest */,
-				F4CA333C2929A55400C5F28C /* Unit Tests macOS.xctest */,
+				F472281928A58B4100773693 /* UI Test iOS.xctest */,
+				F472282528A58B4100773693 /* UI Test macOS.xctest */,
+				F4380BAD29131325005A585A /* Unit Test Shared.xctest */,
+				F4CA332F2929A50000C5F28C /* Unit Test iOS.xctest */,
+				F4CA333C2929A55400C5F28C /* Unit Test macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1007,12 +1063,14 @@
 			children = (
 				F4CA33DE292A1AFF00C5F28C /* Bool */,
 				F4CA33DF292A1B0A00C5F28C /* Bundle */,
+				F400801B292B05E200C06644 /* CGImage */,
 				F4CA33E0292A1B1700C5F28C /* CharacterSet */,
 				F4CA33D8292A1A7B00C5F28C /* CNAuthorizationStatus */,
 				F4CA33D9292A1A9700C5F28C /* CNContact */,
 				F4CA33DA292A1AAF00C5F28C /* CNContactStore */,
 				F4CA33E1292A1B2300C5F28C /* CNLabeledValue */,
 				F4CA33E4292A1B6000C5F28C /* Collection */,
+				F472286B28A591C000773693 /* Fab */,
 				F4CA33E3292A1B4E00C5F28C /* FileManager */,
 				F4CA33E2292A1B3700C5F28C /* Locale */,
 				F4CA33DD292A1AEE00C5F28C /* LocalizedStringKey */,
@@ -1141,12 +1199,14 @@
 			children = (
 				F4CA33E7292A1BA100C5F28C /* Bool */,
 				F4CA33ED292A1C2100C5F28C /* Bundle */,
+				F400801F292B06FC00C06644 /* CGImage */,
 				F4CA33EE292A1C2C00C5F28C /* CharacterSet */,
 				F4CA33EF292A1C3B00C5F28C /* CNAuthorizationStatus */,
 				F4CA33E8292A1BAD00C5F28C /* CNContact */,
 				F4CA33E9292A1BE000C5F28C /* CNContactStore */,
 				F4CA33EC292A1C0D00C5F28C /* CNLabeledValue */,
 				F4CA33EB292A1C0100C5F28C /* Collection */,
+				F47228D628A5D43A00773693 /* Fab */,
 				F4CA33EA292A1BF500C5F28C /* Locale */,
 				F4CA33E5292A1B8500C5F28C /* String */,
 				F4CA33E6292A1B9000C5F28C /* UIImage */,
@@ -1218,6 +1278,7 @@
 		F4CA33452929A56F00C5F28C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F4008024292B0A4600C06644 /* UIImage */,
 				F4CA33F1292A1C6100C5F28C /* UIDevice */,
 			);
 			path = Extensions;
@@ -1237,6 +1298,7 @@
 		F4CA334E2929AA5500C5F28C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F4008027292B0C4B00C06644 /* CGImage */,
 				F4CA33F3292A1C8100C5F28C /* CNContact */,
 				F4CA33F2292A1C7600C5F28C /* NSImage */,
 			);
@@ -1254,6 +1316,7 @@
 		F4CA33AD2929B40300C5F28C /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				F400800F292B042900C06644 /* IntoCGImage.swift */,
 				F40EACD628B001210095C188 /* IntoThumbnail.swift */,
 			);
 			path = Protocols;
@@ -1262,6 +1325,7 @@
 		F4CA33AE2929B43200C5F28C /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				F4008012292B047500C06644 /* IntoCGImage.swift */,
 				F4CA33AF2929B44700C5F28C /* IntoThumbnail.swift */,
 			);
 			path = Protocols;
@@ -1533,6 +1597,7 @@
 		F4CA33F0292A1C5500C5F28C /* NSImage */ = {
 			isa = PBXGroup;
 			children = (
+				F4008022292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift */,
 				F4CA33562929AE6800C5F28C /* NSImage_jpegDataTests.swift */,
 				F4CA33AA2929B2AA00C5F28C /* NSImage_pngDataTests.swift */,
 			);
@@ -1550,9 +1615,10 @@
 		F4CA33F2292A1C7600C5F28C /* NSImage */ = {
 			isa = PBXGroup;
 			children = (
+				F4CA33D6292A1A2A00C5F28C /* NSImage_cropToCenterSquare.swift */,
 				F4CA334F2929AA8500C5F28C /* NSImage_jpegData.swift */,
+				F4008015292B049900C06644 /* NSImage_intoCGImage.swift */,
 				F4CA33522929AC4700C5F28C /* NSImage_pngData.swift */,
-				F4CA33D6292A1A2A00C5F28C /* NSImage_cropToSquare.swift */,
 			);
 			path = NSImage;
 			sourceTree = "<group>";
@@ -1576,8 +1642,9 @@
 		F4CA33F5292A1C9800C5F28C /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				F472285828A5903700773693 /* UIImage_cropToSquare.swift */,
+				F472285828A5903700773693 /* UIImage_cropToCenterSquare.swift */,
 				F472285728A5903700773693 /* UIImage_empty.swift */,
+				F4008018292B050D00C06644 /* UIImage_intoCGImage.swift */,
 				F472285928A5903700773693 /* UIImage_resize.swift */,
 			);
 			path = UIImage;
@@ -1602,9 +1669,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4380BAC29131325005A585A /* Unit Tests Shared */ = {
+		F4380BAC29131325005A585A /* Unit Test Shared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4380BB329131325005A585A /* Build configuration list for PBXNativeTarget "Unit Tests Shared" */;
+			buildConfigurationList = F4380BB329131325005A585A /* Build configuration list for PBXNativeTarget "Unit Test Shared" */;
 			buildPhases = (
 				F4380BA929131325005A585A /* Sources */,
 				F4380BAA29131325005A585A /* Frameworks */,
@@ -1615,9 +1682,9 @@
 			dependencies = (
 				F4380BB229131325005A585A /* PBXTargetDependency */,
 			);
-			name = "Unit Tests Shared";
+			name = "Unit Test Shared";
 			productName = "Unit Tests (iOS)";
-			productReference = F4380BAD29131325005A585A /* Unit Tests Shared.xctest */;
+			productReference = F4380BAD29131325005A585A /* Unit Test Shared.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F472280B28A58B4000773693 /* BoldContacts (iOS) */ = {
@@ -1654,9 +1721,9 @@
 			productReference = F472281228A58B4000773693 /* BoldContacts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F472281828A58B4100773693 /* Tests iOS */ = {
+		F472281828A58B4100773693 /* UI Test iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F472283F28A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = F472283F28A58B4100773693 /* Build configuration list for PBXNativeTarget "UI Test iOS" */;
 			buildPhases = (
 				F472281528A58B4100773693 /* Sources */,
 				F472281628A58B4100773693 /* Frameworks */,
@@ -1667,17 +1734,17 @@
 			dependencies = (
 				F472281B28A58B4100773693 /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
+			name = "UI Test iOS";
 			packageProductDependencies = (
 				F445855528B6E37E00C5465F /* ViewInspector */,
 			);
 			productName = "Tests iOS";
-			productReference = F472281928A58B4100773693 /* Tests iOS.xctest */;
+			productReference = F472281928A58B4100773693 /* UI Test iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		F472282428A58B4100773693 /* Tests macOS */ = {
+		F472282428A58B4100773693 /* UI Test macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F472284228A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = F472284228A58B4100773693 /* Build configuration list for PBXNativeTarget "UI Test macOS" */;
 			buildPhases = (
 				F472282128A58B4100773693 /* Sources */,
 				F472282228A58B4100773693 /* Frameworks */,
@@ -1688,14 +1755,14 @@
 			dependencies = (
 				F472282728A58B4100773693 /* PBXTargetDependency */,
 			);
-			name = "Tests macOS";
+			name = "UI Test macOS";
 			productName = "Tests macOS";
-			productReference = F472282528A58B4100773693 /* Tests macOS.xctest */;
+			productReference = F472282528A58B4100773693 /* UI Test macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		F4CA332E2929A50000C5F28C /* Unit Tests iOS */ = {
+		F4CA332E2929A50000C5F28C /* Unit Test iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4CA33352929A50000C5F28C /* Build configuration list for PBXNativeTarget "Unit Tests iOS" */;
+			buildConfigurationList = F4CA33352929A50000C5F28C /* Build configuration list for PBXNativeTarget "Unit Test iOS" */;
 			buildPhases = (
 				F4CA332B2929A50000C5F28C /* Sources */,
 				F4CA332C2929A50000C5F28C /* Frameworks */,
@@ -1706,14 +1773,14 @@
 			dependencies = (
 				F4CA33342929A50000C5F28C /* PBXTargetDependency */,
 			);
-			name = "Unit Tests iOS";
+			name = "Unit Test iOS";
 			productName = BoldContactsTests;
-			productReference = F4CA332F2929A50000C5F28C /* Unit Tests iOS.xctest */;
+			productReference = F4CA332F2929A50000C5F28C /* Unit Test iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F4CA333B2929A55400C5F28C /* Unit Tests macOS */ = {
+		F4CA333B2929A55400C5F28C /* Unit Test macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4CA33422929A55500C5F28C /* Build configuration list for PBXNativeTarget "Unit Tests macOS" */;
+			buildConfigurationList = F4CA33422929A55500C5F28C /* Build configuration list for PBXNativeTarget "Unit Test macOS" */;
 			buildPhases = (
 				F4CA33382929A55400C5F28C /* Sources */,
 				F4CA33392929A55400C5F28C /* Frameworks */,
@@ -1725,9 +1792,9 @@
 				F4CA33412929A55500C5F28C /* PBXTargetDependency */,
 				F400800E292AFF6700C06644 /* PBXTargetDependency */,
 			);
-			name = "Unit Tests macOS";
+			name = "Unit Test macOS";
 			productName = "Unit Tests (macOS)";
-			productReference = F4CA333C2929A55400C5F28C /* Unit Tests macOS.xctest */;
+			productReference = F4CA333C2929A55400C5F28C /* Unit Test macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1770,7 +1837,7 @@
 				};
 			};
 			buildConfigurationList = F472280028A58B4000773693 /* Build configuration list for PBXProject "BoldContacts" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1946,11 +2013,11 @@
 			targets = (
 				F472280B28A58B4000773693 /* BoldContacts (iOS) */,
 				F472281128A58B4000773693 /* BoldContacts (macOS) */,
-				F472281828A58B4100773693 /* Tests iOS */,
-				F472282428A58B4100773693 /* Tests macOS */,
-				F4380BAC29131325005A585A /* Unit Tests Shared */,
-				F4CA332E2929A50000C5F28C /* Unit Tests iOS */,
-				F4CA333B2929A55400C5F28C /* Unit Tests macOS */,
+				F472281828A58B4100773693 /* UI Test iOS */,
+				F472282428A58B4100773693 /* UI Test macOS */,
+				F4380BAC29131325005A585A /* Unit Test Shared */,
+				F4CA332E2929A50000C5F28C /* Unit Test iOS */,
+				F4CA333B2929A55400C5F28C /* Unit Test macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -2069,6 +2136,7 @@
 				F4380BC22913133B005A585A /* Fab_cnContactURLAddressesTest.swift in Sources */,
 				F4380BCD2913133B005A585A /* Fab_cnPostalAddressTest.swift in Sources */,
 				F4380BE229131366005A585A /* UIImage_resizeTests.swift in Sources */,
+				F400802F292B0CDC00C06644 /* CGImage_centerSquareCGRectTest.swift in Sources */,
 				F4380BCE2913133B005A585A /* Fab_unitedStatesPostalCodeAsStringTest.swift in Sources */,
 				F4CA33C82929BE8200C5F28C /* IntoThumbnailTests.swift in Sources */,
 				F4380BC12913133B005A585A /* Fab_phoneNumberAreaCodeAsStringTest.swift in Sources */,
@@ -2152,6 +2220,7 @@
 				F472288F28A591F100773693 /* Fab_treeName.swift in Sources */,
 				F40EACD928B001210095C188 /* IntoThumbnail.swift in Sources */,
 				F4380B6829123BE2005A585A /* String_local.swift in Sources */,
+				F400801D292B05FD00C06644 /* CGImage_centerSquareCGRect.swift in Sources */,
 				F4380BF429159714005A585A /* CNContactStore_count.swift in Sources */,
 				F4380B7D2912C644005A585A /* PartName.swift in Sources */,
 				F4CA33D5292A15E300C5F28C /* ZZApplicationDelegateAdaptor.swift in Sources */,
@@ -2162,6 +2231,7 @@
 				F4A030112922FA53002F4E54 /* Locale_languageCodeIdentifierString.swift in Sources */,
 				F472285F28A5903700773693 /* CNContactStore_deleteByName.swift in Sources */,
 				F47228B828A5955F00773693 /* Demo.swift in Sources */,
+				F4008019292B050D00C06644 /* UIImage_intoCGImage.swift in Sources */,
 				F4D815CE28BEB6C000D47A46 /* CNContactStore_requesetAccessAsNeeded.swift in Sources */,
 				F4380C172919B09D005A585A /* CNContactStore_deleteById.swift in Sources */,
 				F472285028A58FE900773693 /* CNContactStore_areKeysAvailableOrFetch.swift in Sources */,
@@ -2172,6 +2242,7 @@
 				F472283328A58B4100773693 /* Persistence.swift in Sources */,
 				F445854928B3ED4F00C5465F /* openViaCNContact.swift in Sources */,
 				F472285228A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */,
+				F455EFE6292B3E4900AEC814 /* CGImage_initWithRGBA32.swift in Sources */,
 				F472289528A5930000773693 /* Logger.swift in Sources */,
 				F47228AA28A5947200773693 /* RectangleHorizontalRuleView.swift in Sources */,
 				F40EACF328B046BC0095C188 /* CNContact_list_phoneNumbers.swift in Sources */,
@@ -2202,7 +2273,7 @@
 				F4A0300629208687002F4E54 /* String_filterPhoneNumber.swift in Sources */,
 				F472286A28A5903700773693 /* CNContactStore_keysToFetch.swift in Sources */,
 				F47228A728A5942500773693 /* Config.swift in Sources */,
-				F472286428A5903700773693 /* UIImage_cropToSquare.swift in Sources */,
+				F472286428A5903700773693 /* UIImage_cropToCenterSquare.swift in Sources */,
 				F4380B812912C801005A585A /* FullName.swift in Sources */,
 				F47228AB28A5947200773693 /* RectangleVerticalRuleView.swift in Sources */,
 				F40EACEF28B045680095C188 /* CNContact_list_postalAddresses.swift in Sources */,
@@ -2218,6 +2289,7 @@
 				F472286228A5903700773693 /* Collection_safe.swift in Sources */,
 				F4380B8F2912DB7E005A585A /* Doer.swift in Sources */,
 				F4380C1429199AD0005A585A /* FirstTimeIsComplete.swift in Sources */,
+				F4008010292B042900C06644 /* IntoCGImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2231,7 +2303,9 @@
 				F4A0300029206922002F4E54 /* Bool_not.swift in Sources */,
 				F4380B8B2912D784005A585A /* Load.swift in Sources */,
 				F4CA33CF292A103B00C5F28C /* ZZApplication.swift in Sources */,
+				F4008017292B049900C06644 /* NSImage_intoCGImage.swift in Sources */,
 				F4CA33622929B0AC00C5F28C /* CNContact_list_socialProfiles.swift in Sources */,
+				F455EFE7292B3E4900AEC814 /* CGImage_initWithRGBA32.swift in Sources */,
 				F4A02FF0292062DE002F4E54 /* String_uriEncode.swift in Sources */,
 				F4CA33582929B08D00C5F28C /* CharacterSet_uri.swift in Sources */,
 				F4380BFE2917059C005A585A /* DemoOrganizationsViaLocalizedStrings.swift in Sources */,
@@ -2260,6 +2334,7 @@
 				F4CA33642929B0B100C5F28C /* CNContactStore_requesetAccessAsNeeded.swift in Sources */,
 				F4CA338F2929B14B00C5F28C /* Fab_unitedStatesPostalCodeAsString.swift in Sources */,
 				F4CA33A62929B1AE00C5F28C /* AppButtonStyle.swift in Sources */,
+				F4008030292B0D6800C06644 /* CGImage_centerSquareCGRect.swift in Sources */,
 				F4CA33852929B12F00C5F28C /* Fab_phoneNumberAsString.swift in Sources */,
 				F4E1397029120AA700144173 /* RawRepresentable_describing.swift in Sources */,
 				F4CA337D2929B11800C5F28C /* Fab_cnPostalAddress.swift in Sources */,
@@ -2324,14 +2399,16 @@
 				F472283028A58B4100773693 /* App.swift in Sources */,
 				F4CA33942929B15C00C5F28C /* IntoSubtitle.swift in Sources */,
 				F4380C11291983D1005A585A /* Bundle_displayName.swift in Sources */,
+				F4008029292B0C6200C06644 /* CGImage_centerSquareCGRect.swift in Sources */,
 				F4CA33A92929B1B600C5F28C /* Cursor.swift in Sources */,
 				F4CA33912929B14F00C5F28C /* Fab_unitedStatesStreetAsString.swift in Sources */,
 				F4380B6929123BE2005A585A /* String_local.swift in Sources */,
+				F4008014292B047500C06644 /* IntoCGImage.swift in Sources */,
 				F4CA33752929B10300C5F28C /* Fab_airName.swift in Sources */,
 				F4CA338E2929B14800C5F28C /* Fab_unitedStatesCityName.swift in Sources */,
 				F4CA33842929B12C00C5F28C /* Fab_phoneNumberAreaCodeAsString.swift in Sources */,
 				F4CA33A82929B1B300C5F28C /* Config.swift in Sources */,
-				F4CA33D7292A1A2A00C5F28C /* NSImage_cropToSquare.swift in Sources */,
+				F4CA33D7292A1A2A00C5F28C /* NSImage_cropToCenterSquare.swift in Sources */,
 				F4CA336C2929B0C700C5F28C /* CNContactStore_deleteByName.swift in Sources */,
 				F4380BF529159714005A585A /* CNContactStore_count.swift in Sources */,
 				F4CA33862929B13200C5F28C /* Fab_skiName.swift in Sources */,
@@ -2348,6 +2425,7 @@
 			files = (
 				F472282028A58B4100773693 /* Tests_iOSLaunchTests.swift in Sources */,
 				F472281E28A58B4100773693 /* Tests_iOS.swift in Sources */,
+				F455EFE9292B3EBC00AEC814 /* CGImage_initWithRGBA32Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2364,6 +2442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4008026292B0A6100C06644 /* UIImage_cropToCenterSquareTest.swift in Sources */,
 				F4CA33482929A5DC00C5F28C /* UIDevice_isSimulatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2372,6 +2451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4008023292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift in Sources */,
 				F4CA33AC2929B3AC00C5F28C /* NSImage_pngDataTests.swift in Sources */,
 				F4CA33572929AE6800C5F28C /* NSImage_jpegDataTests.swift in Sources */,
 			);
@@ -2596,18 +2676,19 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.tests.unit.shared;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-shared-ios";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-shared-macos";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.unit-test-shared-debug";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.joelparkerhenderson.boldcontacts.test.unit-test-shared-debug-any-ios-sdk";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.joelparkerhenderson.boldcontacts.test.unit-test-shared-debug-any-macos-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoldContacts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BoldContacts";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -2623,12 +2704,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.tests.unit.shared;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-shared-ios";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-shared-macos";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.unit-test-shared-release";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.joelparkerhenderson.boldcontacts.test.unit-test-shared-release-any-ios-sdk";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "com.joelparkerhenderson.boldcontacts.test.unit-test-shared-release-any-macos-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -2783,6 +2864,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -2843,9 +2925,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.macOS;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2875,9 +2957,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.macOS;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2895,7 +2977,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.ui-test-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -2915,7 +2997,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.ui-test-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -2937,7 +3019,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.ui-test-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -2957,7 +3039,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.ui-test-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -2982,7 +3064,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.unit-test-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -2994,6 +3076,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoldContacts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BoldContacts";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -3013,7 +3096,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.unit-test-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -3038,15 +3121,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-macos";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.unit-test-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoldContacts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BoldContacts";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -3060,9 +3144,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.tests.unit-tests-macos";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.boldcontacts.test.unit-test-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -3076,7 +3160,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4380BB329131325005A585A /* Build configuration list for PBXNativeTarget "Unit Tests Shared" */ = {
+		F4380BB329131325005A585A /* Build configuration list for PBXNativeTarget "Unit Test Shared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4380BB429131325005A585A /* Debug */,
@@ -3112,7 +3196,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F472283F28A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		F472283F28A58B4100773693 /* Build configuration list for PBXNativeTarget "UI Test iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F472284028A58B4100773693 /* Debug */,
@@ -3121,7 +3205,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F472284228A58B4100773693 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		F472284228A58B4100773693 /* Build configuration list for PBXNativeTarget "UI Test macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F472284328A58B4100773693 /* Debug */,
@@ -3130,7 +3214,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4CA33352929A50000C5F28C /* Build configuration list for PBXNativeTarget "Unit Tests iOS" */ = {
+		F4CA33352929A50000C5F28C /* Build configuration list for PBXNativeTarget "Unit Test iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4CA33362929A50000C5F28C /* Debug */,
@@ -3139,7 +3223,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4CA33422929A55500C5F28C /* Build configuration list for PBXNativeTarget "Unit Tests macOS" */ = {
+		F4CA33422929A55500C5F28C /* Build configuration list for PBXNativeTarget "Unit Test macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4CA33432929A55500C5F28C /* Debug */,
