@@ -1,0 +1,34 @@
+extension Fab {
+    
+    public static func unitedStatesCityName() -> String {
+        [
+            "Austin",
+            "Baltimore",
+            "Chicago",
+            "Dallas",
+            "El Paso",
+            "Fort Worth",
+            "Greensboro",
+            "Houston",
+            "Indianapolis",
+            "Jacksonville",
+            "Kansas City",
+            "Los Angeles",
+            "Memphis",
+            "New York",
+            "Oklahoma City",
+            "Philadelphia",
+            "Quincy",
+            "Raleigh",
+            "San Antonio",
+            "Tucson",
+            "Upland",
+            "Virginia Beach",
+            "Washington",
+            "Xenia",
+            "Yonkers",
+            "Zanesville",
+        ].randomElement()!
+    }
+    
+}
