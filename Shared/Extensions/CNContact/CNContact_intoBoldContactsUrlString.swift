@@ -31,50 +31,62 @@ extension CNContact {
     ///
     /// 9. An email address -> return "mailto://" + x
     ///
-    public func intoBoldContactsUrlString() -> String? {
+    public func intoBoldContactsURL() -> URL? {
         if let x = self.urlAddresses.first(where: {$0.labelEquivalent(string: "BoldContacts")}) {
             if let url = URL(string: (x.value as String).xtrim) {
-                return url.absoluteString
+                return url
             }
         }
         if let x = self.phoneNumbers.first(where: {$0.labelEquivalent(string: "BoldContacts")}) {
             if let s = x.value.stringValue.filterPhoneNumber.uriEncode {
-                return "tel://\(s)"
+                if let url = URL(string: "tel://\(s)") {
+                    return url
+                }
             }
         }
         if let x = self.emailAddresses.first(where: {$0.labelEquivalent(string: "BoldContacts")}) {
             if let s = (x.value as String).xtrim.uriEncode {
-                return "mailto://\(s)"
+                if let url = URL(string: "mailto://\(s)") {
+                    return url
+                }
             }
         }
         if let x = self.urlAddresses.first(where: {$0.labelEquivalent(string: "FaceTime")}) {
             if let url = URL(string: (x.value as String).xtrim) {
-                return url.absoluteString
+                return url
             }
         }
         if let x = self.phoneNumbers.first(where: {$0.labelEquivalent(string: "FaceTime")}) {
             if let s = x.value.stringValue.filterPhoneNumber.uriEncode {
-                return "facetime://\(s)"
+                if let url = URL(string: "facetime://\(s)") {
+                    return url
+                }
             }
         }
         if let x = self.emailAddresses.first(where: {$0.labelEquivalent(string: "FaceTime")}) {
             if let s = (x.value as String).xtrim.uriEncode {
-                return "facetime://\(s)"
+                if let url = URL(string: "facetime://\(s)") {
+                    return url
+                }
             }
         }
         if let x = getUrlAddress() {
             if let url = URL(string: (x.value as String).xtrim) {
-                return url.absoluteString
+                return url
             }
         }
         if let x = getPhoneNumber() {
             if let s = (x.value.stringValue).filterPhoneNumber.uriEncode {
-                return "tel://\(s)"
+                if let url = URL(string: "tel://\(s)") {
+                    return url
+                }
             }
         }
         if let x = getEmailAddress() {
             if let s = (x.value as String).xtrim.uriEncode {
-                return "mailto://\(s)"
+                if let url = URL(string: "mailto://\(s)") {
+                    return url
+                }
             }
         }
         return nil

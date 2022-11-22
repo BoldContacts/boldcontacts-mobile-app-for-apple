@@ -1,4 +1,8 @@
-import UIKit
+#if os(iOS)
+    import UIKit
+#elseif os(OSX)
+    import AppKit
+#endif
 
 extension CGImage {
     
