@@ -13,23 +13,33 @@ extension CNContact {
     ///
     /// The implementation uses a heuristic filter to choose the best URL.
     ///
-    /// 1. A URL address with label "BoldContacts" -> return x
+    ///   * Prefer a label "BoldContacts", then "FaceTime", then any.
     ///
-    /// 2. A phone number with label "BoldContacts" -> return "tel://" + x
+    ///   * Prefer a URL, then phone number, then email address.
     ///
-    /// 3. An email address with label "BoldContacts" -> return "mailto://" + x
+    /// 1. Is there a "BoldContacts" label that's viable?
     ///
-    /// 4. A URL address with label "FaceTime" -> return x
+    ///   1.1. A URL address with label "BoldContacts" -> return x
     ///
-    /// 5. A phone number with label "FaceTime" -> return "facetime://" + x
+    ///   1.2. A phone number with label "BoldContacts" -> return "tel://" + x
     ///
-    /// 6. An email address with label "FaceTime" -> return "facetime://" + x
+    ///   1.3. An email address with label "BoldContacts" -> return "mailto://" + x
     ///
-    /// 7. A URL address -> return x
+    /// 2. Is there a "FaceTime" label that's viable?
     ///
-    /// 8. A phone number -> return "tel://" + x
+    ///   2.1. A URL address with label "FaceTime" -> return x
     ///
-    /// 9. An email address -> return "mailto://" + x
+    ///   2.2. A phone number with label "FaceTime" -> return "facetime://" + x
+    ///
+    ///   2.3. An email address with label "FaceTime" -> return "facetime://" + x
+    ///
+    /// 3. Any other viable item?
+    ///
+    ///   3.1. A URL address -> return x
+    ///
+    ///   3.2. A phone number -> return "tel://" + x
+    ///
+    ///   3.3. An email address -> return "mailto://" + x
     ///
     public func intoBoldContactsURL() -> URL? {
         if let x = self.urlAddresses.first(where: {$0.labelEquivalent(string: "BoldContacts")}) {

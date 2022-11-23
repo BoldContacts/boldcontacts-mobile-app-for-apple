@@ -118,8 +118,8 @@
 		F4380C1529199AD0005A585A /* FirstTimeIsComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380C1329199AD0005A585A /* FirstTimeIsComplete.swift */; };
 		F4380C172919B09D005A585A /* CNContactStore_deleteById.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380C162919B09D005A585A /* CNContactStore_deleteById.swift */; };
 		F4380C182919B09D005A585A /* CNContactStore_deleteById.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4380C162919B09D005A585A /* CNContactStore_deleteById.swift */; };
-		F445854928B3ED4F00C5465F /* openViaCNContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854828B3ED4F00C5465F /* openViaCNContact.swift */; };
-		F445854D28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */; };
+		F445854928B3ED4F00C5465F /* CNContact_openBoldContactsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854828B3ED4F00C5465F /* CNContact_openBoldContactsURL.swift */; };
+		F445854D28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift */; };
 		F445854F28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */; };
 		F445855628B6E37E00C5465F /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = F445855528B6E37E00C5465F /* ViewInspector */; };
 		F455EFE6292B3E4900AEC814 /* CGImage_initWithRGBA32Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFE5292B3E4900AEC814 /* CGImage_initWithRGBA32Components.swift */; };
@@ -131,6 +131,9 @@
 		F455EFF0292B77E400AEC814 /* Data_repeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFEE292B77E400AEC814 /* Data_repeats.swift */; };
 		F455EFF3292B790400AEC814 /* Data_repeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFF2292B790400AEC814 /* Data_repeats.swift */; };
 		F455EFF5292C3FD000AEC814 /* CGImage_initWithRGBA32DataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFF4292C3FD000AEC814 /* CGImage_initWithRGBA32DataTest.swift */; };
+		F455EFF7292DA40400AEC814 /* CNContact_openBoldContactsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854828B3ED4F00C5465F /* CNContact_openBoldContactsURL.swift */; };
+		F455EFFB292DAD2100AEC814 /* NSApplication_canOpenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFF9292DA97500AEC814 /* NSApplication_canOpenURL.swift */; };
+		F455EFFE292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFFD292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift */; };
 		F462180D290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F4621810290C463500CAA541 /* AlertForIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForIntroduction.swift */; };
@@ -183,7 +186,6 @@
 		F472289528A5930000773693 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289428A5930000773693 /* Logger.swift */; };
 		F472289628A5930600773693 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289428A5930000773693 /* Logger.swift */; };
 		F472289828A5934B00773693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289728A5934B00773693 /* AppDelegate.swift */; };
-		F47228A128A5939000773693 /* openViaContactIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472289B28A5939000773693 /* openViaContactIdentifier.swift */; };
 		F47228A728A5942500773693 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A628A5942500773693 /* Config.swift */; };
 		F47228AA28A5947200773693 /* RectangleHorizontalRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A828A5947200773693 /* RectangleHorizontalRuleView.swift */; };
 		F47228AB28A5947200773693 /* RectangleVerticalRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A928A5947200773693 /* RectangleVerticalRuleView.swift */; };
@@ -244,7 +246,7 @@
 		F4CA33572929AE6800C5F28C /* NSImage_jpegDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33562929AE6800C5F28C /* NSImage_jpegDataTests.swift */; };
 		F4CA33582929B08D00C5F28C /* CharacterSet_uri.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284728A58F5800773693 /* CharacterSet_uri.swift */; };
 		F4CA33592929B09400C5F28C /* CNContact_fullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284928A58F8D00773693 /* CNContact_fullName.swift */; };
-		F4CA335A2929B09700C5F28C /* CNContact_intoBoldContactsUrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */; };
+		F4CA335A2929B09700C5F28C /* CNContact_intoBoldContactsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift */; };
 		F4CA335B2929B09900C5F28C /* CNContact_intoString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472284D28A58FD500773693 /* CNContact_intoString.swift */; };
 		F4CA335C2929B09C00C5F28C /* CNContact_intoSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */; };
 		F4CA335E2929B0A100C5F28C /* CNContact_intoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */; };
@@ -438,8 +440,8 @@
 		F4380C0F291983D1005A585A /* Bundle_displayName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle_displayName.swift; sourceTree = "<group>"; };
 		F4380C1329199AD0005A585A /* FirstTimeIsComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeIsComplete.swift; sourceTree = "<group>"; };
 		F4380C162919B09D005A585A /* CNContactStore_deleteById.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContactStore_deleteById.swift; sourceTree = "<group>"; };
-		F445854828B3ED4F00C5465F /* openViaCNContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openViaCNContact.swift; sourceTree = "<group>"; };
-		F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsUrlString.swift; sourceTree = "<group>"; };
+		F445854828B3ED4F00C5465F /* CNContact_openBoldContactsURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_openBoldContactsURL.swift; sourceTree = "<group>"; };
+		F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoBoldContactsURL.swift; sourceTree = "<group>"; };
 		F445854E28B6B9C700C5465F /* CNLabeledValue_labelEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalent.swift; sourceTree = "<group>"; };
 		F445855028B6BD1A00C5465F /* CNLabeledValue_labelEquivalentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNLabeledValue_labelEquivalentTests.swift; sourceTree = "<group>"; };
 		F455EFE5292B3E4900AEC814 /* CGImage_initWithRGBA32Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_initWithRGBA32Components.swift; sourceTree = "<group>"; };
@@ -448,6 +450,8 @@
 		F455EFEE292B77E400AEC814 /* Data_repeats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_repeats.swift; sourceTree = "<group>"; };
 		F455EFF2292B790400AEC814 /* Data_repeats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_repeats.swift; sourceTree = "<group>"; };
 		F455EFF4292C3FD000AEC814 /* CGImage_initWithRGBA32DataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_initWithRGBA32DataTest.swift; sourceTree = "<group>"; };
+		F455EFF9292DA97500AEC814 /* NSApplication_canOpenURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication_canOpenURL.swift; sourceTree = "<group>"; };
+		F455EFFD292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication_canOpenURLTest.swift; sourceTree = "<group>"; };
 		F462180C290B63BF00CAA541 /* LaunchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCount.swift; sourceTree = "<group>"; };
 		F462180F290C463500CAA541 /* AlertForIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForIntroduction.swift; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -499,7 +503,6 @@
 		F472287F28A591F100773693 /* Fab_birthdateAsDateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fab_birthdateAsDateComponents.swift; sourceTree = "<group>"; };
 		F472289428A5930000773693 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		F472289728A5934B00773693 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F472289B28A5939000773693 /* openViaContactIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openViaContactIdentifier.swift; sourceTree = "<group>"; };
 		F47228A628A5942500773693 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		F47228A828A5947200773693 /* RectangleHorizontalRuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleHorizontalRuleView.swift; sourceTree = "<group>"; };
 		F47228A928A5947200773693 /* RectangleVerticalRuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleVerticalRuleView.swift; sourceTree = "<group>"; };
@@ -979,6 +982,22 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		F455EFF8292DA95E00AEC814 /* NSApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F455EFF9292DA97500AEC814 /* NSApplication_canOpenURL.swift */,
+			);
+			path = NSApplication;
+			sourceTree = "<group>";
+		};
+		F455EFFC292DB0A800AEC814 /* NSApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F455EFFD292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift */,
+			);
+			path = NSApplication;
+			sourceTree = "<group>";
+		};
 		F47227FC28A58B4000773693 = {
 			isa = PBXGroup;
 			children = (
@@ -1129,15 +1148,6 @@
 			path = Fab;
 			sourceTree = "<group>";
 		};
-		F472289928A5936D00773693 /* Open */ = {
-			isa = PBXGroup;
-			children = (
-				F472289B28A5939000773693 /* openViaContactIdentifier.swift */,
-				F445854828B3ED4F00C5465F /* openViaCNContact.swift */,
-			);
-			path = Open;
-			sourceTree = "<group>";
-		};
 		F47228CB28A5D09C00773693 /* doc */ = {
 			isa = PBXGroup;
 			children = (
@@ -1246,7 +1256,6 @@
 			isa = PBXGroup;
 			children = (
 				F4CA33282929A3C700C5F28C /* Extensions */,
-				F472289928A5936D00773693 /* Open */,
 				F4CA33AD2929B40300C5F28C /* Protocols */,
 			);
 			path = iOS;
@@ -1303,6 +1312,7 @@
 		F4CA334E2929AA5500C5F28C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F455EFF8292DA95E00AEC814 /* NSApplication */,
 				F4CA33F3292A1C8100C5F28C /* CNContact */,
 				F4CA33F2292A1C7600C5F28C /* NSImage */,
 			);
@@ -1312,6 +1322,7 @@
 		F4CA33552929AE4A00C5F28C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F455EFFC292DB0A800AEC814 /* NSApplication */,
 				F4CA33F0292A1C5500C5F28C /* NSImage */,
 			);
 			path = Extensions;
@@ -1370,7 +1381,7 @@
 			isa = PBXGroup;
 			children = (
 				F472284928A58F8D00773693 /* CNContact_fullName.swift */,
-				F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift */,
+				F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift */,
 				F472284D28A58FD500773693 /* CNContact_intoString.swift */,
 				F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */,
 				F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */,
@@ -1379,6 +1390,7 @@
 				F40EACEE28B045680095C188 /* CNContact_list_postalAddresses.swift */,
 				F40EACF628B047FD0095C188 /* CNContact_list_socialProfiles.swift */,
 				F40EACE628B03C7D0095C188 /* CNContact_list_urlAddresses.swift */,
+				F445854828B3ED4F00C5465F /* CNContact_openBoldContactsURL.swift */,
 			);
 			path = CNContact;
 			sourceTree = "<group>";
@@ -2226,7 +2238,6 @@
 				F4380BF429159714005A585A /* CNContactStore_count.swift in Sources */,
 				F4380B7D2912C644005A585A /* PartName.swift in Sources */,
 				F4CA33D5292A15E300C5F28C /* ZZApplicationDelegateAdaptor.swift in Sources */,
-				F47228A128A5939000773693 /* openViaContactIdentifier.swift in Sources */,
 				F4A02FF4292066AB002F4E54 /* String_xtrim.swift in Sources */,
 				F472289828A5934B00773693 /* AppDelegate.swift in Sources */,
 				F4A030112922FA53002F4E54 /* Locale_languageCodeIdentifierString.swift in Sources */,
@@ -2241,7 +2252,7 @@
 				F4CA33C12929BC7600C5F28C /* Fab_zzImage.swift in Sources */,
 				F472284A28A58F8D00773693 /* CNContact_fullName.swift in Sources */,
 				F472283328A58B4100773693 /* Persistence.swift in Sources */,
-				F445854928B3ED4F00C5465F /* openViaCNContact.swift in Sources */,
+				F445854928B3ED4F00C5465F /* CNContact_openBoldContactsURL.swift in Sources */,
 				F472285228A5902B00773693 /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */,
 				F455EFE6292B3E4900AEC814 /* CGImage_initWithRGBA32Components.swift in Sources */,
 				F455EFEB292B6B7100AEC814 /* CGImage_initWithRGBA32Data.swift in Sources */,
@@ -2287,7 +2298,7 @@
 				F47228AD28A594BF00773693 /* ButtonImageView.swift in Sources */,
 				F47228BF28A595FB00773693 /* AppButtonStyle.swift in Sources */,
 				F462180D290B63BF00CAA541 /* LaunchCount.swift in Sources */,
-				F445854D28B6B37A00C5465F /* CNContact_intoBoldContactsUrlString.swift in Sources */,
+				F445854D28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift in Sources */,
 				F472286628A5903700773693 /* CNContactStore_create.swift in Sources */,
 				F472286228A5903700773693 /* Collection_safe.swift in Sources */,
 				F4380B8F2912DB7E005A585A /* Doer.swift in Sources */,
@@ -2344,7 +2355,7 @@
 				F4CA337D2929B11800C5F28C /* Fab_cnPostalAddress.swift in Sources */,
 				F4CA33872929B13500C5F28C /* Fab_sfSymbolsLetterCircle.swift in Sources */,
 				F4CA33652929B0B300C5F28C /* CNContactStore_keysToFetch.swift in Sources */,
-				F4CA335A2929B09700C5F28C /* CNContact_intoBoldContactsUrlString.swift in Sources */,
+				F4CA335A2929B09700C5F28C /* CNContact_intoBoldContactsURL.swift in Sources */,
 				F4CA33832929B12A00C5F28C /* Fab_gemName.swift in Sources */,
 				F4CA337B2929B11200C5F28C /* Fab_cnContactURLAddresses.swift in Sources */,
 				F4CA33892929B13A00C5F28C /* Fab_socialProfileService.swift in Sources */,
@@ -2355,6 +2366,7 @@
 				F4A02FF82920675C002F4E54 /* String_trim.swift in Sources */,
 				F4CA33B02929B44700C5F28C /* IntoThumbnail.swift in Sources */,
 				F4380B7E2912C644005A585A /* PartName.swift in Sources */,
+				F455EFF7292DA40400AEC814 /* CNContact_openBoldContactsURL.swift in Sources */,
 				F4380B6C29123C9E005A585A /* LocalizedStringKey_value.swift in Sources */,
 				F4380C1529199AD0005A585A /* FirstTimeIsComplete.swift in Sources */,
 				F4CA338B2929B14000C5F28C /* Fab_socialProfileUserIdentifier.swift in Sources */,
@@ -2367,6 +2379,7 @@
 				F4CA335F2929B0A400C5F28C /* CNContact_list_emailAddresses.swift in Sources */,
 				F4E1397329120B2700144173 /* RawRepresentable_reflecting.swift in Sources */,
 				F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */,
+				F455EFFB292DAD2100AEC814 /* NSApplication_canOpenURL.swift in Sources */,
 				F4CA33CC292A0F8800C5F28C /* ZZApplicationDelegate.swift in Sources */,
 				F4380B822912C801005A585A /* FullName.swift in Sources */,
 				F4621811290C463500CAA541 /* AlertForIntroduction.swift in Sources */,
@@ -2455,6 +2468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455EFFE292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift in Sources */,
 				F4008023292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift in Sources */,
 				F4CA33AC2929B3AC00C5F28C /* NSImage_pngDataTests.swift in Sources */,
 				F4CA33572929AE6800C5F28C /* NSImage_jpegDataTests.swift in Sources */,

@@ -11,11 +11,9 @@ class Cursor<T>: ObservableObject {
     @Published var state = CursorState.Loadable
     
     // Call this function when the user selects the item.
-    // Return true=success or false=failure.
-    var callable: (T) -> Bool = callableDefault
+    var callable: (T) -> () = callableDefault
 
-    class func callableDefault(_: T) -> Bool {
-        return false
+    class func callableDefault(_: T) {
     }
 
     init() {}
@@ -25,7 +23,7 @@ class Cursor<T>: ObservableObject {
     }
 
     /// Accessor
-    public func setList(list: [T]?) {
+    public func setList(_ list: [T]?) {
         self.list = list
         if let l = list {
             if l.isEmpty {
@@ -40,7 +38,7 @@ class Cursor<T>: ObservableObject {
     }
     
     /// Accessor
-    public func setCallable(callable:  @escaping (T) -> Bool) {
+    public func setCallable(_ callable:  @escaping (T) -> ()) {
         self.callable = callable
         self.objectWillChange.send()
     }
@@ -56,12 +54,7 @@ class Cursor<T>: ObservableObject {
         logger.debug("Cursor call.") //TODO: self.index: \(self.index)")
         if let item = self.item {
             logger.info("Cusor call item: \(String(describing: item))")
-            let b = callable(item)
-            if b {
-                logger.info("Cursor call success")
-            } else {
-                logger.error("Cursor call failure")
-            }
+            callable(item)
         }
     }
 
