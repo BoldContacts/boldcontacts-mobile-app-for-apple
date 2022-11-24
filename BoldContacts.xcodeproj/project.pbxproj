@@ -134,6 +134,12 @@
 		F455EFF7292DA40400AEC814 /* CNContact_openBoldContactsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445854828B3ED4F00C5465F /* CNContact_openBoldContactsURL.swift */; };
 		F455EFFB292DAD2100AEC814 /* NSApplication_canOpenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFF9292DA97500AEC814 /* NSApplication_canOpenURL.swift */; };
 		F455EFFE292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EFFD292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift */; };
+		F455F00129306C9600AEC814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+		F455F00229306C9600AEC814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+		F455F00329306C9800AEC814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+		F455F00429306C9A00AEC814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+		F455F00529306C9A00AEC814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
+		F455F0072930721700AEC814 /* NSImage_initSystemName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F0062930721700AEC814 /* NSImage_initSystemName.swift */; };
 		F462180D290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F4621810290C463500CAA541 /* AlertForIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForIntroduction.swift */; };
@@ -452,6 +458,7 @@
 		F455EFF4292C3FD000AEC814 /* CGImage_initWithRGBA32DataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage_initWithRGBA32DataTest.swift; sourceTree = "<group>"; };
 		F455EFF9292DA97500AEC814 /* NSApplication_canOpenURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication_canOpenURL.swift; sourceTree = "<group>"; };
 		F455EFFD292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication_canOpenURLTest.swift; sourceTree = "<group>"; };
+		F455F0062930721700AEC814 /* NSImage_initSystemName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_initSystemName.swift; sourceTree = "<group>"; };
 		F462180C290B63BF00CAA541 /* LaunchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCount.swift; sourceTree = "<group>"; };
 		F462180F290C463500CAA541 /* AlertForIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForIntroduction.swift; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -1632,6 +1639,7 @@
 			isa = PBXGroup;
 			children = (
 				F4CA33D6292A1A2A00C5F28C /* NSImage_cropToCenterSquare.swift */,
+				F455F0062930721700AEC814 /* NSImage_initSystemName.swift */,
 				F4CA334F2929AA8500C5F28C /* NSImage_jpegData.swift */,
 				F4008015292B049900C06644 /* NSImage_intoCGImage.swift */,
 				F4CA33522929AC4700C5F28C /* NSImage_pngData.swift */,
@@ -2043,6 +2051,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455F00129306C9600AEC814 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2073,6 +2082,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F472299628AAB1AE00773693 /* cncontact-setup.md in Resources */,
+				F455F00429306C9A00AEC814 /* Assets.xcassets in Resources */,
 				F472299128AAA67800773693 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2081,6 +2091,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455F00529306C9A00AEC814 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2088,6 +2099,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455F00229306C9600AEC814 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2095,6 +2107,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455F00329306C9800AEC814 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2468,6 +2481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455F0072930721700AEC814 /* NSImage_initSystemName.swift in Sources */,
 				F455EFFE292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift in Sources */,
 				F4008023292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift in Sources */,
 				F4CA33AC2929B3AC00C5F28C /* NSImage_pngDataTests.swift in Sources */,
@@ -3089,7 +3103,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Targets/Unit Tests (iOS)/Extensions/Unit Tests (iOS)-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3121,7 +3135,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Targets/Unit Tests (iOS)/Extensions/Unit Tests (iOS)-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoldContacts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BoldContacts";

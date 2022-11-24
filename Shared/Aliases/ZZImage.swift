@@ -9,8 +9,17 @@ import SwiftUI
     public typealias ZZImage = NSImage
 #endif
 
+/// Polyfill UIKit UImage.init(systemName: name)
+#if os(OSX)
+    extension ZZImage {
+        convenience init?(systemName: String) {
+            self.init(systemSymbolName: systemName, accessibilityDescription: systemName)
+        }
+    }
+#endif
+
 extension ZZImage {
-    
+
     var coreImage: CIImage? {
         #if os(iOS)
         guard let cgImage = self.cgImage else {

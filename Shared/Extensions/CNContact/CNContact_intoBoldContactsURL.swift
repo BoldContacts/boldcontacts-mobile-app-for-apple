@@ -9,7 +9,7 @@ extension CNContact {
     /// Example:
     ///
     ///     let contact: CNContact = …
-    ///     let urlString: String? = contact.urlAddressesintoBoldContactsUrlString()
+    ///     let url: URL? = contact.intoBoldContactsURL()
     ///
     /// The implementation uses a heuristic filter to choose the best URL.
     ///

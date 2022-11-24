@@ -11,7 +11,6 @@ extension CGImage {
     ) -> CGImage? {
         let width = Int(size.width)
         let height = Int(size.height)
-        let area = width * height
         let bitsPerComponent = 8 // i.e. Red 8-bit, Green 8-bit, Blue 8-bit, Alpha 8-bit
         let componentsPerPixel = 4 // i.e. Red, Green, Blue, Alpha
         let bitsPerPixel = bitsPerComponent * componentsPerPixel

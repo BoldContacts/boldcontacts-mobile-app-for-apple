@@ -15,7 +15,7 @@ final class CNContactStore_deleteByNameTest: XCTestCase {
 
     func testSuccess() throws {
         let store = CNContactStore()
-        let _ = Fab.Contact(store)
+        let _ = fabContact(store)
         let actual1: Bool = store.deleteByName("alfa bravo")
         XCTAssertTrue(actual1)
         let actual2: Bool = store.deleteByName("alfa bravo")
@@ -24,7 +24,7 @@ final class CNContactStore_deleteByNameTest: XCTestCase {
 
     func testFailure() throws {
         let store = CNContactStore()
-        let _ = Fab.Contact(store)
+        let _ = fabContact(store)
         let actual: Bool = store.deleteByName("charlie delta")
         XCTAssertFalse(actual)
     }

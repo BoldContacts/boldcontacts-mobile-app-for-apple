@@ -15,14 +15,12 @@ extension CNContact {
     ///
     /// TODO: Research what happens if contact doesn't connect.
     ///
-    public func openBoldContactsURL(
-        contact: CNContact
-    ) {
+    public func openBoldContactsURL() {
         logger.debug(
             """
             openBoldContactsURL start.
             code: 72abfdde4e3cf1db212bf2a7ff5d2320
-            contact: \(contact)
+            self: \(self)
             """
         )
         guard let url = self.intoBoldContactsURL() else {
@@ -30,19 +28,18 @@ extension CNContact {
                 """
                 openBoldContactsURL url.
                 code: 3fde37f98eec089a91f61701f01bfbaa
-                contact: \(contact)
+                self: \(self)
                 """
             )
             return
         }
-        let application = ZZApplication.shared
-        let canOpenURL = application.canOpenURL(url)
+        let canOpenURL = ZZApplication.shared.canOpenURL(url)
         guard canOpenURL else {
             logger.error(
                 """
                 openBoldContactsURL application.canOpenURL.
                 code: c1fc7dd33e827941b2396bee7f3f3259
-                contact: \(contact)
+                self: \(self)
                 url: \(url)
                 """
             )
@@ -52,19 +49,19 @@ extension CNContact {
             """
             openBoldContactsURL application.open.
             code: 6bb82cb0ef1bcbdb8c37314122c74295
-            contact: \(contact)
+            self: \(self)
             url: \(url)
             """
         )
         #if os(iOS)
-            UIApplication.shared.openURL(
+            UIApplication.shared.open(
                 url,
                 options: [:],
                 completionHandler: openBoldContactsURLCompletion
             )
         #elseif os(OSX)
             let success = NSWorkspace.shared.open(url)
-        openBoldContactsURLCompletion(success: success)
+            openBoldContactsURLCompletion(success: success)
         #endif
     }
     

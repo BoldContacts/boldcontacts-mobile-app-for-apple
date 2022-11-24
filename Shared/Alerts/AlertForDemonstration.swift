@@ -12,7 +12,7 @@ struct AlertForDemonstration: ViewModifier {
                 isPresented: .constant(isPresented())
             ) {
                 Button("OK") {
-                    cursor.setList(list: demoPersons())
+                    cursor.setList(demoPersons())
                     cursor.state = CursorState.Loaded
                 }
             } message: {

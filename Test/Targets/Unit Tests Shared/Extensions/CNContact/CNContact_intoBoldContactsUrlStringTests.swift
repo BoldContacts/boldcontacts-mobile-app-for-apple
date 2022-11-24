@@ -2,7 +2,7 @@ import XCTest
 import Contacts
 @testable import BoldContacts
 
-final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContactsUrlStringTest: XCTestCase {
+final class CNContact_intoBoldContactsURL_swift_CNContact_intoBoldContactsURLTest: XCTestCase {
 
     func testLabelBoldContactsAndEmailAddress() throws {
         let contact = CNMutableContact()
@@ -13,8 +13,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: emailAddress as NSString
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "mailto://alice%40example.com"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "mailto://alice%40example.com")
         XCTAssertEqual(actual, expect)
     }
 
@@ -27,8 +27,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: CNPhoneNumber(stringValue: phoneNumber)
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "tel://18005551111"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "tel://18005551111")
         XCTAssertEqual(actual, expect)
     }
 
@@ -41,8 +41,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: urlAddress as NSString
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "foo://example.com"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "foo://example.com")
         XCTAssertEqual(actual, expect)
     }
 
@@ -55,8 +55,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: emailAddress as NSString
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "facetime://alice%40example.com"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "facetime://alice%40example.com")
         XCTAssertEqual(actual, expect)
     }
 
@@ -69,8 +69,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: CNPhoneNumber(stringValue: phoneNumber)
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "facetime://18005551111"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "facetime://18005551111")
         XCTAssertEqual(actual, expect)
     }
 
@@ -83,8 +83,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: urlAddress as NSString
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "foo://example.com"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "foo://example.com")
         XCTAssertEqual(actual, expect)
     }
 
@@ -97,8 +97,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: emailAddress as NSString
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "mailto://alice%40example.com"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "mailto://alice%40example.com")
         XCTAssertEqual(actual, expect)
     }
 
@@ -111,8 +111,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: CNPhoneNumber(stringValue: phoneNumber)
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "tel://18005551111"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "tel://18005551111")
         XCTAssertEqual(actual, expect)
     }
 
@@ -125,8 +125,8 @@ final class CNContact_intoBoldContactsUrlString_swift_CNContact_intoBoldContacts
                 value: urlAddress as NSString
             ),
         ]
-        let actual = contact.intoBoldContactsUrlString()
-        let expect = "foo://example.com"
+        let actual = contact.intoBoldContactsURL()
+        let expect = URL(string: "foo://example.com")
         XCTAssertEqual(actual, expect)
     }
 

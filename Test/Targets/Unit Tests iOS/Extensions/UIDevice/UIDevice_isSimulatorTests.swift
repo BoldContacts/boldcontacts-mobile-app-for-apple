@@ -4,7 +4,7 @@ import XCTest
 final class UIDevice_isSimulatorTest: XCTestCase {
 
     func test() throws {
-        let bool = UIDevide.current().isSimulator
+        let bool = UIDevice.current.isSimulator
         XCTAssertNotNil(bool)
     }
 }
