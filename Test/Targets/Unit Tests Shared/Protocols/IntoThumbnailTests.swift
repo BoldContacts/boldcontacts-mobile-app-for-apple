@@ -1,12 +1,13 @@
 import XCTest
 @testable import BoldContacts
 
-final class IntoThumbnail: XCTestCase {
+final class IntoThumbnailZZImage: XCTestCase {
 
     func test() throws {
         let contact = Fab.cnMutableContactDeep()
-        let thumbnail = contact.intoThumbnail()
-        XCTAssertNotNil(thumbnail)
+        XCTAssertTrue(contact.imageDataAvailable)
+        let image = contact.intoThumbnailZZImage()
+        XCTAssertNotNil(image)
     }
     
 }

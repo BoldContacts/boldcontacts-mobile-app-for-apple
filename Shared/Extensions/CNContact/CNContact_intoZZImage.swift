@@ -1,7 +1,6 @@
 import Contacts
-import UIKit
 
-extension CNContact: IntoThumbnail {
+extension CNContact: IntoZZImage {
 
     /// Get this contact's thumbnail image.
     ///
@@ -10,15 +9,16 @@ extension CNContact: IntoThumbnail {
     /// Example:
     ///
     ///     let contact: CNContact = …
-    ///     let image: UIImage? = contact.intoThumbnail()
+    ///     let image: ZZImage? = contact.intoZZImage()
     ///
-    public func intoThumbnail() -> UIImage? {
+    public func intoZZImage() -> ZZImage? {
         if self.imageDataAvailable {
-            if let thumbnailImageData = self.thumbnailImageData {
-                return UIImage(data: thumbnailImageData)
+            if let data = self.imageData {
+                return ZZImage(data: data)
             }
         }
         return nil
     }
-
+    
 }
+

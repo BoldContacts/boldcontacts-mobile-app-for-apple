@@ -17,9 +17,8 @@
 		F400802F292B0CDC00C06644 /* CGImage_centerSquareCGRectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008020292B072500C06644 /* CGImage_centerSquareCGRectTest.swift */; };
 		F4008030292B0D6800C06644 /* CGImage_centerSquareCGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400801C292B05FD00C06644 /* CGImage_centerSquareCGRect.swift */; };
 		F40EACD128B0006F0095C188 /* CNContact_intoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */; };
-		F40EACD228B0006F0095C188 /* CNContact_intoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD028B0006F0095C188 /* CNContact_intoThumbnail.swift */; };
+		F40EACD228B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */; };
 		F40EACD428B000800095C188 /* CNContact_intoSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */; };
-		F40EACD928B001210095C188 /* IntoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD628B001210095C188 /* IntoThumbnail.swift */; };
 		F40EACDA28B001210095C188 /* IntoSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD728B001210095C188 /* IntoSubtitle.swift */; };
 		F40EACDB28B001210095C188 /* IntoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD828B001210095C188 /* IntoTitle.swift */; };
 		F40EACE028B00A3A0095C188 /* IntoString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACDF28B00A3A0095C188 /* IntoString.swift */; };
@@ -140,6 +139,17 @@
 		F455F00429306C9A00AEC814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
 		F455F00529306C9A00AEC814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472280728A58B4000773693 /* Assets.xcassets */; };
 		F455F0072930721700AEC814 /* NSImage_initSystemName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F0062930721700AEC814 /* NSImage_initSystemName.swift */; };
+		F455F00A2931774400AEC814 /* IntoUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F0082931772600AEC814 /* IntoUIImage.swift */; };
+		F455F00C293177BE00AEC814 /* IntoNSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F00B293177BE00AEC814 /* IntoNSImage.swift */; };
+		F455F00E2931783400AEC814 /* IntoThumbnailNSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F00D2931783400AEC814 /* IntoThumbnailNSImage.swift */; };
+		F455F0112931787B00AEC814 /* IntoThumbnailUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F00F2931785F00AEC814 /* IntoThumbnailUIImage.swift */; };
+		F455F0122931799800AEC814 /* CNContact_intoThumbnailZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */; };
+		F455F01429317A1C00AEC814 /* IntoThumbnailZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01329317A1C00AEC814 /* IntoThumbnailZZImage.swift */; };
+		F455F01629317E2500AEC814 /* CNContact_intoZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01529317E2500AEC814 /* CNContact_intoZZImage.swift */; };
+		F455F01729317E6C00AEC814 /* CNContact_intoZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01529317E2500AEC814 /* CNContact_intoZZImage.swift */; };
+		F455F01829317E7800AEC814 /* IntoThumbnailZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01329317A1C00AEC814 /* IntoThumbnailZZImage.swift */; };
+		F455F01A29317EB100AEC814 /* IntoZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01929317EB100AEC814 /* IntoZZImage.swift */; };
+		F455F01B29317EBB00AEC814 /* IntoZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01929317EB100AEC814 /* IntoZZImage.swift */; };
 		F462180D290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180C290B63BF00CAA541 /* LaunchCount.swift */; };
 		F4621810290C463500CAA541 /* AlertForIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462180F290C463500CAA541 /* AlertForIntroduction.swift */; };
@@ -318,7 +328,6 @@
 		F4CA33A82929B1B300C5F28C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A628A5942500773693 /* Config.swift */; };
 		F4CA33A92929B1B600C5F28C /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AE28A5955500773693 /* Cursor.swift */; };
 		F4CA33AC2929B3AC00C5F28C /* NSImage_pngDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33AA2929B2AA00C5F28C /* NSImage_pngDataTests.swift */; };
-		F4CA33B02929B44700C5F28C /* IntoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33AF2929B44700C5F28C /* IntoThumbnail.swift */; };
 		F4CA33B82929B70600C5F28C /* CNContact_intoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33B72929B70600C5F28C /* CNContact_intoThumbnail.swift */; };
 		F4CA33BC2929BA6F00C5F28C /* Fab_zzImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33BB2929BA6F00C5F28C /* Fab_zzImageData.swift */; };
 		F4CA33BD2929BB1E00C5F28C /* Fab_zzImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33BB2929BA6F00C5F28C /* Fab_zzImageData.swift */; };
@@ -406,9 +415,8 @@
 		F4008022292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_cropToCenterSquareTest.swift; sourceTree = "<group>"; };
 		F4008025292B0A6100C06644 /* UIImage_cropToCenterSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage_cropToCenterSquareTest.swift; sourceTree = "<group>"; };
 		F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoTitle.swift; sourceTree = "<group>"; };
-		F40EACD028B0006F0095C188 /* CNContact_intoThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoThumbnail.swift; sourceTree = "<group>"; };
+		F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoThumbnailZZImage.swift; sourceTree = "<group>"; };
 		F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoSubtitle.swift; sourceTree = "<group>"; };
-		F40EACD628B001210095C188 /* IntoThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntoThumbnail.swift; sourceTree = "<group>"; };
 		F40EACD728B001210095C188 /* IntoSubtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntoSubtitle.swift; sourceTree = "<group>"; };
 		F40EACD828B001210095C188 /* IntoTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntoTitle.swift; sourceTree = "<group>"; };
 		F40EACDC28B001B80095C188 /* scope.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = scope.md; sourceTree = "<group>"; };
@@ -459,6 +467,13 @@
 		F455EFF9292DA97500AEC814 /* NSApplication_canOpenURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication_canOpenURL.swift; sourceTree = "<group>"; };
 		F455EFFD292DB0C100AEC814 /* NSApplication_canOpenURLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSApplication_canOpenURLTest.swift; sourceTree = "<group>"; };
 		F455F0062930721700AEC814 /* NSImage_initSystemName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_initSystemName.swift; sourceTree = "<group>"; };
+		F455F0082931772600AEC814 /* IntoUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoUIImage.swift; sourceTree = "<group>"; };
+		F455F00B293177BE00AEC814 /* IntoNSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoNSImage.swift; sourceTree = "<group>"; };
+		F455F00D2931783400AEC814 /* IntoThumbnailNSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoThumbnailNSImage.swift; sourceTree = "<group>"; };
+		F455F00F2931785F00AEC814 /* IntoThumbnailUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoThumbnailUIImage.swift; sourceTree = "<group>"; };
+		F455F01329317A1C00AEC814 /* IntoThumbnailZZImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoThumbnailZZImage.swift; sourceTree = "<group>"; };
+		F455F01529317E2500AEC814 /* CNContact_intoZZImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoZZImage.swift; sourceTree = "<group>"; };
+		F455F01929317EB100AEC814 /* IntoZZImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoZZImage.swift; sourceTree = "<group>"; };
 		F462180C290B63BF00CAA541 /* LaunchCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCount.swift; sourceTree = "<group>"; };
 		F462180F290C463500CAA541 /* AlertForIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForIntroduction.swift; sourceTree = "<group>"; };
 		F472280328A58B4000773693 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -768,7 +783,6 @@
 		F4CA33522929AC4700C5F28C /* NSImage_pngData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_pngData.swift; sourceTree = "<group>"; };
 		F4CA33562929AE6800C5F28C /* NSImage_jpegDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_jpegDataTests.swift; sourceTree = "<group>"; };
 		F4CA33AA2929B2AA00C5F28C /* NSImage_pngDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_pngDataTests.swift; sourceTree = "<group>"; };
-		F4CA33AF2929B44700C5F28C /* IntoThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoThumbnail.swift; sourceTree = "<group>"; };
 		F4CA33B52929B52D00C5F28C /* IntoThumbnailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoThumbnailTests.swift; sourceTree = "<group>"; };
 		F4CA33B72929B70600C5F28C /* CNContact_intoThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoThumbnail.swift; sourceTree = "<group>"; };
 		F4CA33BB2929BA6F00C5F28C /* Fab_zzImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fab_zzImageData.swift; sourceTree = "<group>"; };
@@ -888,6 +902,8 @@
 				F40EACDF28B00A3A0095C188 /* IntoString.swift */,
 				F40EACD728B001210095C188 /* IntoSubtitle.swift */,
 				F40EACD828B001210095C188 /* IntoTitle.swift */,
+				F455F01329317A1C00AEC814 /* IntoThumbnailZZImage.swift */,
+				F455F01929317EB100AEC814 /* IntoZZImage.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -1339,7 +1355,8 @@
 			isa = PBXGroup;
 			children = (
 				F400800F292B042900C06644 /* IntoCGImage.swift */,
-				F40EACD628B001210095C188 /* IntoThumbnail.swift */,
+				F455F00F2931785F00AEC814 /* IntoThumbnailUIImage.swift */,
+				F455F0082931772600AEC814 /* IntoUIImage.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -1348,7 +1365,8 @@
 			isa = PBXGroup;
 			children = (
 				F4008012292B047500C06644 /* IntoCGImage.swift */,
-				F4CA33AF2929B44700C5F28C /* IntoThumbnail.swift */,
+				F455F00B293177BE00AEC814 /* IntoNSImage.swift */,
+				F455F00D2931783400AEC814 /* IntoThumbnailNSImage.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -1391,6 +1409,8 @@
 				F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift */,
 				F472284D28A58FD500773693 /* CNContact_intoString.swift */,
 				F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */,
+				F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */,
+				F455F01529317E2500AEC814 /* CNContact_intoZZImage.swift */,
 				F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */,
 				F40EACEA28B03F820095C188 /* CNContact_list_emailAddresses.swift */,
 				F40EACF228B046BC0095C188 /* CNContact_list_phoneNumbers.swift */,
@@ -1658,7 +1678,6 @@
 		F4CA33F4292A1C8E00C5F28C /* CNContact */ = {
 			isa = PBXGroup;
 			children = (
-				F40EACD028B0006F0095C188 /* CNContact_intoThumbnail.swift */,
 			);
 			path = CNContact;
 			sourceTree = "<group>";
@@ -2220,6 +2239,7 @@
 				F472288628A591F100773693 /* Fab_cnPhoneNumber.swift in Sources */,
 				F472288328A591F100773693 /* Fab_phoneNumberAsString.swift in Sources */,
 				F472288128A591F100773693 /* Fab_socialProfileURLString.swift in Sources */,
+				F455F00A2931774400AEC814 /* IntoUIImage.swift in Sources */,
 				F472288228A591F100773693 /* Fab_socialProfileService.swift in Sources */,
 				F472288A28A591F100773693 /* Fab_socialProfileUserIdentifier.swift in Sources */,
 				F40EACEB28B03F820095C188 /* CNContact_list_emailAddresses.swift in Sources */,
@@ -2237,6 +2257,7 @@
 				F4380B6B29123C9E005A585A /* LocalizedStringKey_value.swift in Sources */,
 				F472289128A591F100773693 /* Fab_unitedStatesStreetTypeAsString.swift in Sources */,
 				F472288D28A591F100773693 /* Fab_unitedStatesCityName.swift in Sources */,
+				F455F01829317E7800AEC814 /* IntoThumbnailZZImage.swift in Sources */,
 				F4E1396F29120AA700144173 /* RawRepresentable_describing.swift in Sources */,
 				F472299A28AB0D0300773693 /* Fab_urlAsString.swift in Sources */,
 				F4D815D428C02DBF00D47A46 /* Fab_sfSymbolsLetterCircle.swift in Sources */,
@@ -2245,7 +2266,8 @@
 				F4D815D828C0515000D47A46 /* Fab_letterLower.swift in Sources */,
 				F4D815DA28C0517D00D47A46 /* Fab_letterUpper.swift in Sources */,
 				F472288F28A591F100773693 /* Fab_treeName.swift in Sources */,
-				F40EACD928B001210095C188 /* IntoThumbnail.swift in Sources */,
+				F455F01729317E6C00AEC814 /* CNContact_intoZZImage.swift in Sources */,
+				F455F0112931787B00AEC814 /* IntoThumbnailUIImage.swift in Sources */,
 				F4380B6829123BE2005A585A /* String_local.swift in Sources */,
 				F400801D292B05FD00C06644 /* CGImage_centerSquareCGRect.swift in Sources */,
 				F4380BF429159714005A585A /* CNContactStore_count.swift in Sources */,
@@ -2281,11 +2303,12 @@
 				F472288728A591F100773693 /* Fab_unitedStatesPostalCodeAsString.swift in Sources */,
 				F472286928A5903700773693 /* CNContactStore_list.swift in Sources */,
 				F472284828A58F5800773693 /* CharacterSet_uri.swift in Sources */,
+				F455F01B29317EBB00AEC814 /* IntoZZImage.swift in Sources */,
 				F472286128A5903700773693 /* CNContactStore_delete.swift in Sources */,
 				F4E1396C2911F82800144173 /* CNAuthorizationStatus_partName.swift in Sources */,
 				F4380C062918875D005A585A /* ContactView.swift in Sources */,
 				F4CA33CE292A103B00C5F28C /* ZZApplication.swift in Sources */,
-				F40EACD228B0006F0095C188 /* CNContact_intoThumbnail.swift in Sources */,
+				F40EACD228B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift in Sources */,
 				F4380C0D29198128005A585A /* FileManager_defaultDocumentDirectory.swift in Sources */,
 				F4A02FF72920675C002F4E54 /* String_trim.swift in Sources */,
 				F4380B8A2912D784005A585A /* Load.swift in Sources */,
@@ -2335,6 +2358,7 @@
 				F455EFE7292B3E4900AEC814 /* CGImage_initWithRGBA32Components.swift in Sources */,
 				F4A02FF0292062DE002F4E54 /* String_uriEncode.swift in Sources */,
 				F4CA33582929B08D00C5F28C /* CharacterSet_uri.swift in Sources */,
+				F455F00C293177BE00AEC814 /* IntoNSImage.swift in Sources */,
 				F4380BFE2917059C005A585A /* DemoOrganizationsViaLocalizedStrings.swift in Sources */,
 				F4CA338A2929B13D00C5F28C /* Fab_urlAsString.swift in Sources */,
 				F4CA33A42929B1A500C5F28C /* RectangleVerticalRuleView.swift in Sources */,
@@ -2346,7 +2370,9 @@
 				F4CA33A22929B19F00C5F28C /* NavView.swift in Sources */,
 				F4CA33732929B0F500C5F28C /* Demo.swift in Sources */,
 				F4CA337C2929B11400C5F28C /* Fab_cnMutableContact.swift in Sources */,
+				F455F00E2931783400AEC814 /* IntoThumbnailNSImage.swift in Sources */,
 				F4CA33662929B0B600C5F28C /* CNContactStore_isKeyAvailableOrFetch.swift in Sources */,
+				F455F01629317E2500AEC814 /* CNContact_intoZZImage.swift in Sources */,
 				F4CA33922929B15200C5F28C /* Fab_unitedStatesStreetTypeAsString.swift in Sources */,
 				F4CA33782929B10B00C5F28C /* Fab_cnContactPhoneNumbers.swift in Sources */,
 				F4380BF22915963E005A585A /* AlertForDemonstration.swift in Sources */,
@@ -2377,7 +2403,6 @@
 				F4CA338D2929B14500C5F28C /* Fab_treeName.swift in Sources */,
 				F4380B722912C457005A585A /* String_localizedStringKey.swift in Sources */,
 				F4A02FF82920675C002F4E54 /* String_trim.swift in Sources */,
-				F4CA33B02929B44700C5F28C /* IntoThumbnail.swift in Sources */,
 				F4380B7E2912C644005A585A /* PartName.swift in Sources */,
 				F455EFF7292DA40400AEC814 /* CNContact_openBoldContactsURL.swift in Sources */,
 				F4380B6C29123C9E005A585A /* LocalizedStringKey_value.swift in Sources */,
@@ -2389,6 +2414,7 @@
 				F4CA338C2929B14300C5F28C /* Fab_socialProfileUsername.swift in Sources */,
 				F472282E28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
 				F4CA335E2929B0A100C5F28C /* CNContact_intoTitle.swift in Sources */,
+				F455F0122931799800AEC814 /* CNContact_intoThumbnailZZImage.swift in Sources */,
 				F4CA335F2929B0A400C5F28C /* CNContact_list_emailAddresses.swift in Sources */,
 				F4E1397329120B2700144173 /* RawRepresentable_reflecting.swift in Sources */,
 				F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */,
@@ -2411,8 +2437,10 @@
 				F4380B6629123AAF005A585A /* LocalizedStringKey_key.swift in Sources */,
 				F4CA33B82929B70600C5F28C /* CNContact_intoThumbnail.swift in Sources */,
 				F4A0300729208687002F4E54 /* String_filterPhoneNumber.swift in Sources */,
+				F455F01A29317EB100AEC814 /* IntoZZImage.swift in Sources */,
 				F4380C072918875D005A585A /* ContactView.swift in Sources */,
 				F4CA335C2929B09C00C5F28C /* CNContact_intoSubtitle.swift in Sources */,
+				F455F01429317A1C00AEC814 /* IntoThumbnailZZImage.swift in Sources */,
 				F4380BFB2915B6AD005A585A /* DemoPersonsViaLocalizedStrings.swift in Sources */,
 				F4CA33A32929B1A200C5F28C /* RectangleHorizontalRuleView.swift in Sources */,
 				F4CA33A52929B1A700C5F28C /* TitleBodyView.swift in Sources */,
