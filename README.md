@@ -1,5 +1,7 @@
 # BoldContacts mobile app
 
+[Get it at the Apple App Store](https://apps.apple.com/us/app/boldcontacts/id6443335501)
+
 <img src="screenshot.png" height="300">
 
 BoldContacts™ is a mobile app that helps you browse your contacts and connect with them.
@@ -46,9 +48,9 @@ You can personalize how your BoldContacts app will connect to your contact:
 
 ## Localization and Internationalization
 
-The app currently has draft-quality localization for Arabic, Bangla, Chinese, English, French, German, Hindi, Hindi, Indonesian, Irish, Italian, Japanese, Portugese, Russian, Spanish, Swedish, Turkish, Urdu, Vietnamese, Welsh.
+The app currently has draft-quality localization for Afrikaans, Amharic, Arabic, Armenian, Assamese, Azerbaijani, Bangla, Basque, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Corsican, CroationC, Danish, Dutch, English, Esperanto, Finnish, French, Galician, German, Greek, Gujarati, Hawaiian, Hebrew, Hindi, Hmong, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Khmer, Korean, Lao, Latin, Lingala, Lithuanian, Malay, Maori, Marathi, Meiteilon, Nepali, Norwegian, Persian, Polish, Portugese, Punjabi, Quechua, Russian, Samoan, Sanskit, Scots Gaelic, Shona, Slovenian, Swahili, Swedish, Tamil, Telegu, Thai, Turkish, Turkmen, Ukranian, Urdu, Uyghur, Uzbek, Vietnamese, Welsh, Xhosa, Yiddish, Yoruba, Zulu,
 
-The app currently has placeholder localization files for many more languages that are available via popular translation services such as Google Translate. We welcome help with these translations.
+We welcome help with these translations, and also with translations to more langauges.
 
 
 ## Help Wanted
@@ -75,9 +77,9 @@ Good usability for people who experience cognitive difficulties.<br>Examples:  m
 
 * Project: BoldContacts
 
-* Version: 1.7.0
+* Version: 1.9.0
 
-* Updated: 2022-11-14T23:02:10Z
+* Updated: 2022-11-28T17:59:24Z
 
 * Contact: <a href="mailto:joel@joelparkerhenderson.com">joel@joelparkerhenderson.com</a>.
 

@@ -10,7 +10,7 @@ struct ContactView: View {
             spacing: 0
         ) {
             VStack {
-                ItemThumbnailImageView(item: $cursor.item)
+                ItemImageView(item: $cursor.item)
                 ItemTitleTextView(item: $cursor.item)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)

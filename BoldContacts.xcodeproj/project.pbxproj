@@ -17,7 +17,6 @@
 		F400802F292B0CDC00C06644 /* CGImage_centerSquareCGRectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4008020292B072500C06644 /* CGImage_centerSquareCGRectTest.swift */; };
 		F4008030292B0D6800C06644 /* CGImage_centerSquareCGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400801C292B05FD00C06644 /* CGImage_centerSquareCGRect.swift */; };
 		F40EACD128B0006F0095C188 /* CNContact_intoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */; };
-		F40EACD228B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */; };
 		F40EACD428B000800095C188 /* CNContact_intoSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */; };
 		F40EACDA28B001210095C188 /* IntoSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD728B001210095C188 /* IntoSubtitle.swift */; };
 		F40EACDB28B001210095C188 /* IntoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD828B001210095C188 /* IntoTitle.swift */; };
@@ -143,7 +142,6 @@
 		F455F00C293177BE00AEC814 /* IntoNSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F00B293177BE00AEC814 /* IntoNSImage.swift */; };
 		F455F00E2931783400AEC814 /* IntoThumbnailNSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F00D2931783400AEC814 /* IntoThumbnailNSImage.swift */; };
 		F455F0112931787B00AEC814 /* IntoThumbnailUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F00F2931785F00AEC814 /* IntoThumbnailUIImage.swift */; };
-		F455F0122931799800AEC814 /* CNContact_intoThumbnailZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */; };
 		F455F01429317A1C00AEC814 /* IntoThumbnailZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01329317A1C00AEC814 /* IntoThumbnailZZImage.swift */; };
 		F455F01629317E2500AEC814 /* CNContact_intoZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01529317E2500AEC814 /* CNContact_intoZZImage.swift */; };
 		F455F01729317E6C00AEC814 /* CNContact_intoZZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455F01529317E2500AEC814 /* CNContact_intoZZImage.swift */; };
@@ -208,7 +206,7 @@
 		F47228AD28A594BF00773693 /* ButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AC28A594BF00773693 /* ButtonImageView.swift */; };
 		F47228AF28A5955500773693 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AE28A5955500773693 /* Cursor.swift */; };
 		F47228B828A5955F00773693 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B128A5955F00773693 /* Demo.swift */; };
-		F47228B928A5955F00773693 /* ItemThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */; };
+		F47228B928A5955F00773693 /* ItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B228A5955F00773693 /* ItemImageView.swift */; };
 		F47228BC28A5955F00773693 /* ItemTitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B528A5955F00773693 /* ItemTitleTextView.swift */; };
 		F47228BF28A595FB00773693 /* AppButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228BE28A595FB00773693 /* AppButtonStyle.swift */; };
 		F47228C128A5BFEF00773693 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228C028A5BFEF00773693 /* NavView.swift */; };
@@ -319,7 +317,7 @@
 		F4CA339E2929B19200C5F28C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472280528A58B4000773693 /* AppView.swift */; };
 		F4CA339F2929B19500C5F28C /* ButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AC28A594BF00773693 /* ButtonImageView.swift */; };
 		F4CA33A02929B19A00C5F28C /* ItemTitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B528A5955F00773693 /* ItemTitleTextView.swift */; };
-		F4CA33A12929B19C00C5F28C /* ItemThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */; };
+		F4CA33A12929B19C00C5F28C /* ItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228B228A5955F00773693 /* ItemImageView.swift */; };
 		F4CA33A22929B19F00C5F28C /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228C028A5BFEF00773693 /* NavView.swift */; };
 		F4CA33A32929B1A200C5F28C /* RectangleHorizontalRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A828A5947200773693 /* RectangleHorizontalRuleView.swift */; };
 		F4CA33A42929B1A500C5F28C /* RectangleVerticalRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A928A5947200773693 /* RectangleVerticalRuleView.swift */; };
@@ -328,14 +326,12 @@
 		F4CA33A82929B1B300C5F28C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228A628A5942500773693 /* Config.swift */; };
 		F4CA33A92929B1B600C5F28C /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47228AE28A5955500773693 /* Cursor.swift */; };
 		F4CA33AC2929B3AC00C5F28C /* NSImage_pngDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33AA2929B2AA00C5F28C /* NSImage_pngDataTests.swift */; };
-		F4CA33B82929B70600C5F28C /* CNContact_intoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33B72929B70600C5F28C /* CNContact_intoThumbnail.swift */; };
 		F4CA33BC2929BA6F00C5F28C /* Fab_zzImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33BB2929BA6F00C5F28C /* Fab_zzImageData.swift */; };
 		F4CA33BD2929BB1E00C5F28C /* Fab_zzImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33BB2929BA6F00C5F28C /* Fab_zzImageData.swift */; };
 		F4CA33C12929BC7600C5F28C /* Fab_zzImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33C02929BC7600C5F28C /* Fab_zzImage.swift */; };
 		F4CA33C22929BC7600C5F28C /* Fab_zzImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33C02929BC7600C5F28C /* Fab_zzImage.swift */; };
 		F4CA33C42929BCCB00C5F28C /* Fab_zzImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33C32929BCCB00C5F28C /* Fab_zzImageTest.swift */; };
 		F4CA33C62929BDC000C5F28C /* Fab_zzImageDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33C52929BDC000C5F28C /* Fab_zzImageDataTest.swift */; };
-		F4CA33C82929BE8200C5F28C /* IntoThumbnailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33B52929B52D00C5F28C /* IntoThumbnailTests.swift */; };
 		F4CA33CB292A0F8800C5F28C /* ZZApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33CA292A0F8800C5F28C /* ZZApplicationDelegate.swift */; };
 		F4CA33CC292A0F8800C5F28C /* ZZApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33CA292A0F8800C5F28C /* ZZApplicationDelegate.swift */; };
 		F4CA33CE292A103B00C5F28C /* ZZApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33CD292A103B00C5F28C /* ZZApplication.swift */; };
@@ -415,7 +411,6 @@
 		F4008022292B09BE00C06644 /* NSImage_cropToCenterSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_cropToCenterSquareTest.swift; sourceTree = "<group>"; };
 		F4008025292B0A6100C06644 /* UIImage_cropToCenterSquareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage_cropToCenterSquareTest.swift; sourceTree = "<group>"; };
 		F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoTitle.swift; sourceTree = "<group>"; };
-		F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContact_intoThumbnailZZImage.swift; sourceTree = "<group>"; };
 		F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoSubtitle.swift; sourceTree = "<group>"; };
 		F40EACD728B001210095C188 /* IntoSubtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntoSubtitle.swift; sourceTree = "<group>"; };
 		F40EACD828B001210095C188 /* IntoTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntoTitle.swift; sourceTree = "<group>"; };
@@ -531,7 +526,7 @@
 		F47228AC28A594BF00773693 /* ButtonImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImageView.swift; sourceTree = "<group>"; };
 		F47228AE28A5955500773693 /* Cursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
 		F47228B128A5955F00773693 /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
-		F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemThumbnailImageView.swift; sourceTree = "<group>"; };
+		F47228B228A5955F00773693 /* ItemImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemImageView.swift; sourceTree = "<group>"; };
 		F47228B528A5955F00773693 /* ItemTitleTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTitleTextView.swift; sourceTree = "<group>"; };
 		F47228BE28A595FB00773693 /* AppButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButtonStyle.swift; sourceTree = "<group>"; };
 		F47228C028A5BFEF00773693 /* NavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
@@ -783,8 +778,6 @@
 		F4CA33522929AC4700C5F28C /* NSImage_pngData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_pngData.swift; sourceTree = "<group>"; };
 		F4CA33562929AE6800C5F28C /* NSImage_jpegDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_jpegDataTests.swift; sourceTree = "<group>"; };
 		F4CA33AA2929B2AA00C5F28C /* NSImage_pngDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage_pngDataTests.swift; sourceTree = "<group>"; };
-		F4CA33B52929B52D00C5F28C /* IntoThumbnailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoThumbnailTests.swift; sourceTree = "<group>"; };
-		F4CA33B72929B70600C5F28C /* CNContact_intoThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact_intoThumbnail.swift; sourceTree = "<group>"; };
 		F4CA33BB2929BA6F00C5F28C /* Fab_zzImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fab_zzImageData.swift; sourceTree = "<group>"; };
 		F4CA33C02929BC7600C5F28C /* Fab_zzImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fab_zzImage.swift; sourceTree = "<group>"; };
 		F4CA33C32929BCCB00C5F28C /* Fab_zzImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fab_zzImageTest.swift; sourceTree = "<group>"; };
@@ -915,7 +908,7 @@
 				F47228AC28A594BF00773693 /* ButtonImageView.swift */,
 				F4380C052918875D005A585A /* ContactView.swift */,
 				F47228B528A5955F00773693 /* ItemTitleTextView.swift */,
-				F47228B228A5955F00773693 /* ItemThumbnailImageView.swift */,
+				F47228B228A5955F00773693 /* ItemImageView.swift */,
 				F47228C028A5BFEF00773693 /* NavView.swift */,
 				F47228A828A5947200773693 /* RectangleHorizontalRuleView.swift */,
 				F47228A928A5947200773693 /* RectangleVerticalRuleView.swift */,
@@ -1388,7 +1381,6 @@
 		F4CA33C72929BE6C00C5F28C /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				F4CA33B52929B52D00C5F28C /* IntoThumbnailTests.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -1409,7 +1401,6 @@
 				F445854C28B6B37A00C5465F /* CNContact_intoBoldContactsURL.swift */,
 				F472284D28A58FD500773693 /* CNContact_intoString.swift */,
 				F40EACD328B000800095C188 /* CNContact_intoSubtitle.swift */,
-				F40EACD028B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift */,
 				F455F01529317E2500AEC814 /* CNContact_intoZZImage.swift */,
 				F40EACCF28B0006F0095C188 /* CNContact_intoTitle.swift */,
 				F40EACEA28B03F820095C188 /* CNContact_list_emailAddresses.swift */,
@@ -1670,7 +1661,6 @@
 		F4CA33F3292A1C8100C5F28C /* CNContact */ = {
 			isa = PBXGroup;
 			children = (
-				F4CA33B72929B70600C5F28C /* CNContact_intoThumbnail.swift */,
 			);
 			path = CNContact;
 			sourceTree = "<group>";
@@ -2186,7 +2176,6 @@
 				F4380BE229131366005A585A /* UIImage_resizeTests.swift in Sources */,
 				F400802F292B0CDC00C06644 /* CGImage_centerSquareCGRectTest.swift in Sources */,
 				F4380BCE2913133B005A585A /* Fab_unitedStatesPostalCodeAsStringTest.swift in Sources */,
-				F4CA33C82929BE8200C5F28C /* IntoThumbnailTests.swift in Sources */,
 				F4380BC12913133B005A585A /* Fab_phoneNumberAreaCodeAsStringTest.swift in Sources */,
 				F4380BD12913133B005A585A /* Fab_cnSocialProfileTest.swift in Sources */,
 				F455EFF5292C3FD000AEC814 /* CGImage_initWithRGBA32DataTest.swift in Sources */,
@@ -2308,7 +2297,6 @@
 				F4E1396C2911F82800144173 /* CNAuthorizationStatus_partName.swift in Sources */,
 				F4380C062918875D005A585A /* ContactView.swift in Sources */,
 				F4CA33CE292A103B00C5F28C /* ZZApplication.swift in Sources */,
-				F40EACD228B0006F0095C188 /* CNContact_intoThumbnailZZImage.swift in Sources */,
 				F4380C0D29198128005A585A /* FileManager_defaultDocumentDirectory.swift in Sources */,
 				F4A02FF72920675C002F4E54 /* String_trim.swift in Sources */,
 				F4380B8A2912D784005A585A /* Load.swift in Sources */,
@@ -2330,7 +2318,7 @@
 				F40EACD428B000800095C188 /* CNContact_intoSubtitle.swift in Sources */,
 				F4CA33FC292AE19100C5F28C /* Fab.swift in Sources */,
 				F4380B872912C924005A585A /* CNAuthorizationStatus_fullName.swift in Sources */,
-				F47228B928A5955F00773693 /* ItemThumbnailImageView.swift in Sources */,
+				F47228B928A5955F00773693 /* ItemImageView.swift in Sources */,
 				F47228AD28A594BF00773693 /* ButtonImageView.swift in Sources */,
 				F47228BF28A595FB00773693 /* AppButtonStyle.swift in Sources */,
 				F462180D290B63BF00CAA541 /* LaunchCount.swift in Sources */,
@@ -2398,7 +2386,7 @@
 				F4CA33832929B12A00C5F28C /* Fab_gemName.swift in Sources */,
 				F4CA337B2929B11200C5F28C /* Fab_cnContactURLAddresses.swift in Sources */,
 				F4CA33892929B13A00C5F28C /* Fab_socialProfileService.swift in Sources */,
-				F4CA33A12929B19C00C5F28C /* ItemThumbnailImageView.swift in Sources */,
+				F4CA33A12929B19C00C5F28C /* ItemImageView.swift in Sources */,
 				F4CA33902929B14D00C5F28C /* Fab_unitedStatesStateCodeAsString.swift in Sources */,
 				F4CA338D2929B14500C5F28C /* Fab_treeName.swift in Sources */,
 				F4380B722912C457005A585A /* String_localizedStringKey.swift in Sources */,
@@ -2414,7 +2402,6 @@
 				F4CA338C2929B14300C5F28C /* Fab_socialProfileUsername.swift in Sources */,
 				F472282E28A58B4100773693 /* BoldContacts.xcdatamodeld in Sources */,
 				F4CA335E2929B0A100C5F28C /* CNContact_intoTitle.swift in Sources */,
-				F455F0122931799800AEC814 /* CNContact_intoThumbnailZZImage.swift in Sources */,
 				F4CA335F2929B0A400C5F28C /* CNContact_list_emailAddresses.swift in Sources */,
 				F4E1397329120B2700144173 /* RawRepresentable_reflecting.swift in Sources */,
 				F462180E290B63BF00CAA541 /* LaunchCount.swift in Sources */,
@@ -2435,7 +2422,6 @@
 				F4CA33962929B16100C5F28C /* IntoTitle.swift in Sources */,
 				F455EFEC292B6B7100AEC814 /* CGImage_initWithRGBA32Data.swift in Sources */,
 				F4380B6629123AAF005A585A /* LocalizedStringKey_key.swift in Sources */,
-				F4CA33B82929B70600C5F28C /* CNContact_intoThumbnail.swift in Sources */,
 				F4A0300729208687002F4E54 /* String_filterPhoneNumber.swift in Sources */,
 				F455F01A29317EB100AEC814 /* IntoZZImage.swift in Sources */,
 				F4380C072918875D005A585A /* ContactView.swift in Sources */,
@@ -2899,7 +2885,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2917,7 +2903,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.8.0;
+				MARKETING_VERSION = 1.9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = iphoneos;
@@ -2934,7 +2920,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2952,7 +2938,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.8.0;
+				MARKETING_VERSION = 1.9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.BoldContacts;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = iphoneos;
@@ -2972,7 +2958,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -2986,7 +2972,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.8.0;
+				MARKETING_VERSION = 1.9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.macOS;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = macosx;
@@ -3004,7 +2990,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G863BF9CVX;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3018,7 +3004,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.8.0;
+				MARKETING_VERSION = 1.9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelparkerhenderson.boldcontacts.macOS;
 				PRODUCT_NAME = BoldContacts;
 				SDKROOT = macosx;
