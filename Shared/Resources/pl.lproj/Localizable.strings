@@ -1,6 +1,27 @@
+///
+// This file is a localization configuration file of words and phrases.
 //
-// Labels
+// Each file section below describes what it does.
 //
+// Each localzation entry has a machine-readable key (in quotation marks),
+// then an equal sign, then  localized text (in quotations marks).
+///
+
+///
+// This section is for prompt responses such as for button labels.
+//
+// For example, the app displays a dialog box that shows a prompt
+// says "Do you want to do X?" and also shows various buttons that
+// say "Yes" | "No", or "OK" | "Cancel", or other alternatives.
+//
+// These prompts always ask the current user about the current action.
+// These response phrases always must be be personal and immediate.
+//
+// If your language has various choices for these prompt responses,
+// then please choose wording that uses second person imperative,
+// because the purpose is a direct order from the user to the app,
+// such as the user telling the app "You do this now".
+///
 
 // OK | Cancel
 "OK" = "OK";
@@ -22,25 +43,40 @@
 "Accept" = "Akceptuj";
 "Reject" = "Odrzuć";
 
+///
+// Section for AlertForIntroduction.swift alert box.
 //
-// AlertForIntroduction.swift
-//
+// The app shows this alert box when the app launches.
+// The purpose is for the app to briefly explain what it does.
+///
 
 "AlertForIntroduction.title" = "\"Pogrubione kontakty\" Wprowadzenie";
 
 "AlertForIntroduction.message" = "Ta aplikacja wyświetla Twoje istniejące kontakty, które są na Twoim urządzeniu. Do zarządzania kontaktami możesz użyć aplikacji Kontakty.";
 
+///
+// Section for AlertForDemonstration.swift alert box.
 //
-// AlertForDemonstration.swift
+// The app shows this alert box if the user has no contacts.
+// This is rare in practice, because most users have some contacts.
 //
+// The alert box offers to create some example contacts,
+// which are also localized, in the section below of contacts.
+///
 
 "AlertForDemonstration.title" = "\"Pogrubione kontakty\" chciałyby pokazać przykłady";
 
 "AlertForDemonstration.message" = "Ta aplikacja odczytuje istniejące kontakty na Twoim urządzeniu, ale wygląda na to, że ich nie masz. Ta aplikacja pokaże tymczasowe przykłady demonstracji zamiast istniejących kontaktów.";
 
+///
+// Section for CNContactStore.authorizationStatus.*
 //
-// CNContactStore.authorizationStatus.*
+// The app shows this information to the user, depending on the user's
+// iOS security settings regarding the app accessing the user's contacts.
 //
+// Each key starts with the letters "CN" because this is how the Apple
+// iOS Swift programming language does it.
+///
 
 "CNContactStore.authorizationStatus.authorized" = "Ta aplikacja może odczytywać Twoją listę kontaktów.";
 
@@ -52,9 +88,15 @@
 
 "CNContactStore.authorizationStatus.unknown" = "Ta aplikacja nie może odczytać Twojej listy kontaktów z powodu nieznanego błędu. Skontaktuj się z twórcą aplikacji, aby przyjrzeć się bliżej temu, co się dzieje i jak to naprawić. Wyślij wiadomość e-mail na adres joel@joelparkerhenderson. com lub telefon +1-415-317-2700. Dziękuję.";
 
+///
+// Section for CNAuthorizationStatus.*.fullName
 //
-// CNAuthorizationStatus.*.fullName
+// This information is for status reports, such as to explain
+// the current status to the user, or to log diagnostic messages.
 //
+// Each key starts with the letters "CN" because this is how the Apple
+// iOS Swift programming language does it.
+///
 
 "CNAuthorizationStatus.authorized.fullName" = "Status autoryzacji jest autoryzowany.";
 
@@ -64,9 +106,12 @@
 
 "CNAuthorizationStatus.denied.fullName" = "Odmowa stanu autoryzacji.";
 
+///
+// Section for CNAuthorizationStatus.*.partName
 //
-// CNAuthorizationStatus.*.partName
-//
+// Each key starts with the letters "CN" because this is how the Apple
+// iOS Swift programming language does it.
+///
 
 "CNAuthorizationStatus.authorized.partName" = "autoryzowany";
 
@@ -76,9 +121,9 @@
 
 "CNAuthorizationStatus.denied.partName" = "odmowa";
 
-//
-// CursorState.swift
-//
+///
+// Section for CursorState.swift
+///
 
 "CursorState.Loadable" = "Twoja lista kontaktów jest ładowalna.";
 
@@ -88,9 +133,21 @@
 
 "CursorState.Loaded & cursor.isEmpty" = "Twoja lista kontaktów jest załadowana, ale jest pusta.";
 
+///
+// Section for demonstration persons.
 //
-// Demo persons
+// The app is able to create demonstration persons,
+// such as when the user doesn't have contacts, 
+// or when the developer is doing debugging.
 //
+// These names are also intended to display in the Apple App Store.
+//
+// Please choose very popular names for your locale.
+//
+// Persons 0, 2, 4, display with feminine-appearance photos.
+//
+// Persons 1, 3, 5, display with masculine-appearance photos.
+///
 
 "Demo.persons[0].givenName" = "Alice";
 "Demo.persons[0].familyName" = "Adams";
@@ -110,9 +167,16 @@
 "Demo.persons[5].givenName" = "Frank";
 "Demo.persons[5].familyName" = "Franklin";
 
+///
+// Section for demonstration groups.
 //
-// Demo groups
+// This section is for real-world groups that are related to the app,
+// such organizations that provide help for people who are elderly,
+// or are experiencing visual/motor/cognitive disabilities.
 //
+// The intent of this section is for the next version of the app to
+// display helpful links to groups that may be able help the user.
+///
 
 "Demo.groups[0].name" = "ALS Association";
 "Demo.groups[0].website" = "https://www.als.org";
