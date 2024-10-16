@@ -1,0 +1,61 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "individual",
+        "role": "maintainer",
+        "name": "Joel Parker Henderson",
+        "email": "joel@joelparkerhenderson.com",
+        "phone": "",
+        "description": "I'm a software developer working with FOSS technologies.",
+        "webpageUrl": {
+            "url": "https://linktr.ee/joelparkerhenderson"
+        }
+    },
+    "projects": [{
+        "guid": "boldcontacts",
+        "name": "BoldContacts mobile app",
+        "description": "BoldContacts is a mobile app for people with disabilities and for their carers. It's especially useful for people who are starting to experience vision disabilities, cognitive disabilities, motor disabilities, Alzheimer's Disease, Parkinson's Disease, Multiple Sclerosis (MS), Amyotrophic Lateral Sclerosis (ALS), and similar conditions.",
+        "webpageUrl": {
+            "url": "https://boldcontacts.org"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/boldcontacts/boldcontacts-mobile-app-for-apple"
+        },
+        "licenses": ["spdx:MIT", "spdx:Apache-2.0", "spdx:GPL-2.0", "spdx:GPL-3.0"],
+        "tags": ["accessibility", "disability", "iOS", "iPhone", "iPad"]
+    }],
+    "funding": {
+        "channels": [
+            {
+                "guid": "paypal",
+                "type": "payment-provider",
+                "address": "https://www.paypal.com/paypalme/joelparkerhenderson",
+                "description": "You can fund via PayPal with your own PayPal account, or debit card, or credit card."
+            },
+            {
+                "guid": "venmo",
+                "type": "payment-provider",
+                "address": "https://www.venmo.com/joelparkerhenderson",
+                "description": "You can fund via Venmo with your own Venmo account, or debit card, or credit card."
+            },
+            {
+                "guid": "bank",
+                "type": "bank",
+                "description": "You can pay via direct bank transfer if you wish, such as via U.S. Automated Clearning House (ACH) or worldwide wire transfer (Fedwire, SWIFT, etc.). Please e-mail me for details."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "angel-plan",
+                "status": "active",
+                "name": "Goodwill plan",
+                "description": "Pay anything you wish to show your goodwill for the project.",
+                "amount": 0,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["paypal", "venmo", "bank"]
+            }
+        ],
+        "history": []
+    }
+}
