@@ -41,16 +41,19 @@ let request = CNContactFetchRequest(keysToFetch: keys as! [CNKeyDescriptor])
 Keys that we typically want:
 
 ```swift
-let keys: [Any] = [
+let keys: [CNKeyDescriptor] = [
+    CNContactGivenNameKey as CNKeyDescriptor,
+    CNContactFamilyNameKey as CNKeyDescriptor,
+    CNContactBirthdayKey as CNKeyDescriptor,
+    CNContactPhoneNumbersKey as CNKeyDescriptor,
+    CNContactEmailAddressesKey as CNKeyDescriptor,
+    CNContactPostalAddressesKey as CNKeyDescriptor,
+    CNContactSocialProfilesKey as CNKeyDescriptor,
+    CNContactUrlAddressesKey as CNKeyDescriptor,
+    CNContactImageDataKey as CNKeyDescriptor,
+    CNContactThumbnailImageDataKey as CNKeyDescriptor,
+    CNContactImageDataAvailableKey as CNKeyDescriptor,
     CNContactFormatter.descriptorForRequiredKeys(for: .fullName),
-    CNContactGivenNameKey,
-    CNContactFamilyNameKey,
-    CNContactBirthdayKey,
-    CNContactPhoneNumbersKey,
-    CNContactEmailAddressesKey,
-    CNContactPostalAddressesKey,
-    CNContactImageDataKey,
-    CNContactThumbnailImageDataKey,
-    CNContactImageDataAvailableKey,
+    CNContact.descriptorForAllComparatorKeys(),
 ]
 ```

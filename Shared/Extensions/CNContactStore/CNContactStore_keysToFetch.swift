@@ -12,19 +12,20 @@ extension CNContactStore {
     ///
     public class func keysToFetch() -> [CNKeyDescriptor] {
         return [
-            CNContactGivenNameKey,
-            CNContactFamilyNameKey,
-            CNContactBirthdayKey,
-            CNContactPhoneNumbersKey,
-            CNContactEmailAddressesKey,
-            CNContactPostalAddressesKey,
-            CNContactSocialProfilesKey,
-            CNContactImageDataKey,
-            CNContactThumbnailImageDataKey,
-            CNContactImageDataAvailableKey,
+            CNContactGivenNameKey as CNKeyDescriptor,
+            CNContactFamilyNameKey as CNKeyDescriptor,
+            CNContactBirthdayKey as CNKeyDescriptor,
+            CNContactPhoneNumbersKey as CNKeyDescriptor,
+            CNContactEmailAddressesKey as CNKeyDescriptor,
+            CNContactPostalAddressesKey as CNKeyDescriptor,
+            CNContactSocialProfilesKey as CNKeyDescriptor,
+            CNContactUrlAddressesKey as CNKeyDescriptor,
+            CNContactImageDataKey as CNKeyDescriptor,
+            CNContactThumbnailImageDataKey as CNKeyDescriptor,
+            CNContactImageDataAvailableKey as CNKeyDescriptor,
             CNContactFormatter.descriptorForRequiredKeys(for: .fullName),
             CNContact.descriptorForAllComparatorKeys(),
-        ] as! [CNKeyDescriptor]
+        ]
     }
 
 }
